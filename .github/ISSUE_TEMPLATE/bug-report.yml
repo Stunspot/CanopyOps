@@ -1,0 +1,84 @@
+name: Bug report
+description: Report a reproducible problem with the CanopyOps cannabis cultivation Augment.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve CanopyOps. Do not include personal information, credentials, proprietary facility data, or unredacted crop records.
+  - type: input
+    id: version
+    attributes:
+      label: CanopyOps version
+      description: Find this in the release name, plugin details, or release notes.
+      placeholder: v0.1.1
+    validations:
+      required: true
+  - type: dropdown
+    id: host
+    attributes:
+      label: Host
+      options:
+        - Codex plugin
+        - Codex standalone skill
+        - Claude Code personal skill
+        - Claude Code project skill
+        - Another compatible agent host
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Installation or discovery
+        - Crop planning
+        - Incident diagnosis
+        - Calculations
+        - Harvest review
+        - Operating records
+        - Safety or scope behavior
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Sanitized reproduction
+      description: List the smallest sequence that reproduces the problem. Replace real facility, cultivar, employee, vendor, and customer details with fictional labels.
+      placeholder: |
+        1. Installed using...
+        2. Asked CanopyOps to...
+        3. Observed...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Add relevant output or logs after removing sensitive information. Do not upload live facility records.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I removed credentials, personal information, and proprietary facility data.
+          required: true
+        - label: This is not an emergency request or a request for pesticide, legal, medical, or regulatory authorization.
+          required: true
+

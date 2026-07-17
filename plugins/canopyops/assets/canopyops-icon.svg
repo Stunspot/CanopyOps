@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">CanopyOps</title>
+  <desc id="desc">A geometric cannabis cultivation canopy beneath a greenhouse arch.</desc>
+  <rect width="1024" height="1024" rx="224" fill="#193449"/>
+  <path d="M224 735V454c0-194 129-326 288-326s288 132 288 326v281" fill="none" stroke="#CCCDE4" stroke-width="54" stroke-linecap="round"/>
+  <path d="M512 220v474" fill="none" stroke="#CCCDE4" stroke-width="38" stroke-linecap="round"/>
+  <path d="M496 575C371 556 295 472 306 345c126 18 202 103 190 230Z" fill="#48CBE8"/>
+  <path d="M528 575c125-19 201-103 190-230-126 18-202 103-190 230Z" fill="#CCCDE4"/>
+  <path d="M512 644c-77-49-106-132-67-221 78 49 107 132 67 221Z" fill="#FAFAFA"/>
+  <path d="M286 760h452" fill="none" stroke="#48CBE8" stroke-width="50" stroke-linecap="round"/>
+  <circle cx="798" cy="760" r="25" fill="#48CBE8"/>
+</svg>

@@ -1,0 +1,45 @@
+name: Capability request
+description: Propose a bounded addition to CanopyOps cannabis cultivation operations.
+title: "[Capability]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Operating problem
+      description: Describe the cultivation decision or recordkeeping problem, not merely a desired feature.
+    validations:
+      required: true
+  - type: input
+    id: users
+    attributes:
+      label: Who needs it?
+      placeholder: Example: small indoor cultivation teams reviewing harvest variance
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Useful output
+      description: What artifact, calculation, or decision support would make the work easier to verify?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, authority, and safety constraints
+      description: Identify relevant standards, source types, approvals, legal boundaries, or ways the capability could be misused.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround
+      description: How is this handled now, and what fails about that approach?
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This request does not ask CanopyOps to bypass law, labels, safety controls, or accountable human approval.
+          required: true
+

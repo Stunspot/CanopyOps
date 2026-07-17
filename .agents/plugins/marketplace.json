@@ -1,0 +1,20 @@
+{
+  "name": "collaborative-dynamics",
+  "interface": {
+    "displayName": "Collaborative Dynamics"
+  },
+  "plugins": [
+    {
+      "name": "canopyops",
+      "source": {
+        "source": "local",
+        "path": "./plugins/canopyops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

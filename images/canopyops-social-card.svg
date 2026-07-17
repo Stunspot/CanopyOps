@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">CanopyOps cannabis cultivation operations</title>
+  <desc id="desc">Collaborative Dynamics social card for CanopyOps, an Augment for cannabis crop plans, diagnostics, calculations, harvest review, and operating records.</desc>
+  <rect width="1280" height="640" fill="#193449"/>
+  <circle cx="1130" cy="-30" r="310" fill="#48CBE8" opacity="0.10"/>
+  <circle cx="1180" cy="620" r="260" fill="#CCCDE4" opacity="0.08"/>
+  <g transform="translate(76 104) scale(.36)">
+    <rect width="1024" height="1024" rx="224" fill="#142C3E"/>
+    <path d="M224 735V454c0-194 129-326 288-326s288 132 288 326v281" fill="none" stroke="#CCCDE4" stroke-width="54" stroke-linecap="round"/>
+    <path d="M512 220v474" fill="none" stroke="#CCCDE4" stroke-width="38" stroke-linecap="round"/>
+    <path d="M496 575C371 556 295 472 306 345c126 18 202 103 190 230Z" fill="#48CBE8"/>
+    <path d="M528 575c125-19 201-103 190-230-126 18-202 103-190 230Z" fill="#CCCDE4"/>
+    <path d="M512 644c-77-49-106-132-67-221 78 49 107 132 67 221Z" fill="#FAFAFA"/>
+    <path d="M286 760h452" fill="none" stroke="#48CBE8" stroke-width="50" stroke-linecap="round"/>
+    <circle cx="798" cy="760" r="25" fill="#48CBE8"/>
+  </g>
+  <text x="500" y="185" fill="#48CBE8" font-family="Poppins, Hauora, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3">COLLABORATIVE DYNAMICS</text>
+  <text x="500" y="286" fill="#FAFAFA" font-family="Poppins, Hauora, Arial, sans-serif" font-size="88" font-weight="700">CanopyOps</text>
+  <text x="504" y="350" fill="#CCCDE4" font-family="Hauora, Poppins, Arial, sans-serif" font-size="35" font-weight="600">Cannabis cultivation operations</text>
+  <line x1="504" y1="397" x2="1150" y2="397" stroke="#48CBE8" stroke-width="5"/>
+  <text x="504" y="452" fill="#FAFAFA" font-family="Hauora, Poppins, Arial, sans-serif" font-size="25">Crop plans · Diagnostics · Calculations</text>
+  <text x="504" y="493" fill="#FAFAFA" font-family="Hauora, Poppins, Arial, sans-serif" font-size="25">Harvest review · Operating records</text>
+  <text x="504" y="560" fill="#CCCDE4" font-family="Hauora, Poppins, Arial, sans-serif" font-size="20">Evidence-bounded assistance. Accountable human authority.</text>
+</svg>
+

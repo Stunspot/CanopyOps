@@ -1,0 +1,43 @@
+{
+  "name": "canopyops",
+  "version": "0.1.1+codex.20260717071607",
+  "description": "Evidence-bounded decision support for legal cannabis cultivation operations.",
+  "author": {
+    "name": "Collaborative Dynamics",
+    "url": "https://collaborative-dynamics.com"
+  },
+  "homepage": "https://github.com/Stunspot/CanopyOps",
+  "repository": "https://github.com/Stunspot/CanopyOps",
+  "license": "SEE LICENSE.md",
+  "keywords": [
+    "cannabis cultivation",
+    "crop operations",
+    "facility management",
+    "diagnostics",
+    "compliance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CanopyOps",
+    "shortDescription": "Cannabis crop plans, diagnostics, and operating records.",
+    "longDescription": "Turn facility data, crop observations, logs, and constraints into evidence-bounded plans, incident workups, calculations, harvest reviews, and auditable records for legal cannabis cultivation.",
+    "developerName": "Collaborative Dynamics",
+    "websiteURL": "https://github.com/Stunspot/CanopyOps",
+    "privacyPolicyURL": "https://github.com/Stunspot/CanopyOps/blob/main/DATA-AND-PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/Stunspot/CanopyOps/blob/main/TERMS-OF-USE.md",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Build a cannabis crop plan from this room, cultivar, and facility profile.",
+      "Diagnose this crop or root-zone incident from my logs and observations.",
+      "Review this batch for harvest readiness and document the decision."
+    ],
+    "brandColor": "#48CBE8",
+    "composerIcon": "./assets/canopyops-icon.png",
+    "logo": "./assets/canopyops-icon.png"
+  }
+}

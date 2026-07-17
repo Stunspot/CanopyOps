@@ -1,0 +1,49 @@
+name: Source or currency correction
+description: Flag an outdated, unclear, or unsupported cultivation reference or claim.
+title: "[Source]: "
+labels:
+  - documentation
+  - source-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        CanopyOps uses evidence with explicit scope and authority limits. A primary source is especially useful when guidance has changed.
+  - type: input
+    id: location
+    attributes:
+      label: Affected file or claim
+      placeholder: references/... or a short quotation
+    validations:
+      required: true
+  - type: input
+    id: scope
+    attributes:
+      label: Jurisdiction, crop context, or operating scope
+      placeholder: Example: indoor flowering cannabis, United States, as of 2026
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL or citation
+      description: Prefer regulators, standards bodies, original research, or manufacturer labels over summaries.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Explain what changed, what the source supports, and any important limits.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have not included confidential facility or personal information.
+          required: true
+        - label: I understand that opening an issue does not create operational authorization.
+          required: true
+
