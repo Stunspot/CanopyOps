@@ -57,7 +57,7 @@ For one project only, copy the directory to:
 
 Claude Code can select CanopyOps automatically from its description, or you can invoke it directly with `/canopyops`. If the top-level skills directory did not exist when Claude Code started, restart Claude Code once so it can watch that directory.
 
-Live Claude Code execution has not yet been recorded for v0.1.1; this installation shape is structurally verified against current Agent Skills requirements.
+Live Claude Code execution has not yet been recorded for v0.1.2; this installation shape is structurally verified against current Agent Skills requirements.
 
 ## Verify discovery safely
 
