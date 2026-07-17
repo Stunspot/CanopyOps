@@ -4,7 +4,7 @@
 
 **Cannabis crop plans, diagnostics, and operating records.**
 
-CanopyOps is a Collaborative Dynamics agent Augment SKILL that turns cannabis cultivation observations, logs, and facility constraints into defensible crop plans, incident workups, calculations, harvest reviews, compliance-verification briefs, runbooks, CAPA, and shift handoffs.
+CanopyOps is a Collaborative Dynamics agentic Augment SKILL that turns cannabis cultivation observations, logs, and facility constraints into defensible crop plans, incident workups, calculations, harvest reviews, compliance-verification briefs, runbooks, CAPA, and shift handoffs.
 
 It is the reasoning-and-record layer between “something looks wrong” and an accountable operating decision. It helps make evidence, assumptions, uncertainty, authority, ownership, and follow-up visible. It does not pretend that AI can authorize pesticides, interpret local law, release inventory, or run a facility.
 
