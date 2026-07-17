@@ -1,0 +1,24 @@
+{
+  "plan_id": "PLAN-DEMO-001",
+  "version": "0.1",
+  "status": "ready-for-review",
+  "facility_profile": "FACILITY-DEMO-v1",
+  "room": "Room C",
+  "crop_profiles": [
+    "CROP-DEMO-v1"
+  ],
+  "stages": [
+    {
+      "name": "establishment",
+      "advance_criteria": "Representative plants meet the facility-defined establishment criteria.",
+      "monitoring": [
+        "spatial air and leaf conditions",
+        "irrigation distribution",
+        "crop response"
+      ],
+      "owner": "cultivation lead"
+    }
+  ],
+  "owner": "cultivation lead",
+  "review_state": "awaiting room-capacity and target approval"
+}

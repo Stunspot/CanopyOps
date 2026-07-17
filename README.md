@@ -4,9 +4,19 @@
 
 **Cannabis crop plans, diagnostics, and operating records.**
 
+[![Verify CanopyOps](https://github.com/Stunspot/CanopyOps/actions/workflows/verify.yml/badge.svg)](https://github.com/Stunspot/CanopyOps/actions/workflows/verify.yml)
+
 CanopyOps is a Collaborative Dynamics agentic Augment SKILL that turns cannabis cultivation observations, logs, and facility constraints into defensible crop plans, incident workups, calculations, harvest reviews, compliance-verification briefs, runbooks, CAPA, and shift handoffs.
 
 It is the reasoning-and-record layer between “something looks wrong” and an accountable operating decision. It helps make evidence, assumptions, uncertainty, authority, ownership, and follow-up visible. It does not pretend that AI can authorize pesticides, interpret local law, release inventory, or run a facility.
+
+## Built with Codex and GPT-5.6 during OpenAI Build Week
+
+CanopyOps was conceived and built on July 17, 2026, during the OpenAI Build Week submission period. Stun supplied compact product intent, source material, the Ella Greenfield persona, domain and authority boundaries, and release judgment. Codex with GPT-5.6 turned that direction into the routed SKILL, deterministic utilities, schemas, templates, evaluations, host adapters, documentation, licensing surfaces, plugin packaging, verification, and public release.
+
+The working Augment emerged in roughly an hour; public packaging, branding, licensing, hardening, and publication continued afterward. This repository now includes the exact 12-test deterministic suite and automatic verification so judges and users can inspect the machinery rather than taking the claim on faith.
+
+Read [BUILD-WEEK.md](BUILD-WEEK.md) for the architecture, provenance, human/AI responsibility split, and evidence. Judges can use [JUDGE-QUICKSTART.md](JUDGE-QUICKSTART.md) to install and test CanopyOps with fictional data in about five minutes.
 
 ## Install from GitHub
 
@@ -74,7 +84,7 @@ Field use, broader behavioral consistency, current jurisdiction coverage, live C
 
 ## License and identity
 
-The authentic unmodified authored CanopyOps Augment may be used and commercially redistributed with attribution under `CC-BY-ND-4.0`. Python scripts and machine-readable schemas use MIT. The trademark policy permits another product to include and accurately identify **CanopyOps by Collaborative Dynamics** without rebranding it or implying endorsement.
+The authentic unmodified authored CanopyOps Augment may be used and commercially redistributed with attribution under `CC-BY-ND-4.0`. Python scripts, tests, and machine-readable schemas use MIT. The trademark policy permits another product to include and accurately identify **CanopyOps by Collaborative Dynamics** without rebranding it or implying endorsement.
 
 See [LICENSE.md](LICENSE.md), [TERMS-OF-USE.md](TERMS-OF-USE.md), [ATTRIBUTION.md](ATTRIBUTION.md), and [TRADEMARKS.md](TRADEMARKS.md).
 
@@ -83,6 +93,8 @@ See [LICENSE.md](LICENSE.md), [TERMS-OF-USE.md](TERMS-OF-USE.md), [ATTRIBUTION.m
 CanopyOps is a Collaborative Dynamics Augment created by Sam Walker (stunspot), with the Ella Greenfield cultivation persona operating inside an evidence-bounded legal-market system.
 
 - [Start here](START-HERE.md)
+- [Build Week provenance](BUILD-WEEK.md)
+- [Judge quickstart](JUDGE-QUICKSTART.md)
 - [Install](INSTALL.md)
 - [Examples](EXAMPLE-TOUR.md)
 - [FAQ](FAQ.md)
