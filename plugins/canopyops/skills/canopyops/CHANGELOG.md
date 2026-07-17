@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2
+
+- Finalize the public GitHub distribution and remove stale private-release language from customer-facing records.
+- Regularize the Codex plugin version and public download packaging.
+- Preserve the v0.1.1 runtime behavior, safety boundaries, evaluation cases, and deterministic utilities unchanged.
+
 ## 0.1.1
 
 - Preserve user-supplied targets as comparison values until stage, scope, tolerance, source, and approval establish an active target.

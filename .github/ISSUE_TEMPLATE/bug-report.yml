@@ -13,7 +13,7 @@ body:
     attributes:
       label: CanopyOps version
       description: Find this in the release name, plugin details, or release notes.
-      placeholder: v0.1.1
+      placeholder: v0.1.2
     validations:
       required: true
   - type: dropdown
@@ -81,4 +81,3 @@ body:
           required: true
         - label: This is not an emergency request or a request for pesticide, legal, medical, or regulatory authorization.
           required: true
-

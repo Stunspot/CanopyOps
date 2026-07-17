@@ -8,6 +8,17 @@ CanopyOps turns cannabis cultivation observations, logs, and facility constraint
 
 It is the reasoning-and-record layer between “something looks wrong” and an accountable operating decision. It helps make evidence, assumptions, uncertainty, authority, ownership, and follow-up visible. It does not pretend that AI can authorize pesticides, interpret local law, release inventory, or run a facility.
 
+## Install from GitHub
+
+For the branded Codex plugin:
+
+```text
+codex plugin marketplace add Stunspot/CanopyOps
+codex plugin add canopyops@collaborative-dynamics
+```
+
+Start a new Codex task after installation. Standalone Codex skill, Claude Code, download, update, and removal instructions are in [INSTALL.md](INSTALL.md).
+
 ## What you can do with it
 
 - Build room and crop plans from facility limits, cultivar information, stage, targets, and measurement methods.
@@ -42,7 +53,7 @@ See [EXAMPLE-TOUR.md](EXAMPLE-TOUR.md) for four worked demonstrations and links 
 
 | Host | Status | Invocation |
 |---|---|---|
-| Codex plugin | Installed and structurally verified | Install `canopyops@collaborative-dynamics`, then ask naturally. |
+| Codex plugin | Public GitHub installation verified | Install `canopyops@collaborative-dynamics`, then ask naturally. |
 | Codex standalone skill | Packaged | Install the `canopyops/` directory as a personal skill. |
 | Claude Code | Structurally compatible; live host run not yet recorded | Install `canopyops/` under personal or project skills; invoke `/canopyops` or ask naturally. |
 | Fileless chat | Degraded fallback | Load the skill, Ella persona, and active workflow manually; deterministic scripts and persistent artifacts are unavailable. |
@@ -57,9 +68,9 @@ Read [SAFETY-AND-SCOPE.md](SAFETY-AND-SCOPE.md) before operational use. In parti
 
 ## Evidence and limitations
 
-The v0.1.1 package passed structural validation and 12 deterministic tests. A reviewed, context-only three-case safety/scope smoke completed 3/3 selected episodes; that is evidence of bounded behavior under those exact conditions, not field validation or a reliability guarantee.
+The v0.1.2 package passed structural validation and 12 deterministic tests. A reviewed, context-only three-case safety/scope smoke completed 3/3 selected episodes; that is evidence of bounded behavior under those exact conditions, not field validation or a reliability guarantee.
 
-Field use, broader behavioral consistency, current jurisdiction coverage, live Claude Code execution, equipment integration, and real plugin-directory appearance remain unverified or outside v0.1.1. See [RELEASE-NOTES-v0.1.1.md](RELEASE-NOTES-v0.1.1.md).
+Field use, broader behavioral consistency, current jurisdiction coverage, live Claude Code execution, equipment integration, and official OpenAI Plugins Directory appearance remain unverified or outside v0.1.2. See [RELEASE-NOTES-v0.1.2.md](RELEASE-NOTES-v0.1.2.md).
 
 ## License and identity
 
@@ -80,4 +91,4 @@ CanopyOps is a Collaborative Dynamics Augment created by Sam Walker (stunspot), 
 - [Contributing](CONTRIBUTING.md)
 - [Data and privacy](DATA-AND-PRIVACY.md)
 - [Terms of use](TERMS-OF-USE.md)
-- [Release notes](RELEASE-NOTES-v0.1.1.md)
+- [Release notes](RELEASE-NOTES-v0.1.2.md)
