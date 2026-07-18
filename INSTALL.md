@@ -1,12 +1,13 @@
 # Install CanopyOps
 
-The release supports three normal installations. Choose one; you do not need all three.
+The release supports four normal installations. Choose one; you do not need all four.
 
 ## Before you begin
 
 Keep the downloaded release folder intact. It contains:
 
 - `canopyops/` — the standalone Agent Skill for Codex or Claude Code;
+- `claude-ai/canopyops-v0.1.3.zip` — the one-skill upload archive for Claude.ai;
 - `plugins/canopyops/` — the branded Codex plugin;
 - `.agents/plugins/marketplace.json` — the local Collaborative Dynamics marketplace entry.
 
@@ -44,7 +45,18 @@ Use this when you want the capability without the plugin-directory presentation.
 
 Preserve every supporting directory beside `SKILL.md`; moving only `SKILL.md` breaks the workflows, persona, templates, references, examples, and scripts.
 
-## Option 3 — Claude Code
+## Option 3 — Claude.ai custom skill
+
+1. In Claude.ai, open **Customize > Skills**.
+2. Select **+**, then **Create skill**, then upload `claude-ai/canopyops-v0.1.3.zip`.
+3. Enable the uploaded skill if Claude presents an enable control.
+4. Start a new conversation and use the safe discovery request in **Verify discovery safely**.
+
+Claude Skills and code execution must be available for the account. Team and Enterprise organizations may require an owner to enable Skills. The archive contains the complete self-contained skill folder; do not rebuild it by zipping `SKILL.md` alone.
+
+Live Claude.ai upload, enablement, activation, progressive file loading, and script execution have not yet been recorded for v0.1.3. Passing the Claude structural profile establishes package readiness, not live-host behavior.
+
+## Option 4 — Claude Code
 
 For a personal skill available across projects, copy the complete `canopyops/` directory so the resulting path is:
 
@@ -57,7 +69,7 @@ For one project only, copy the directory to:
 
 Claude Code can select CanopyOps automatically from its description, or you can invoke it directly with `/canopyops`. If the top-level skills directory did not exist when Claude Code started, restart Claude Code once so it can watch that directory.
 
-Live Claude Code execution has not yet been recorded for v0.1.2; this installation shape is structurally verified against current Agent Skills requirements.
+Live Claude Code execution has not yet been recorded for v0.1.3; this installation shape is structurally verified against current Agent Skills requirements.
 
 ## Verify discovery safely
 
@@ -91,5 +103,7 @@ Removing CanopyOps does not delete cultivation artifacts stored elsewhere in you
 - Script unavailable: confirm Python 3 is available to the host; otherwise use the documented manual fallback.
 - Permission prompt: approve only the specific workspace files or bundled scripts needed for the current job.
 - Plugin card still shows old copy: reinstall the plugin and open a new Codex task.
+- Claude rejects the archive: upload the supplied ZIP unchanged and confirm its top-level folder is `canopyops/` with `SKILL.md` directly inside it.
+- Claude Skills are unavailable: check account capabilities or ask the Team or Enterprise organization owner to enable Skills.
 
 For defects and support boundaries, see [SUPPORT.md](SUPPORT.md).

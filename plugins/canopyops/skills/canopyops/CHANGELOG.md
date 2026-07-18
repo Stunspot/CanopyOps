@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3
+
+- Add a portable one-skill Claude.ai upload archive and current non-coder installation path.
+- Shorten skill discovery metadata to the current Claude limit without changing the operating kernel.
+- Verify Codex and Claude Builder profiles and byte parity across standalone, plugin, and archive copies.
+
 ## 0.1.2
 
 - Finalize the public GitHub distribution and remove stale private-release language from customer-facing records.

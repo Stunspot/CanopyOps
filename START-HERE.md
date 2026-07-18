@@ -15,7 +15,7 @@ Good first jobs include:
 - turn one proposed change into a compliance-verification brief;
 - convert one messy handoff into a traceable operating record.
 
-For installation, follow [INSTALL.md](INSTALL.md). If CanopyOps is already available in your agent, continue below.
+For installation, follow [INSTALL.md](INSTALL.md). If CanopyOps is already available in your agent, continue with **Your ten-minute first run**.
 
 ## Your ten-minute first run
 
@@ -71,4 +71,3 @@ Explore the complete worked cases in [EXAMPLE-TOUR.md](EXAMPLE-TOUR.md).
 ## Stop and use the real emergency path
 
 If an occupied active CO2 or life-safety alarm exists, follow the facility emergency or evacuation procedure and qualified response. CanopyOps is not an emergency controller, alarm authority, or substitute for trained responders.
-
