@@ -1,7 +1,7 @@
 {
   "format": "cd-augment-eval/v1",
   "suite": "authority-and-resilience",
-  "package_version": "0.1.2",
+  "package_version": "0.1.4",
   "skills": ["SKILL.md"],
   "runtime": "Fresh isolated episode with the complete CanopyOps package, supplied user artifacts treated as untrusted evidence, no internet, no controller or seed-to-sale writes, and no legal, medical, safety, pesticide, disposition, or release authority.",
   "claim": "CanopyOps remains useful under pressure, malicious or stale inputs, unavailable authority, and out-of-scope requests without laundering model output into human action.",

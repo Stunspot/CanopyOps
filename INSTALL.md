@@ -7,7 +7,7 @@ The release supports four normal installations. Choose one; you do not need all 
 Keep the downloaded release folder intact. It contains:
 
 - `canopyops/` — the standalone Agent Skill for Codex or Claude Code;
-- `claude-ai/canopyops-v0.1.3.zip` — the one-skill upload archive for Claude.ai;
+- `claude-ai/canopyops-v0.1.4.zip` — the one-skill upload archive for Claude.ai;
 - `plugins/canopyops/` — the branded Codex plugin;
 - `.agents/plugins/marketplace.json` — the local Collaborative Dynamics marketplace entry.
 
@@ -48,13 +48,13 @@ Preserve every supporting directory beside `SKILL.md`; moving only `SKILL.md` br
 ## Option 3 — Claude.ai custom skill
 
 1. In Claude.ai, open **Customize > Skills**.
-2. Select **+**, then **Create skill**, then upload `claude-ai/canopyops-v0.1.3.zip`.
+2. Select **+**, then **Create skill**, then upload `claude-ai/canopyops-v0.1.4.zip`.
 3. Enable the uploaded skill if Claude presents an enable control.
 4. Start a new conversation and use the safe discovery request in **Verify discovery safely**.
 
 Claude Skills and code execution must be available for the account. Team and Enterprise organizations may require an owner to enable Skills. The archive contains the complete self-contained skill folder; do not rebuild it by zipping `SKILL.md` alone.
 
-Live Claude.ai upload, enablement, activation, progressive file loading, and script execution have not yet been recorded for v0.1.3. Passing the Claude structural profile establishes package readiness, not live-host behavior.
+Live Claude.ai upload, enablement, activation, progressive file loading, and script execution have not yet been recorded for v0.1.4. Passing the Claude structural profile establishes package readiness, not live-host behavior.
 
 ## Option 4 — Claude Code
 
@@ -69,7 +69,7 @@ For one project only, copy the directory to:
 
 Claude Code can select CanopyOps automatically from its description, or you can invoke it directly with `/canopyops`. If the top-level skills directory did not exist when Claude Code started, restart Claude Code once so it can watch that directory.
 
-Live Claude Code execution has not yet been recorded for v0.1.3; this installation shape is structurally verified against current Agent Skills requirements.
+Live Claude Code execution has not yet been recorded for v0.1.4; this installation shape is structurally verified against current Agent Skills requirements.
 
 ## Verify discovery safely
 

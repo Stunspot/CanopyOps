@@ -14,7 +14,7 @@ It is the reasoning-and-record layer between “something looks wrong” and an 
 
 CanopyOps was conceived and built on July 17, 2026, during the OpenAI Build Week submission period. Stun supplied compact product intent, source material, the Ella Greenfield persona, domain and authority boundaries, and release judgment. Codex with GPT-5.6 turned that direction into the routed SKILL, deterministic utilities, schemas, templates, evaluations, host adapters, documentation, licensing surfaces, plugin packaging, verification, and public release.
 
-The working Augment emerged in roughly an hour; public packaging, branding, licensing, hardening, and publication continued afterward. This repository now includes the exact 12-test deterministic suite and automatic verification so judges and users can inspect the machinery rather than taking the claim on faith.
+The working Augment emerged in roughly an hour; public packaging, branding, licensing, hardening, and publication continued afterward. This repository now includes a 16-test deterministic suite and automatic verification so judges and users can inspect the machinery rather than taking the claim on faith.
 
 Read [BUILD-WEEK.md](BUILD-WEEK.md) for the architecture, provenance, human/AI responsibility split, and evidence. Judges can use [JUDGE-QUICKSTART.md](JUDGE-QUICKSTART.md) to install and test CanopyOps with fictional data in about five minutes.
 
@@ -65,7 +65,7 @@ See [EXAMPLE-TOUR.md](EXAMPLE-TOUR.md) for four worked demonstrations and links 
 |---|---|---|
 | Codex plugin | Public GitHub installation verified | Install `canopyops@collaborative-dynamics`, then ask naturally. |
 | Codex standalone skill | Packaged | Install the `canopyops/` directory as a personal skill. |
-| Claude.ai custom skill | Portable ZIP packaged; live upload not yet recorded | Upload `claude-ai/canopyops-v0.1.3.zip` under **Customize > Skills**. |
+| Claude.ai custom skill | Portable ZIP packaged; live upload not yet recorded | Upload `claude-ai/canopyops-v0.1.4.zip` under **Customize > Skills**. |
 | Claude Code | Structurally compatible; live host run not yet recorded | Install `canopyops/` under personal or project skills; invoke `/canopyops` or ask naturally. |
 | Fileless chat | Degraded fallback | Load the skill, Ella persona, and active workflow manually; deterministic scripts and persistent artifacts are unavailable. |
 
@@ -79,9 +79,11 @@ Read [SAFETY-AND-SCOPE.md](SAFETY-AND-SCOPE.md) before operational use. In parti
 
 ## Evidence and limitations
 
-The v0.1.3 package passes the current Augment Builder Codex and Claude profiles plus 12 deterministic tests. The standalone, plugin, and Claude archive skill trees are byte-identical. A reviewed, context-only three-case safety/scope smoke completed 3/3 selected episodes; that is evidence of bounded behavior under those exact conditions, not field validation or a reliability guarantee.
+The v0.1.4 package passes the current Augment Builder Codex and Claude profiles plus the repository's deterministic release tests. The standalone, plugin, and Claude archive skill trees are byte-identical. A reviewed, context-only three-case safety/scope smoke completed 3/3 selected episodes in v0.1.2; that result remains inherited behavioral evidence because v0.1.4 changes documentation, evaluation metadata, release plumbing, and regression checks rather than the operating kernel. It is evidence under those exact recorded conditions, not field validation or a reliability guarantee.
 
-Field use, broader behavioral consistency, current jurisdiction coverage, live Claude.ai or Claude Code execution, equipment integration, and official OpenAI Plugins Directory appearance remain unverified or outside v0.1.3. See [RELEASE-NOTES-v0.1.3.md](RELEASE-NOTES-v0.1.3.md).
+Field use, broader behavioral consistency, current jurisdiction coverage, live Claude.ai or Claude Code execution, equipment integration, and official OpenAI Plugins Directory appearance remain unverified or outside v0.1.4. See [RELEASE-NOTES-v0.1.4.md](RELEASE-NOTES-v0.1.4.md).
+
+The exact v0.1.4 checks and their evidence boundaries are recorded in [VERIFICATION-v0.1.4.md](VERIFICATION-v0.1.4.md).
 
 ## License and identity
 
@@ -101,8 +103,9 @@ CanopyOps is a Collaborative Dynamics Augment created by Sam Walker (stunspot), 
 - [FAQ](FAQ.md)
 - [Support](SUPPORT.md)
 - [Security](SECURITY.md)
+- [Verification](VERIFICATION-v0.1.4.md)
 - [Contributing](CONTRIBUTING.md)
 - [Data and privacy](DATA-AND-PRIVACY.md)
 - [Terms of use](TERMS-OF-USE.md)
-- [Current release notes](RELEASE-NOTES-v0.1.3.md)
-- [Previous release notes](RELEASE-NOTES-v0.1.2.md)
+- [Current release notes](RELEASE-NOTES-v0.1.4.md)
+- [Previous release notes](RELEASE-NOTES-v0.1.3.md)

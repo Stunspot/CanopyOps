@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4
+
+- Bring customer-facing release, privacy, security, installation, and support evidence into one current version boundary.
+- Advance evaluation manifests to the package version and add regression checks for version custody and distribution parity.
+- Add a reproducible release manifest and rebuild the Claude distribution from the canonical skill tree.
+
 ## 0.1.3
 
 - Add a portable one-skill Claude.ai upload archive and current non-coder installation path.

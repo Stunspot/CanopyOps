@@ -45,7 +45,7 @@ python -m unittest discover -s tests -v
 Expected result:
 
 ~~~text
-Ran 12 tests
+Ran 16 tests
 
 OK
 ~~~
@@ -81,4 +81,4 @@ See [INSTALL.md](INSTALL.md) for exact paths, updating, removal, and troubleshoo
 
 ## Safety
 
-All data above are fictional. Do not use this quickstart to operate equipment. CanopyOps is advisory decision support and does not authorize pesticides, legal interpretations, batch release, alarm bypass, occupied-space CO2 work, extraction, or direct actuator commands.
+All data in this quickstart are fictional. Do not use this quickstart to operate equipment. CanopyOps is advisory decision support and does not authorize pesticides, legal interpretations, batch release, alarm bypass, occupied-space CO2 work, extraction, or direct actuator commands.

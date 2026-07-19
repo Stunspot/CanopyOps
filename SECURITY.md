@@ -2,7 +2,7 @@
 
 ## Supported release
 
-Security fixes are considered for the current v0.1.2 release line. Earlier public releases remain available as historical artifacts but are superseded; private prototype snapshots are retained only as development evidence.
+Security fixes are considered for the current v0.1.4 release line. Earlier public releases remain available as historical artifacts but are superseded; private prototype snapshots are retained only as development evidence.
 
 ## What counts as a security concern
 
@@ -17,7 +17,7 @@ Relevant reports include:
 - a prompt or workflow path that encourages unauthorized external action;
 - packaging that silently crosses the documented trust boundary.
 
-CanopyOps v0.1.2 contains no hosted service, account, telemetry, connector, MCP server, hook, or automatic network request.
+CanopyOps v0.1.4 contains no hosted service, account, telemetry, connector, MCP server, hook, or automatic network request.
 
 ## Report privately
 

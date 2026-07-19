@@ -81,7 +81,7 @@ Codex did not independently authorize publication, legal posture, operational ac
 
 The public repository provides three levels of evidence:
 
-1. **Deterministic:** run **python -m unittest discover -s tests -v**. The 12 tests cover calculations, invalid inputs, unit and timestamp normalization, schema validation, template linting, source freshness, required package surfaces, and schema parsing.
+1. **Deterministic:** run **python -m unittest discover -s tests -v**. The 16 tests cover calculations, invalid inputs, unit and timestamp normalization, schema validation, template linting, source freshness, required package surfaces, schema parsing, version custody, distribution parity, archive topology, and release-manifest integrity.
 2. **Installable:** install the branded plugin directly from this repository using the two commands in [INSTALL.md](INSTALL.md).
 3. **Behavioral:** run the fictional late-flower incident in [JUDGE-QUICKSTART.md](JUDGE-QUICKSTART.md) and inspect whether CanopyOps preserves alternatives, authority, reversible containment, and an auditable record.
 
