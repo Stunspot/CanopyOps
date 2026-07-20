@@ -1,0 +1,14 @@
+{
+    "format":  "cd-documentation-review-execution/v1",
+    "review_run_id":  "hesperos-doc-review-v0.1.5-api-20260720-run13",
+    "fresh_context":  true,
+    "reviewer":  "Hesperos exact-content structured documentation review",
+    "model":  "qwen35:latest",
+    "provider":  "local Ollama UTF-8 API with JSON-schema constrained output",
+    "started_at":  "2026-07-20T10:11:44.0279422+00:00",
+    "ended_at":  "2026-07-20T10:14:35.0134616+00:00",
+    "raw_response_evidence":  "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/review-response.raw.json",
+    "raw_response_sha256":  "dc91e34f44f2d06cc7be33d5b076918155eaf21fe36927c55c671f44ffe06a7e",
+    "final_disposition":  "REVIEW_BLOCK",
+    "rendered_pass_created":  false
+}

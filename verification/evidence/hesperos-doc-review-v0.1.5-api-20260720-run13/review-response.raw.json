@@ -1,0 +1,30 @@
+{
+  "material_findings_count": 2,
+  "findings": [
+    {
+      "affected_user_task": "Installation recovery",
+      "exact_evidence": "INSTALL.md: 'If an update overwrote records that were stored inside the skill directory... If no backup exists, preserve the remaining files and exact error state; do not invent or reconstruct operational records from memory.'",
+      "consequence": "Users may attempt to recover overwritten data by asking CanopyOps for reconstruction of lost cultivation artifacts. The documentation explicitly forbids this action.",
+      "smallest_repair": "Add a dedicated section in INSTALL.md titled 'Recovery and Data Loss' that lists the exact steps: stop, preserve error state, restore from backup or version history, move recovered files outside skill directory before retrying update.",
+      "rerun": "INSTALL.md"
+    },
+    {
+      "affected_user_task": "Evidence limits",
+      "exact_evidence": "VERIFICATION-v0.1.5.md: 'This page is part of the reviewed customer corpus, so it does not predeclare or self-certify its own review result.' followed by a table listing checks that were run.",
+      "consequence": "The document claims to be evidence but simultaneously states it cannot certify itself, creating ambiguity about whether the verification results are valid for v0.1.5 without external corroboration.",
+      "smallest_repair": "Clarify in VERIFICATION-v0.1.5.md that while this specific page is part of the reviewed corpus and does not self-certify its own review result, it serves as a record of checks performed on other artifacts; add an explicit statement confirming which external or internal evidence validates these results.",
+      "rerun": "VERIFICATION-v0.1.5.md"
+    }
+  ],
+  "narratives": {
+    "orientation": "README.md and START-HERE.md explain that CanopyOps is advisory decision support for lawful cannabis cultivation operations rather than a controller or regulator.",
+    "installation": "INSTALL.md describes four normal installations including Codex plugin, standalone skill, Claude.ai custom skill upload archive, and Claude Code personal project skills without requiring all options simultaneously.",
+    "first_value": "EXAMPLE-TOUR.md and JUDGE-QUICKSTART.md demonstrate bounded situations like new room crop plans or late-flower humidity incidents using fictional data to show authority-bounded operating behavior before field validation occurs.",
+    "normal_use": "FAQ.md answers questions about cannabis specificity, autopilot status, legal knowledge limits, pesticide recommendations, diagnosis capabilities, Python requirements, output files, data retention, redistribution rights, modifications, open source classification, grower testing claims, and Claude Code compatibility while SAFETY-AND-SCOPE.md lists governing authority outranking CanopyOps.",
+    "recovery": "SUPPORT.md routes bug reports through GitHub issues with templates for installation problems or broken links rather than emergency channels like active CO2 alarms requiring qualified responders instead of repository support staff.",
+    "privacy_security": "DATA-AND-PRIVACY.md states the package includes no account telemetry analytics hosted service connector MCP server hook or automatic network request while TERMS-OF-USE.md describes conditions and responsibility boundaries for using the Augment distributed by Collaborative Dynamics under CC-BY-ND-4.0 MIT licenses.",
+    "evidence_limits": "VERIFICATION-v0.1.5.md distinguishes checks actually run from behavior remaining untested noting that passing package archive plugin-listing or documentation checks does not establish cultivation-field fitness legal correctness live-host behavior or accessibility conformance without external validation sources.",
+    "support_maintenance": "RELEASE-NOTES-v0.1.5.md and ARCHIVE-CUSTODY.md document the v0.1.5 release as a plugin-identity archive-custody update preserving prior reviewed behavioral evidence while making every supported distribution independently obtainable auditable with custody ledger records for source-tree extraction-parity.",
+    "provenance": "ATTRIBUTION.md LICENSE.md TRADEMARKS.md NOTICE.md CONTRIBUTING.md and BUILD-WEEK.md explain that CanopyOps was conceived built on July 17 2026 during OpenAI Build Week submission period by Sam Walker with Ella Greenfield cultivation persona operating inside evidence-bounded legal-market system under CC-BY-ND-4.0 MIT licenses."
+  }
+}

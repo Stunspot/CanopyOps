@@ -7,11 +7,16 @@ The release supports four normal installations. Choose one; you do not need all 
 Keep the downloaded release folder intact. It contains:
 
 - `canopyops/` — the standalone Agent Skill for Codex or Claude Code;
-- `claude-ai/canopyops-v0.1.4.zip` — the one-skill upload archive for Claude.ai;
+- `claude-ai/canopyops-v0.1.5.zip` — the one-skill upload archive for Claude.ai;
+- `release-assets/v0.1.5/CanopyOps-v0.1.5.zip` — the complete portable Augment;
+- `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5.zip` — the Codex plugin package;
+- `release-assets/v0.1.5/Skill-canopyops--CanopyOps-v0.1.5.zip` — the standalone skill archive;
 - `plugins/canopyops/` — the branded Codex plugin;
 - `.agents/plugins/marketplace.json` — the local Collaborative Dynamics marketplace entry.
 
 Python is optional and no third-party Python packages are required for the bundled utilities.
+
+Before creating real facility or crop records, choose an approved storage and backup location outside the CanopyOps skill directory. CanopyOps does not create or manage that backup. Confirm that your workspace backup or version-history process covers the chosen records location before relying on it for recovery.
 
 ## Option 1 — Codex plugin
 
@@ -48,13 +53,13 @@ Preserve every supporting directory beside `SKILL.md`; moving only `SKILL.md` br
 ## Option 3 — Claude.ai custom skill
 
 1. In Claude.ai, open **Customize > Skills**.
-2. Select **+**, then **Create skill**, then upload `claude-ai/canopyops-v0.1.4.zip`.
+2. Select **+**, then **Create skill**, then upload `claude-ai/canopyops-v0.1.5.zip`.
 3. Enable the uploaded skill if Claude presents an enable control.
 4. Start a new conversation and use the safe discovery request in **Verify discovery safely**.
 
 Claude Skills and code execution must be available for the account. Team and Enterprise organizations may require an owner to enable Skills. The archive contains the complete self-contained skill folder; do not rebuild it by zipping `SKILL.md` alone.
 
-Live Claude.ai upload, enablement, activation, progressive file loading, and script execution have not yet been recorded for v0.1.4. Passing the Claude structural profile establishes package readiness, not live-host behavior.
+Live Claude.ai upload, enablement, activation, progressive file loading, and script execution have not yet been recorded for v0.1.5. Passing the Claude structural profile establishes package readiness, not live-host behavior.
 
 ## Option 4 — Claude Code
 
@@ -69,7 +74,7 @@ For one project only, copy the directory to:
 
 Claude Code can select CanopyOps automatically from its description, or you can invoke it directly with `/canopyops`. If the top-level skills directory did not exist when Claude Code started, restart Claude Code once so it can watch that directory.
 
-Live Claude Code execution has not yet been recorded for v0.1.4; this installation shape is structurally verified against current Agent Skills requirements.
+Live Claude Code execution has not yet been recorded for v0.1.5; this installation shape is structurally verified against current Agent Skills requirements.
 
 ## Verify discovery safely
 
@@ -87,7 +92,19 @@ Without Python, it can calculate small cases transparently but must label the re
 
 ## Updating
 
-Replace the complete installed `canopyops/` directory or reinstall the updated plugin. Preserve your own facility and crop records outside the skill directory so an update cannot overwrite them.
+Before updating, copy every facility and crop artifact outside the skill directory or into an approved workspace backup. Then replace the complete installed `canopyops/` directory or reinstall the updated plugin. Keeping operational records outside the skill directory prevents an update from overwriting them.
+
+### Recover from overwrite or data loss
+
+CanopyOps does not back up facility or crop records. If an update overwrote records that were stored inside the skill directory:
+
+1. Stop before another reinstall or update.
+2. Preserve the remaining files and exact error state.
+3. Restore the records from your approved workspace backup or version history.
+4. Move every recovered record outside the skill directory.
+5. Retry the update only after confirming the recovered records are separate from the installation tree.
+
+If no backup or version history exists, preserve what remains and escalate through your approved data-recovery process. Do not ask CanopyOps to invent or reconstruct operational records from memory.
 
 ## Removing
 
@@ -105,5 +122,7 @@ Removing CanopyOps does not delete cultivation artifacts stored elsewhere in you
 - Plugin card still shows old copy: reinstall the plugin and open a new Codex task.
 - Claude rejects the archive: upload the supplied ZIP unchanged and confirm its top-level folder is `canopyops/` with `SKILL.md` directly inside it.
 - Claude Skills are unavailable: check account capabilities or ask the Team or Enterprise organization owner to enable Skills.
+
+If an installation failure occurs, preserve the exact error and the installation method you chose before retrying or reinstalling. This makes recovery reproducible and keeps a host limitation from being mistaken for a damaged package.
 
 For defects and support boundaries, see [SUPPORT.md](SUPPORT.md).

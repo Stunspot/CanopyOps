@@ -1,0 +1,9 @@
+{
+  "schema_version": "cd-augment-archive-plan/v1",
+  "product": {"name": "CanopyOps", "version": "0.1.5"},
+  "artifacts": [
+    {"id": "augment", "kind": "augment", "source": "canopyops", "archive_name": "CanopyOps-v0.1.5.zip", "top_level": "canopyops"},
+    {"id": "plugin", "kind": "plugin", "source": "plugins/canopyops", "archive_name": "Plugin-CanopyOps-v0.1.5.zip", "top_level": "canopyops-plugin"},
+    {"id": "skill-canopyops", "kind": "standalone-skill", "source": "canopyops", "archive_name": "Skill-canopyops--CanopyOps-v0.1.5.zip", "top_level": "canopyops"}
+  ]
+}

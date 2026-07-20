@@ -5,13 +5,16 @@ from pathlib import Path
 import sys
 import unittest
 import zipfile
+import re
+from urllib.parse import unquote
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ROOT = Path(__file__).resolve().parents[1] / "canopyops"
 SCRIPTS = ROOT / "scripts"
-VERSION = "0.1.4"
+VERSION = "0.1.5"
 sys.path.insert(0, str(SCRIPTS))
+from build_release_manifest import canonical_bytes
 
 
 def load(name):
@@ -101,8 +104,10 @@ class PackageTests(unittest.TestCase):
         for name in ["eval-manifest.yaml", "core-transfer-cases.yaml", "authority-and-resilience-cases.yaml"]:
             document = json.loads((ROOT / "evals" / name).read_text(encoding="utf-8"))
             self.assertEqual(document["package_version"], VERSION, name)
-        for name in ["README.md", "INSTALL.md", "DATA-AND-PRIVACY.md", "FAQ.md", "SECURITY.md", "RELEASE-NOTES-v0.1.4.md"]:
-            self.assertIn("v0.1.4", (REPO_ROOT / name).read_text(encoding="utf-8"), name)
+        for name in ["README.md", "INSTALL.md", "DATA-AND-PRIVACY.md", "FAQ.md", "SECURITY.md", "RELEASE-NOTES-v0.1.5.md"]:
+            self.assertIn("v0.1.5", (REPO_ROOT / name).read_text(encoding="utf-8"), name)
+        self.assertEqual("./assets/canopyops-icon-v0.1.5.png", plugin["interface"]["composerIcon"])
+        self.assertTrue((REPO_ROOT / "plugins" / "canopyops" / "assets" / "canopyops-icon-v0.1.5.png").is_file())
 
     def test_plugin_skill_matches_canonical_tree(self):
         plugin_root = REPO_ROOT / "plugins" / "canopyops" / "skills" / "canopyops"
@@ -112,7 +117,7 @@ class PackageTests(unittest.TestCase):
 
     def test_claude_archive_matches_canonical_tree(self):
         archive_path = REPO_ROOT / "claude-ai" / f"canopyops-v{VERSION}.zip"
-        canonical = {f"canopyops/{path.relative_to(ROOT).as_posix()}": path.read_bytes() for path in ROOT.rglob("*") if path.is_file() and "__pycache__" not in path.parts}
+        canonical = {f"canopyops/{path.relative_to(ROOT).as_posix()}": canonical_bytes(path) for path in ROOT.rglob("*") if path.is_file() and "__pycache__" not in path.parts}
         with zipfile.ZipFile(archive_path) as archive:
             archived = {name: archive.read(name) for name in archive.namelist() if not name.endswith("/")}
         self.assertEqual(archived, canonical)
@@ -127,14 +132,37 @@ class PackageTests(unittest.TestCase):
             path.relative_to(REPO_ROOT).as_posix(): path
             for path in REPO_ROOT.rglob("*")
             if path.is_file()
-            and not any(part in {".git", "__pycache__", ".pytest_cache"} for part in path.parts)
+            and not any(part in {".git", "__pycache__", ".pytest_cache", "release-assets"} for part in path.parts)
             and path.name != "release-manifest.json"
         }
         self.assertEqual(set(recorded), set(current))
         for relative, path in current.items():
-            data = path.read_bytes()
+            data = canonical_bytes(path)
             self.assertEqual(recorded[relative]["bytes"], len(data), relative)
             self.assertEqual(recorded[relative]["sha256"], hashlib.sha256(data).hexdigest(), relative)
+
+    def test_customer_document_manifest_and_local_links(self):
+        manifest = json.loads((REPO_ROOT / "documentation-manifest.json").read_text(encoding="utf-8"))
+        documents = manifest["customer_docs"]
+        self.assertEqual(20, len(documents))
+        self.assertEqual(len(documents), len(set(documents)))
+        declared = set(documents)
+        for paths in manifest["moments"].values():
+            self.assertTrue(paths)
+            self.assertTrue(set(paths).issubset(declared))
+        broken = []
+        pattern = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
+        for relative in documents:
+            source = REPO_ROOT / relative
+            self.assertTrue(source.is_file(), relative)
+            for raw in pattern.findall(source.read_text(encoding="utf-8")):
+                target = raw.strip().split("#", 1)[0].strip(" <>")
+                if not target or target.startswith(("http://", "https://", "mailto:", "tel:", "data:")):
+                    continue
+                resolved = (source.parent / unquote(target)).resolve()
+                if not resolved.exists():
+                    broken.append(f"{relative} -> {raw}")
+        self.assertEqual([], broken)
 
 
 if __name__ == "__main__":

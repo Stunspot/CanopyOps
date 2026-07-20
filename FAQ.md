@@ -50,11 +50,11 @@ The scripts and schemas are open source under MIT. The complete authored Augment
 
 ## Has it been tested with growers?
 
-No field pilot is claimed. v0.1.4 has current structural validation and deterministic release tests. Its behavioral evidence includes one reviewed three-case context-only safety/scope smoke recorded against the unchanged operating kernel in v0.1.2. Field fitness and broader behavioral reliability remain unverified.
+No field pilot is claimed. v0.1.5 has current structural validation and deterministic release tests. Its behavioral evidence includes one reviewed three-case context-only safety/scope smoke recorded against the unchanged operating kernel in v0.1.2. Field fitness and broader behavioral reliability remain unverified.
 
 ## Does it work in Claude Code?
 
-Its Agent Skill structure and adapter are compatible with Claude Code's documented skill layout. A live Claude Code execution has not yet been recorded for v0.1.4.
+Its Agent Skill structure and adapter are compatible with Claude Code's documented skill layout. A live Claude Code execution has not yet been recorded for v0.1.5.
 
 ## What should I report as a bug?
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5
+
+- Replace the generic greenhouse mark with a product-specific cultivation-canopy operations-grid icon.
+- Add governed archives for the complete Augment, Codex plugin, and standalone skill, with hash and extraction-parity custody.
+- Make plugin readiness, archive locations, and backup custody explicit in customer and release documentation.
+
 ## 0.1.4
 
 - Bring customer-facing release, privacy, security, installation, and support evidence into one current version boundary.

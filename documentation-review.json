@@ -1,0 +1,38 @@
+{
+  "format": "cd-documentation-review/v1",
+  "fresh_context": true,
+  "disposition": "REVIEW_PASS_WITH_CONDITIONS",
+  "unresolved_material_findings": 0,
+  "documentation_fingerprint": "329236b3f9ea9ac054d0a88923635c4f8168ba9c1be9c61bacce1ea6dd2b68f3",
+  "reviewed_files": [
+    "README.md",
+    "START-HERE.md",
+    "INSTALL.md",
+    "EXAMPLE-TOUR.md",
+    "JUDGE-QUICKSTART.md",
+    "FAQ.md",
+    "SAFETY-AND-SCOPE.md",
+    "DATA-AND-PRIVACY.md",
+    "TERMS-OF-USE.md",
+    "SECURITY.md",
+    "SUPPORT.md",
+    "ATTRIBUTION.md",
+    "LICENSE.md",
+    "TRADEMARKS.md",
+    "NOTICE.md",
+    "CONTRIBUTING.md",
+    "BUILD-WEEK.md",
+    "RELEASE-NOTES-v0.1.5.md",
+    "VERIFICATION-v0.1.5.md",
+    "ARCHIVE-CUSTODY.md"
+  ],
+  "reviewer": "Hesperos exact-content structured review using local qwen35:latest, with deterministic rendering only after zero-finding validation",
+  "review_run_id": "hesperos-doc-review-v0.1.5-api-20260720-run15",
+  "review_input_evidence": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-input-evidence.json",
+  "evidence_directory": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15",
+  "conditions": [
+    "Fresh Codex marketplace installation, plugin discovery, task activation, live resource loading, and script execution under customer permissions remain unexecuted.",
+    "Live Claude upload and activation, broad repeated-model behavior, cultivation-field fitness, production reliability, jurisdictional currency, legal review, and equipment integration remain unexecuted.",
+    "Representative-user, browser, keyboard, screen-reader, localization, accessibility-conformance, official Plugins Directory, accountable publication approval, and customer-outcome evidence remain unexecuted."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "format":  "cd-documentation-review-structured-validation/v1",
+    "valid":  false,
+    "errors":  [
+                   "material findings: ",
+                   "findings array is not empty",
+                   "orientation narrative has fewer than 20 words",
+                   "installation narrative has fewer than 20 words",
+                   "first_value narrative has fewer than 20 words",
+                   "normal_use narrative has fewer than 20 words",
+                   "recovery narrative has fewer than 20 words",
+                   "privacy_security narrative has fewer than 20 words",
+                   "evidence_limits narrative has fewer than 20 words",
+                   "support_maintenance narrative has fewer than 20 words",
+                   "provenance narrative has fewer than 20 words"
+               ],
+    "raw_response_sha256":  "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+}

@@ -1,0 +1,37 @@
+{
+  "format": "cd-customer-documentation/v1",
+  "landing_page": "README.md",
+  "customer_docs": [
+    "README.md",
+    "START-HERE.md",
+    "INSTALL.md",
+    "EXAMPLE-TOUR.md",
+    "JUDGE-QUICKSTART.md",
+    "FAQ.md",
+    "SAFETY-AND-SCOPE.md",
+    "DATA-AND-PRIVACY.md",
+    "TERMS-OF-USE.md",
+    "SECURITY.md",
+    "SUPPORT.md",
+    "ATTRIBUTION.md",
+    "LICENSE.md",
+    "TRADEMARKS.md",
+    "NOTICE.md",
+    "CONTRIBUTING.md",
+    "BUILD-WEEK.md",
+    "RELEASE-NOTES-v0.1.5.md",
+    "VERIFICATION-v0.1.5.md",
+    "ARCHIVE-CUSTODY.md"
+  ],
+  "moments": {
+    "orientation": ["README.md", "START-HERE.md"],
+    "installation": ["INSTALL.md"],
+    "first_value": ["EXAMPLE-TOUR.md", "JUDGE-QUICKSTART.md"],
+    "normal_use": ["FAQ.md", "SAFETY-AND-SCOPE.md"],
+    "recovery": ["INSTALL.md", "SUPPORT.md"],
+    "privacy_security": ["DATA-AND-PRIVACY.md", "TERMS-OF-USE.md", "SECURITY.md"],
+    "support_maintenance": ["SUPPORT.md", "RELEASE-NOTES-v0.1.5.md", "ARCHIVE-CUSTODY.md"],
+    "provenance": ["ATTRIBUTION.md", "LICENSE.md", "TRADEMARKS.md", "NOTICE.md", "CONTRIBUTING.md", "BUILD-WEEK.md"],
+    "evidence_limits": ["VERIFICATION-v0.1.5.md"]
+  }
+}

@@ -6,8 +6,19 @@ import json
 from pathlib import Path
 
 
-EXCLUDED_PARTS = {".git", "__pycache__", ".pytest_cache"}
+EXCLUDED_PARTS = {".git", "__pycache__", ".pytest_cache", "release-assets"}
 MANIFEST_NAME = "release-manifest.json"
+
+
+def canonical_bytes(path: Path) -> bytes:
+    data = path.read_bytes()
+    if b"\x00" in data:
+        return data
+    try:
+        text = data.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        return data
+    return text.replace("\r\n", "\n").replace("\r", "\n").encode("utf-8")
 
 
 def build_manifest(root: Path, version: str) -> dict:
@@ -18,7 +29,7 @@ def build_manifest(root: Path, version: str) -> dict:
         relative = path.relative_to(root).as_posix()
         if relative == MANIFEST_NAME:
             continue
-        data = path.read_bytes()
+        data = canonical_bytes(path)
         files.append(
             {
                 "path": relative,
@@ -30,7 +41,7 @@ def build_manifest(root: Path, version: str) -> dict:
         "format": "cd-public-release-manifest/v1",
         "product": "CanopyOps",
         "version": version,
-        "generated_on": "2026-07-18",
+        "generated_on": "2026-07-20",
         "hash_algorithm": "sha256",
         "files": files,
     }

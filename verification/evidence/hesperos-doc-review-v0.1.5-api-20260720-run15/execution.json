@@ -1,0 +1,21 @@
+{
+    "format":  "cd-documentation-review-execution/v1",
+    "review_run_id":  "hesperos-doc-review-v0.1.5-api-20260720-run15",
+    "fresh_context":  true,
+    "reviewer":  "Hesperos exact-content structured documentation review",
+    "model":  "qwen35:latest",
+    "provider":  "local Ollama UTF-8 API with JSON-schema constrained output",
+    "context_length":  32768,
+    "temperature":  0,
+    "seed":  61,
+    "thinking":  false,
+    "started_at":  "2026-07-20T10:20:31.8375881+00:00",
+    "ended_at":  "2026-07-20T10:20:45.9818673+00:00",
+    "raw_response_evidence":  "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-response.raw.json",
+    "raw_response_sha256":  "714e33caf9e79dfa60052beedf416ee19118378fb0bcd94a9fede56e4fcf1b0a",
+    "rendering":  "After zero findings and narrative constraints were verified, fixed labels, paths, disposition, and newlines were combined with unchanged narrative strings from the structured raw response.",
+    "response_evidence":  "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-response.md",
+    "response_sha256":  "59d55f503d913600fd847bc20625d3a8a7b604e01f2ed8ec000e2338ec72a801",
+    "final_disposition":  "REVIEW_PASS_WITH_CONDITIONS",
+    "rendered_pass_created":  true
+}

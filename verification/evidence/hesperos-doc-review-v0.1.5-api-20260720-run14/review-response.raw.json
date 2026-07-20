@@ -1,0 +1,30 @@
+{
+  "material_findings_count": 2,
+  "findings": [
+    {
+      "affected_user_task": "Installation recovery",
+      "exact_evidence": "INSTALL.md: 'If an update overwrote records that were stored inside the skill directory... Restore the records from your approved workspace backup or version history.' ... 'CanopyOps does not back up facility or crop records.'",
+      "consequence": "The documentation explicitly states it cannot perform backups, yet instructs users to restore from a specific type of backup (workspace backup/version history) that is assumed to exist. This creates an impossible recovery path for new installations lacking prior external storage.",
+      "smallest_repair": "Clarify that the 'approved workspace backup' must be established by the user before installation, or remove the instruction implying CanopyOps manages this state automatically.",
+      "rerun": "REVIEWED_FILES_COUNT: 20"
+    },
+    {
+      "affected_user_task": "Privacy and security truth",
+      "exact_evidence": "DATA-AND-PRIVACY.md: 'CanopyOps v0.1.5 is distributed as a local Codex plugin... These distributions include no account, telemetry, analytics, hosted service...' ... SECURITY.md: 'CanopyOps v0.1.5 contains no hosted service, account, telemetry, connector, MCP server, hook, or automatic network request.'",
+      "consequence": "The documentation asserts the absence of telemetry and external services as a feature of the current release but fails to address potential risks if future updates introduce these features without explicit user consent mechanisms documented in advance.",
+      "smallest_repair": "Add a clause stating that any introduction of telemetry or hosted services requires an updated privacy statement before deployment, ensuring users are warned about changes to data handling practices.",
+      "rerun": "REVIEWED_FILES_COUNT: 20"
+    }
+  ],
+  "narratives": {
+    "orientation": "README.md and START-HERE.md explain that CanopyOps is advisory decision support for lawful cannabis cultivation operations. The orientation materials distinguish between observed facts, measurements, assumptions, calculations, interpretations, recommendations, approvals, and execution states. Users are instructed to separate supplied targets from approved active targets while identifying decisions needing accountable owners.",
+    "installation": "INSTALL.md describes four normal installations including Codex plugin, standalone skill, Claude.ai custom skill, and Claude Code options. The guide warns users not to rebuild the complete directory by zipping SKILL.md alone for Claude uploads. Recovery instructions assume an approved workspace backup exists before updates overwrite records stored inside the installation tree.",
+    "first_value": "EXAMPLE-TOUR.md and JUDGE-QUICKSTART.md demonstrate bounded situations using fictional data rather than claims about real facilities or cultivars. The examples separate facility limits from desired targets while treating vendor cultivar claims as provisional information requiring verification against current primary sources before operational use.",
+    "normal_use": "FAQ.md and SAFETY-AND-SCOPE.md clarify that CanopyOps does not grow cannabis, operate equipment, issue controller commands, or interpret law reliably enough to treat memory as authority. The safety boundary requires explicit human approval for consequential actions like pesticide use, major setpoint changes, batch release decisions, or compliance submissions.",
+    "recovery": "SUPPORT.md routes bug reports through GitHub issues while directing active CO2 alarms and life-safety emergencies to facility emergency procedures rather than repository support channels. Users are instructed not to post sensitive information including employee data, license identifiers, security controls, proprietary recipes, private logs, API keys, credentials, precise inventory, or unredacted compliance records in public issues.",
+    "privacy_security": "DATA-AND-PRIVACY.md states that CanopyOps itself includes no account telemetry analytics hosted service connector MCP server hook or automatic network request. Data entered while using the tool is handled by the Codex host and any model tools users choose to invoke under their own terms privacy controls retention rules and network behavior.",
+    "evidence_limits": "VERIFICATION-v0.1.5.md distinguishes checks actually run from behavior remaining untested including fresh marketplace installation plugin discovery task activation live resource loading script execution broad repeated-model behavior cultivation-field fitness production reliability current jurisdiction coverage legal advice regulatory approval compliance certification equipment integration direct control batch-release authority customer outcomes browser keyboard screen-reader localization representative-user or formal accessibility-conformance testing.",
+    "support_maintenance": "RELEASE-NOTES-v0.1.5.md and ARCHIVE-CUSTODY.md document the distinction among canonical release assets GitHub release assets Claude.ai upload package and latest-only convenience backups. The custody ledger records source-tree archive SHA-256 values sizes member counts and extraction-parity evidence for governed archives.",
+    "provenance": "ATTRIBUTION.md LICENSE.md TRADEMARKS.md NOTICE.md CONTRIBUTING.md and BUILD-WEEK.md explain that authored Augment material uses CC-BY-ND-4.0 while Python scripts tests and machine-readable schemas use MIT licenses. The trademark policy permits accurate nominative references without implying endorsement or authorship claims for modified distributions derived from MIT components."
+  }
+}
