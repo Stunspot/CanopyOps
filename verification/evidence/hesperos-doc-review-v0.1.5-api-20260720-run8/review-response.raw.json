@@ -1,0 +1,30 @@
+{
+  "material_findings_count": 2,
+  "findings": [
+    {
+      "affected_user_task": "Installation recovery",
+      "exact_evidence": "INSTALL.md: 'If an installation failure occurs...'",
+      "consequence": "The document instructs users to preserve the exact error and method before retrying but does not provide a specific procedure for restoring artifacts if they were overwritten during a failed update, potentially causing data loss.",
+      "smallest_repair": "Add explicit instructions in INSTALL.md under 'Updating' or 'Troubleshooting' on how to restore facility records from backup after an overwrite occurs and before reinstalling the skill directory.",
+      "rerun": "REVIEWED_FILES_COUNT: 20"
+    },
+    {
+      "affected_user_task": "Evidence limits",
+      "exact_evidence": "VERIFICATION-v0.1.5.md: 'Repository deterministic suite | 17 of 17 tests passed'",
+      "consequence": "The verification record claims the repository deterministic suite has 17 passing tests, yet README.md and BUILD-WEEK.md explicitly state that a 16-test deterministic suite is included in the package.",
+      "smallest_repair": "Correct VERIFICATION-v0.1.5.md to reflect '16 of 16 tests passed' or update the test count documentation across all files to match the actual number of tests present in the repository.",
+      "rerun": "REVIEWED_FILES_COUNT: 20"
+    }
+  ],
+  "narratives": {
+    "orientation": "README.md and START-HERE.md explain that CanopyOps is an advisory system for cannabis cultivation operations. They describe how to start with a bounded situation like reviewing one room or investigating one incident rather than managing the entire facility at once.",
+    "installation": "INSTALL.md details four installation options including Codex plugin, standalone skill, Claude.ai custom skill, and Claude Code integration. It warns that moving only SKILL.md breaks workflows and requires preserving supporting directories to maintain persona references and templates.",
+    "first_value": "EXAMPLE-TOUR.md and JUDGE-QUICKSTART.md demonstrate how CanopyOps separates facility limits from desired targets while treating vendor cultivar claims as provisional rather than agronomic fact. They show the system reconstructing events without claiming missing measurements or preserving plausible explanations until evidence discriminates among them.",
+    "normal_use": "FAQ.md and SAFETY-AND-SCOPE.md clarify that CanopyOps is not an autopilot but advisory decision support requiring human approval for consequential actions like pesticide use, batch release, or major setpoint changes. They warn against using the system to interpret law or guarantee compliance since requirements change by jurisdiction.",
+    "recovery": "SUPPORT.md directs users to report bugs through GitHub issues and distinguishes between software defects and source-currency concerns regarding legal or regulatory claims. It advises keeping sensitive information out of public reports and routing emergencies to qualified responders rather than repository support channels.",
+    "privacy_security": "DATA-AND-PRIVACY.md, TERMS-OF-USE.md, and SECURITY.md state that CanopyOps distributions include no account telemetry hosted service connector MCP server hook or automatic network request. They warn users to evaluate their chosen host's privacy controls before providing confidential facility employee customer compliance or trade-secret information.",
+    "evidence_limits": "VERIFICATION-v0.1.5.md distinguishes checks actually run from behavior that remains untested and notes that passing package archive plugin-listing documentation checks does not establish cultivation-field fitness legal correctness live-host behavior or accessibility conformance for the current release line.",
+    "support_maintenance": "RELEASE-NOTES-v0.1.5.md and ARCHIVE-CUSTODY.md document changes to product identity including a new icon version-bound listing assets canonical archives custody ledger source-tree archive SHA-256 values sizes member counts extraction-parity evidence without establishing live-host activation or field fitness.",
+    "provenance": "ATTRIBUTION.md LICENSE.md TRADEMARKS.md NOTICE.md CONTRIBUTING.md and BUILD-WEEK.md explain that authored Augment material uses CC-BY-ND-4.0 while Python scripts use MIT license. They describe the human decisions remaining with Collaborative Dynamics including choosing product audience setting lawful-market boundaries approving public release and determining branding posture."
+  }
+}

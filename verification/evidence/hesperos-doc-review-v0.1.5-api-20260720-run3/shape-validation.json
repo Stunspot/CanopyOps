@@ -1,0 +1,11 @@
+{
+    "format":  "cd-documentation-review-shape-validation/v1",
+    "valid":  false,
+    "errors":  [
+                   "line 1 mismatch",
+                   "line 2 mismatch",
+                   "line 3 mismatch",
+                   "line 4 mismatch",
+                   "trailing whitespace detected"
+               ]
+}

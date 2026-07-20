@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
   <title id="title">CanopyOps</title>
-  <desc id="desc">A geometric cannabis cultivation canopy beneath a greenhouse arch.</desc>
+  <desc id="desc">Four cultivated cannabis canopies arranged around a connected operations grid.</desc>
   <rect width="1024" height="1024" rx="224" fill="#193449"/>
-  <path d="M224 735V454c0-194 129-326 288-326s288 132 288 326v281" fill="none" stroke="#CCCDE4" stroke-width="54" stroke-linecap="round"/>
-  <path d="M512 220v474" fill="none" stroke="#CCCDE4" stroke-width="38" stroke-linecap="round"/>
-  <path d="M496 575C371 556 295 472 306 345c126 18 202 103 190 230Z" fill="#48CBE8"/>
-  <path d="M528 575c125-19 201-103 190-230-126 18-202 103-190 230Z" fill="#CCCDE4"/>
-  <path d="M512 644c-77-49-106-132-67-221 78 49 107 132 67 221Z" fill="#FAFAFA"/>
-  <path d="M286 760h452" fill="none" stroke="#48CBE8" stroke-width="50" stroke-linecap="round"/>
-  <circle cx="798" cy="760" r="25" fill="#48CBE8"/>
+  <path d="M322 322H702M322 702H702M322 322V702M702 322V702" fill="none" stroke="#CCCDE4" stroke-width="44" stroke-linecap="round"/>
+  <defs>
+    <g id="canopy" fill="#48CBE8">
+      <path d="M0-18C-42-72-34-137 0-174C34-137 42-72 0-18Z"/>
+      <path d="M17-6C70-47 135-36 171 1C132 32 68 39 17-6Z" transform="rotate(-18)"/>
+      <path d="M14 13C58 60 57 123 23 161C-12 126-18 65 14 13Z" transform="rotate(-10)"/>
+      <path d="M-14 13C-58 60-57 123-23 161C12 126 18 65-14 13Z" transform="rotate(10)"/>
+      <path d="M-17-6C-70-47-135-36-171 1C-132 32-68 39-17-6Z" transform="rotate(18)"/>
+      <circle r="35" fill="#FAFAFA"/>
+    </g>
+  </defs>
+  <g transform="translate(322 322) scale(.62)"><use xlink:href="#canopy"/></g>
+  <g transform="translate(702 322) scale(.62)"><use xlink:href="#canopy"/></g>
+  <g transform="translate(322 702) scale(.62)"><use xlink:href="#canopy"/></g>
+  <g transform="translate(702 702) scale(.62)"><use xlink:href="#canopy"/></g>
+  <circle cx="512" cy="512" r="52" fill="#FF7A66" stroke="#193449" stroke-width="24"/>
 </svg>

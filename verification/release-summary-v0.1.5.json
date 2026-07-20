@@ -1,0 +1,64 @@
+{
+  "schema_version": "cd-independent-release-review/v1",
+  "product": "CanopyOps",
+  "version": "0.1.5",
+  "review_date": "2026-07-20",
+  "review_mode": "verification-reviewer and documentation-accessibility-reviewer challenge after final local rebuild",
+  "candidate_scope": "Public repository candidate, complete CanopyOps Augment, Codex plugin, standalone skill, and Claude.ai upload archive",
+  "evidence": {
+    "deterministic_tests": {
+      "passed": 17,
+      "failed": 0
+    },
+    "builder_profiles": [
+      "bundle",
+      "canonical Codex",
+      "plugin-bundled Codex",
+      "Claude"
+    ],
+    "plugin_audit": "verification/evidence/plugin-readiness-v0.1.5.json",
+    "plugin_audit_result": "1 skill; zero errors and zero warnings",
+    "documentation_review": "documentation-review.json",
+    "documentation_fingerprint": "329236b3f9ea9ac054d0a88923635c4f8168ba9c1be9c61bacce1ea6dd2b68f3",
+    "documentation_result": "REVIEW_PASS_WITH_CONDITIONS; zero unresolved material findings",
+    "archive_custody": "release-assets/v0.1.5/archive-custody.json",
+    "release_manifest_validation": "17-test repository inventory, plugin parity, Claude archive parity, and customer-document link checks passed",
+    "icon_inspection": "1024-pixel source and 32-pixel rendering inspected; the canopy-grid mark remained recognizable without text"
+  },
+  "archives": [
+    {
+      "name": "CanopyOps-v0.1.5.zip",
+      "sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
+      "bytes": 63280,
+      "members": 69
+    },
+    {
+      "name": "Plugin-CanopyOps-v0.1.5.zip",
+      "sha256": "963f8ebf470a81d5d193e97b68166ef8ad1f7a98ef2eaa31756b9e5c6553eabd",
+      "bytes": 215070,
+      "members": 76
+    },
+    {
+      "name": "Skill-canopyops--CanopyOps-v0.1.5.zip",
+      "sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
+      "bytes": 63280,
+      "members": 69
+    }
+  ],
+  "challenge_results": {
+    "version_and_manifest_drift": "not found",
+    "missing_skill_or_archive": "not found",
+    "plugin_listing_or_asset_breakage": "not found; version-bound raster icon and bundled skill entry point exist",
+    "customer_path_or_recovery_dead_end": "not found in the declared 20-document corpus",
+    "unsupported_readiness_claim": "not found; package verification is separated from cultivation-field, live-host, directory, accessibility, legal, and outcome claims",
+    "private_path_or_cache_debris": "not found by package checks"
+  },
+  "material_findings": [],
+  "conditions": [
+    "Fresh Codex marketplace installation, discovery, activation, runtime-resource access, and representative first success remain publication-stage checks.",
+    "Live Claude upload and activation, broad repeated-model behavior, cultivation-field fitness, jurisdictional currency, equipment integration, representative-user and assistive-technology testing, accessibility conformance, legal review, production outcomes, and customer outcomes remain unexecuted.",
+    "GitHub publication and official OpenAI Plugins Directory approval are separate observable states and are not established by this pre-publication review."
+  ],
+  "disposition": "REVIEW_PASS_WITH_CONDITIONS",
+  "release_decision": "READY_WITH_RESIDUAL_RISK"
+}

@@ -1,7 +1,7 @@
 {
   "format": "cd-augment-eval/v1",
   "suite": "core-transfer",
-  "package_version": "0.1.4",
+  "package_version": "0.1.5",
   "skills": ["SKILL.md"],
   "runtime": "Fresh isolated episode with the complete CanopyOps package, local file access to supplied fixtures, optional Python 3, no internet, no controller or record-system writes, and no human approval authority.",
   "claim": "CanopyOps converts incomplete cultivation evidence into useful plans and investigations while preserving measurement meaning, live alternatives, deterministic lineage, and honest readiness state.",

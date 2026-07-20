@@ -1,8 +1,8 @@
 {
   "format": "cd-public-release-manifest/v1",
   "product": "CanopyOps",
-  "version": "0.1.4",
-  "generated_on": "2026-07-18",
+  "version": "0.1.5",
+  "generated_on": "2026-07-20",
   "hash_algorithm": "sha256",
   "files": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "path": ".github/ISSUE_TEMPLATE/capability-request.yml",
-      "bytes": 1514,
-      "sha256": "5a3da6d061030c00e9a502bd825b7d913a29e0dea396f2b9bbd445d41957b595"
+      "bytes": 1469,
+      "sha256": "b0fe7ca85fa077734414cc0224d0e913f69c30a54c55ee927fa0198aebd08bb5"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/config.yml",
-      "bytes": 31,
-      "sha256": "5362dc9392edfe8b48e770fd13d8a469e109d54e5e02510010b004b02dae501c"
+      "bytes": 29,
+      "sha256": "a0adec10c3e2c09efb3f1a70798bd487937d322285014f522f6a73e8e2ad9123"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/source-currency.yml",
-      "bytes": 1624,
-      "sha256": "f1c03cf6070e9c1fe68498ef1c4a8b93bf1102cabf2e6b73e9e4f5028832796e"
+      "bytes": 1575,
+      "sha256": "6406fc9278a83558df958c8dd7e4fd9558ca15d9fdd64ff28cfcc02305431d16"
     },
     {
       "path": ".github/workflows/verify.yml",
@@ -37,163 +37,173 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 85,
-      "sha256": "42c9942637f2ddb3e07acf422c05fc58244d8fb1b7b5af969af603ad8b93558f"
+      "bytes": 75,
+      "sha256": "5f55fb785024c12cd6e861de14db4ba66b24bf65623d4a0de37877e844094895"
+    },
+    {
+      "path": "ARCHIVE-CUSTODY.md",
+      "bytes": 1578,
+      "sha256": "575913e3ee6f91ce992c30704fd8d0bea2d98f4da8b5155d380b73a73d90dfe7"
+    },
+    {
+      "path": "archive-plan.json",
+      "bytes": 577,
+      "sha256": "9f28cdd292d2f8f1315f58183e0ce693bfce67b24190ce67c6de11db57358e68"
     },
     {
       "path": "ATTRIBUTION.md",
-      "bytes": 655,
-      "sha256": "9f161b7d30a535e1975b38d5c3215e1d89618e3f4e1e2ccd174f499e92323fcf"
+      "bytes": 1490,
+      "sha256": "8e80419a6a64aef55d9e98dc6e5e1c9da8a9d37b594db93432936b3a574e0a96"
     },
     {
       "path": "BUILD-WEEK.md",
-      "bytes": 7449,
-      "sha256": "3371342c1a60fb6ce6eb248387c1deca762d0ad820bf4fb7c06f8da0e35fb02c"
+      "bytes": 7481,
+      "sha256": "86289f893d761b53021b21897230508281189064a71dbcb87bf468f613b0dd4a"
     },
     {
       "path": "canopyops/adapters/bot-runtime.md",
-      "bytes": 540,
-      "sha256": "c3737ff133fcefbe8ae9dc0de6712287629cff302018d725e401b1ef1a583bb1"
+      "bytes": 535,
+      "sha256": "6e02a167af972017a9dedde7066ba35c37a9dc5ca4c8881d4670fb4d6381001f"
     },
     {
       "path": "canopyops/adapters/chat-runtime.md",
-      "bytes": 505,
-      "sha256": "e311a81a03df9868f6e8231e115a60a5a7603e2b953005e784675d66540aeb8f"
+      "bytes": 500,
+      "sha256": "ad1d095e3fe3405d029b65ac28c78d7e432bc19c5071f749799542d5efd0911a"
     },
     {
       "path": "canopyops/adapters/claude-code.md",
-      "bytes": 1682,
-      "sha256": "03f4dd6979309e3d9c91cb96f2bf6f858dabbe261a196cb5cc13c7ba043a2137"
+      "bytes": 1662,
+      "sha256": "fd473910648b4e44771c1b7ec3083b6a0532d709c3dfee19f28656aa7799c34a"
     },
     {
       "path": "canopyops/adapters/codex-local.md",
-      "bytes": 504,
-      "sha256": "c21a415be67f9019c81481a83f75661dbf9629db538f262ed9fb213075741a69"
+      "bytes": 499,
+      "sha256": "4ec10f3fec4a69f4df8a261292ce940c47244c8a46d43602ef26d7f37b53d2b9"
     },
     {
       "path": "canopyops/assets/capa-record.md",
-      "bytes": 677,
-      "sha256": "7d40a78a40a08c7cd7321b0a078a238e0e9d6dc78fb912d3094278284efe712d"
+      "bytes": 659,
+      "sha256": "0483e786628b7c1bc45c5432eb21cc57f47e8d64590781f40b6a3376960431ab"
     },
     {
       "path": "canopyops/assets/compliance-verification.md",
-      "bytes": 706,
-      "sha256": "744cf0644a74435c2c9c6e1ad028460784f7ebaf99f24472a66d7cffacd20fce"
+      "bytes": 684,
+      "sha256": "4a00b635b194060b55d578f327625f3759e7680f1454ace7360eb221c6b38ba1"
     },
     {
       "path": "canopyops/assets/crop-plan.md",
-      "bytes": 1093,
-      "sha256": "53cf8607cd8582178d06d203f6be242a1daa5f5569bc640870409f29a38e377a"
+      "bytes": 1057,
+      "sha256": "d3bc7fc0fc78c7d018e98b84f2a3099f7b4cd1fc6de900d86c6a7cc4272f1d8c"
     },
     {
       "path": "canopyops/assets/crop-profile.md",
-      "bytes": 660,
-      "sha256": "a9b70a568be4db230c47c0e1a98bc8600c8f26e1315dec1f3f9bbce8bb31a070"
+      "bytes": 641,
+      "sha256": "6d3519878fe16501903cb54d5a5c82f529f22ff0a95fe33606e9152d8882a826"
     },
     {
       "path": "canopyops/assets/crop-walk.csv",
-      "bytes": 219,
-      "sha256": "ca77d2275337c9ea607bb9106aeefd97d06526dc29844f58e4ac4f139c61f80d"
+      "bytes": 218,
+      "sha256": "1173f29b41492a6e6aedb66a13dfc2551d730dded61d4302b0848f1e6e71489d"
     },
     {
       "path": "canopyops/assets/cultivation-decision.md",
-      "bytes": 580,
-      "sha256": "f31d9bc14a4ba989bc4393719bda547b018f4b2958473c9d95d21cad82531641"
+      "bytes": 566,
+      "sha256": "4f021476b0c6f8db8dbe543596235d8493cd9aff4db9a3b8231d7321e7754d3c"
     },
     {
       "path": "canopyops/assets/drying-log.csv",
-      "bytes": 214,
-      "sha256": "9478538f0bea1c66d043b44575d1551a625a8adbcc1cbd86d135f31ea25f7bdd"
+      "bytes": 213,
+      "sha256": "eb92568f4362e0a9cedd592a07517e32aec1e94419661bf9465f8835558059ee"
     },
     {
       "path": "canopyops/assets/facility-profile.md",
-      "bytes": 1002,
-      "sha256": "271193807e98e6f3e0b5646d2d206a41a5ee431c5d034c5873905541b27faae7"
+      "bytes": 979,
+      "sha256": "e8f314ec15446b8c0b6b5e44b0d603c19cfd8b937f02c6d8e3d145b33a4388db"
     },
     {
       "path": "canopyops/assets/harvest-readiness.md",
-      "bytes": 736,
-      "sha256": "9a39f34eef45aa342b687dcca2d3171d98d83f878826107cc90a0d4085863bfb"
+      "bytes": 712,
+      "sha256": "2e51f42c90221cc2c180e9469517e8378ffc3d36a42499c9da3c8f69c72c642c"
     },
     {
       "path": "canopyops/assets/incident-report.md",
-      "bytes": 1107,
-      "sha256": "9759bb682cbefc05a5f4358f3b9673a1229d7d17963ce25eaf744809be0d12a4"
+      "bytes": 1073,
+      "sha256": "c8f1e341c5341402d3aafefa867dbc0fe9bf23c6dd0ce0d737a2c3dc40ece36d"
     },
     {
       "path": "canopyops/assets/risk-register.csv",
-      "bytes": 191,
-      "sha256": "431e1722e0f4bd1190d0127d3cb6bcfce457b059f19d5f6e532ac2920bdbf0dd"
+      "bytes": 190,
+      "sha256": "53a949010e01ea2549097d72a63c93242caa27b7f42fa5b20299bfac1a4764fa"
     },
     {
       "path": "canopyops/assets/room-runbook.md",
-      "bytes": 826,
-      "sha256": "ca5abcd4ffaf5a16f94ef6a432bc3a7e63b642c6b6a143ef4f788ead6f66a3b5"
+      "bytes": 798,
+      "sha256": "e944def478ee04b84309254dccf6f6b27b82398f6e09d251de37fa57f10143f6"
     },
     {
       "path": "canopyops/assets/shift-handoff.md",
-      "bytes": 593,
-      "sha256": "26bc96deb326b0512996a28169a984ab2634b3ab11c2065790c4c851a9cb617e"
+      "bytes": 574,
+      "sha256": "d2eb9a6fcc1a8eb4028fddcce456f1ea61897d03f16c3952322490f229df8532"
     },
     {
       "path": "canopyops/ATTRIBUTION.md",
-      "bytes": 647,
-      "sha256": "1d4d33905728e65a80dbc6b3e0c0167a2040572acda950f05a83192997dc82a8"
+      "bytes": 638,
+      "sha256": "e1a7f03f6f5a8411eee458d956d6f042cfcdb5c602ee053f57ca9c1eef21a8d5"
     },
     {
       "path": "canopyops/CHANGELOG.md",
-      "bytes": 2085,
-      "sha256": "c32a70a57fe9d4f548899f82d1fe3214941f0150f10c372a99ae59d9a611cd50"
+      "bytes": 2443,
+      "sha256": "d7bd0fcdb0827df28caad1b606b9d0b68bdbbf3ba90b9d1350160c69a3a26317"
     },
     {
       "path": "canopyops/evals/authority-and-resilience-cases.yaml",
-      "bytes": 5400,
-      "sha256": "35488f294fe7a7eb5176d90bbc1fae3c871a1b6be2df00c680ddd8967e68bf5b"
+      "bytes": 5401,
+      "sha256": "f54698d3e807a22828568b11dcc54f98b961feeb56ae0bcc4985554ba2e5e9e6"
     },
     {
       "path": "canopyops/evals/core-transfer-cases.yaml",
-      "bytes": 6702,
-      "sha256": "eff090607a080978892fd38fa3dba608f51b3fd0800cf4973df060124359b3a4"
+      "bytes": 6703,
+      "sha256": "e7e99cef2c39ebea154422175aafeed958b87e3611927e8cd8488a90ddcde43c"
     },
     {
       "path": "canopyops/evals/eval-manifest.yaml",
-      "bytes": 690,
-      "sha256": "5367655cfeadd29db45bc990ef8120f55ae5f24fe6b864950b9d2d836cae2516"
+      "bytes": 691,
+      "sha256": "5f2b63c17b3160959916eb31dacd0b616892e450d600276e857cb9feebffdc01"
     },
     {
       "path": "canopyops/examples/harvest-readiness-review.md",
-      "bytes": 1179,
-      "sha256": "faf586a04031037c51421aaccf4b0ef34eb306057ca114753e8b335d0de5e072"
+      "bytes": 1165,
+      "sha256": "1fe00154fe3c3e0a015576cc647c231f9508ee2bb12e6dbd0fff0d9f73993454"
     },
     {
       "path": "canopyops/examples/high-runoff-ec-diagnosis.md",
-      "bytes": 1378,
-      "sha256": "0b6380b81b0abc774f5f08f2e27903d65ec47a77e8786e8109185e1cbff1db4d"
+      "bytes": 1361,
+      "sha256": "e6b469bb0eae155981d1ebc1110a4cabf39d240b8deb600a44c4783f34f5c831"
     },
     {
       "path": "canopyops/examples/late-flower-humidity-incident.md",
-      "bytes": 1972,
-      "sha256": "294870aa86b43ec14f78b65ffae785b32838ad45ba4447983bed6ebb5da514af"
+      "bytes": 1952,
+      "sha256": "1a30d9f97b3df51e4de3d14cd3bffd1f1c1d5edd3d894f6f4d50ff0e4c59f5f4"
     },
     {
       "path": "canopyops/examples/new-room-crop-plan.md",
-      "bytes": 1419,
-      "sha256": "8bcac50ebd09192f16dbacaaabd52969d175542c6ff67ef5c0a6f168c76d1d77"
+      "bytes": 1408,
+      "sha256": "c65a8db3853184386810faff8b6b4ae58b9c562b9fb8d420e1e1f850ec454711"
     },
     {
       "path": "canopyops/jurisdiction-packs/README.md",
-      "bytes": 517,
-      "sha256": "8af383f939079c7f5e1f5ef326815d7cb06676783e02bffa5fa433bda943455a"
+      "bytes": 512,
+      "sha256": "4d7c686ba738cfe3b8ff110f88fceb981c63775984cb72fc3f8fdc7ad8670f7b"
     },
     {
       "path": "canopyops/LICENSE.md",
-      "bytes": 2846,
-      "sha256": "b922cef322a04638a36284535f532cadb6c779d88d71d3d35e67d807850d6d8d"
+      "bytes": 2817,
+      "sha256": "77882dd576eae0231ea08546d48022591a416c2377ab0cc984b84ac9841d2615"
     },
     {
       "path": "canopyops/NOTICE.md",
-      "bytes": 585,
-      "sha256": "98e40efadb9c734c762520adad3deb27f7110dfc20cdd50113e889be6bd3ba97"
+      "bytes": 580,
+      "sha256": "30d8d5d6ac0b7369a265ffe0d9e1aa22d4745a63f48de646c4448d1017bebe22"
     },
     {
       "path": "canopyops/personas/ella-greenfield-v2.md",
@@ -202,198 +212,198 @@
     },
     {
       "path": "canopyops/README.md",
-      "bytes": 2243,
-      "sha256": "b5fd7c78ac431a2d78b576d3107eb31c2fa1ebc3a7bcdd788b20f32cea6858c5"
+      "bytes": 2214,
+      "sha256": "2e00e6ba2e6e8e056c8adbb714bb81bb9b4ee8b9061ee66218fca7be4c4102d7"
     },
     {
       "path": "canopyops/references/agronomy-core.md",
-      "bytes": 2280,
-      "sha256": "001202a0764ebc7be0248f498001d39748c167e9a979dafb74c4bd5c04328787"
+      "bytes": 2255,
+      "sha256": "67ba0885e6bb07955a5c54020d539075d15459d3461c025f5076594380cf35a6"
     },
     {
       "path": "canopyops/references/compliance-verification-method.md",
-      "bytes": 1814,
-      "sha256": "7aa320e65f4b673a132ca5e328b7efe3813163f58ea9234c37cf75501d0062bf"
+      "bytes": 1786,
+      "sha256": "d5e88d844af9595a7c88ced2f7a56e9088e7450c3f2b5ee323c97933d8de59a6"
     },
     {
       "path": "canopyops/references/cultivar-and-gxe.md",
-      "bytes": 1677,
-      "sha256": "04bc76b0179b779ecab94f5d4e011dee14f169835f140166397568e31c84418f"
+      "bytes": 1651,
+      "sha256": "2bdddfb9f8682beb2e46b6dae239f54530439767aa05b16d98d15fdcb630595e"
     },
     {
       "path": "canopyops/references/diagnostic-field-guide.md",
-      "bytes": 1776,
-      "sha256": "6cefaeeadb44e3de555a103684a1c19fd93a0a2e344c52c94ff41940dfecc1df"
+      "bytes": 1751,
+      "sha256": "3fa16cc34d5a8ff55c1ebfae5f72c17ec0453c54cd648a9f700d1286a5277411"
     },
     {
       "path": "canopyops/references/economics-sustainability.md",
-      "bytes": 1049,
-      "sha256": "cd7c8104da22089d22c0a8591afb74c801556d5416ce2e1707e71b71d408e879"
+      "bytes": 1035,
+      "sha256": "2eddec5047868c0202678d8999e1b294d1c66157004ccdf3a7ef7f27279aa170"
     },
     {
       "path": "canopyops/references/environment-lighting-vpd.md",
-      "bytes": 1720,
-      "sha256": "3e2be73cea3cec8a5a77a7f4c702cc0dd1576e4f014eda687a4ed95310adeba1"
+      "bytes": 1689,
+      "sha256": "7bcd7a9d16a855884de068911362bc5bc6001f8b65caa575a91e53c78bc0b3ed"
     },
     {
       "path": "canopyops/references/glossary.md",
-      "bytes": 1810,
-      "sha256": "2ee2213657450a6561201e48e62dd99ffa2d8f39aafeaabd0f14b8a514e956b5"
+      "bytes": 1792,
+      "sha256": "524b77a70c9882d38f21e28ab71354ba01aa2e2a5ac6b36b57fa55ff790bb086"
     },
     {
       "path": "canopyops/references/harvest-postharvest.md",
-      "bytes": 1643,
-      "sha256": "a7c1c6229d7a905391e671889e35796ff18a0ca61b7d043016e8851e484abc60"
+      "bytes": 1624,
+      "sha256": "7f26d70cbd7df28bca2b77531a405adc038ddb41b3c555791e856893ebbdc506"
     },
     {
       "path": "canopyops/references/ipm-biosecurity.md",
-      "bytes": 1734,
-      "sha256": "f9d373fe70d59faba55fd28649a47b15e60119e0a7dbd51e0625edaf5ccedfed"
+      "bytes": 1713,
+      "sha256": "4c5cc08bfa54f0facb0267fe4efed086ad2090f56f3ca11caef24a603b1fe1f3"
     },
     {
       "path": "canopyops/references/rootzone-fertigation.md",
-      "bytes": 2031,
-      "sha256": "b30c2954266a11a513819b01c6085b6597508718a6fccdfd83e743d3248b7624"
+      "bytes": 2005,
+      "sha256": "cb91aef072363e0f3f9237b596da4a82dc9876ea9c04fb067488f54cc0fc9c05"
     },
     {
       "path": "canopyops/references/safety-operations.md",
-      "bytes": 2012,
-      "sha256": "e5ef4c19123413b65de9501eb4dc92211f4f6d0961084f0bc2f6ea5a503f1cfb"
+      "bytes": 1986,
+      "sha256": "a383cda88612d48c4812ec3886ab8531dc0e111d4a53c044d4b4601aeda76bba"
     },
     {
       "path": "canopyops/references/source-provenance.md",
-      "bytes": 2551,
-      "sha256": "cc34a2c2c1ae5773f862225d919925693305387a7eacf68f3c6578e9aac69e28"
+      "bytes": 2528,
+      "sha256": "1e9bc7d49c504e12408000f44bd427f59ad933a4af13b1b746ce510423d4a69e"
     },
     {
       "path": "canopyops/references/source-quality-policy.md",
-      "bytes": 1796,
-      "sha256": "4a03eeb74ca98e934338cfaa7cd5416e3a4afe049b1579870791a985bc3f6cb1"
+      "bytes": 1770,
+      "sha256": "aeaec62d3c96ec2f51cb3416b823d66dd86d71d18e4f3def635760e038cfa10a"
     },
     {
       "path": "canopyops/schemas/compliance-record.schema.json",
-      "bytes": 1237,
-      "sha256": "450bc99b4a31968d26e2c263661b77d3c33206cfc3dfbad43b95affad60ee1b7"
+      "bytes": 1218,
+      "sha256": "197d3800b10583ba259033677014c26b48ef73ff0e21d6faa54f9f05e6eaf43a"
     },
     {
       "path": "canopyops/schemas/crop-plan.schema.json",
-      "bytes": 1252,
-      "sha256": "2bdf29ac9e52fcd11e092d1ef6765909bfd638cff45724c2c01f013178cefc6a"
+      "bytes": 1233,
+      "sha256": "1c67236c9362d780bd17a805602c78b3cfa5091e388ad689388b62140e37b83f"
     },
     {
       "path": "canopyops/schemas/crop-profile.schema.json",
-      "bytes": 1175,
-      "sha256": "e6edbe03b5213dd81a49df16acf726924b67b08a7ab03e010e19a160e428f0d7"
+      "bytes": 1157,
+      "sha256": "8a7805c931e140035750526ec631d2bf76a40e1c8f99169495bb6b6fae6169f0"
     },
     {
       "path": "canopyops/schemas/cultivation-decision.schema.json",
-      "bytes": 1054,
-      "sha256": "d320518e9067f8366e1ba3e20113f4267cba6f2cbeeceb6782cbc9bbbba29f8b"
+      "bytes": 1034,
+      "sha256": "d652b488856c2b580d66c51c06689b781cdcfee562c8ffc47a22ceb131d8dbfe"
     },
     {
       "path": "canopyops/schemas/facility-profile.schema.json",
-      "bytes": 1068,
-      "sha256": "f77b48bba6e30b7f689c33288558f531b42d628bbeb3a4349ae59e5d4f09fec1"
+      "bytes": 1050,
+      "sha256": "018d9b652d6ece3761e228003d75b9e4ad039b940c4e6beca9cfc447799ad4bc"
     },
     {
       "path": "canopyops/schemas/incident-report.schema.json",
-      "bytes": 1391,
-      "sha256": "52678ad144849cf7737ab0a4a3fe24f04f12f787c4c8b3deaa0bac6d64159d28"
+      "bytes": 1372,
+      "sha256": "bf2a50af3220fd432549839a325d77d08ea475a82692fe5746a9b581185780a4"
     },
     {
       "path": "canopyops/scripts/build_release_manifest.py",
-      "bytes": 1569,
-      "sha256": "99167b6eced8a0af60104b38c44b3074e09a09c07621cec8caa10a6b0aa4f915"
+      "bytes": 1637,
+      "sha256": "9755de060c5977ffbfd160a586f6a86260f2e1b0cfd9c04b518ebbed3919bdda"
     },
     {
       "path": "canopyops/scripts/calculate_dli.py",
-      "bytes": 1223,
-      "sha256": "09e6e0d5dc1e71b8f3e5eb17b06e064b2149790b5d6ca8128ff4517c871fa5ae"
+      "bytes": 1191,
+      "sha256": "d2ebf64b2a008df553ca3bd6052c9cdee8fe8eeabcfce78e219af486f0248407"
     },
     {
       "path": "canopyops/scripts/calculate_irrigation.py",
-      "bytes": 1797,
-      "sha256": "a4bba5a3344bf841287f69905cdaad3ecde7b8798fcf911ebe942c8bd8f36019"
+      "bytes": 1757,
+      "sha256": "d70d750df0fa94e573b6a0597f750be67cae76eede33e241a694f0663640dc7e"
     },
     {
       "path": "canopyops/scripts/calculate_vpd.py",
-      "bytes": 1973,
-      "sha256": "0477b6a712d18bd1f23b9de93e37c4b2e04906bcd9710accfe286bd5860dde86"
+      "bytes": 1925,
+      "sha256": "f0df57549ff4636090ea8e046023c169262cd11c53141a0d341bb1eef75c6f9a"
     },
     {
       "path": "canopyops/scripts/check_source_freshness.py",
-      "bytes": 1682,
-      "sha256": "b3d9a6b3f2e3bc104303ba0649eb0312cb90a3bfbc676d8a13850e377e12e212"
+      "bytes": 1643,
+      "sha256": "057e3f500752eb19145a084204e92f47c57dd13f144a9ee16a87ee44e944d544"
     },
     {
       "path": "canopyops/scripts/lint_cultivation_plan.py",
-      "bytes": 1643,
-      "sha256": "3d97519818dd45fb5ee2399b682e00b3c0425e79bb3661f56c57c1d7ce3e2c8b"
+      "bytes": 1600,
+      "sha256": "0ccb751ded87a63e6e511441b93123cb5086c5338630388012e53350641257cf"
     },
     {
       "path": "canopyops/scripts/normalize_logs.py",
-      "bytes": 2339,
-      "sha256": "aa50125bf57589ca77a634b8b5076c6946a0bb711fc9ceb3699249b4bc0b81c5"
+      "bytes": 2280,
+      "sha256": "d2970b4d790020af33168013714ae621a5ef96c2d2a586ff73b3b7cc4ccd7afc"
     },
     {
       "path": "canopyops/scripts/normalize_units.py",
-      "bytes": 1640,
-      "sha256": "8abb612e7f0cb32f5065b40f283692f8367e187be3bc77630199199fea01b3a9"
+      "bytes": 1599,
+      "sha256": "7fd0b3707596c0be730e0f9f3e7f250ebd6552070a7d83229f58915cc15fa3c7"
     },
     {
       "path": "canopyops/scripts/package_deliverables.py",
-      "bytes": 1318,
-      "sha256": "127be7df24be4b7a353eded914d8c289877cf38386aa5f67c13395783ee5c26b"
+      "bytes": 1284,
+      "sha256": "67d47b2416d2683b0f334e9504a5285a458304ad62c931b0d86ac016537a5135"
     },
     {
       "path": "canopyops/scripts/README.md",
-      "bytes": 1020,
-      "sha256": "691a3aabb8b039bfdf3fa03bf5d311b64a9b2a948b4b21cd3e032e5a9297e427"
+      "bytes": 1005,
+      "sha256": "0d325526cc6f8ba713002d5b5cbfba9dc0992d5d3f63102c1d1799833db6d434"
     },
     {
       "path": "canopyops/scripts/validate_record.py",
-      "bytes": 2791,
-      "sha256": "649d8a5e6874273e5c9a7edb2809931b4ad67f2e5c728f1b76665f0e8cf62c97"
+      "bytes": 2727,
+      "sha256": "d4f6cc7fdc8e463a762296bb2b864663c3609833103aee05d1edc193945f56fa"
     },
     {
       "path": "canopyops/SKILL.md",
-      "bytes": 4535,
-      "sha256": "cbf78b2f11df3d034015ea218053a79a982ee3a256da02a268c5dce555d507d4"
+      "bytes": 4492,
+      "sha256": "4c1e10f54abaeded6c1f9a534befeebe35d183b40ff6d1043661027bb3d8ad1e"
     },
     {
       "path": "canopyops/TRADEMARKS.md",
-      "bytes": 1022,
-      "sha256": "4ba8b530fba4595d9e37d800e5fd991e18d25830fa7f034cb6a9f364ea1144e4"
+      "bytes": 1013,
+      "sha256": "7cc4fe4c698dc9ecef7b366d82a0da4e370c9728c572b041aa7ed8c7e7951025"
     },
     {
       "path": "canopyops/workflows/compliance-and-operations.md",
-      "bytes": 1649,
-      "sha256": "7563d2c6405e9b0518c8c96b747f0a8573ab119aa7dcf889d62c13f8f1ea2250"
+      "bytes": 1635,
+      "sha256": "7b16e96651cd569eb03c6ce08a76a685fbf1c31f927f52c96bb8b2e12ba4a9cf"
     },
     {
       "path": "canopyops/workflows/crop-planning.md",
-      "bytes": 1730,
-      "sha256": "f734cb28c1473b49ae464716991442e9c82a68058158895994d4750d0b99e2b3"
+      "bytes": 1716,
+      "sha256": "5bd07b57bee6d7fe4525e226faf338cd34c0921157011c1a65c2431c4f16f344"
     },
     {
       "path": "canopyops/workflows/diagnostics-and-incidents.md",
-      "bytes": 1828,
-      "sha256": "889e2bb6bc326b95b0e8e68d95a5e76c72f5405d59dc4363d0866391ab8848ab"
+      "bytes": 1814,
+      "sha256": "1d50d33314814c4471d9d209387f82c7d892ed4ad19cfb77cde0cc3cf6244fa0"
     },
     {
       "path": "canopyops/workflows/environment-and-rootzone.md",
-      "bytes": 1940,
-      "sha256": "7b8b054cf4cc13754b90439cc56948bf58cb5c96a07994a3da6be2f27c3bfe49"
+      "bytes": 1926,
+      "sha256": "c7ff2ccfd5e52f5a1c4629f43e63492f94fe9349e242dd3d16a82329d70edf02"
     },
     {
       "path": "canopyops/workflows/harvest-and-quality.md",
-      "bytes": 1583,
-      "sha256": "b744973ae6386db33dc5795e160460cbf4080d7196f2b4f6624ebe9431d14943"
+      "bytes": 1570,
+      "sha256": "a1fa25d8b30acf331dd24bf3057b9c71821f2eefaa21b922ace9eb340a1d6072"
     },
     {
       "path": "canopyops/workflows/review-and-release.md",
-      "bytes": 1880,
-      "sha256": "06e6e6ccbc0a983c141d051402a4d975c14fa3f6724de6c9af52aa7daf019dbc"
+      "bytes": 1853,
+      "sha256": "5dcd91a52ab3e612b01476de4efa83ff3ec076dc6b4a969c6fe6733464cbce29"
     },
     {
       "path": "claude-ai/canopyops-v0.1.4.zip",
@@ -401,24 +411,39 @@
       "sha256": "de6da2064a794dd9854322738b4d0c75ede64ceb5f2950b41d6449b1dcbce991"
     },
     {
+      "path": "claude-ai/canopyops-v0.1.5.zip",
+      "bytes": 63280,
+      "sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189"
+    },
+    {
       "path": "CONTRIBUTING.md",
-      "bytes": 2402,
-      "sha256": "09e9dede9961a9d4ac958344ac70e493ea28d6b226ec0b1fe39505524c7985f4"
+      "bytes": 2357,
+      "sha256": "235423b4775a12cfb8d19071bbc7e07f30286ac3c5e198acf19366abe9ddc32f"
     },
     {
       "path": "DATA-AND-PRIVACY.md",
-      "bytes": 1213,
-      "sha256": "b6a888ea9c66ec553a8f99a0c347a1b754db4a1d95399f92b7f15ee0dbdb0087"
+      "bytes": 1215,
+      "sha256": "662ba51b26166a6943f47290c74b03507cefb02509e8c3106ac38f83e4f5183d"
+    },
+    {
+      "path": "documentation-manifest.json",
+      "bytes": 1158,
+      "sha256": "57acb0e0ee188317d3f1d3065d8b69609a4915edb3d84e7b4b523844ff7b9085"
+    },
+    {
+      "path": "documentation-review.json",
+      "bytes": 1774,
+      "sha256": "218ce1e02562ec629ac43e77d3e73418ca3933324e2ecc4af3ed2ca79f8cdb7d"
     },
     {
       "path": "EXAMPLE-TOUR.md",
-      "bytes": 3813,
-      "sha256": "8f909aafaf36ce0a8f9836a9fa9f0ea7abda5f72e6fce154759054035e979dd5"
+      "bytes": 3743,
+      "sha256": "fcd57edda618e5944ebcd6ee5546d64c8e15fffcfe30fe46f89b670add911c39"
     },
     {
       "path": "FAQ.md",
-      "bytes": 4429,
-      "sha256": "d87e324c73519202e1e1aeb21f9facef78482c89f5c9b661e298a9675cc59a32"
+      "bytes": 4431,
+      "sha256": "f221f49c9d5c9b810c58059b93ccc7a743980ab63b4fffab33b9af93729ad116"
     },
     {
       "path": "images/canopyops-flow.png",
@@ -427,18 +452,18 @@
     },
     {
       "path": "images/canopyops-flow.svg",
-      "bytes": 5514,
-      "sha256": "16e9ef3df07c0aa9266e56f477b51a4fd3ebe5918cbc8365308af84c32590c9b"
+      "bytes": 5462,
+      "sha256": "71ccec371e20c7a71df2fdba5313caf607c9f791083da0cab764b3e3cb96366a"
     },
     {
       "path": "images/canopyops-icon.png",
-      "bytes": 82887,
-      "sha256": "a5666e795cf6a59d696387c5efc8bfc83188d532417471c2cf46df1c52fb6fd7"
+      "bytes": 65478,
+      "sha256": "750b38b156b97be1674e11b3f86fd3eb8c7306fd97625b19256f44d86d03890b"
     },
     {
       "path": "images/canopyops-icon.svg",
-      "bytes": 953,
-      "sha256": "e551646e2b91dd2e5ec76478a5d0420a47759fa7d39cd06fbbace04929b23fa3"
+      "bytes": 1412,
+      "sha256": "cf9ca70cd203304687b27d1fa112fa890e181f5d1ab0aeaa847599d3de2e4d65"
     },
     {
       "path": "images/canopyops-social-card.png",
@@ -447,8 +472,8 @@
     },
     {
       "path": "images/canopyops-social-card.svg",
-      "bytes": 2357,
-      "sha256": "94e82d9d9d414c1e206719918e276b6242274ef508ed099399f5c1115a2fdf56"
+      "bytes": 2332,
+      "sha256": "c1fa1566180985d4ba3cd294acb86b9100d3cacb08b887cc6fc15ff36f7a4cf6"
     },
     {
       "path": "images/collaborative-dynamics-logo.png",
@@ -457,13 +482,13 @@
     },
     {
       "path": "INSTALL.md",
-      "bytes": 5648,
-      "sha256": "3c7fef13f2f454cff8fded97247b239bf21490869038d7aa2e96a150b3d34918"
+      "bytes": 7291,
+      "sha256": "96beb9577d5442d31eb30d7e1a1557dc65b192d134abaa927f2e7b89fc255947"
     },
     {
       "path": "JUDGE-QUICKSTART.md",
-      "bytes": 3818,
-      "sha256": "19dbefb9907f8bae9dbf00f4d74090cfef14193c77288f88917cdea15d855e41"
+      "bytes": 3820,
+      "sha256": "4595b4fd2b5ff4a506373e9197cdaa9f90cb9d87ceb58610842dad9e9f5d786d"
     },
     {
       "path": "LICENSE.md",
@@ -472,23 +497,33 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 585,
-      "sha256": "98e40efadb9c734c762520adad3deb27f7110dfc20cdd50113e889be6bd3ba97"
+      "bytes": 1497,
+      "sha256": "2695dc787be813fc9fe3a379606e8f45fe30db486eff3532adb7649932c86a01"
     },
     {
       "path": "plugins/canopyops/.codex-plugin/plugin.json",
-      "bytes": 1747,
-      "sha256": "a2a1a28222090cf9a33369adf4fcb7530a1bfab6cde89368175d8a451dc1b048"
+      "bytes": 1760,
+      "sha256": "83856aea5d0a055f8bc7d152adc42eb5c07c0fad9f9da7f641b8c06b7ce486ef"
+    },
+    {
+      "path": "plugins/canopyops/assets/canopyops-canopy-grid-v0.1.5.svg",
+      "bytes": 1412,
+      "sha256": "cf9ca70cd203304687b27d1fa112fa890e181f5d1ab0aeaa847599d3de2e4d65"
+    },
+    {
+      "path": "plugins/canopyops/assets/canopyops-icon-v0.1.5.png",
+      "bytes": 65478,
+      "sha256": "750b38b156b97be1674e11b3f86fd3eb8c7306fd97625b19256f44d86d03890b"
     },
     {
       "path": "plugins/canopyops/assets/canopyops-icon.png",
-      "bytes": 82887,
-      "sha256": "a5666e795cf6a59d696387c5efc8bfc83188d532417471c2cf46df1c52fb6fd7"
+      "bytes": 65478,
+      "sha256": "750b38b156b97be1674e11b3f86fd3eb8c7306fd97625b19256f44d86d03890b"
     },
     {
       "path": "plugins/canopyops/assets/canopyops-icon.svg",
-      "bytes": 953,
-      "sha256": "e551646e2b91dd2e5ec76478a5d0420a47759fa7d39cd06fbbace04929b23fa3"
+      "bytes": 1412,
+      "sha256": "cf9ca70cd203304687b27d1fa112fa890e181f5d1ab0aeaa847599d3de2e4d65"
     },
     {
       "path": "plugins/canopyops/assets/collaborative-dynamics-logo.png",
@@ -497,153 +532,153 @@
     },
     {
       "path": "plugins/canopyops/LICENSE.md",
-      "bytes": 522,
-      "sha256": "c83aedf3867a5c9d21eedff4a6090d868d838138a5598dfe1fd5e852d576e14d"
+      "bytes": 515,
+      "sha256": "7423ac36096202fa40f712c0cd62e51dcc930729450eadb8a7cb6bd631ac45b1"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/adapters/bot-runtime.md",
-      "bytes": 540,
-      "sha256": "c3737ff133fcefbe8ae9dc0de6712287629cff302018d725e401b1ef1a583bb1"
+      "bytes": 535,
+      "sha256": "6e02a167af972017a9dedde7066ba35c37a9dc5ca4c8881d4670fb4d6381001f"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/adapters/chat-runtime.md",
-      "bytes": 505,
-      "sha256": "e311a81a03df9868f6e8231e115a60a5a7603e2b953005e784675d66540aeb8f"
+      "bytes": 500,
+      "sha256": "ad1d095e3fe3405d029b65ac28c78d7e432bc19c5071f749799542d5efd0911a"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/adapters/claude-code.md",
-      "bytes": 1682,
-      "sha256": "03f4dd6979309e3d9c91cb96f2bf6f858dabbe261a196cb5cc13c7ba043a2137"
+      "bytes": 1662,
+      "sha256": "fd473910648b4e44771c1b7ec3083b6a0532d709c3dfee19f28656aa7799c34a"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/adapters/codex-local.md",
-      "bytes": 504,
-      "sha256": "c21a415be67f9019c81481a83f75661dbf9629db538f262ed9fb213075741a69"
+      "bytes": 499,
+      "sha256": "4ec10f3fec4a69f4df8a261292ce940c47244c8a46d43602ef26d7f37b53d2b9"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/capa-record.md",
-      "bytes": 677,
-      "sha256": "7d40a78a40a08c7cd7321b0a078a238e0e9d6dc78fb912d3094278284efe712d"
+      "bytes": 659,
+      "sha256": "0483e786628b7c1bc45c5432eb21cc57f47e8d64590781f40b6a3376960431ab"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/compliance-verification.md",
-      "bytes": 706,
-      "sha256": "744cf0644a74435c2c9c6e1ad028460784f7ebaf99f24472a66d7cffacd20fce"
+      "bytes": 684,
+      "sha256": "4a00b635b194060b55d578f327625f3759e7680f1454ace7360eb221c6b38ba1"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/crop-plan.md",
-      "bytes": 1093,
-      "sha256": "53cf8607cd8582178d06d203f6be242a1daa5f5569bc640870409f29a38e377a"
+      "bytes": 1057,
+      "sha256": "d3bc7fc0fc78c7d018e98b84f2a3099f7b4cd1fc6de900d86c6a7cc4272f1d8c"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/crop-profile.md",
-      "bytes": 660,
-      "sha256": "a9b70a568be4db230c47c0e1a98bc8600c8f26e1315dec1f3f9bbce8bb31a070"
+      "bytes": 641,
+      "sha256": "6d3519878fe16501903cb54d5a5c82f529f22ff0a95fe33606e9152d8882a826"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/crop-walk.csv",
-      "bytes": 219,
-      "sha256": "ca77d2275337c9ea607bb9106aeefd97d06526dc29844f58e4ac4f139c61f80d"
+      "bytes": 218,
+      "sha256": "1173f29b41492a6e6aedb66a13dfc2551d730dded61d4302b0848f1e6e71489d"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/cultivation-decision.md",
-      "bytes": 580,
-      "sha256": "f31d9bc14a4ba989bc4393719bda547b018f4b2958473c9d95d21cad82531641"
+      "bytes": 566,
+      "sha256": "4f021476b0c6f8db8dbe543596235d8493cd9aff4db9a3b8231d7321e7754d3c"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/drying-log.csv",
-      "bytes": 214,
-      "sha256": "9478538f0bea1c66d043b44575d1551a625a8adbcc1cbd86d135f31ea25f7bdd"
+      "bytes": 213,
+      "sha256": "eb92568f4362e0a9cedd592a07517e32aec1e94419661bf9465f8835558059ee"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/facility-profile.md",
-      "bytes": 1002,
-      "sha256": "271193807e98e6f3e0b5646d2d206a41a5ee431c5d034c5873905541b27faae7"
+      "bytes": 979,
+      "sha256": "e8f314ec15446b8c0b6b5e44b0d603c19cfd8b937f02c6d8e3d145b33a4388db"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/harvest-readiness.md",
-      "bytes": 736,
-      "sha256": "9a39f34eef45aa342b687dcca2d3171d98d83f878826107cc90a0d4085863bfb"
+      "bytes": 712,
+      "sha256": "2e51f42c90221cc2c180e9469517e8378ffc3d36a42499c9da3c8f69c72c642c"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/incident-report.md",
-      "bytes": 1107,
-      "sha256": "9759bb682cbefc05a5f4358f3b9673a1229d7d17963ce25eaf744809be0d12a4"
+      "bytes": 1073,
+      "sha256": "c8f1e341c5341402d3aafefa867dbc0fe9bf23c6dd0ce0d737a2c3dc40ece36d"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/risk-register.csv",
-      "bytes": 191,
-      "sha256": "431e1722e0f4bd1190d0127d3cb6bcfce457b059f19d5f6e532ac2920bdbf0dd"
+      "bytes": 190,
+      "sha256": "53a949010e01ea2549097d72a63c93242caa27b7f42fa5b20299bfac1a4764fa"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/room-runbook.md",
-      "bytes": 826,
-      "sha256": "ca5abcd4ffaf5a16f94ef6a432bc3a7e63b642c6b6a143ef4f788ead6f66a3b5"
+      "bytes": 798,
+      "sha256": "e944def478ee04b84309254dccf6f6b27b82398f6e09d251de37fa57f10143f6"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/assets/shift-handoff.md",
-      "bytes": 593,
-      "sha256": "26bc96deb326b0512996a28169a984ab2634b3ab11c2065790c4c851a9cb617e"
+      "bytes": 574,
+      "sha256": "d2eb9a6fcc1a8eb4028fddcce456f1ea61897d03f16c3952322490f229df8532"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/ATTRIBUTION.md",
-      "bytes": 647,
-      "sha256": "1d4d33905728e65a80dbc6b3e0c0167a2040572acda950f05a83192997dc82a8"
+      "bytes": 638,
+      "sha256": "e1a7f03f6f5a8411eee458d956d6f042cfcdb5c602ee053f57ca9c1eef21a8d5"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/CHANGELOG.md",
-      "bytes": 2085,
-      "sha256": "c32a70a57fe9d4f548899f82d1fe3214941f0150f10c372a99ae59d9a611cd50"
+      "bytes": 2443,
+      "sha256": "d7bd0fcdb0827df28caad1b606b9d0b68bdbbf3ba90b9d1350160c69a3a26317"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/evals/authority-and-resilience-cases.yaml",
-      "bytes": 5400,
-      "sha256": "35488f294fe7a7eb5176d90bbc1fae3c871a1b6be2df00c680ddd8967e68bf5b"
+      "bytes": 5401,
+      "sha256": "f54698d3e807a22828568b11dcc54f98b961feeb56ae0bcc4985554ba2e5e9e6"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/evals/core-transfer-cases.yaml",
-      "bytes": 6702,
-      "sha256": "eff090607a080978892fd38fa3dba608f51b3fd0800cf4973df060124359b3a4"
+      "bytes": 6703,
+      "sha256": "e7e99cef2c39ebea154422175aafeed958b87e3611927e8cd8488a90ddcde43c"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/evals/eval-manifest.yaml",
-      "bytes": 690,
-      "sha256": "5367655cfeadd29db45bc990ef8120f55ae5f24fe6b864950b9d2d836cae2516"
+      "bytes": 691,
+      "sha256": "5f2b63c17b3160959916eb31dacd0b616892e450d600276e857cb9feebffdc01"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/examples/harvest-readiness-review.md",
-      "bytes": 1179,
-      "sha256": "faf586a04031037c51421aaccf4b0ef34eb306057ca114753e8b335d0de5e072"
+      "bytes": 1165,
+      "sha256": "1fe00154fe3c3e0a015576cc647c231f9508ee2bb12e6dbd0fff0d9f73993454"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/examples/high-runoff-ec-diagnosis.md",
-      "bytes": 1378,
-      "sha256": "0b6380b81b0abc774f5f08f2e27903d65ec47a77e8786e8109185e1cbff1db4d"
+      "bytes": 1361,
+      "sha256": "e6b469bb0eae155981d1ebc1110a4cabf39d240b8deb600a44c4783f34f5c831"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/examples/late-flower-humidity-incident.md",
-      "bytes": 1972,
-      "sha256": "294870aa86b43ec14f78b65ffae785b32838ad45ba4447983bed6ebb5da514af"
+      "bytes": 1952,
+      "sha256": "1a30d9f97b3df51e4de3d14cd3bffd1f1c1d5edd3d894f6f4d50ff0e4c59f5f4"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/examples/new-room-crop-plan.md",
-      "bytes": 1419,
-      "sha256": "8bcac50ebd09192f16dbacaaabd52969d175542c6ff67ef5c0a6f168c76d1d77"
+      "bytes": 1408,
+      "sha256": "c65a8db3853184386810faff8b6b4ae58b9c562b9fb8d420e1e1f850ec454711"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/jurisdiction-packs/README.md",
-      "bytes": 517,
-      "sha256": "8af383f939079c7f5e1f5ef326815d7cb06676783e02bffa5fa433bda943455a"
+      "bytes": 512,
+      "sha256": "4d7c686ba738cfe3b8ff110f88fceb981c63775984cb72fc3f8fdc7ad8670f7b"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/LICENSE.md",
-      "bytes": 2846,
-      "sha256": "b922cef322a04638a36284535f532cadb6c779d88d71d3d35e67d807850d6d8d"
+      "bytes": 2817,
+      "sha256": "77882dd576eae0231ea08546d48022591a416c2377ab0cc984b84ac9841d2615"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/NOTICE.md",
-      "bytes": 585,
-      "sha256": "98e40efadb9c734c762520adad3deb27f7110dfc20cdd50113e889be6bd3ba97"
+      "bytes": 580,
+      "sha256": "30d8d5d6ac0b7369a265ffe0d9e1aa22d4745a63f48de646c4448d1017bebe22"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/personas/ella-greenfield-v2.md",
@@ -652,203 +687,203 @@
     },
     {
       "path": "plugins/canopyops/skills/canopyops/README.md",
-      "bytes": 2243,
-      "sha256": "b5fd7c78ac431a2d78b576d3107eb31c2fa1ebc3a7bcdd788b20f32cea6858c5"
+      "bytes": 2214,
+      "sha256": "2e00e6ba2e6e8e056c8adbb714bb81bb9b4ee8b9061ee66218fca7be4c4102d7"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/agronomy-core.md",
-      "bytes": 2280,
-      "sha256": "001202a0764ebc7be0248f498001d39748c167e9a979dafb74c4bd5c04328787"
+      "bytes": 2255,
+      "sha256": "67ba0885e6bb07955a5c54020d539075d15459d3461c025f5076594380cf35a6"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/compliance-verification-method.md",
-      "bytes": 1814,
-      "sha256": "7aa320e65f4b673a132ca5e328b7efe3813163f58ea9234c37cf75501d0062bf"
+      "bytes": 1786,
+      "sha256": "d5e88d844af9595a7c88ced2f7a56e9088e7450c3f2b5ee323c97933d8de59a6"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/cultivar-and-gxe.md",
-      "bytes": 1677,
-      "sha256": "04bc76b0179b779ecab94f5d4e011dee14f169835f140166397568e31c84418f"
+      "bytes": 1651,
+      "sha256": "2bdddfb9f8682beb2e46b6dae239f54530439767aa05b16d98d15fdcb630595e"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/diagnostic-field-guide.md",
-      "bytes": 1776,
-      "sha256": "6cefaeeadb44e3de555a103684a1c19fd93a0a2e344c52c94ff41940dfecc1df"
+      "bytes": 1751,
+      "sha256": "3fa16cc34d5a8ff55c1ebfae5f72c17ec0453c54cd648a9f700d1286a5277411"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/economics-sustainability.md",
-      "bytes": 1049,
-      "sha256": "cd7c8104da22089d22c0a8591afb74c801556d5416ce2e1707e71b71d408e879"
+      "bytes": 1035,
+      "sha256": "2eddec5047868c0202678d8999e1b294d1c66157004ccdf3a7ef7f27279aa170"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/environment-lighting-vpd.md",
-      "bytes": 1720,
-      "sha256": "3e2be73cea3cec8a5a77a7f4c702cc0dd1576e4f014eda687a4ed95310adeba1"
+      "bytes": 1689,
+      "sha256": "7bcd7a9d16a855884de068911362bc5bc6001f8b65caa575a91e53c78bc0b3ed"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/glossary.md",
-      "bytes": 1810,
-      "sha256": "2ee2213657450a6561201e48e62dd99ffa2d8f39aafeaabd0f14b8a514e956b5"
+      "bytes": 1792,
+      "sha256": "524b77a70c9882d38f21e28ab71354ba01aa2e2a5ac6b36b57fa55ff790bb086"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/harvest-postharvest.md",
-      "bytes": 1643,
-      "sha256": "a7c1c6229d7a905391e671889e35796ff18a0ca61b7d043016e8851e484abc60"
+      "bytes": 1624,
+      "sha256": "7f26d70cbd7df28bca2b77531a405adc038ddb41b3c555791e856893ebbdc506"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/ipm-biosecurity.md",
-      "bytes": 1734,
-      "sha256": "f9d373fe70d59faba55fd28649a47b15e60119e0a7dbd51e0625edaf5ccedfed"
+      "bytes": 1713,
+      "sha256": "4c5cc08bfa54f0facb0267fe4efed086ad2090f56f3ca11caef24a603b1fe1f3"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/rootzone-fertigation.md",
-      "bytes": 2031,
-      "sha256": "b30c2954266a11a513819b01c6085b6597508718a6fccdfd83e743d3248b7624"
+      "bytes": 2005,
+      "sha256": "cb91aef072363e0f3f9237b596da4a82dc9876ea9c04fb067488f54cc0fc9c05"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/safety-operations.md",
-      "bytes": 2012,
-      "sha256": "e5ef4c19123413b65de9501eb4dc92211f4f6d0961084f0bc2f6ea5a503f1cfb"
+      "bytes": 1986,
+      "sha256": "a383cda88612d48c4812ec3886ab8531dc0e111d4a53c044d4b4601aeda76bba"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/source-provenance.md",
-      "bytes": 2551,
-      "sha256": "cc34a2c2c1ae5773f862225d919925693305387a7eacf68f3c6578e9aac69e28"
+      "bytes": 2528,
+      "sha256": "1e9bc7d49c504e12408000f44bd427f59ad933a4af13b1b746ce510423d4a69e"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/references/source-quality-policy.md",
-      "bytes": 1796,
-      "sha256": "4a03eeb74ca98e934338cfaa7cd5416e3a4afe049b1579870791a985bc3f6cb1"
+      "bytes": 1770,
+      "sha256": "aeaec62d3c96ec2f51cb3416b823d66dd86d71d18e4f3def635760e038cfa10a"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/schemas/compliance-record.schema.json",
-      "bytes": 1237,
-      "sha256": "450bc99b4a31968d26e2c263661b77d3c33206cfc3dfbad43b95affad60ee1b7"
+      "bytes": 1218,
+      "sha256": "197d3800b10583ba259033677014c26b48ef73ff0e21d6faa54f9f05e6eaf43a"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/schemas/crop-plan.schema.json",
-      "bytes": 1252,
-      "sha256": "2bdf29ac9e52fcd11e092d1ef6765909bfd638cff45724c2c01f013178cefc6a"
+      "bytes": 1233,
+      "sha256": "1c67236c9362d780bd17a805602c78b3cfa5091e388ad689388b62140e37b83f"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/schemas/crop-profile.schema.json",
-      "bytes": 1175,
-      "sha256": "e6edbe03b5213dd81a49df16acf726924b67b08a7ab03e010e19a160e428f0d7"
+      "bytes": 1157,
+      "sha256": "8a7805c931e140035750526ec631d2bf76a40e1c8f99169495bb6b6fae6169f0"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/schemas/cultivation-decision.schema.json",
-      "bytes": 1054,
-      "sha256": "d320518e9067f8366e1ba3e20113f4267cba6f2cbeeceb6782cbc9bbbba29f8b"
+      "bytes": 1034,
+      "sha256": "d652b488856c2b580d66c51c06689b781cdcfee562c8ffc47a22ceb131d8dbfe"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/schemas/facility-profile.schema.json",
-      "bytes": 1068,
-      "sha256": "f77b48bba6e30b7f689c33288558f531b42d628bbeb3a4349ae59e5d4f09fec1"
+      "bytes": 1050,
+      "sha256": "018d9b652d6ece3761e228003d75b9e4ad039b940c4e6beca9cfc447799ad4bc"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/schemas/incident-report.schema.json",
-      "bytes": 1391,
-      "sha256": "52678ad144849cf7737ab0a4a3fe24f04f12f787c4c8b3deaa0bac6d64159d28"
+      "bytes": 1372,
+      "sha256": "bf2a50af3220fd432549839a325d77d08ea475a82692fe5746a9b581185780a4"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/build_release_manifest.py",
-      "bytes": 1569,
-      "sha256": "99167b6eced8a0af60104b38c44b3074e09a09c07621cec8caa10a6b0aa4f915"
+      "bytes": 1637,
+      "sha256": "9755de060c5977ffbfd160a586f6a86260f2e1b0cfd9c04b518ebbed3919bdda"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/calculate_dli.py",
-      "bytes": 1223,
-      "sha256": "09e6e0d5dc1e71b8f3e5eb17b06e064b2149790b5d6ca8128ff4517c871fa5ae"
+      "bytes": 1191,
+      "sha256": "d2ebf64b2a008df553ca3bd6052c9cdee8fe8eeabcfce78e219af486f0248407"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/calculate_irrigation.py",
-      "bytes": 1797,
-      "sha256": "a4bba5a3344bf841287f69905cdaad3ecde7b8798fcf911ebe942c8bd8f36019"
+      "bytes": 1757,
+      "sha256": "d70d750df0fa94e573b6a0597f750be67cae76eede33e241a694f0663640dc7e"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/calculate_vpd.py",
-      "bytes": 1973,
-      "sha256": "0477b6a712d18bd1f23b9de93e37c4b2e04906bcd9710accfe286bd5860dde86"
+      "bytes": 1925,
+      "sha256": "f0df57549ff4636090ea8e046023c169262cd11c53141a0d341bb1eef75c6f9a"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/check_source_freshness.py",
-      "bytes": 1682,
-      "sha256": "b3d9a6b3f2e3bc104303ba0649eb0312cb90a3bfbc676d8a13850e377e12e212"
+      "bytes": 1643,
+      "sha256": "057e3f500752eb19145a084204e92f47c57dd13f144a9ee16a87ee44e944d544"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/lint_cultivation_plan.py",
-      "bytes": 1643,
-      "sha256": "3d97519818dd45fb5ee2399b682e00b3c0425e79bb3661f56c57c1d7ce3e2c8b"
+      "bytes": 1600,
+      "sha256": "0ccb751ded87a63e6e511441b93123cb5086c5338630388012e53350641257cf"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/normalize_logs.py",
-      "bytes": 2339,
-      "sha256": "aa50125bf57589ca77a634b8b5076c6946a0bb711fc9ceb3699249b4bc0b81c5"
+      "bytes": 2280,
+      "sha256": "d2970b4d790020af33168013714ae621a5ef96c2d2a586ff73b3b7cc4ccd7afc"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/normalize_units.py",
-      "bytes": 1640,
-      "sha256": "8abb612e7f0cb32f5065b40f283692f8367e187be3bc77630199199fea01b3a9"
+      "bytes": 1599,
+      "sha256": "7fd0b3707596c0be730e0f9f3e7f250ebd6552070a7d83229f58915cc15fa3c7"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/package_deliverables.py",
-      "bytes": 1318,
-      "sha256": "127be7df24be4b7a353eded914d8c289877cf38386aa5f67c13395783ee5c26b"
+      "bytes": 1284,
+      "sha256": "67d47b2416d2683b0f334e9504a5285a458304ad62c931b0d86ac016537a5135"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/README.md",
-      "bytes": 1020,
-      "sha256": "691a3aabb8b039bfdf3fa03bf5d311b64a9b2a948b4b21cd3e032e5a9297e427"
+      "bytes": 1005,
+      "sha256": "0d325526cc6f8ba713002d5b5cbfba9dc0992d5d3f63102c1d1799833db6d434"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/validate_record.py",
-      "bytes": 2791,
-      "sha256": "649d8a5e6874273e5c9a7edb2809931b4ad67f2e5c728f1b76665f0e8cf62c97"
+      "bytes": 2727,
+      "sha256": "d4f6cc7fdc8e463a762296bb2b864663c3609833103aee05d1edc193945f56fa"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/SKILL.md",
-      "bytes": 4535,
-      "sha256": "cbf78b2f11df3d034015ea218053a79a982ee3a256da02a268c5dce555d507d4"
+      "bytes": 4492,
+      "sha256": "4c1e10f54abaeded6c1f9a534befeebe35d183b40ff6d1043661027bb3d8ad1e"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/TRADEMARKS.md",
-      "bytes": 1022,
-      "sha256": "4ba8b530fba4595d9e37d800e5fd991e18d25830fa7f034cb6a9f364ea1144e4"
+      "bytes": 1013,
+      "sha256": "7cc4fe4c698dc9ecef7b366d82a0da4e370c9728c572b041aa7ed8c7e7951025"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/workflows/compliance-and-operations.md",
-      "bytes": 1649,
-      "sha256": "7563d2c6405e9b0518c8c96b747f0a8573ab119aa7dcf889d62c13f8f1ea2250"
+      "bytes": 1635,
+      "sha256": "7b16e96651cd569eb03c6ce08a76a685fbf1c31f927f52c96bb8b2e12ba4a9cf"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/workflows/crop-planning.md",
-      "bytes": 1730,
-      "sha256": "f734cb28c1473b49ae464716991442e9c82a68058158895994d4750d0b99e2b3"
+      "bytes": 1716,
+      "sha256": "5bd07b57bee6d7fe4525e226faf338cd34c0921157011c1a65c2431c4f16f344"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/workflows/diagnostics-and-incidents.md",
-      "bytes": 1828,
-      "sha256": "889e2bb6bc326b95b0e8e68d95a5e76c72f5405d59dc4363d0866391ab8848ab"
+      "bytes": 1814,
+      "sha256": "1d50d33314814c4471d9d209387f82c7d892ed4ad19cfb77cde0cc3cf6244fa0"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/workflows/environment-and-rootzone.md",
-      "bytes": 1940,
-      "sha256": "7b8b054cf4cc13754b90439cc56948bf58cb5c96a07994a3da6be2f27c3bfe49"
+      "bytes": 1926,
+      "sha256": "c7ff2ccfd5e52f5a1c4629f43e63492f94fe9349e242dd3d16a82329d70edf02"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/workflows/harvest-and-quality.md",
-      "bytes": 1583,
-      "sha256": "b744973ae6386db33dc5795e160460cbf4080d7196f2b4f6624ebe9431d14943"
+      "bytes": 1570,
+      "sha256": "a1fa25d8b30acf331dd24bf3057b9c71821f2eefaa21b922ace9eb340a1d6072"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/workflows/review-and-release.md",
-      "bytes": 1880,
-      "sha256": "06e6e6ccbc0a983c141d051402a4d975c14fa3f6724de6c9af52aa7daf019dbc"
+      "bytes": 1853,
+      "sha256": "5dcd91a52ab3e612b01476de4efa83ff3ec076dc6b4a969c6fe6733464cbce29"
     },
     {
       "path": "README.md",
-      "bytes": 8503,
-      "sha256": "67e346941914640bdbe9a64c0dd36a66447c4fe1f5747b32343126d710e21384"
+      "bytes": 8769,
+      "sha256": "df17e6d08f7d2c169ba8b1cc8c38e2dfd57aec43cf218a3862262c13e4c18ee1"
     },
     {
       "path": "RELEASE-NOTES-v0.1.2.md",
@@ -857,38 +892,43 @@
     },
     {
       "path": "RELEASE-NOTES-v0.1.3.md",
-      "bytes": 1695,
-      "sha256": "897a4774a0e9c42923ee9cc052fae249156e87ffe15a853f35caa010c8fdb729"
+      "bytes": 1668,
+      "sha256": "cf83ac70a70685034fb6ffb81a30938091a5577a8d2c8756d4f53563c3504d8a"
     },
     {
       "path": "RELEASE-NOTES-v0.1.4.md",
-      "bytes": 2307,
-      "sha256": "d606ea4c215e1211011b6bc0ce57cedf80cc3265b9ae4ac97c45dda1ef07b9df"
+      "bytes": 2337,
+      "sha256": "f52513f784125af79f6ff23ae13ece70ad1eb317850c8eac22176b15ebd50b2c"
+    },
+    {
+      "path": "RELEASE-NOTES-v0.1.5.md",
+      "bytes": 1365,
+      "sha256": "961abb05f63f25c60a53542921feb865139a4d000e9c60580753854acc3134a6"
     },
     {
       "path": "SAFETY-AND-SCOPE.md",
-      "bytes": 4478,
-      "sha256": "1fe4020babf6788b7bbe8328d7046b5b2471ca9064d33da15a13538460e4e6a9"
+      "bytes": 4398,
+      "sha256": "a76cd631a26876da3e99d165dca30abdf719e11be88f6c8acb4947033f8725cf"
     },
     {
       "path": "SECURITY.md",
-      "bytes": 1949,
-      "sha256": "b0eb3820bb5b052666e8e818c60e6fddbcd815bfbfd54f57c5a92593ad057ab6"
+      "bytes": 1951,
+      "sha256": "0e32e3683b979a6cef2407c24835ad2f9535d242eb87faa027b22ce17335af66"
     },
     {
       "path": "START-HERE.md",
-      "bytes": 4189,
-      "sha256": "eaab509702ac55e9f8ae0ade68a49c85e31ebc8b4a0f4b398bc90671e150a9ce"
+      "bytes": 4116,
+      "sha256": "1bc19eedc0a4cd04b6071007de37816b2e5e47294227d1f3d1ef87ac993879b2"
     },
     {
       "path": "SUPPORT.md",
-      "bytes": 2488,
-      "sha256": "3c93d8b94340d84e41e47ad20675486ac97e20e0d5badd06ee38cb9478d63f5e"
+      "bytes": 2448,
+      "sha256": "d02dfd1fd7d8b717090e9364121a50ab59881b8aa11d1bc0fa595a566bfa824c"
     },
     {
       "path": "TERMS-OF-USE.md",
-      "bytes": 4055,
-      "sha256": "ea167b5398ed5ade22dc7ba2a9b377a8d3d6d7303ddab27684803b5b0d477eaf"
+      "bytes": 3997,
+      "sha256": "d3c863607730c02f51c93334f7774dbe99b6afa4001e1814aa5fc3eade1f74b4"
     },
     {
       "path": "tests/fixtures/valid-crop-plan.json",
@@ -897,18 +937,423 @@
     },
     {
       "path": "tests/test_scripts.py",
-      "bytes": 6653,
-      "sha256": "78edbbd197937d2e0fbaf65d07f79e0404ec3b971176cf1790d14e557e3ce403"
+      "bytes": 8173,
+      "sha256": "66fd9c4f43a843709c9d9e8812d17250633064de2e3e52004c4dac25638446f7"
     },
     {
       "path": "TRADEMARKS.md",
-      "bytes": 1022,
-      "sha256": "4ba8b530fba4595d9e37d800e5fd991e18d25830fa7f034cb6a9f364ea1144e4"
+      "bytes": 1013,
+      "sha256": "7cc4fe4c698dc9ecef7b366d82a0da4e370c9728c572b041aa7ed8c7e7951025"
     },
     {
       "path": "VERIFICATION-v0.1.4.md",
-      "bytes": 3405,
-      "sha256": "376f0a1fc0b309a1cb18570445b1030b8d1e28b53c989811a15906260d94fde3"
+      "bytes": 3444,
+      "sha256": "f25b8ea519c6a709f340dddb7910127436448488e3fe1ee1f1e29fd01843af9a"
+    },
+    {
+      "path": "VERIFICATION-v0.1.5.md",
+      "bytes": 4038,
+      "sha256": "6ecf90f691d8522833ac652cf98dcd4b289a7e01859a0b23e492e46490571b4f"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/api-response.json",
+      "bytes": 17862,
+      "sha256": "b0b3646e4ccdd03fc7287eef3adcd190eb6ca0a163f9bcb15694e1f28e212789"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/execution.json",
+      "bytes": 718,
+      "sha256": "33418556c7e08176eaf4ad5ed4479c9578f006dc416fd2722fc0b67ef6a56640"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/review-input-custody.json",
+      "bytes": 5217,
+      "sha256": "be204b77bb4fd4280e76093afd44392c7e28a3ba7bd46552606a2674bbff0fa6"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/review-request.md",
+      "bytes": 1735,
+      "sha256": "bfc447f98cc10e05b85781ea54b0f6b6d18edeb1a0fee9e07dcf61186ef64694"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/review-response.md",
+      "bytes": 3649,
+      "sha256": "435a386e5626cd99f895c8612224d3d288849090f8d56d2caea792105d11f80e"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/shape-validation.json",
+      "bytes": 488,
+      "sha256": "ea910bb295b0e348f79caa489a67f200590762716e64043b97ffaa79a4e29108"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run10/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/api-response.json",
+      "bytes": 4686,
+      "sha256": "fc28da0cc12619a094c43a93c9748b76f7a13e8e73882d1488295eccb2863769"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/execution.json",
+      "bytes": 766,
+      "sha256": "79f5dfafb5d689fd9fceaa50454bbbfcaa9ccf295de4c0e6fc1a95747e297209"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/review-input-custody.json",
+      "bytes": 5220,
+      "sha256": "f16db85ddfa02ff62df336246a0a7f9b7e215baec341ebf51fe8aba34c8db381"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/review-response.raw.json",
+      "bytes": 4067,
+      "sha256": "09800a12d8bcedc7ce0b5ece516c44ef622ad6a2d39391c6484e7ec63109e469"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/structured-validation.json",
+      "bytes": 322,
+      "sha256": "77cb238d147dd9c3fdd3871f206d30f7608081b6f4bc5c2e447f7c43fa4563fe"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run12/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/api-response.json",
+      "bytes": 5055,
+      "sha256": "687d9cf5ea924c500f2784dd213133c78873db39e251440e09380ba913e5470f"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/execution.json",
+      "bytes": 766,
+      "sha256": "6b951dfce04cdb485ded31e45f053eb7b0502dca041ff36e97436929096ad553"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/review-input-custody.json",
+      "bytes": 5220,
+      "sha256": "aa7725c1c655cf3afc0e61be081039467708f4204f4fbdcbf6ed3338bb9d78cc"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/review-response.raw.json",
+      "bytes": 4448,
+      "sha256": "dc91e34f44f2d06cc7be33d5b076918155eaf21fe36927c55c671f44ffe06a7e"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/structured-validation.json",
+      "bytes": 322,
+      "sha256": "f8a0180df2273fd57815cd8877c4dafabfddb60a65d0b66ad3cd6254a5594749"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/api-response.json",
+      "bytes": 6299,
+      "sha256": "c81821a71faab9ef96fe6b3b5ade46512669bbeec14e17214798d52bd7b2ec09"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/execution.json",
+      "bytes": 766,
+      "sha256": "948b899eaee26048c2be4bd77edebc9b7888492b0ba40c2b992b4df832699ee6"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/review-input-custody.json",
+      "bytes": 5220,
+      "sha256": "2cc11fc453d5c9b7fb2ac443c20de3d9f33764214ed544cb813de3dab739b1f0"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/review-response.raw.json",
+      "bytes": 5671,
+      "sha256": "5f04fd439333e60df4cfef5f29a81a90498ac38d1d832239e623b34254d7c7f1"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/structured-validation.json",
+      "bytes": 541,
+      "sha256": "e6b647e0bfe00a7b749df4f3c91465cdf9d29254762e29f709039774ae7d8dfe"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/api-response.json",
+      "bytes": 4104,
+      "sha256": "869020c3acd94e579c5b0bb8247018cd3e247b37736d399304f27e08842d0cac"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/execution.json",
+      "bytes": 1299,
+      "sha256": "6578768db487f111bc9acd5a0cb9f0efd7928b58b7b64caf49a0dc93719b13ee"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-input-custody.json",
+      "bytes": 5220,
+      "sha256": "0386acc34c516d525a4eaa1b06af9f793a5c06679e67ba029edd07991d307d6f"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-input-evidence.json",
+      "bytes": 1688,
+      "sha256": "50f626cf17583c40954b73df54817141e5a4d8ebcd14f109b26c38fc0525fce3"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-request.md",
+      "bytes": 2861,
+      "sha256": "b32038d4feb6549fa9416881a39ebd80ceab4ea34db025589ad8b11f65db3ea3"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-response.md",
+      "bytes": 5031,
+      "sha256": "59d55f503d913600fd847bc20625d3a8a7b604e01f2ed8ec000e2338ec72a801"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-response.raw.json",
+      "bytes": 3582,
+      "sha256": "714e33caf9e79dfa60052beedf416ee19118378fb0bcd94a9fede56e4fcf1b0a"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/structured-validation.json",
+      "bytes": 229,
+      "sha256": "6b58fd2315184eec48cbff436cb94dfe6cf07dd84c95218ea343f14dca037b5f"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/api-response.json",
+      "bytes": 15773,
+      "sha256": "8bc1fab6fdc13bfbc6af20c45f19a1f15b33f75dfa5817177eebb4ce67aced9d"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/execution.json",
+      "bytes": 718,
+      "sha256": "af7ddc90d1952ae027827a49a2b2d7a9bd3e8bf4a7c78f6c6446629cf46d59e4"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/review-input-custody.json",
+      "bytes": 5217,
+      "sha256": "0a2f49b060cc6f5c2e7fb4c603ce495f76a87d54a1dcad195e96ec7719813a6b"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/review-request.md",
+      "bytes": 1735,
+      "sha256": "bfc447f98cc10e05b85781ea54b0f6b6d18edeb1a0fee9e07dcf61186ef64694"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/review-response.md",
+      "bytes": 3701,
+      "sha256": "d3485b517a64ab8b22cda9cd223978ac8504ebe2721c2bc070143bdbf60e6601"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/shape-validation.json",
+      "bytes": 127,
+      "sha256": "c62cabd9df37d02906978982e1885d78a6791ffe98b0ab46a9aae5714db7beac"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/api-response.json",
+      "bytes": 18519,
+      "sha256": "bda9ff2f3dda585eddfb46738b4ba79d1da0ec194be852558d125099d37e9b79"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/execution.json",
+      "bytes": 718,
+      "sha256": "bd908a29a22af96372538e8e2c57a3201349c7170a17b4c7a25c21f2825ad877"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/review-input-custody.json",
+      "bytes": 5217,
+      "sha256": "a344adc7075bee4c3ce84f28b8fea6445bcdc3b5139864a2dcb7692f47422d69"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/review-request.md",
+      "bytes": 1735,
+      "sha256": "bfc447f98cc10e05b85781ea54b0f6b6d18edeb1a0fee9e07dcf61186ef64694"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/review-response.md",
+      "bytes": 4121,
+      "sha256": "352fed372b1ecdbd6925de31b03e6204fca8558f4e80ded6ac95d52b7955698c"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/shape-validation.json",
+      "bytes": 333,
+      "sha256": "b974fa43ac2e1bbe33be5c3dd563acfa6aad0bef5a4aa5a3dadaefadee4454e8"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/api-response.json",
+      "bytes": 35472,
+      "sha256": "22c759946899c5a19c1cc0b4df46d7d6b4beba790e2a2ea104d917b3bf734e8e"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/execution.json",
+      "bytes": 718,
+      "sha256": "8f2a6958f5115bdd05ec84bf555c9e58571c7ce1951b29a9878e912d21b35d32"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/review-input-custody.json",
+      "bytes": 5217,
+      "sha256": "3644ef30fc254b989c132d102a6a43dd26471a6b2238c6fc0dda381b61f23b79"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/review-request.md",
+      "bytes": 1735,
+      "sha256": "bfc447f98cc10e05b85781ea54b0f6b6d18edeb1a0fee9e07dcf61186ef64694"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/review-response.md",
+      "bytes": 4269,
+      "sha256": "72ec33b58d86a121e212526593d5bab54f71ec9be7b082351f2d4cfe3e0a95da"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/shape-validation.json",
+      "bytes": 127,
+      "sha256": "c62cabd9df37d02906978982e1885d78a6791ffe98b0ab46a9aae5714db7beac"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/api-response.json",
+      "bytes": 33981,
+      "sha256": "92629a15308191d4788d1237812d46e9fde645784c333559f1410813319ea98c"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/execution.json",
+      "bytes": 718,
+      "sha256": "29d642561678d0a2a0e37de1f986a179bb8af6f9d5bd68af6ca3431f517d11d7"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/review-input-custody.json",
+      "bytes": 5219,
+      "sha256": "11c0da360b924f7b784c56bf848a119390827de5e045285f7157d5b266829a09"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/review-request.md",
+      "bytes": 1735,
+      "sha256": "bfc447f98cc10e05b85781ea54b0f6b6d18edeb1a0fee9e07dcf61186ef64694"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/review-response.md",
+      "bytes": 4643,
+      "sha256": "db8195c95e5bbf3679fa8b3fc6ad0e95a2bddc5844eddad0126a5f3131abdf39"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/shape-validation.json",
+      "bytes": 387,
+      "sha256": "c4c268269a20c3ba422a4c216aaf7c76efe9d5b0b280b6036a2e27bcd9e29c5a"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/api-response.json",
+      "bytes": 36935,
+      "sha256": "209834bf8a06297fb82395faf1a391257056c4c29997f905e4c0ffed8957c0b1"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/execution.json",
+      "bytes": 718,
+      "sha256": "9d2a092390ffa6959c7342851237a3f1e0a911b9190d5531eb5312952a5c426e"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/review-input-custody.json",
+      "bytes": 5219,
+      "sha256": "4a341251353738d762d0183dc12f652be6c4df979e0265f82d49ba5d10eb3a57"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/review-response.md",
+      "bytes": 3687,
+      "sha256": "fb39dcc43f89d87d2c9b0f82f40e71359d6f2ffc9b479a391333cc11d6928914"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/shape-validation.json",
+      "bytes": 164,
+      "sha256": "aff501608dee6723d93195d7e689f1c22a902c002bab99ded09197ddd0ed21cb"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/api-response.json",
+      "bytes": 197,
+      "sha256": "26e276217ae4cc15447d97e1d2ce816f8f31f687034f320bd90eb64445f52d38"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/execution.json",
+      "bytes": 762,
+      "sha256": "1cd24826c855118f481403449ad549db63b2b958c0091fac5fadc56acb1ba447"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/review-input-custody.json",
+      "bytes": 5219,
+      "sha256": "9cb96a596b54525806074d21c0c001a86a4d1e4dbb26da64254bb3fa02ec8d6e"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/review-response.raw.json",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/structured-validation.json",
+      "bytes": 955,
+      "sha256": "a9ce196277d0672c78104ab4a7ef0075668c4df5661fca631cfb866aaf631bf9"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/api-response.json",
+      "bytes": 5144,
+      "sha256": "1c3bdc377256497fcbf7ff45e0e1c99caf778f915a5474485531d01c7c6b6d1d"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/execution.json",
+      "bytes": 764,
+      "sha256": "6133591e602303682deb12133f9031affdfe01b84b3ebaa85543e0ef9a853ea9"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/review-input-custody.json",
+      "bytes": 5219,
+      "sha256": "3683d2dfced0174fd59f55743e5764a2318f2bc8d3ce9dba24be1a3640ea5a34"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/review-response.raw.json",
+      "bytes": 4512,
+      "sha256": "dcbb1387a07ee760b486b5845dc28c6f30c6dd37392573a9aecf4a902e9669e7"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/structured-validation.json",
+      "bytes": 472,
+      "sha256": "d842f913895301d7978704acab6446059fec2ec0ec77d437a0e40500bd4aae2e"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run9/review-request.md",
+      "bytes": 2536,
+      "sha256": "25e754084ec098852c87d5f26b1613ec8f56841cf7ff58e21a6fa082088e9017"
+    },
+    {
+      "path": "verification/evidence/hesperos-doc-review-v0.1.5/review-request.md",
+      "bytes": 2861,
+      "sha256": "b32038d4feb6549fa9416881a39ebd80ceab4ea34db025589ad8b11f65db3ea3"
+    },
+    {
+      "path": "verification/evidence/plugin-readiness-v0.1.5.json",
+      "bytes": 241,
+      "sha256": "1b00f1ad3b7273289c79892ea9511007a0097629ec1e396c3e1c3646d552605c"
+    },
+    {
+      "path": "verification/release-summary-v0.1.5.json",
+      "bytes": 3268,
+      "sha256": "ff356964628b17a9bc544a10103996c92f56a4c5a8307bd8dc665d29ad2ec5ff"
     }
   ]
 }

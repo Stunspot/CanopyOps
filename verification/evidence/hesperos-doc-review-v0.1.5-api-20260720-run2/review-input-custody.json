@@ -1,0 +1,112 @@
+{
+    "format":  "cd-documentation-review-input-custody/v1",
+    "run_id":  "hesperos-doc-review-v0.1.5-api-20260720-run2",
+    "manifest":  {
+                     "path":  "documentation-manifest.json",
+                     "sha256":  "3482f1ef6ecb84cbc8638ccbdde3602691290addfaff56c5ba27857f9337f169"
+                 },
+    "files":  [
+                  {
+                      "path":  "README.md",
+                      "sha256":  "99a17caa0aa0de0dd44c7cd487ed78e27bbd1ebab78fb657b070bec6d5b26fab",
+                      "bytes":  8549
+                  },
+                  {
+                      "path":  "START-HERE.md",
+                      "sha256":  "1bc19eedc0a4cd04b6071007de37816b2e5e47294227d1f3d1ef87ac993879b2",
+                      "bytes":  4116
+                  },
+                  {
+                      "path":  "INSTALL.md",
+                      "sha256":  "fffe828449dd227d5495bf3fdc16527ba7f45dd864e47547469cc408d999102f",
+                      "bytes":  5915
+                  },
+                  {
+                      "path":  "EXAMPLE-TOUR.md",
+                      "sha256":  "fcd57edda618e5944ebcd6ee5546d64c8e15fffcfe30fe46f89b670add911c39",
+                      "bytes":  3743
+                  },
+                  {
+                      "path":  "JUDGE-QUICKSTART.md",
+                      "sha256":  "4595b4fd2b5ff4a506373e9197cdaa9f90cb9d87ceb58610842dad9e9f5d786d",
+                      "bytes":  3820
+                  },
+                  {
+                      "path":  "FAQ.md",
+                      "sha256":  "f221f49c9d5c9b810c58059b93ccc7a743980ab63b4fffab33b9af93729ad116",
+                      "bytes":  4431
+                  },
+                  {
+                      "path":  "SAFETY-AND-SCOPE.md",
+                      "sha256":  "a76cd631a26876da3e99d165dca30abdf719e11be88f6c8acb4947033f8725cf",
+                      "bytes":  4398
+                  },
+                  {
+                      "path":  "DATA-AND-PRIVACY.md",
+                      "sha256":  "662ba51b26166a6943f47290c74b03507cefb02509e8c3106ac38f83e4f5183d",
+                      "bytes":  1215
+                  },
+                  {
+                      "path":  "TERMS-OF-USE.md",
+                      "sha256":  "d3c863607730c02f51c93334f7774dbe99b6afa4001e1814aa5fc3eade1f74b4",
+                      "bytes":  3997
+                  },
+                  {
+                      "path":  "SECURITY.md",
+                      "sha256":  "0e32e3683b979a6cef2407c24835ad2f9535d242eb87faa027b22ce17335af66",
+                      "bytes":  1951
+                  },
+                  {
+                      "path":  "SUPPORT.md",
+                      "sha256":  "d02dfd1fd7d8b717090e9364121a50ab59881b8aa11d1bc0fa595a566bfa824c",
+                      "bytes":  2448
+                  },
+                  {
+                      "path":  "ATTRIBUTION.md",
+                      "sha256":  "9f161b7d30a535e1975b38d5c3215e1d89618e3f4e1e2ccd174f499e92323fcf",
+                      "bytes":  655
+                  },
+                  {
+                      "path":  "LICENSE.md",
+                      "sha256":  "4d5822f7694b7b3b107d2468e88f931527363f3b5dcdbac8357d4fe04bb946d4",
+                      "bytes":  2858
+                  },
+                  {
+                      "path":  "TRADEMARKS.md",
+                      "sha256":  "7cc4fe4c698dc9ecef7b366d82a0da4e370c9728c572b041aa7ed8c7e7951025",
+                      "bytes":  1013
+                  },
+                  {
+                      "path":  "NOTICE.md",
+                      "sha256":  "30d8d5d6ac0b7369a265ffe0d9e1aa22d4745a63f48de646c4448d1017bebe22",
+                      "bytes":  580
+                  },
+                  {
+                      "path":  "CONTRIBUTING.md",
+                      "sha256":  "235423b4775a12cfb8d19071bbc7e07f30286ac3c5e198acf19366abe9ddc32f",
+                      "bytes":  2357
+                  },
+                  {
+                      "path":  "BUILD-WEEK.md",
+                      "sha256":  "c2c6850e8b6d183aaf7f0f3b89083f7ac7b6468bfc827a08b14947e85ed9b696",
+                      "bytes":  7450
+                  },
+                  {
+                      "path":  "RELEASE-NOTES-v0.1.5.md",
+                      "sha256":  "961abb05f63f25c60a53542921feb865139a4d000e9c60580753854acc3134a6",
+                      "bytes":  1365
+                  },
+                  {
+                      "path":  "VERIFICATION-v0.1.5.md",
+                      "sha256":  "96978e0348e18e2d2852216b1e33fc84fc09d0265c1d2db702ad424a9578334d",
+                      "bytes":  3697
+                  },
+                  {
+                      "path":  "ARCHIVE-CUSTODY.md",
+                      "sha256":  "575913e3ee6f91ce992c30704fd8d0bea2d98f4da8b5155d380b73a73d90dfe7",
+                      "bytes":  1578
+                  }
+              ],
+    "prompt_sha256":  "955fb0c74c4adf83249035aaa2b63d214884bf420c840b4b3725e05f2d0771e4",
+    "format_reminder_sha256":  "30ddbb1e19328187d8059d8428947358b69f474c47db22644057e4f384422dac"
+}

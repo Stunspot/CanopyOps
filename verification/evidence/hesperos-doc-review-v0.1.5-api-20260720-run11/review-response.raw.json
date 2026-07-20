@@ -1,0 +1,30 @@
+{
+  "material_findings_count": 2,
+  "findings": [
+    {
+      "affected_user_task": "Installation recovery",
+      "exact_evidence": "INSTALL.md: 'If an update overwrote records that were stored inside the skill directory... If no backup exists, preserve the remaining files and exact error state; do not invent or reconstruct operational records from memory.'",
+      "consequence": "Users may lose data if they attempt to recover without a verified external backup before reinstalling.",
+      "smallest_repair": "Add explicit instruction in INSTALL.md recovery section: 'Before updating, copy all facility and crop artifacts outside the skill directory or into an approved workspace backup.'",
+      "rerun": "Reinstall CanopyOps with updated installation instructions."
+    },
+    {
+      "affected_user_task": "Evidence limits verification",
+      "exact_evidence": "VERIFICATION-v0.1.5.md: 'This release does not establish... official OpenAI Plugins Directory appearance or accountable publication approval.' vs README.md: '[Verify CanopyOps](https://github.com/Stunspot/CanopyOps/actions/workflows/verify.yml/badge.svg)'",
+      "consequence": "Badge implies verification status that the documentation explicitly states is unverified for live-host behavior and official directory listing.",
+      "smallest_repair": "Update README.md badge link to point only to repository actions or remove it if not verified; clarify in VERIFICATION-v0.1.5.md that badges reflect static checks, not live approval.",
+      "rerun": "Rebuild release assets with corrected verification claims."
+    }
+  ],
+  "narratives": {
+    "orientation": "README.md and START-HERE.md explain the product's purpose as decision support for cannabis cultivation without claiming authority over legal or operational decisions. They guide users to begin with fictional data before using real facility information.",
+    "installation": "INSTALL.md describes four installation paths including Codex plugin, standalone skill, Claude.ai upload archive, and Claude Code integration while warning that live execution has not been recorded for v0.1.5.",
+    "first_value": "EXAMPLE-TOUR.md and JUDGE-QUICKSTART.md demonstrate bounded use cases like humidity incidents or harvest readiness reviews using fictional data to show how the system preserves uncertainty without claiming approval of actions.",
+    "normal_use": "FAQ.md answers questions about cannabis specificity, legal boundaries, Python requirements, and open source status while SAFETY-AND-SCOPE.md defines emergency procedures, pesticide authorization limits, and direct-control refusals clearly.",
+    "recovery": "SUPPORT.md directs users to use the right issue type for bugs or concerns rather than emergencies and warns against posting sensitive facility data in public issues without private reporting routes available first.",
+    "privacy_security": "DATA-AND-PRIVACY.md states no telemetry exists within CanopyOps itself, TERMS-OF-USE.md outlines lawful usage conditions including prohibition of concealed cultivation planning, and SECURITY.md describes vulnerability reporting procedures for the current release line only.",
+    "evidence_limits": "VERIFICATION-v0.1.5.md distinguishes between completed deterministic checks like test suite passes and unverified behaviors such as live Claude execution or official directory listing approval to prevent misinterpretation of static validation results.",
+    "support_maintenance": "RELEASE-NOTES-v0.1.5.md documents changes including icon updates while ARCHIVE-CUSTODY.md explains how different release artifacts maintain identical skill content without establishing host activation status through archive equality alone.",
+    "provenance": "ATTRIBUTION.md, LICENSE.md, TRADEMARKS.md, NOTICE.md, CONTRIBUTING.md, and BUILD-WEEK.md collectively establish authorship by Sam Walker under CC-BY-ND-4.0 for authored material with MIT licensing for scripts while clarifying trademark permissions remain limited to identifying the authentic release without endorsement claims."
+  }
+}

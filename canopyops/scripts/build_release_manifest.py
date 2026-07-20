@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 
-EXCLUDED_PARTS = {".git", "__pycache__", ".pytest_cache"}
+EXCLUDED_PARTS = {".git", "__pycache__", ".pytest_cache", "release-assets"}
 MANIFEST_NAME = "release-manifest.json"
 
 
@@ -30,7 +30,7 @@ def build_manifest(root: Path, version: str) -> dict:
         "format": "cd-public-release-manifest/v1",
         "product": "CanopyOps",
         "version": version,
-        "generated_on": "2026-07-18",
+        "generated_on": "2026-07-20",
         "hash_algorithm": "sha256",
         "files": files,
     }

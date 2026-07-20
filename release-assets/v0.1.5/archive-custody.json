@@ -1,0 +1,43 @@
+{
+  "schema_version": "cd-augment-archive-custody/v1",
+  "product": {
+    "name": "CanopyOps",
+    "version": "0.1.5"
+  },
+  "created_at": "2026-07-20T10:33:48.971858+00:00",
+  "artifacts": [
+    {
+      "top_level": "canopyops",
+      "source_tree_sha256": "a0a0fdec1abdd1e75009465b23b839d057c12a333eac25ec46368b2415caf48b",
+      "archive_sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
+      "bytes": 63280,
+      "member_count": 69,
+      "id": "augment",
+      "kind": "augment",
+      "source": "canopyops",
+      "archive_name": "CanopyOps-v0.1.5.zip"
+    },
+    {
+      "top_level": "canopyops-plugin",
+      "source_tree_sha256": "1e3928bf6117d8ba1b36b44fb29538dbab07fa15b448ba24620eb2db98263644",
+      "archive_sha256": "963f8ebf470a81d5d193e97b68166ef8ad1f7a98ef2eaa31756b9e5c6553eabd",
+      "bytes": 215070,
+      "member_count": 76,
+      "id": "plugin",
+      "kind": "plugin",
+      "source": "plugins/canopyops",
+      "archive_name": "Plugin-CanopyOps-v0.1.5.zip"
+    },
+    {
+      "top_level": "canopyops",
+      "source_tree_sha256": "a0a0fdec1abdd1e75009465b23b839d057c12a333eac25ec46368b2415caf48b",
+      "archive_sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
+      "bytes": 63280,
+      "member_count": 69,
+      "id": "skill-canopyops",
+      "kind": "standalone-skill",
+      "source": "canopyops",
+      "archive_name": "Skill-canopyops--CanopyOps-v0.1.5.zip"
+    }
+  ]
+}

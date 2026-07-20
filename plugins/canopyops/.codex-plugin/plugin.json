@@ -1,6 +1,6 @@
 {
   "name": "canopyops",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Evidence-bounded decision support for legal cannabis cultivation operations.",
   "author": {
     "name": "Collaborative Dynamics",
@@ -37,7 +37,7 @@
       "Review this batch for harvest readiness and document the decision."
     ],
     "brandColor": "#48CBE8",
-    "composerIcon": "./assets/canopyops-icon.png",
-    "logo": "./assets/canopyops-icon.png"
+    "composerIcon": "./assets/canopyops-icon-v0.1.5.png",
+    "logo": "./assets/canopyops-icon-v0.1.5.png"
   }
 }

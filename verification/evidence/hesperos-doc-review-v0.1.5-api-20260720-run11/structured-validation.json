@@ -1,0 +1,9 @@
+{
+    "format":  "cd-documentation-review-structured-validation/v1",
+    "valid":  false,
+    "errors":  [
+                   "material findings: 2",
+                   "findings array is not empty"
+               ],
+    "raw_response_sha256":  "09800a12d8bcedc7ce0b5ece516c44ef622ad6a2d39391c6484e7ec63109e469"
+}
