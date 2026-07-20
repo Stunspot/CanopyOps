@@ -47,8 +47,8 @@
     },
     {
       "path": "ARCHIVE-CUSTODY.md",
-      "bytes": 1578,
-      "sha256": "575913e3ee6f91ce992c30704fd8d0bea2d98f4da8b5155d380b73a73d90dfe7"
+      "bytes": 2044,
+      "sha256": "9afbdcaf1a3f55ef32d48bcbb7b19809d3acdc072a5ba2b5c038de066ec798b1"
     },
     {
       "path": "archive-plan.json",
@@ -62,8 +62,8 @@
     },
     {
       "path": "BUILD-WEEK.md",
-      "bytes": 7370,
-      "sha256": "fb80c0f8d1c512886df84dd104a490135788c12a9a1fa4d958bf41167b71f29a"
+      "bytes": 7411,
+      "sha256": "e382a2779408a82654efbbae3dd02c96682a4a57040dcde0b439ccc2ffd9efad"
     },
     {
       "path": "canopyops/adapters/bot-runtime.md",
@@ -432,8 +432,8 @@
     },
     {
       "path": "documentation-manifest.json",
-      "bytes": 1158,
-      "sha256": "57acb0e0ee188317d3f1d3065d8b69609a4915edb3d84e7b4b523844ff7b9085"
+      "bytes": 1244,
+      "sha256": "9e7c1f60ab4a03e8f02332759c98560bf9c7bbdba31b181e249fa91382715f31"
     },
     {
       "path": "documentation-review.json",
@@ -507,8 +507,8 @@
     },
     {
       "path": "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
-      "bytes": 8628,
-      "sha256": "6aaf39da14c57d076f543fe8c81737d6ec01027bd851e601e6d4fa69f33e9873"
+      "bytes": 10510,
+      "sha256": "df7266258539c96f080d33f5448b45ffbe6901432bee7099ea443f6f0b6c00f5"
     },
     {
       "path": "plugins/canopyops/.codex-plugin/plugin.json",
@@ -892,8 +892,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8662,
-      "sha256": "34d309563e950de94d2f557e70fd6646cc1b7db87283ff610939840a4b1faf1c"
+      "bytes": 9027,
+      "sha256": "62528a2575808fc71851d41ac2efda15d09174d0a28a02898bdfb435fd471b43"
     },
     {
       "path": "RELEASE-NOTES-v0.1.2.md",
@@ -912,8 +912,8 @@
     },
     {
       "path": "RELEASE-NOTES-v0.1.5.md",
-      "bytes": 1365,
-      "sha256": "961abb05f63f25c60a53542921feb865139a4d000e9c60580753854acc3134a6"
+      "bytes": 1684,
+      "sha256": "25c3df458350051982605799fa2b4e8d69ee5fd6b50b9ab8ff01e0e181f9993f"
     },
     {
       "path": "SAFETY-AND-SCOPE.md",
@@ -946,9 +946,19 @@
       "sha256": "ee636201f4c62be964a4b3561eeb0e249e0cdcecfd6ed0816f1d7574dd3f17ef"
     },
     {
+      "path": "tests/test_openai_submission.py",
+      "bytes": 1884,
+      "sha256": "523657c4cf70ce6fc8236dfe5931546843f039f18722637703f6790845b7e885"
+    },
+    {
       "path": "tests/test_scripts.py",
       "bytes": 8099,
-      "sha256": "dda953c155e43022bc373088ae68cc61be2848d09b9f38c4d3f3d280cf30c3f8"
+      "sha256": "7ba78a643ac701a4da34160d20c33d27e0ee35d457436c8b89cd7d1731a9bdc9"
+    },
+    {
+      "path": "tools/build_openai_submission_archive.py",
+      "bytes": 6075,
+      "sha256": "b8ea1f91229cf8c74deff292984f5e5ffad0671f71bde3c5010b456304c1c9ea"
     },
     {
       "path": "TRADEMARKS.md",
@@ -962,8 +972,8 @@
     },
     {
       "path": "VERIFICATION-v0.1.5.md",
-      "bytes": 4038,
-      "sha256": "6ecf90f691d8522833ac652cf98dcd4b289a7e01859a0b23e492e46490571b4f"
+      "bytes": 4803,
+      "sha256": "27247526383001edcd000089cb81f99503b948b0ec767541f5627b86ff4ee3ba"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/api-response.json",
@@ -1362,8 +1372,8 @@
     },
     {
       "path": "verification/release-summary-v0.1.5.json",
-      "bytes": 3268,
-      "sha256": "e8ca47265ab1cec5f56a5b05cb97fa0cd4cf5d4768760e87787b619cf32ce81f"
+      "bytes": 4365,
+      "sha256": "767a7f5a50fb7063b2721fb6f7db136f293672ae74990803283224dfea42ac55"
     }
   ]
 }

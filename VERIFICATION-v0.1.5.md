@@ -8,19 +8,21 @@ This record distinguishes checks that were actually run from behavior that remai
 
 | Check | Result | What it establishes |
 |---|---|---|
-| Repository deterministic suite | 17 of 17 tests passed on the frozen release candidate | Calculations, record validation, version custody, canonical/plugin/Claude parity, customer-document reachability, and release-manifest hashes behaved as asserted. |
+| Repository deterministic suite | 18 of 18 tests passed on the frozen release candidate | Calculations, record validation, version custody, canonical/plugin/Claude parity, customer-document reachability, release-manifest hashes, and OpenAI submission reproducibility behaved as asserted. |
 | Augment Builder profiles | Bundle, canonical Codex, plugin-bundled Codex, and Claude profiles passed | Required structure, metadata, contained resources, JSON, and private-path rules passed the current static profiles. |
 | Plugin-readiness audit | 1 skill; 0 errors; 0 warnings | The v0.1.5 manifest, HTTPS customer links, listing metadata, skill entry point, and version-bound PNG assets satisfy the deterministic publication preflight. |
 | Distribution parity | Canonical, plugin-bundled, and Claude.ai skill trees matched | Every supported distribution carries the same CanopyOps operating skill. This does not prove host activation. |
 | Governed release archives | Complete Augment, Codex plugin, and standalone skill archives built and extracted byte-for-byte | `release-assets/v0.1.5/archive-custody.json` records source-tree and archive hashes, byte sizes, member counts, and extraction parity. |
+| OpenAI submission archive | Deterministic 76-member skills-only ZIP reproduced byte-for-byte | `release-assets/v0.1.5/openai-submission-custody.json` records the accepted channel transform, archive hash, manifest hashes, and POSIX member paths. |
+| OpenAI draft creation | Listing, three prompts, one skill, and three capability tags saved under the verified Collaborative Dynamics Inc business identity; the skill passed automated scanning | Draft creation and scan success are observed. Owner attestations, review submission, approval, publication, and discoverability are not established. |
 | Listing-asset inspection | New canopy-grid icon inspected at 1024 and 32 pixels | The mark remains recognizable at listing size and uses shape and contrast, rather than color alone, to distinguish canopy nodes, grid, and decision point. This is visual inspection, not accessibility conformance testing. |
-| Customer-document checks | 20 declared customer documents and all tracked repository-local Markdown links passed deterministic validation | The release identity and local navigation are coherent. External destinations, representative users, and assistive technologies were not tested by this check. |
+| Customer-document checks | 21 declared customer documents and all tracked repository-local Markdown links passed deterministic validation | The release identity and local navigation are coherent. External destinations, representative users, and assistive technologies were not tested by this check. |
 
 ## Fresh documentation review custody
 
 This page records checks performed against other release artifacts; it is not the evidence source for its own statements. The repository test output, Builder profile results, plugin-readiness audit, release manifest, archive-custody ledger, and retained reviewer records provide the corresponding evidence outside this prose summary.
 
-Because this page is also part of the reviewed customer corpus, it does not predeclare or self-certify its documentation-review result. Immutable fresh-context responses, exact input custody, runtime metadata, and validation records are retained under `verification/evidence/`. The machine-readable release summary names the authoritative run and records its resulting disposition after that evidence exists.
+Because this page is also part of the reviewed customer corpus, it does not predeclare or self-certify its documentation-review result. Immutable fresh-context responses, exact input custody, runtime metadata, and validation records are retained under `verification/evidence/`. That independent review covered the 20-document pre-draft corpus. The subsequently added Plugins Directory packet is included in the current 21-document deterministic inventory but has not received a new independent accessibility review.
 
 ## Inherited behavioral evidence
 
@@ -36,4 +38,4 @@ This release does not establish:
 - current jurisdiction coverage, legal advice, regulatory approval, or compliance certification;
 - equipment integration, direct control, batch-release authority, or customer outcomes;
 - browser, keyboard, screen-reader, localization, representative-user, or formal accessibility-conformance testing;
-- official OpenAI Plugins Directory appearance or accountable publication approval.
+- owner policy attestations, submission for review, approval, public Directory appearance, or discoverability.

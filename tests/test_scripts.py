@@ -144,7 +144,7 @@ class PackageTests(unittest.TestCase):
     def test_customer_document_manifest_and_local_links(self):
         manifest = json.loads((REPO_ROOT / "documentation-manifest.json").read_text(encoding="utf-8"))
         documents = manifest["customer_docs"]
-        self.assertEqual(20, len(documents))
+        self.assertEqual(21, len(documents))
         self.assertEqual(len(documents), len(set(documents)))
         declared = set(documents)
         for paths in manifest["moments"].values():

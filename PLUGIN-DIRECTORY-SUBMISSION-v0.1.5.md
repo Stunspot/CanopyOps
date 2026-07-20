@@ -1,27 +1,41 @@
 # CanopyOps Plugins Directory submission packet
 
-This packet maps the released CanopyOps plugin to the current OpenAI Plugins Directory form. It prepares a **Skills only** submission; it does not assert that a publisher identity is verified, that policy attestations have been made, or that OpenAI has reviewed or published the plugin.
+This packet maps the released CanopyOps plugin to the current OpenAI Plugins Directory form and records the created **Skills only** draft. Draft creation and publisher-identity selection are observed; owner policy attestations, submission for review, approval, publication, and discoverability remain separate states.
 
 ## Released object
 
 - Plugin and Augment version: `0.1.5`
-- Upload: `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5.zip`
-- SHA-256: `6caf7ecf8f7016a9c5efd07a2844cb5d2e783f147b59badcbff6695019fa7778`
+- Installable plugin: `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5.zip`
+- Installable plugin SHA-256: `6caf7ecf8f7016a9c5efd07a2844cb5d2e783f147b59badcbff6695019fa7778`
+- OpenAI submission upload: `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5-OpenAI-Submission.zip`
+- Submission upload SHA-256: `0ca118272763bc45d116424f8a166637e72c8f4e4fc41a1ecfe75a29c86c59ba`
+- Submission custody: `release-assets/v0.1.5/openai-submission-custody.json`
+- Draft-upload comparison: `release-assets/v0.1.5/portal-draft-upload-evidence.json`
 - Public release: <https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.5>
 - Submission type: **Skills only**
+
+The installable plugin keeps its full local and marketplace `interface`. The governed portal upload is a deterministic channel derivative of the same 76-file plugin tree; only the archived manifest is transformed to retain `composerIcon` and `logo`. Every ZIP member path uses `/`. The draft was created from a preflight ZIP with the same member names; 75 members are byte-identical and the Ella Greenfield persona is identical after CRLF/LF normalization. Its ZIP container metadata was not deterministic. The live portal accepted this shape.
+
+## Created draft
+
+- Plugin ID: `plugins_6a5e101a0c0481918dd2604b5c25d969`
+- Submission ID: `appsub_6a5e101a2b3c81919fc93b7fc00e8a77`
+- Draft URL: <https://platform.openai.com/plugins/plugins_6a5e101a0c0481918dd2604b5c25d969/submissions/appsub_6a5e101a2b3c81919fc93b7fc00e8a77>
+- Observed draft state on 2026-07-20: listing, three prompts, one skill, and capability tags saved; the skill passed automated scanning; policy attestations unchecked; review submission not executed.
 
 ## Info
 
 - Plugin name: **CanopyOps**
-- Short description: **Cannabis crop plans, diagnostics, and operating records.**
+- Portal subtitle: **Cannabis crop operations** (24 characters; the live form caps this field at 30)
 - Long description: **Turn facility data, crop observations, logs, and constraints into evidence-bounded plans, incident workups, calculations, harvest reviews, and auditable records for legal cannabis cultivation.**
-- Developer identity: select the verified **Collaborative Dynamics** identity in the portal; the accountable owner must confirm the identity and organization match before submission.
+- Developer identity: **Business — Collaborative Dynamics Inc** selected in the portal; the listing developer name is **Collaborative Dynamics Inc**.
 - Category: **Productivity**
 - Logo: `plugins/canopyops/assets/canopyops-icon-v0.1.5.png`
 - Website: <https://github.com/Stunspot/CanopyOps>
 - Support: <https://github.com/Stunspot/CanopyOps/issues>
 - Privacy: <https://github.com/Stunspot/CanopyOps/blob/main/DATA-AND-PRIVACY.md>
 - Terms: <https://github.com/Stunspot/CanopyOps/blob/main/TERMS-OF-USE.md>
+- Capabilities: separate **Interactive**, **Read**, and **Write** tags.
 
 ## Starter prompts
 
@@ -97,3 +111,5 @@ Initial public submission of the free CanopyOps skills-only plugin. CanopyOps pr
 ## Accountable-owner gate
 
 Before selecting **Submit for Review**, the publisher must personally confirm the verified developer or business identity, organization and Apps Management authority, country availability, public URLs, and every policy attestation. Submission begins OpenAI review; approval, publisher release, and public discoverability are later observable states.
+
+The live 2026-07-20 skills-only form did not expose the documentation page's separate Testing, Global, or release-notes panels. The exact five positive cases, three negative cases, availability decision, and release notes remain preserved above for reviewer follow-up or a later portal revision; their repository presence does not mean they were transmitted in the current draft.

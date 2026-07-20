@@ -1,0 +1,29 @@
+{
+  "schema_version": "cd-openai-plugin-draft-upload-evidence/v1",
+  "observed_on": "2026-07-20",
+  "plugin_id": "plugins_6a5e101a0c0481918dd2604b5c25d969",
+  "submission_id": "appsub_6a5e101a2b3c81919fc93b7fc00e8a77",
+  "skill_scan_result": "canopyops passed",
+  "owner_gate": "four policy attestations unchecked; review submission not executed",
+  "accepted_preflight_archive": {
+    "name": "Plugin-CanopyOps-v0.1.5-submission.zip",
+    "sha256": "93d6ccc8d3ac9f8eae1595c74414d0f584c964d32f9a0e296da8cc61a9590adc",
+    "bytes": 214115,
+    "member_count": 76
+  },
+  "governed_release_archive": {
+    "name": "Plugin-CanopyOps-v0.1.5-OpenAI-Submission.zip",
+    "sha256": "0ca118272763bc45d116424f8a166637e72c8f4e4fc41a1ecfe75a29c86c59ba",
+    "bytes": 214831,
+    "member_count": 76
+  },
+  "comparison": {
+    "member_names_match": true,
+    "raw_member_hashes_matching": 75,
+    "raw_member_hashes_differing": 1,
+    "canonical_text_member_hashes_match": true,
+    "archive_bytes_match": false,
+    "line_ending_only_member": "canopyops-plugin/skills/canopyops/personas/ella-greenfield-v2.md",
+    "explanation": "The accepted preflight ZIP and governed release ZIP have identical member names. Seventy-five members are byte-identical; the remaining UTF-8 text is identical after CRLF/LF normalization. ZIP timestamps and container metadata also differ. Only the governed release ZIP is deterministic."
+  }
+}

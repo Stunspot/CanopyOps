@@ -21,7 +21,8 @@
     "BUILD-WEEK.md",
     "RELEASE-NOTES-v0.1.5.md",
     "VERIFICATION-v0.1.5.md",
-    "ARCHIVE-CUSTODY.md"
+    "ARCHIVE-CUSTODY.md",
+    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"
   ],
   "moments": {
     "orientation": ["README.md", "START-HERE.md"],
@@ -30,7 +31,7 @@
     "normal_use": ["FAQ.md", "SAFETY-AND-SCOPE.md"],
     "recovery": ["INSTALL.md", "SUPPORT.md"],
     "privacy_security": ["DATA-AND-PRIVACY.md", "TERMS-OF-USE.md", "SECURITY.md"],
-    "support_maintenance": ["SUPPORT.md", "RELEASE-NOTES-v0.1.5.md", "ARCHIVE-CUSTODY.md"],
+    "support_maintenance": ["SUPPORT.md", "RELEASE-NOTES-v0.1.5.md", "ARCHIVE-CUSTODY.md", "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"],
     "provenance": ["ATTRIBUTION.md", "LICENSE.md", "TRADEMARKS.md", "NOTICE.md", "CONTRIBUTING.md", "BUILD-WEEK.md"],
     "evidence_limits": ["VERIFICATION-v0.1.5.md"]
   }
