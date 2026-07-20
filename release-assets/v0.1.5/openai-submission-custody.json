@@ -1,0 +1,38 @@
+{
+  "schema_version": "cd-openai-plugin-submission-custody/v1",
+  "plugin": {
+    "name": "canopyops",
+    "version": "0.1.5"
+  },
+  "source_plugin_root": "canopyops",
+  "top_level": "canopyops-plugin",
+  "archive_name": "Plugin-CanopyOps-v0.1.5-OpenAI-Submission.zip",
+  "archive_sha256": "0c6297a89b3b8081fdc23b00c1474f8f35cbdd658e5334a088cab11e1cf8c179",
+  "bytes": 289426,
+  "member_count": 76,
+  "source_manifest_sha256": "a6e62e60b33438f3395ffd987a331688837363c3d42df55cba47d2e747a0915b",
+  "submission_manifest_sha256": "11167dc921515c40f94d23f675a6251264d7e31486eded62fe867eed605ba0bd",
+  "text_canonicalization": "UTF-8 text is stored as LF without a BOM; binary and non-UTF-8 bytes are preserved",
+  "normalized_text_member_count": 0,
+  "zip_compression": "stored",
+  "manifest_transform": {
+    "kept_interface_fields": [
+      "composerIcon",
+      "logo"
+    ],
+    "omitted_interface_fields": [
+      "brandColor",
+      "capabilities",
+      "category",
+      "defaultPrompt",
+      "developerName",
+      "displayName",
+      "longDescription",
+      "privacyPolicyURL",
+      "shortDescription",
+      "termsOfServiceURL",
+      "websiteURL"
+    ]
+  },
+  "archive_paths_use_forward_slashes": true
+}

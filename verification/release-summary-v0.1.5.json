@@ -4,10 +4,10 @@
   "version": "0.1.5",
   "review_date": "2026-07-20",
   "review_mode": "verification-reviewer and documentation-accessibility-reviewer challenge after final local rebuild",
-  "candidate_scope": "Public repository candidate, complete CanopyOps Augment, Codex plugin, standalone skill, and Claude.ai upload archive",
+  "candidate_scope": "Public repository candidate, complete CanopyOps Augment, installable Codex plugin, OpenAI skills-only submission, standalone skill, and Claude.ai upload archive",
   "evidence": {
     "deterministic_tests": {
-      "passed": 17,
+      "passed": 18,
       "failed": 0
     },
     "builder_profiles": [
@@ -20,9 +20,16 @@
     "plugin_audit_result": "1 skill; zero errors and zero warnings",
     "documentation_review": "documentation-review.json",
     "documentation_fingerprint": "329236b3f9ea9ac054d0a88923635c4f8168ba9c1be9c61bacce1ea6dd2b68f3",
-    "documentation_result": "REVIEW_PASS_WITH_CONDITIONS; zero unresolved material findings",
+    "documentation_result": "REVIEW_PASS_WITH_CONDITIONS for the 20-document pre-draft corpus; zero unresolved material findings; the later Plugins Directory packet passed deterministic inventory/link checks but was not independently re-reviewed",
     "archive_custody": "release-assets/v0.1.5/archive-custody.json",
-    "release_manifest_validation": "17-test repository inventory, plugin parity, Claude archive parity, and customer-document link checks passed",
+    "openai_submission_custody": "release-assets/v0.1.5/openai-submission-custody.json",
+    "portal_draft_upload_evidence": "release-assets/v0.1.5/portal-draft-upload-evidence.json",
+    "openai_draft": {
+      "plugin_id": "plugins_6a5e101a0c0481918dd2604b5c25d969",
+      "submission_id": "appsub_6a5e101a2b3c81919fc93b7fc00e8a77",
+      "state": "draft created and populated; skill passed automated scanning; owner attestations unchecked; review submission not executed"
+    },
+    "release_manifest_validation": "18-test repository inventory, plugin parity, Claude archive parity, OpenAI submission reproducibility, and 21-document customer link checks passed",
     "icon_inspection": "1024-pixel source and 32-pixel rendering inspected; the canopy-grid mark remained recognizable without text"
   },
   "archives": [
@@ -39,6 +46,12 @@
       "members": 76
     },
     {
+      "name": "Plugin-CanopyOps-v0.1.5-OpenAI-Submission.zip",
+      "sha256": "0c6297a89b3b8081fdc23b00c1474f8f35cbdd658e5334a088cab11e1cf8c179",
+      "bytes": 289426,
+      "members": 76
+    },
+    {
       "name": "Skill-canopyops--CanopyOps-v0.1.5.zip",
       "sha256": "cff21580bd064604ad25a8e04ada0670d17bcbfbbd19903b79fccae95ae66875",
       "bytes": 63495,
@@ -49,7 +62,7 @@
     "version_and_manifest_drift": "not found",
     "missing_skill_or_archive": "not found",
     "plugin_listing_or_asset_breakage": "not found; version-bound raster icon and bundled skill entry point exist",
-    "customer_path_or_recovery_dead_end": "not found in the declared 20-document corpus",
+    "customer_path_or_recovery_dead_end": "not found in the independently reviewed 20-document corpus; the later portal packet passed deterministic inventory and link checks only",
     "unsupported_readiness_claim": "not found; package verification is separated from cultivation-field, live-host, directory, accessibility, legal, and outcome claims",
     "private_path_or_cache_debris": "not found by package checks"
   },
@@ -57,7 +70,7 @@
   "conditions": [
     "Fresh Codex marketplace installation, discovery, activation, runtime-resource access, and representative first success remain publication-stage checks.",
     "Live Claude upload and activation, broad repeated-model behavior, cultivation-field fitness, jurisdictional currency, equipment integration, representative-user and assistive-technology testing, accessibility conformance, legal review, production outcomes, and customer outcomes remain unexecuted.",
-    "GitHub publication and official OpenAI Plugins Directory approval are separate observable states and are not established by this pre-publication review."
+    "GitHub publication is established separately. The OpenAI draft exists and its skill passed automated scanning, but owner policy attestations, review submission, approval, publication, and discoverability remain separate observable states."
   ],
   "disposition": "REVIEW_PASS_WITH_CONDITIONS",
   "release_decision": "READY_WITH_RESIDUAL_RISK"

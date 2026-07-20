@@ -11,8 +11,9 @@ CanopyOps v0.1.5 is the plugin-identity and archive-custody release. It preserve
 - Added canonical archives for the complete Augment, Codex plugin, and standalone CanopyOps skill.
 - Added a custody ledger with source-tree and archive SHA-256 values, sizes, member counts, and extraction-parity evidence.
 - Documented the distinction among canonical release assets, GitHub release assets, Claude.ai upload package, and latest-only convenience backups.
+- Added a deterministic OpenAI skills-only submission ZIP and its separate custody record without weakening the full installable plugin manifest.
+- Created and populated the OpenAI plugin draft; the skill passed automated scanning, while owner policy attestations and review submission remain pending.
 
 ## Boundary
 
-The operating skill is unchanged, so prior reviewed behavioral evidence is inherited rather than rerun. Package validation, archive parity, listing-asset inspection, and documentation review do not establish cultivation-field fitness, jurisdictional currency, live Claude behavior, official OpenAI Plugins Directory approval, accessibility conformance, or customer outcomes.
-
+The operating skill is unchanged, so prior reviewed behavioral evidence is inherited rather than rerun. Package validation, archive parity, listing-asset inspection, portal draft creation, and documentation review do not establish cultivation-field fitness, jurisdictional currency, live Claude behavior, OpenAI review approval or publication, accessibility conformance, or customer outcomes.

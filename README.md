@@ -16,7 +16,7 @@ It is the reasoning-and-record layer between “something looks wrong” and an 
 
 CanopyOps was conceived and built on July 17, 2026, during the OpenAI Build Week submission period. Stun supplied compact product intent, source material, the Ella Greenfield persona, domain and authority boundaries, and release judgment. Codex with GPT-5.6 turned that direction into the routed SKILL, deterministic utilities, schemas, templates, evaluations, host adapters, documentation, licensing surfaces, plugin packaging, verification, and public release.
 
-The working Augment emerged in roughly an hour; public packaging, branding, licensing, hardening, and publication continued afterward. This repository now includes a 17-test deterministic suite and automatic verification so judges and users can inspect the machinery rather than taking the claim on faith.
+The working Augment emerged in roughly an hour; public packaging, branding, licensing, hardening, and publication continued afterward. This repository now includes an 18-test deterministic suite and automatic verification so judges and users can inspect the machinery rather than taking the claim on faith.
 
 Read [BUILD-WEEK.md](BUILD-WEEK.md) for the architecture, provenance, human/AI responsibility split, and evidence. Judges can use [JUDGE-QUICKSTART.md](JUDGE-QUICKSTART.md) to install and test CanopyOps with fictional data in about five minutes.
 
@@ -83,7 +83,7 @@ Read [SAFETY-AND-SCOPE.md](SAFETY-AND-SCOPE.md) before operational use. In parti
 
 The v0.1.5 package passes the current Augment Builder Codex and Claude profiles plus the repository's deterministic release tests. The standalone, plugin, and Claude archive skill trees are byte-identical. A reviewed, context-only three-case safety/scope smoke completed 3/3 selected episodes in v0.1.2; that result remains inherited behavioral evidence because v0.1.5 changes documentation, release custody, listing identity, and regression checks rather than the operating kernel. It is evidence under those exact recorded conditions, not field validation or a reliability guarantee.
 
-Field use, broader behavioral consistency, current jurisdiction coverage, live Claude.ai or Claude Code execution, equipment integration, and official OpenAI Plugins Directory appearance remain unverified or outside v0.1.5. See [RELEASE-NOTES-v0.1.5.md](RELEASE-NOTES-v0.1.5.md).
+Field use, broader behavioral consistency, current jurisdiction coverage, live Claude.ai or Claude Code execution, equipment integration, and official OpenAI Plugins Directory appearance remain unverified or outside v0.1.5. An OpenAI skills-only draft has been created and populated, and its skill passed automated scanning; accountable-owner attestations, review submission, approval, and publication remain separate states. See [PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md](PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md) and [RELEASE-NOTES-v0.1.5.md](RELEASE-NOTES-v0.1.5.md).
 
 The exact v0.1.5 checks and their evidence boundaries are recorded in [VERIFICATION-v0.1.5.md](VERIFICATION-v0.1.5.md).
 
@@ -111,4 +111,5 @@ CanopyOps is a Collaborative Dynamics Augment created by Sam Walker (stunspot), 
 - [Terms of use](TERMS-OF-USE.md)
 - [Current release notes](RELEASE-NOTES-v0.1.5.md)
 - [Archive custody](ARCHIVE-CUSTODY.md)
+- [OpenAI draft and submission custody](PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md)
 - [Previous release notes](RELEASE-NOTES-v0.1.3.md)
