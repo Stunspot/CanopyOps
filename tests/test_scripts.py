@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1] / "canopyops"
 SCRIPTS = ROOT / "scripts"
 VERSION = "0.1.5"
 sys.path.insert(0, str(SCRIPTS))
+from build_release_manifest import canonical_bytes
 
 
 def load(name):
@@ -116,7 +117,7 @@ class PackageTests(unittest.TestCase):
 
     def test_claude_archive_matches_canonical_tree(self):
         archive_path = REPO_ROOT / "claude-ai" / f"canopyops-v{VERSION}.zip"
-        canonical = {f"canopyops/{path.relative_to(ROOT).as_posix()}": path.read_bytes() for path in ROOT.rglob("*") if path.is_file() and "__pycache__" not in path.parts}
+        canonical = {f"canopyops/{path.relative_to(ROOT).as_posix()}": canonical_bytes(path) for path in ROOT.rglob("*") if path.is_file() and "__pycache__" not in path.parts}
         with zipfile.ZipFile(archive_path) as archive:
             archived = {name: archive.read(name) for name in archive.namelist() if not name.endswith("/")}
         self.assertEqual(archived, canonical)
@@ -136,7 +137,7 @@ class PackageTests(unittest.TestCase):
         }
         self.assertEqual(set(recorded), set(current))
         for relative, path in current.items():
-            data = path.read_bytes()
+            data = canonical_bytes(path)
             self.assertEqual(recorded[relative]["bytes"], len(data), relative)
             self.assertEqual(recorded[relative]["sha256"], hashlib.sha256(data).hexdigest(), relative)
 

@@ -7,13 +7,18 @@
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
-      "bytes": 412,
-      "sha256": "ba476cd33fd7f0271fbc290daa4e2c9045e86b03d21f07d61c0548a579a9ee4b"
+      "bytes": 392,
+      "sha256": "9a4bc3e1097d0eb6b68770cc11e0ca381c2c244479196d0789ad77c3bd84f831"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 45,
+      "sha256": "8d75fbed0329d55480242ea79c61cbdd3da312c700298bfba9572b81ec325cc6"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
-      "bytes": 2527,
-      "sha256": "1f78e5e5babcced8f17c392e58811b9f8e33c46c43bb20e0ebbaf3741c4d642e"
+      "bytes": 2444,
+      "sha256": "584f7a8d51a4a942399efbcdbcadf76e362900a328a8004dd806da68530cf273"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/capability-request.yml",
@@ -32,8 +37,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 652,
-      "sha256": "2bb4b6823ee31848184b8472bfd0e8866c9d256382ebc81558597e96f592329b"
+      "bytes": 620,
+      "sha256": "8e986eda813577ec717f74bc88a5a16ed36fa14ab899dc5f1685ca15165ee2bd"
     },
     {
       "path": ".gitignore",
@@ -52,13 +57,13 @@
     },
     {
       "path": "ATTRIBUTION.md",
-      "bytes": 1490,
-      "sha256": "8e80419a6a64aef55d9e98dc6e5e1c9da8a9d37b594db93432936b3a574e0a96"
+      "bytes": 1484,
+      "sha256": "2bb24b397a41d1b93d7a3da1ee65316a81ce0d38aa2920eec7acc2950b7008cc"
     },
     {
       "path": "BUILD-WEEK.md",
-      "bytes": 7481,
-      "sha256": "86289f893d761b53021b21897230508281189064a71dbcb87bf468f613b0dd4a"
+      "bytes": 7370,
+      "sha256": "fb80c0f8d1c512886df84dd104a490135788c12a9a1fa4d958bf41167b71f29a"
     },
     {
       "path": "canopyops/adapters/bot-runtime.md",
@@ -152,23 +157,23 @@
     },
     {
       "path": "canopyops/CHANGELOG.md",
-      "bytes": 2443,
-      "sha256": "d7bd0fcdb0827df28caad1b606b9d0b68bdbbf3ba90b9d1350160c69a3a26317"
+      "bytes": 2410,
+      "sha256": "8da140259879224c02c8b16f438c0c27f1ae52dd60fbfdccdf48c50bf341a1b2"
     },
     {
       "path": "canopyops/evals/authority-and-resilience-cases.yaml",
-      "bytes": 5401,
-      "sha256": "f54698d3e807a22828568b11dcc54f98b961feeb56ae0bcc4985554ba2e5e9e6"
+      "bytes": 5337,
+      "sha256": "13bb1a35df801706ce1190523ab63ccab13cab05e35d70a0127cab526ee02bd1"
     },
     {
       "path": "canopyops/evals/core-transfer-cases.yaml",
-      "bytes": 6703,
-      "sha256": "e7e99cef2c39ebea154422175aafeed958b87e3611927e8cd8488a90ddcde43c"
+      "bytes": 6633,
+      "sha256": "ef8246a036a6f1cb2d09b9ead03aa70b8267d5c58350d8ebaf17eefae7448be4"
     },
     {
       "path": "canopyops/evals/eval-manifest.yaml",
-      "bytes": 691,
-      "sha256": "5f2b63c17b3160959916eb31dacd0b616892e450d600276e857cb9feebffdc01"
+      "bytes": 682,
+      "sha256": "a26110ecadf06526e29a82be5cdba06e5337c99d4c0143e731f5ecfc02e03a09"
     },
     {
       "path": "canopyops/examples/harvest-readiness-review.md",
@@ -207,8 +212,8 @@
     },
     {
       "path": "canopyops/personas/ella-greenfield-v2.md",
-      "bytes": 4074,
-      "sha256": "ec4c813d5fc0a8201bfef9e60aee52590e5e83dc06d1a39c54875bbbba0be58e"
+      "bytes": 4036,
+      "sha256": "89d4836c982328c1fddcdc2547bb1b97a38a01ed8780d47534f76c6fd6a3c450"
     },
     {
       "path": "canopyops/README.md",
@@ -312,8 +317,8 @@
     },
     {
       "path": "canopyops/scripts/build_release_manifest.py",
-      "bytes": 1637,
-      "sha256": "9755de060c5977ffbfd160a586f6a86260f2e1b0cfd9c04b518ebbed3919bdda"
+      "bytes": 1882,
+      "sha256": "18f6a31218df9aada9efd0f713649c7ed5e726d85b3859ed3783e0e15ade85ab"
     },
     {
       "path": "canopyops/scripts/calculate_dli.py",
@@ -352,8 +357,8 @@
     },
     {
       "path": "canopyops/scripts/package_deliverables.py",
-      "bytes": 1284,
-      "sha256": "67d47b2416d2683b0f334e9504a5285a458304ad62c931b0d86ac016537a5135"
+      "bytes": 1523,
+      "sha256": "b1f23e95b91907953023d90e25a51b3c847b2172aaf36eda9b14676af94b9ffd"
     },
     {
       "path": "canopyops/scripts/README.md",
@@ -412,8 +417,8 @@
     },
     {
       "path": "claude-ai/canopyops-v0.1.5.zip",
-      "bytes": 63280,
-      "sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189"
+      "bytes": 63436,
+      "sha256": "0c69a436b6d08549edb548bb0e1caa463a592c9a158a8a899ac8172360a0f24b"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -422,8 +427,8 @@
     },
     {
       "path": "DATA-AND-PRIVACY.md",
-      "bytes": 1215,
-      "sha256": "662ba51b26166a6943f47290c74b03507cefb02509e8c3106ac38f83e4f5183d"
+      "bytes": 1206,
+      "sha256": "28a0d085dd753dfac61a89d44dc4c7362f99b2e2407bffaf8633927e34b9dfde"
     },
     {
       "path": "documentation-manifest.json",
@@ -442,8 +447,8 @@
     },
     {
       "path": "FAQ.md",
-      "bytes": 4431,
-      "sha256": "f221f49c9d5c9b810c58059b93ccc7a743980ab63b4fffab33b9af93729ad116"
+      "bytes": 4370,
+      "sha256": "608d2b3e79e99eb52e863e9d89898f89e1e7eef474cf8556697a40d32e76cdd8"
     },
     {
       "path": "images/canopyops-flow.png",
@@ -482,18 +487,18 @@
     },
     {
       "path": "INSTALL.md",
-      "bytes": 7291,
-      "sha256": "96beb9577d5442d31eb30d7e1a1557dc65b192d134abaa927f2e7b89fc255947"
+      "bytes": 7189,
+      "sha256": "b3e0a2381c80f4a3b3cfd310d6f47420cc86f7b3abbe24c4e03a64e88b71f2cc"
     },
     {
       "path": "JUDGE-QUICKSTART.md",
-      "bytes": 3820,
-      "sha256": "4595b4fd2b5ff4a506373e9197cdaa9f90cb9d87ceb58610842dad9e9f5d786d"
+      "bytes": 3736,
+      "sha256": "519c44558cefc853a15073f9720441d622320f7c4e8b4534acb9a4c6a60e558c"
     },
     {
       "path": "LICENSE.md",
-      "bytes": 2858,
-      "sha256": "4d5822f7694b7b3b107d2468e88f931527363f3b5dcdbac8357d4fe04bb946d4"
+      "bytes": 2829,
+      "sha256": "432606a96f9a8247c237e4c7c8efc54639e5017967e35d76ae329bcfd397add5"
     },
     {
       "path": "NOTICE.md",
@@ -502,8 +507,8 @@
     },
     {
       "path": "plugins/canopyops/.codex-plugin/plugin.json",
-      "bytes": 1760,
-      "sha256": "83856aea5d0a055f8bc7d152adc42eb5c07c0fad9f9da7f641b8c06b7ce486ef"
+      "bytes": 1719,
+      "sha256": "a6e62e60b33438f3395ffd987a331688837363c3d42df55cba47d2e747a0915b"
     },
     {
       "path": "plugins/canopyops/assets/canopyops-canopy-grid-v0.1.5.svg",
@@ -627,23 +632,23 @@
     },
     {
       "path": "plugins/canopyops/skills/canopyops/CHANGELOG.md",
-      "bytes": 2443,
-      "sha256": "d7bd0fcdb0827df28caad1b606b9d0b68bdbbf3ba90b9d1350160c69a3a26317"
+      "bytes": 2410,
+      "sha256": "8da140259879224c02c8b16f438c0c27f1ae52dd60fbfdccdf48c50bf341a1b2"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/evals/authority-and-resilience-cases.yaml",
-      "bytes": 5401,
-      "sha256": "f54698d3e807a22828568b11dcc54f98b961feeb56ae0bcc4985554ba2e5e9e6"
+      "bytes": 5337,
+      "sha256": "13bb1a35df801706ce1190523ab63ccab13cab05e35d70a0127cab526ee02bd1"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/evals/core-transfer-cases.yaml",
-      "bytes": 6703,
-      "sha256": "e7e99cef2c39ebea154422175aafeed958b87e3611927e8cd8488a90ddcde43c"
+      "bytes": 6633,
+      "sha256": "ef8246a036a6f1cb2d09b9ead03aa70b8267d5c58350d8ebaf17eefae7448be4"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/evals/eval-manifest.yaml",
-      "bytes": 691,
-      "sha256": "5f2b63c17b3160959916eb31dacd0b616892e450d600276e857cb9feebffdc01"
+      "bytes": 682,
+      "sha256": "a26110ecadf06526e29a82be5cdba06e5337c99d4c0143e731f5ecfc02e03a09"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/examples/harvest-readiness-review.md",
@@ -682,8 +687,8 @@
     },
     {
       "path": "plugins/canopyops/skills/canopyops/personas/ella-greenfield-v2.md",
-      "bytes": 4074,
-      "sha256": "ec4c813d5fc0a8201bfef9e60aee52590e5e83dc06d1a39c54875bbbba0be58e"
+      "bytes": 4036,
+      "sha256": "89d4836c982328c1fddcdc2547bb1b97a38a01ed8780d47534f76c6fd6a3c450"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/README.md",
@@ -787,8 +792,8 @@
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/build_release_manifest.py",
-      "bytes": 1637,
-      "sha256": "9755de060c5977ffbfd160a586f6a86260f2e1b0cfd9c04b518ebbed3919bdda"
+      "bytes": 1882,
+      "sha256": "18f6a31218df9aada9efd0f713649c7ed5e726d85b3859ed3783e0e15ade85ab"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/calculate_dli.py",
@@ -827,8 +832,8 @@
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/package_deliverables.py",
-      "bytes": 1284,
-      "sha256": "67d47b2416d2683b0f334e9504a5285a458304ad62c931b0d86ac016537a5135"
+      "bytes": 1523,
+      "sha256": "b1f23e95b91907953023d90e25a51b3c847b2172aaf36eda9b14676af94b9ffd"
     },
     {
       "path": "plugins/canopyops/skills/canopyops/scripts/README.md",
@@ -882,13 +887,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8769,
-      "sha256": "df17e6d08f7d2c169ba8b1cc8c38e2dfd57aec43cf218a3862262c13e4c18ee1"
+      "bytes": 8662,
+      "sha256": "34d309563e950de94d2f557e70fd6646cc1b7db87283ff610939840a4b1faf1c"
     },
     {
       "path": "RELEASE-NOTES-v0.1.2.md",
-      "bytes": 3870,
-      "sha256": "755f824855530ba7599aa0d925a23d0fd25742e62a213483e336f6e6d69274af"
+      "bytes": 3806,
+      "sha256": "07ca50e31266cf9a73e21b03605bf9651a46d5728e32cfd97593cfab37a9de43"
     },
     {
       "path": "RELEASE-NOTES-v0.1.3.md",
@@ -897,8 +902,8 @@
     },
     {
       "path": "RELEASE-NOTES-v0.1.4.md",
-      "bytes": 2337,
-      "sha256": "f52513f784125af79f6ff23ae13ece70ad1eb317850c8eac22176b15ebd50b2c"
+      "bytes": 2307,
+      "sha256": "d606ea4c215e1211011b6bc0ce57cedf80cc3265b9ae4ac97c45dda1ef07b9df"
     },
     {
       "path": "RELEASE-NOTES-v0.1.5.md",
@@ -912,8 +917,8 @@
     },
     {
       "path": "SECURITY.md",
-      "bytes": 1951,
-      "sha256": "0e32e3683b979a6cef2407c24835ad2f9535d242eb87faa027b22ce17335af66"
+      "bytes": 1912,
+      "sha256": "25fee11696af8b1e71a731ac5431d9a6637da8ca10c9b6703be87c1048254d5d"
     },
     {
       "path": "START-HERE.md",
@@ -932,13 +937,13 @@
     },
     {
       "path": "tests/fixtures/valid-crop-plan.json",
-      "bytes": 641,
-      "sha256": "a5252d8c47a775da2e7301dd0865c0a6315f05e62c8dd5c7cd26556f7765a9a2"
+      "bytes": 617,
+      "sha256": "ee636201f4c62be964a4b3561eeb0e249e0cdcecfd6ed0816f1d7574dd3f17ef"
     },
     {
       "path": "tests/test_scripts.py",
-      "bytes": 8173,
-      "sha256": "66fd9c4f43a843709c9d9e8812d17250633064de2e3e52004c4dac25638446f7"
+      "bytes": 8099,
+      "sha256": "dda953c155e43022bc373088ae68cc61be2848d09b9f38c4d3f3d280cf30c3f8"
     },
     {
       "path": "TRADEMARKS.md",
@@ -947,8 +952,8 @@
     },
     {
       "path": "VERIFICATION-v0.1.4.md",
-      "bytes": 3444,
-      "sha256": "f25b8ea519c6a709f340dddb7910127436448488e3fe1ee1f1e29fd01843af9a"
+      "bytes": 3405,
+      "sha256": "376f0a1fc0b309a1cb18570445b1030b8d1e28b53c989811a15906260d94fde3"
     },
     {
       "path": "VERIFICATION-v0.1.5.md",
@@ -957,18 +962,18 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/api-response.json",
-      "bytes": 17862,
-      "sha256": "b0b3646e4ccdd03fc7287eef3adcd190eb6ca0a163f9bcb15694e1f28e212789"
+      "bytes": 17846,
+      "sha256": "14eb04d0ccbc978c8bb7cdb54e342bd7ab61fa6b0f711ff5018d49934e56aefd"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/execution.json",
-      "bytes": 718,
-      "sha256": "33418556c7e08176eaf4ad5ed4479c9578f006dc416fd2722fc0b67ef6a56640"
+      "bytes": 703,
+      "sha256": "ca07172b7c2ebff7707d1d186cd6c86671add5b1107d4630473aa213fd1c354a"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/review-input-custody.json",
-      "bytes": 5217,
-      "sha256": "be204b77bb4fd4280e76093afd44392c7e28a3ba7bd46552606a2674bbff0fa6"
+      "bytes": 5106,
+      "sha256": "42dbbfca74f17bf46ce0f99d26c2a75cf627a5bc3f566ae7b73c5e28222f9218"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/review-request.md",
@@ -982,8 +987,8 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run1/shape-validation.json",
-      "bytes": 488,
-      "sha256": "ea910bb295b0e348f79caa489a67f200590762716e64043b97ffaa79a4e29108"
+      "bytes": 475,
+      "sha256": "b7692ade1474e83a5246306a72e9bf161302baba5c29489a5b3ac1ffe5fefe2b"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run10/review-request.md",
@@ -992,18 +997,18 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/api-response.json",
-      "bytes": 4686,
-      "sha256": "fc28da0cc12619a094c43a93c9748b76f7a13e8e73882d1488295eccb2863769"
+      "bytes": 4671,
+      "sha256": "503469ac69456b03a84af546f2dc8132f77c639c6f1484e2bd5fb71e05f30193"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/execution.json",
-      "bytes": 766,
-      "sha256": "79f5dfafb5d689fd9fceaa50454bbbfcaa9ccf295de4c0e6fc1a95747e297209"
+      "bytes": 753,
+      "sha256": "f9b28d1c2cfb63efc4d9286535e28b8bcfea116d0cef1eb4cc372b5bf0721e2b"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/review-input-custody.json",
-      "bytes": 5220,
-      "sha256": "f16db85ddfa02ff62df336246a0a7f9b7e215baec341ebf51fe8aba34c8db381"
+      "bytes": 5109,
+      "sha256": "e1d1fff6655fe1a802e6ca0e6efd48347675acd813e443ef2a7a7aae40b6d2cc"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/review-request.md",
@@ -1017,8 +1022,8 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run11/structured-validation.json",
-      "bytes": 322,
-      "sha256": "77cb238d147dd9c3fdd3871f206d30f7608081b6f4bc5c2e447f7c43fa4563fe"
+      "bytes": 314,
+      "sha256": "cdcd5cae284029912b788a2d18b1c216d66c3cb9ff7b710156ea049d24081639"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run12/review-request.md",
@@ -1027,18 +1032,18 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/api-response.json",
-      "bytes": 5055,
-      "sha256": "687d9cf5ea924c500f2784dd213133c78873db39e251440e09380ba913e5470f"
+      "bytes": 5040,
+      "sha256": "99470b3383bf389b41136b65fead1397f93fc2615490c2a81195f5c814d81c2c"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/execution.json",
-      "bytes": 766,
-      "sha256": "6b951dfce04cdb485ded31e45f053eb7b0502dca041ff36e97436929096ad553"
+      "bytes": 753,
+      "sha256": "71be3fc99fda655f11ef09deaee35c55238aabd794e9f9ef7539e5f48368bd81"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/review-input-custody.json",
-      "bytes": 5220,
-      "sha256": "aa7725c1c655cf3afc0e61be081039467708f4204f4fbdcbf6ed3338bb9d78cc"
+      "bytes": 5109,
+      "sha256": "919675b01038767446f9fd7dbdeac73ca578a952de221a708acd65a1a9d2ab11"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/review-request.md",
@@ -1052,23 +1057,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run13/structured-validation.json",
-      "bytes": 322,
-      "sha256": "f8a0180df2273fd57815cd8877c4dafabfddb60a65d0b66ad3cd6254a5594749"
+      "bytes": 314,
+      "sha256": "e3854936506f96e369e3b1d19585035de90b606ceea2b34e086413777f44f8bc"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/api-response.json",
-      "bytes": 6299,
-      "sha256": "c81821a71faab9ef96fe6b3b5ade46512669bbeec14e17214798d52bd7b2ec09"
+      "bytes": 6284,
+      "sha256": "801bcfe8cc80cd67a5475645326bfb078466df4a67ea5ee7647be5dd2ee811ec"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/execution.json",
-      "bytes": 766,
-      "sha256": "948b899eaee26048c2be4bd77edebc9b7888492b0ba40c2b992b4df832699ee6"
+      "bytes": 753,
+      "sha256": "618d602d2091ad6d463e929a38dfc501ce16fd9ca5434648e2e87c6992177684"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/review-input-custody.json",
-      "bytes": 5220,
-      "sha256": "2cc11fc453d5c9b7fb2ac443c20de3d9f33764214ed544cb813de3dab739b1f0"
+      "bytes": 5109,
+      "sha256": "45fa7508cf87d83fd4e7e67592bb8e3773f6c752d8b10a84a0e9ee5c2c3c36b6"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/review-request.md",
@@ -1082,23 +1087,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run14/structured-validation.json",
-      "bytes": 541,
-      "sha256": "e6b647e0bfe00a7b749df4f3c91465cdf9d29254762e29f709039774ae7d8dfe"
+      "bytes": 530,
+      "sha256": "d60ccfa235eb4e3343c1568f6201d411c2d14f37caa7430a1f865db7515ebaba"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/api-response.json",
-      "bytes": 4104,
-      "sha256": "869020c3acd94e579c5b0bb8247018cd3e247b37736d399304f27e08842d0cac"
+      "bytes": 4089,
+      "sha256": "bfe7a613f9047ce5e3e8c3aa6e7866d3ad5e5a005624fefcf1607fe33c205f40"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/execution.json",
-      "bytes": 1299,
-      "sha256": "6578768db487f111bc9acd5a0cb9f0efd7928b58b7b64caf49a0dc93719b13ee"
+      "bytes": 1279,
+      "sha256": "22691c834e626a2c0ed8cb19827dde700b0d1b307ac6594fdd71d671ec8daede"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-input-custody.json",
-      "bytes": 5220,
-      "sha256": "0386acc34c516d525a4eaa1b06af9f793a5c06679e67ba029edd07991d307d6f"
+      "bytes": 5109,
+      "sha256": "70a81f443db654d737927b238a5b07010889a4ac8865aaeeba1a7d96cd501a87"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/review-input-evidence.json",
@@ -1122,23 +1127,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run15/structured-validation.json",
-      "bytes": 229,
-      "sha256": "6b58fd2315184eec48cbff436cb94dfe6cf07dd84c95218ea343f14dca037b5f"
+      "bytes": 222,
+      "sha256": "daa5f839e09dc0fe5dba29a58296eb9ff7c247465e8db6ea941e8dd0134e2975"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/api-response.json",
-      "bytes": 15773,
-      "sha256": "8bc1fab6fdc13bfbc6af20c45f19a1f15b33f75dfa5817177eebb4ce67aced9d"
+      "bytes": 15757,
+      "sha256": "47fce9800d6a641893eb0b35a3c3e062b1c85cf11b6ee690cfd59e14f0a077eb"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/execution.json",
-      "bytes": 718,
-      "sha256": "af7ddc90d1952ae027827a49a2b2d7a9bd3e8bf4a7c78f6c6446629cf46d59e4"
+      "bytes": 703,
+      "sha256": "63af50043b7030234725c9242ec2532cf3c4c6f72b90d60e2a5d447df76c4eec"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/review-input-custody.json",
-      "bytes": 5217,
-      "sha256": "0a2f49b060cc6f5c2e7fb4c603ce495f76a87d54a1dcad195e96ec7719813a6b"
+      "bytes": 5106,
+      "sha256": "1c7e9de9e0528f6cdb27f498fff5d2bfe89845d2177fdb6295461b6248ee01c3"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/review-request.md",
@@ -1152,23 +1157,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run2/shape-validation.json",
-      "bytes": 127,
-      "sha256": "c62cabd9df37d02906978982e1885d78a6791ffe98b0ab46a9aae5714db7beac"
+      "bytes": 121,
+      "sha256": "29e1ec8b97c76302b4b9212193c865cb0b2a2b4cfac42f05f4df69734aca4e47"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/api-response.json",
-      "bytes": 18519,
-      "sha256": "bda9ff2f3dda585eddfb46738b4ba79d1da0ec194be852558d125099d37e9b79"
+      "bytes": 18503,
+      "sha256": "09330ddd4c15cb0b3fca8c3db01b64c4944cda3fc585ad6b49e903b349de99a3"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/execution.json",
-      "bytes": 718,
-      "sha256": "bd908a29a22af96372538e8e2c57a3201349c7170a17b4c7a25c21f2825ad877"
+      "bytes": 703,
+      "sha256": "d33eb83b297ac0ea96f6cdca57bf7b141595710a45552ba2966489bec332e78c"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/review-input-custody.json",
-      "bytes": 5217,
-      "sha256": "a344adc7075bee4c3ce84f28b8fea6445bcdc3b5139864a2dcb7692f47422d69"
+      "bytes": 5106,
+      "sha256": "716db0fb6b1b843cb95d923ae5aa65f72930d1161d7c1fd86759b691122c2978"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/review-request.md",
@@ -1182,23 +1187,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run3/shape-validation.json",
-      "bytes": 333,
-      "sha256": "b974fa43ac2e1bbe33be5c3dd563acfa6aad0bef5a4aa5a3dadaefadee4454e8"
+      "bytes": 323,
+      "sha256": "38aa7a6c8a35b77c4bdd778b811585606c3199e2a4dd245e8a442bdcb2a2d47f"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/api-response.json",
-      "bytes": 35472,
-      "sha256": "22c759946899c5a19c1cc0b4df46d7d6b4beba790e2a2ea104d917b3bf734e8e"
+      "bytes": 35456,
+      "sha256": "f863add7da57ffc60802445b1a1d8c395bb47cd802139494ae50a1ef9b2296f1"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/execution.json",
-      "bytes": 718,
-      "sha256": "8f2a6958f5115bdd05ec84bf555c9e58571c7ce1951b29a9878e912d21b35d32"
+      "bytes": 703,
+      "sha256": "098a5c5baad5de60ff7b741fb42bf58ca1499ee3080d1bd4c22baf414d448380"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/review-input-custody.json",
-      "bytes": 5217,
-      "sha256": "3644ef30fc254b989c132d102a6a43dd26471a6b2238c6fc0dda381b61f23b79"
+      "bytes": 5106,
+      "sha256": "556ef05eead72d133fe90e966756ed403245b43a69a240bcc2ee8bf83162aedd"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/review-request.md",
@@ -1212,23 +1217,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run4/shape-validation.json",
-      "bytes": 127,
-      "sha256": "c62cabd9df37d02906978982e1885d78a6791ffe98b0ab46a9aae5714db7beac"
+      "bytes": 121,
+      "sha256": "29e1ec8b97c76302b4b9212193c865cb0b2a2b4cfac42f05f4df69734aca4e47"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/api-response.json",
-      "bytes": 33981,
-      "sha256": "92629a15308191d4788d1237812d46e9fde645784c333559f1410813319ea98c"
+      "bytes": 33965,
+      "sha256": "543cbe012f2b9c5bd2b84dc292beef48347ea0664236cd221aa6d99ce8a960dd"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/execution.json",
-      "bytes": 718,
-      "sha256": "29d642561678d0a2a0e37de1f986a179bb8af6f9d5bd68af6ca3431f517d11d7"
+      "bytes": 703,
+      "sha256": "4b97095865cdf748f59ebb72f24c975dca3807134cbcdeaf83a83f3e69ecfef2"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/review-input-custody.json",
-      "bytes": 5219,
-      "sha256": "11c0da360b924f7b784c56bf848a119390827de5e045285f7157d5b266829a09"
+      "bytes": 5108,
+      "sha256": "01547ff0d9689c863296e4003102425575afd42e317d9ca38c49d37ad998bc57"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/review-request.md",
@@ -1242,23 +1247,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run5/shape-validation.json",
-      "bytes": 387,
-      "sha256": "c4c268269a20c3ba422a4c216aaf7c76efe9d5b0b280b6036a2e27bcd9e29c5a"
+      "bytes": 376,
+      "sha256": "b54e73b52f61006223dc36e939ffc984d2248ce63c9eaa9ad6cc0e7fac8e6ac7"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/api-response.json",
-      "bytes": 36935,
-      "sha256": "209834bf8a06297fb82395faf1a391257056c4c29997f905e4c0ffed8957c0b1"
+      "bytes": 36919,
+      "sha256": "391d7cea4d61a7dde23a43565b0e13310665fa833d08ee3f73b54df6162f8cef"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/execution.json",
-      "bytes": 718,
-      "sha256": "9d2a092390ffa6959c7342851237a3f1e0a911b9190d5531eb5312952a5c426e"
+      "bytes": 703,
+      "sha256": "734c93ad9ce0e579e90b0c8d2266885bf85439b702899c8320fed1964c6a00be"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/review-input-custody.json",
-      "bytes": 5219,
-      "sha256": "4a341251353738d762d0183dc12f652be6c4df979e0265f82d49ba5d10eb3a57"
+      "bytes": 5108,
+      "sha256": "6243421a1d82a83cf91e98a7c833c1e38d275e7f53e8958ea25032b5b5088f39"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/review-request.md",
@@ -1272,23 +1277,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run6/shape-validation.json",
-      "bytes": 164,
-      "sha256": "aff501608dee6723d93195d7e689f1c22a902c002bab99ded09197ddd0ed21cb"
+      "bytes": 158,
+      "sha256": "881ffca5205abc04d636a779ef3de8aab9c592997bee49daaa81bff459ecf49e"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/api-response.json",
-      "bytes": 197,
-      "sha256": "26e276217ae4cc15447d97e1d2ce816f8f31f687034f320bd90eb64445f52d38"
+      "bytes": 189,
+      "sha256": "b12b3d874696b5cb522d97d10a5c40419857015e6056ae8448bfff3615475487"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/execution.json",
-      "bytes": 762,
-      "sha256": "1cd24826c855118f481403449ad549db63b2b958c0091fac5fadc56acb1ba447"
+      "bytes": 749,
+      "sha256": "89c9802497e750f3ea971a410e970c4e51e4865b406bb2237ad3863800898e7d"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/review-input-custody.json",
-      "bytes": 5219,
-      "sha256": "9cb96a596b54525806074d21c0c001a86a4d1e4dbb26da64254bb3fa02ec8d6e"
+      "bytes": 5108,
+      "sha256": "39b8eb8c1039568528b8de84a98a3890a10c7bf639244203842c6fdbbf16c8d0"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/review-request.md",
@@ -1302,23 +1307,23 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run7/structured-validation.json",
-      "bytes": 955,
-      "sha256": "a9ce196277d0672c78104ab4a7ef0075668c4df5661fca631cfb866aaf631bf9"
+      "bytes": 938,
+      "sha256": "41e03c47a45da85dd72c4a7196b61eff96373a4df85fa3119919649ad1f58643"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/api-response.json",
-      "bytes": 5144,
-      "sha256": "1c3bdc377256497fcbf7ff45e0e1c99caf778f915a5474485531d01c7c6b6d1d"
+      "bytes": 5129,
+      "sha256": "c9c0e4e9fcaee1333a0118f418e969c75283c0c5aff79ef3fec0d118485089dd"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/execution.json",
-      "bytes": 764,
-      "sha256": "6133591e602303682deb12133f9031affdfe01b84b3ebaa85543e0ef9a853ea9"
+      "bytes": 751,
+      "sha256": "f63a81762901165a41d549a0c6761f6b9588adc19f932884dc84f75d5eb65196"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/review-input-custody.json",
-      "bytes": 5219,
-      "sha256": "3683d2dfced0174fd59f55743e5764a2318f2bc8d3ce9dba24be1a3640ea5a34"
+      "bytes": 5108,
+      "sha256": "162f7905f8df363405216e219cb7048d836524fc609bc2f2b1606612a87c9070"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/review-request.md",
@@ -1332,8 +1337,8 @@
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run8/structured-validation.json",
-      "bytes": 472,
-      "sha256": "d842f913895301d7978704acab6446059fec2ec0ec77d437a0e40500bd4aae2e"
+      "bytes": 462,
+      "sha256": "eb6022bb157f0606a2d37690106caa325a3e6e4134be31454eb46cac90c5e494"
     },
     {
       "path": "verification/evidence/hesperos-doc-review-v0.1.5-api-20260720-run9/review-request.md",
@@ -1347,13 +1352,13 @@
     },
     {
       "path": "verification/evidence/plugin-readiness-v0.1.5.json",
-      "bytes": 241,
-      "sha256": "1b00f1ad3b7273289c79892ea9511007a0097629ec1e396c3e1c3646d552605c"
+      "bytes": 229,
+      "sha256": "bcd73ccf3f7e2d0ff267f4fcad46b907306e81e39417444955942792a64bf6a7"
     },
     {
       "path": "verification/release-summary-v0.1.5.json",
       "bytes": 3268,
-      "sha256": "ff356964628b17a9bc544a10103996c92f56a4c5a8307bd8dc665d29ad2ec5ff"
+      "sha256": "e8ca47265ab1cec5f56a5b05cb97fa0cd4cf5d4768760e87787b619cf32ce81f"
     }
   ]
 }

@@ -4,13 +4,13 @@
     "name": "CanopyOps",
     "version": "0.1.5"
   },
-  "created_at": "2026-07-20T10:33:48.971858+00:00",
+  "created_at": "2026-07-20T10:41:13.407939+00:00",
   "artifacts": [
     {
       "top_level": "canopyops",
-      "source_tree_sha256": "a0a0fdec1abdd1e75009465b23b839d057c12a333eac25ec46368b2415caf48b",
-      "archive_sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
-      "bytes": 63280,
+      "source_tree_sha256": "7b1e067105c71b71d513ee3b99d5dd9744fe014f99b0f5a7c48585b5b93fe081",
+      "archive_sha256": "cff21580bd064604ad25a8e04ada0670d17bcbfbbd19903b79fccae95ae66875",
+      "bytes": 63495,
       "member_count": 69,
       "id": "augment",
       "kind": "augment",
@@ -19,9 +19,9 @@
     },
     {
       "top_level": "canopyops-plugin",
-      "source_tree_sha256": "1e3928bf6117d8ba1b36b44fb29538dbab07fa15b448ba24620eb2db98263644",
-      "archive_sha256": "963f8ebf470a81d5d193e97b68166ef8ad1f7a98ef2eaa31756b9e5c6553eabd",
-      "bytes": 215070,
+      "source_tree_sha256": "e881d85ad371ad3c326bdd7acbd6a12c837c9f692d22137d059f0c5d84ff512c",
+      "archive_sha256": "6caf7ecf8f7016a9c5efd07a2844cb5d2e783f147b59badcbff6695019fa7778",
+      "bytes": 215285,
       "member_count": 76,
       "id": "plugin",
       "kind": "plugin",
@@ -30,9 +30,9 @@
     },
     {
       "top_level": "canopyops",
-      "source_tree_sha256": "a0a0fdec1abdd1e75009465b23b839d057c12a333eac25ec46368b2415caf48b",
-      "archive_sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
-      "bytes": 63280,
+      "source_tree_sha256": "7b1e067105c71b71d513ee3b99d5dd9744fe014f99b0f5a7c48585b5b93fe081",
+      "archive_sha256": "cff21580bd064604ad25a8e04ada0670d17bcbfbbd19903b79fccae95ae66875",
+      "bytes": 63495,
       "member_count": 69,
       "id": "skill-canopyops",
       "kind": "standalone-skill",

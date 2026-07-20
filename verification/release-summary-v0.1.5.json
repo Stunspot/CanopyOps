@@ -28,20 +28,20 @@
   "archives": [
     {
       "name": "CanopyOps-v0.1.5.zip",
-      "sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
-      "bytes": 63280,
+      "sha256": "cff21580bd064604ad25a8e04ada0670d17bcbfbbd19903b79fccae95ae66875",
+      "bytes": 63495,
       "members": 69
     },
     {
       "name": "Plugin-CanopyOps-v0.1.5.zip",
-      "sha256": "963f8ebf470a81d5d193e97b68166ef8ad1f7a98ef2eaa31756b9e5c6553eabd",
-      "bytes": 215070,
+      "sha256": "6caf7ecf8f7016a9c5efd07a2844cb5d2e783f147b59badcbff6695019fa7778",
+      "bytes": 215285,
       "members": 76
     },
     {
       "name": "Skill-canopyops--CanopyOps-v0.1.5.zip",
-      "sha256": "d0900137a094b717a9ee1909548a10373d96c98ea093caf9fa0fd1ba162ca189",
-      "bytes": 63280,
+      "sha256": "cff21580bd064604ad25a8e04ada0670d17bcbfbbd19903b79fccae95ae66875",
+      "bytes": 63495,
       "members": 69
     }
   ],
