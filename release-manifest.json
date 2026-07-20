@@ -507,8 +507,8 @@
     },
     {
       "path": "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
-      "bytes": 10510,
-      "sha256": "df7266258539c96f080d33f5448b45ffbe6901432bee7099ea443f6f0b6c00f5"
+      "bytes": 10661,
+      "sha256": "bd8cd23268efc91403c4bedd142fe044bebecb319c7d68488161d417c48f2209"
     },
     {
       "path": "plugins/canopyops/.codex-plugin/plugin.json",
@@ -957,8 +957,8 @@
     },
     {
       "path": "tools/build_openai_submission_archive.py",
-      "bytes": 6075,
-      "sha256": "b8ea1f91229cf8c74deff292984f5e5ffad0671f71bde3c5010b456304c1c9ea"
+      "bytes": 6963,
+      "sha256": "2e08a949d06deb2c25940ee3089a60d66b7fc6a1cd9f5fd964ef573643d08a47"
     },
     {
       "path": "TRADEMARKS.md",
@@ -1373,7 +1373,7 @@
     {
       "path": "verification/release-summary-v0.1.5.json",
       "bytes": 4365,
-      "sha256": "767a7f5a50fb7063b2721fb6f7db136f293672ae74990803283224dfea42ac55"
+      "sha256": "0e34adec7e16d40bbc96b409956990bf63362276eb74c10f33a4d1f12e78fa08"
     }
   ]
 }

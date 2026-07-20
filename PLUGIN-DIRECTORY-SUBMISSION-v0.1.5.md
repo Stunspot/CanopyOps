@@ -8,13 +8,13 @@ This packet maps the released CanopyOps plugin to the current OpenAI Plugins Dir
 - Installable plugin: `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5.zip`
 - Installable plugin SHA-256: `6caf7ecf8f7016a9c5efd07a2844cb5d2e783f147b59badcbff6695019fa7778`
 - OpenAI submission upload: `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5-OpenAI-Submission.zip`
-- Submission upload SHA-256: `0ca118272763bc45d116424f8a166637e72c8f4e4fc41a1ecfe75a29c86c59ba`
+- Submission upload SHA-256: `0c6297a89b3b8081fdc23b00c1474f8f35cbdd658e5334a088cab11e1cf8c179`
 - Submission custody: `release-assets/v0.1.5/openai-submission-custody.json`
 - Draft-upload comparison: `release-assets/v0.1.5/portal-draft-upload-evidence.json`
 - Public release: <https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.5>
 - Submission type: **Skills only**
 
-The installable plugin keeps its full local and marketplace `interface`. The governed portal upload is a deterministic channel derivative of the same 76-file plugin tree; only the archived manifest is transformed to retain `composerIcon` and `logo`. Every ZIP member path uses `/`. The draft was created from a preflight ZIP with the same member names; 75 members are byte-identical and the Ella Greenfield persona is identical after CRLF/LF normalization. Its ZIP container metadata was not deterministic. The live portal accepted this shape.
+The installable plugin keeps its full local and marketplace `interface`. The governed portal upload is a deterministic channel derivative of the same 76-file plugin tree; only the archived manifest is transformed to retain `composerIcon` and `logo`. Every ZIP member path uses `/`; UTF-8 text is canonicalized to LF without a BOM; and members use stored ZIP entries so the archive is byte-identical across supported Python runtimes. The draft was created from a preflight ZIP with the same member names; 75 members are byte-identical and the Ella Greenfield persona is identical after CRLF/LF normalization. Its ZIP container metadata was not deterministic. The live portal accepted this shape.
 
 ## Created draft
 
