@@ -506,6 +506,11 @@
       "sha256": "2695dc787be813fc9fe3a379606e8f45fe30db486eff3532adb7649932c86a01"
     },
     {
+      "path": "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
+      "bytes": 8628,
+      "sha256": "6aaf39da14c57d076f543fe8c81737d6ec01027bd851e601e6d4fa69f33e9873"
+    },
+    {
       "path": "plugins/canopyops/.codex-plugin/plugin.json",
       "bytes": 1719,
       "sha256": "a6e62e60b33438f3395ffd987a331688837363c3d42df55cba47d2e747a0915b"
