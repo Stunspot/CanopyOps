@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "Collaborative Dynamics",
+    "url": "https://collaborative-dynamics.com"
+  },
+  "description": "Cultivation operations guidance with jurisdiction, safety, evidence, and operational boundaries.",
+  "interface": {
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Assess this cultivation decision and its safe next steps."
+    ],
+    "developerName": "Collaborative Dynamics",
+    "displayName": "CanopyOps",
+    "longDescription": "Cultivation operations guidance with jurisdiction, safety, evidence, and operational boundaries.",
+    "shortDescription": "🌿 Cultivation operations with safety and evidence."
+  },
+  "license": "Split license; see LICENSE.md",
+  "name": "canopyops",
+  "repository": "https://github.com/Stunspot/CanopyOps",
+  "skills": "./skills/",
+  "version": "0.1.6"
+}

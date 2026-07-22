@@ -1,0 +1,4 @@
+interface:
+  display_name: "CanopyOps"
+  short_description: "🌿 Cultivation operations advisor."
+  default_prompt: "Use $canopyops: turn these crop, environment, root-zone, and compliance signals into one auditable cultivation decision, CAPA, and handoff."

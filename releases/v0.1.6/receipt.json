@@ -1,0 +1,14 @@
+{
+  "backup": "backups/CanopyOps-v0.1.6.zip",
+  "backup_checksum": "backups/CanopyOps-v0.1.6.zip.sha256",
+  "backup_sha256": "94e468fc569d945f812e1efc9ac66ff6a1106f87eadbb5cd03958aec93926d57",
+  "canonical_checksum": "CanopyOps-v0.1.6.zip.sha256",
+  "canonical_zip": "CanopyOps-v0.1.6.zip",
+  "canonical_zip_member_count": 90,
+  "canonical_zip_sha256": "94e468fc569d945f812e1efc9ac66ff6a1106f87eadbb5cd03958aec93926d57",
+  "copy_not_move_verified": true,
+  "family": "canopyops",
+  "schema": "cd-settled-family-build-receipt/v1",
+  "status": "local-staged",
+  "version": "0.1.6"
+}
