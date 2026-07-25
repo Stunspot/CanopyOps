@@ -12,8 +12,8 @@
     },
     {
       "path": ".gitattributes",
-      "bytes": 45,
-      "sha256": "8d75fbed0329d55480242ea79c61cbdd3da312c700298bfba9572b81ec325cc6"
+      "bytes": 71,
+      "sha256": "0737dd6105f0f862eadc8638a76549e500e59cd35c8826a2446768c4119a9a36"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
@@ -914,6 +914,471 @@
       "path": "RELEASE-NOTES-v0.1.5.md",
       "bytes": 1684,
       "sha256": "25c3df458350051982605799fa2b4e8d69ee5fd6b50b9ab8ff01e0e181f9993f"
+    },
+    {
+      "path": "releases/v0.1.6/CanopyOps-v0.1.6.zip",
+      "bytes": 146037,
+      "sha256": "94e468fc569d945f812e1efc9ac66ff6a1106f87eadbb5cd03958aec93926d57"
+    },
+    {
+      "path": "releases/v0.1.6/CanopyOps-v0.1.6.zip.sha256",
+      "bytes": 87,
+      "sha256": "bcd3ea8fadb900b63464e352f51898dc7747109220604667b1f3b6af01d3a221"
+    },
+    {
+      "path": "releases/v0.1.6/claude/canopyops-v0.1.6.zip",
+      "bytes": 61085,
+      "sha256": "1cc2f21a8413b11f7540332517f0eebf9a0e439ab455e01f1ba58607702bd278"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/.codex-plugin/plugin.json",
+      "bytes": 908,
+      "sha256": "8971d582964b3a18776ebea8cb4a2ec4e5c8f2f25fd04f62c2dc340e0b96713d"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/adapters/bot-runtime.md",
+      "bytes": 535,
+      "sha256": "6e02a167af972017a9dedde7066ba35c37a9dc5ca4c8881d4670fb4d6381001f"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/adapters/chat-runtime.md",
+      "bytes": 500,
+      "sha256": "ad1d095e3fe3405d029b65ac28c78d7e432bc19c5071f749799542d5efd0911a"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/adapters/claude-code.md",
+      "bytes": 1662,
+      "sha256": "fd473910648b4e44771c1b7ec3083b6a0532d709c3dfee19f28656aa7799c34a"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/adapters/codex-local.md",
+      "bytes": 499,
+      "sha256": "4ec10f3fec4a69f4df8a261292ce940c47244c8a46d43602ef26d7f37b53d2b9"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/agents/openai.yaml",
+      "bytes": 259,
+      "sha256": "17250d03a173e5fa92e6a0df9256f7c312e513c95e4540c3d846cbcabdaa0181"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/capa-record.md",
+      "bytes": 659,
+      "sha256": "0483e786628b7c1bc45c5432eb21cc57f47e8d64590781f40b6a3376960431ab"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/compliance-verification.md",
+      "bytes": 684,
+      "sha256": "4a00b635b194060b55d578f327625f3759e7680f1454ace7360eb221c6b38ba1"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/crop-plan.md",
+      "bytes": 1057,
+      "sha256": "d3bc7fc0fc78c7d018e98b84f2a3099f7b4cd1fc6de900d86c6a7cc4272f1d8c"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/crop-profile.md",
+      "bytes": 641,
+      "sha256": "6d3519878fe16501903cb54d5a5c82f529f22ff0a95fe33606e9152d8882a826"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/crop-walk.csv",
+      "bytes": 218,
+      "sha256": "1173f29b41492a6e6aedb66a13dfc2551d730dded61d4302b0848f1e6e71489d"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/cultivation-decision.md",
+      "bytes": 566,
+      "sha256": "4f021476b0c6f8db8dbe543596235d8493cd9aff4db9a3b8231d7321e7754d3c"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/drying-log.csv",
+      "bytes": 213,
+      "sha256": "eb92568f4362e0a9cedd592a07517e32aec1e94419661bf9465f8835558059ee"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/facility-profile.md",
+      "bytes": 979,
+      "sha256": "e8f314ec15446b8c0b6b5e44b0d603c19cfd8b937f02c6d8e3d145b33a4388db"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/harvest-readiness.md",
+      "bytes": 712,
+      "sha256": "2e51f42c90221cc2c180e9469517e8378ffc3d36a42499c9da3c8f69c72c642c"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/incident-report.md",
+      "bytes": 1073,
+      "sha256": "c8f1e341c5341402d3aafefa867dbc0fe9bf23c6dd0ce0d737a2c3dc40ece36d"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/risk-register.csv",
+      "bytes": 190,
+      "sha256": "53a949010e01ea2549097d72a63c93242caa27b7f42fa5b20299bfac1a4764fa"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/room-runbook.md",
+      "bytes": 798,
+      "sha256": "e944def478ee04b84309254dccf6f6b27b82398f6e09d251de37fa57f10143f6"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/assets/shift-handoff.md",
+      "bytes": 574,
+      "sha256": "d2eb9a6fcc1a8eb4028fddcce456f1ea61897d03f16c3952322490f229df8532"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/ATTRIBUTION.md",
+      "bytes": 638,
+      "sha256": "e1a7f03f6f5a8411eee458d956d6f042cfcdb5c602ee053f57ca9c1eef21a8d5"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/CHANGELOG.md",
+      "bytes": 1383,
+      "sha256": "60bc263f2ab47ea61f28e3432a194cda4f71b5695a53593e0ef409c1a073184e"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/evals/authority-and-resilience-cases.yaml",
+      "bytes": 5337,
+      "sha256": "72af2360b4ad786a8300f5b1adc7ce426a08632e9895e81d015252282b1665bd"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/evals/core-transfer-cases.yaml",
+      "bytes": 6633,
+      "sha256": "8627d001042f558388b581aa2bd18661d49a08f66fed55544818f9ccaab032a5"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/evals/eval-manifest.yaml",
+      "bytes": 682,
+      "sha256": "ee00bd21355c8c5a773a7bb05f67a09913c8119caacbca0ee4c2ac1a31c5122e"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/examples/harvest-readiness-review.md",
+      "bytes": 1165,
+      "sha256": "1fe00154fe3c3e0a015576cc647c231f9508ee2bb12e6dbd0fff0d9f73993454"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/examples/high-runoff-ec-diagnosis.md",
+      "bytes": 1361,
+      "sha256": "e6b469bb0eae155981d1ebc1110a4cabf39d240b8deb600a44c4783f34f5c831"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/examples/late-flower-humidity-incident.md",
+      "bytes": 1952,
+      "sha256": "1a30d9f97b3df51e4de3d14cd3bffd1f1c1d5edd3d894f6f4d50ff0e4c59f5f4"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/examples/new-room-crop-plan.md",
+      "bytes": 1408,
+      "sha256": "c65a8db3853184386810faff8b6b4ae58b9c562b9fb8d420e1e1f850ec454711"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/jurisdiction-packs/README.md",
+      "bytes": 512,
+      "sha256": "4d7c686ba738cfe3b8ff110f88fceb981c63775984cb72fc3f8fdc7ad8670f7b"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/LICENSE.md",
+      "bytes": 2817,
+      "sha256": "77882dd576eae0231ea08546d48022591a416c2377ab0cc984b84ac9841d2615"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/NOTICE.md",
+      "bytes": 580,
+      "sha256": "30d8d5d6ac0b7369a265ffe0d9e1aa22d4745a63f48de646c4448d1017bebe22"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/personas/ella-greenfield-v2.md",
+      "bytes": 4036,
+      "sha256": "89d4836c982328c1fddcdc2547bb1b97a38a01ed8780d47534f76c6fd6a3c450"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/README.md",
+      "bytes": 2214,
+      "sha256": "2e00e6ba2e6e8e056c8adbb714bb81bb9b4ee8b9061ee66218fca7be4c4102d7"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/agronomy-core.md",
+      "bytes": 2255,
+      "sha256": "67ba0885e6bb07955a5c54020d539075d15459d3461c025f5076594380cf35a6"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/compliance-verification-method.md",
+      "bytes": 1786,
+      "sha256": "d5e88d844af9595a7c88ced2f7a56e9088e7450c3f2b5ee323c97933d8de59a6"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/cultivar-and-gxe.md",
+      "bytes": 1651,
+      "sha256": "2bdddfb9f8682beb2e46b6dae239f54530439767aa05b16d98d15fdcb630595e"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/diagnostic-field-guide.md",
+      "bytes": 1751,
+      "sha256": "3fa16cc34d5a8ff55c1ebfae5f72c17ec0453c54cd648a9f700d1286a5277411"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/economics-sustainability.md",
+      "bytes": 1035,
+      "sha256": "2eddec5047868c0202678d8999e1b294d1c66157004ccdf3a7ef7f27279aa170"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/environment-lighting-vpd.md",
+      "bytes": 1689,
+      "sha256": "7bcd7a9d16a855884de068911362bc5bc6001f8b65caa575a91e53c78bc0b3ed"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/glossary.md",
+      "bytes": 1792,
+      "sha256": "524b77a70c9882d38f21e28ab71354ba01aa2e2a5ac6b36b57fa55ff790bb086"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/harvest-postharvest.md",
+      "bytes": 1624,
+      "sha256": "7f26d70cbd7df28bca2b77531a405adc038ddb41b3c555791e856893ebbdc506"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/ipm-biosecurity.md",
+      "bytes": 1713,
+      "sha256": "4c5cc08bfa54f0facb0267fe4efed086ad2090f56f3ca11caef24a603b1fe1f3"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/rootzone-fertigation.md",
+      "bytes": 2005,
+      "sha256": "cb91aef072363e0f3f9237b596da4a82dc9876ea9c04fb067488f54cc0fc9c05"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/safety-operations.md",
+      "bytes": 1986,
+      "sha256": "a383cda88612d48c4812ec3886ab8531dc0e111d4a53c044d4b4601aeda76bba"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/source-provenance.md",
+      "bytes": 2528,
+      "sha256": "1e9bc7d49c504e12408000f44bd427f59ad933a4af13b1b746ce510423d4a69e"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/references/source-quality-policy.md",
+      "bytes": 1770,
+      "sha256": "aeaec62d3c96ec2f51cb3416b823d66dd86d71d18e4f3def635760e038cfa10a"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/schemas/compliance-record.schema.json",
+      "bytes": 1218,
+      "sha256": "197d3800b10583ba259033677014c26b48ef73ff0e21d6faa54f9f05e6eaf43a"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/schemas/crop-plan.schema.json",
+      "bytes": 1233,
+      "sha256": "1c67236c9362d780bd17a805602c78b3cfa5091e388ad689388b62140e37b83f"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/schemas/crop-profile.schema.json",
+      "bytes": 1157,
+      "sha256": "8a7805c931e140035750526ec631d2bf76a40e1c8f99169495bb6b6fae6169f0"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/schemas/cultivation-decision.schema.json",
+      "bytes": 1034,
+      "sha256": "d652b488856c2b580d66c51c06689b781cdcfee562c8ffc47a22ceb131d8dbfe"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/schemas/facility-profile.schema.json",
+      "bytes": 1050,
+      "sha256": "018d9b652d6ece3761e228003d75b9e4ad039b940c4e6beca9cfc447799ad4bc"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/schemas/incident-report.schema.json",
+      "bytes": 1372,
+      "sha256": "bf2a50af3220fd432549839a325d77d08ea475a82692fe5746a9b581185780a4"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/calculate_dli.py",
+      "bytes": 1191,
+      "sha256": "d2ebf64b2a008df553ca3bd6052c9cdee8fe8eeabcfce78e219af486f0248407"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/calculate_irrigation.py",
+      "bytes": 1757,
+      "sha256": "d70d750df0fa94e573b6a0597f750be67cae76eede33e241a694f0663640dc7e"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/calculate_vpd.py",
+      "bytes": 1925,
+      "sha256": "f0df57549ff4636090ea8e046023c169262cd11c53141a0d341bb1eef75c6f9a"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/check_source_freshness.py",
+      "bytes": 1643,
+      "sha256": "057e3f500752eb19145a084204e92f47c57dd13f144a9ee16a87ee44e944d544"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/lint_cultivation_plan.py",
+      "bytes": 1600,
+      "sha256": "0ccb751ded87a63e6e511441b93123cb5086c5338630388012e53350641257cf"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/normalize_logs.py",
+      "bytes": 2280,
+      "sha256": "d2970b4d790020af33168013714ae621a5ef96c2d2a586ff73b3b7cc4ccd7afc"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/normalize_units.py",
+      "bytes": 1599,
+      "sha256": "7fd0b3707596c0be730e0f9f3e7f250ebd6552070a7d83229f58915cc15fa3c7"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/package_deliverables.py",
+      "bytes": 1284,
+      "sha256": "67d47b2416d2683b0f334e9504a5285a458304ad62c931b0d86ac016537a5135"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/README.md",
+      "bytes": 1005,
+      "sha256": "0d325526cc6f8ba713002d5b5cbfba9dc0992d5d3f63102c1d1799833db6d434"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/scripts/validate_record.py",
+      "bytes": 2727,
+      "sha256": "d4f6cc7fdc8e463a762296bb2b864663c3609833103aee05d1edc193945f56fa"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/SKILL.md",
+      "bytes": 4334,
+      "sha256": "a3ac49dd70057763cc38e8ddfb9f50c7594aa6e4c2191f98f40194ec8eecc780"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/TRADEMARKS.md",
+      "bytes": 1013,
+      "sha256": "7cc4fe4c698dc9ecef7b366d82a0da4e370c9728c572b041aa7ed8c7e7951025"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/workflows/compliance-and-operations.md",
+      "bytes": 1635,
+      "sha256": "7b16e96651cd569eb03c6ce08a76a685fbf1c31f927f52c96bb8b2e12ba4a9cf"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/workflows/crop-planning.md",
+      "bytes": 1716,
+      "sha256": "5bd07b57bee6d7fe4525e226faf338cd34c0921157011c1a65c2431c4f16f344"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/workflows/diagnostics-and-incidents.md",
+      "bytes": 1814,
+      "sha256": "1d50d33314814c4471d9d209387f82c7d892ed4ad19cfb77cde0cc3cf6244fa0"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/workflows/environment-and-rootzone.md",
+      "bytes": 1926,
+      "sha256": "c7ff2ccfd5e52f5a1c4629f43e63492f94fe9349e242dd3d16a82329d70edf02"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/workflows/harvest-and-quality.md",
+      "bytes": 1570,
+      "sha256": "a1fa25d8b30acf331dd24bf3057b9c71821f2eefaa21b922ace9eb340a1d6072"
+    },
+    {
+      "path": "releases/v0.1.6/codex/canopyops/skills/canopyops/workflows/review-and-release.md",
+      "bytes": 1853,
+      "sha256": "5dcd91a52ab3e612b01476de4efa83ff3ec076dc6b4a969c6fe6733464cbce29"
+    },
+    {
+      "path": "releases/v0.1.6/description-custody.json",
+      "bytes": 198,
+      "sha256": "abbc5b36892471116c507ad4e3f9beb4c0d650036629355a35d3f7bc9f4bd57a"
+    },
+    {
+      "path": "releases/v0.1.6/docs/CAPABILITIES.md",
+      "bytes": 484,
+      "sha256": "f41a3552b30935f26dfd2d87b9a1306e70ce9e4d1bac26d867748d37f546baa4"
+    },
+    {
+      "path": "releases/v0.1.6/docs/DESCRIPTION-CUSTODY.md",
+      "bytes": 399,
+      "sha256": "eabf81a4c5a920f507b0e9ae5f933cbd7ecff856fd0e25d5cdd263385be9d8a6"
+    },
+    {
+      "path": "releases/v0.1.6/docs/HOST-EVIDENCE-BOUNDARY.md",
+      "bytes": 864,
+      "sha256": "9ecb8a24939362bb236d4a8b79a53d2c82002983fd403c2d75a0fc976e0e18a6"
+    },
+    {
+      "path": "releases/v0.1.6/docs/INSTALL-CLAUDE.md",
+      "bytes": 1474,
+      "sha256": "ad9ab187de805237782f68f7603cd965aec2e8a4be03bf59410c5d7d3dc95009"
+    },
+    {
+      "path": "releases/v0.1.6/docs/INSTALL-CODEX.md",
+      "bytes": 1898,
+      "sha256": "8147aee368ececffbbb7516a633d2b6689fe3b9788f7ef607608ff4007d8b349"
+    },
+    {
+      "path": "releases/v0.1.6/docs/LIMITATIONS.md",
+      "bytes": 573,
+      "sha256": "b0621f399ab3eb52d9f4cc938f83fcf4a1020897bbbd7bb2b0e13a3aba671b3b"
+    },
+    {
+      "path": "releases/v0.1.6/docs/MAINTAINER-GUIDE.md",
+      "bytes": 2914,
+      "sha256": "1d56eb078149ed230bb23ec14fa8bf32cf296cd2ead0541796d628399c2e5671"
+    },
+    {
+      "path": "releases/v0.1.6/docs/PACKAGE-REFERENCE.md",
+      "bytes": 731,
+      "sha256": "3f2690554bc15a9f79788035c7899057a8122cf85828ca9e9240b1b3450a2abf"
+    },
+    {
+      "path": "releases/v0.1.6/docs/PROVENANCE.md",
+      "bytes": 928,
+      "sha256": "e7d0cccf8a1a9425ca5eb2744e2259cd4ce2b4e95082b57a7f12c609ed933192"
+    },
+    {
+      "path": "releases/v0.1.6/docs/QUICK-START.md",
+      "bytes": 1728,
+      "sha256": "a59508be1e87be1b6780ce0d73a04f8a56c248e28f3c4ee9beee7ae9de534035"
+    },
+    {
+      "path": "releases/v0.1.6/docs/README.md",
+      "bytes": 1092,
+      "sha256": "6425fd1196def37e80ed4c9db9ba06522648933d489a1333031401834d1dc71b"
+    },
+    {
+      "path": "releases/v0.1.6/docs/SUPPORT.md",
+      "bytes": 1600,
+      "sha256": "938609eae2904c0e4b675f8b2a4c6e869f976f272feaca4b9a5ab17c70b24c08"
+    },
+    {
+      "path": "releases/v0.1.6/docs/VALIDATION.md",
+      "bytes": 1365,
+      "sha256": "cff3f9a1a716e2738bf0cf5c48eda00b4359b2d8ab175ecda982f3e7155a43e4"
+    },
+    {
+      "path": "releases/v0.1.6/LICENSE.md",
+      "bytes": 2829,
+      "sha256": "432606a96f9a8247c237e4c7c8efc54639e5017967e35d76ae329bcfd397add5"
+    },
+    {
+      "path": "releases/v0.1.6/manifest.json",
+      "bytes": 14290,
+      "sha256": "ea907599e522aae29f4f4644cef0da973920428c64bd1cdec2d2f2322ea2b20e"
+    },
+    {
+      "path": "releases/v0.1.6/package-receipt.json",
+      "bytes": 295,
+      "sha256": "755eb0fe0985b47f426fa05622307a8f43bada91e1d5f06886773341f0131063"
+    },
+    {
+      "path": "releases/v0.1.6/receipt.json",
+      "bytes": 581,
+      "sha256": "a6c41bf1dfb754d80347cb9e29857b2c4419659b57d4de7765565def2991304c"
+    },
+    {
+      "path": "releases/v0.1.6/tools/verify_release.py",
+      "bytes": 11270,
+      "sha256": "7820ca460a19ff344ef3f7088f3edca558f0e9dd4bb9d8e2be3405709e6ad8b8"
+    },
+    {
+      "path": "releases/v0.1.6/verification-report.json",
+      "bytes": 273,
+      "sha256": "7a7de9554b8929ddf824ed2d3c2c378cbbd0256bb13797cf35cfd899b3887f14"
     },
     {
       "path": "SAFETY-AND-SCOPE.md",

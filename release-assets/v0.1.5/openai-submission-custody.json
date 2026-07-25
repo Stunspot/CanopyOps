@@ -13,7 +13,7 @@
   "source_manifest_sha256": "a6e62e60b33438f3395ffd987a331688837363c3d42df55cba47d2e747a0915b",
   "submission_manifest_sha256": "11167dc921515c40f94d23f675a6251264d7e31486eded62fe867eed605ba0bd",
   "text_canonicalization": "UTF-8 text is stored as LF without a BOM; binary and non-UTF-8 bytes are preserved",
-  "normalized_text_member_count": 0,
+  "normalized_text_member_count": 1,
   "zip_compression": "stored",
   "manifest_transform": {
     "kept_interface_fields": [
