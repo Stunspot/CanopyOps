@@ -1422,8 +1422,8 @@
     },
     {
       "path": "tools/build_openai_submission_archive.py",
-      "bytes": 7174,
-      "sha256": "af5dace6b88303b244233fc47191cce381cd250dc39b4806d348a3e9589bf3f7"
+      "bytes": 6991,
+      "sha256": "d5e49e5770ec952dd97993373e3547736bf81f4c0a7313abb027f21d4c97f47c"
     },
     {
       "path": "TRADEMARKS.md",
