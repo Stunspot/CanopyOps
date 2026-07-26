@@ -1,0 +1,99 @@
+name: Verify CanopyOps documentation reconciliation
+
+on:
+  push:
+    paths:
+      - .github/workflows/verify-documentation-reconciliation.yml
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run current repository suite
+        run: python -m unittest discover -s tests -v 2>&1 | tee /tmp/canopyops-repository-tests.txt
+
+      - name: Verify settled portable bundle
+        working-directory: releases/v0.1.6
+        run: python tools/verify_release.py . 2>&1 | tee /tmp/canopyops-portable-verification.txt
+
+      - name: Record passing evidence and remove one-shot workflow
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import platform
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          repo_log = Path('/tmp/canopyops-repository-tests.txt').read_text(encoding='utf-8')
+          portable_log = Path('/tmp/canopyops-portable-verification.txt').read_text(encoding='utf-8')
+          if 'Ran 20 tests' not in repo_log or not repo_log.rstrip().endswith('OK'):
+              raise SystemExit('Repository suite did not produce the expected 20-test OK result.')
+
+          portable_payload = None
+          for line in reversed(portable_log.splitlines()):
+              line = line.strip()
+              if line.startswith('{') and line.endswith('}'):
+                  try:
+                      portable_payload = json.loads(line)
+                  except json.JSONDecodeError:
+                      pass
+                  if portable_payload is not None:
+                      break
+          if not isinstance(portable_payload, dict) or portable_payload.get('ok') is not True:
+              raise SystemExit('Portable verifier did not produce an ok=true JSON result.')
+          if portable_payload.get('findings') not in ([], None):
+              raise SystemExit('Portable verifier reported findings.')
+
+          receipt = {
+              'format': 'canopyops-documentation-reconciliation-verification/v1',
+              'verified_at': datetime.now(timezone.utc).isoformat(),
+              'source_commit': os.environ['SOURCE_COMMIT'],
+              'environment': {
+                  'python': platform.python_version(),
+                  'platform': platform.platform(),
+                  'runner': 'github-actions/ubuntu-latest',
+              },
+              'checks': [
+                  {
+                      'name': 'current repository suite',
+                      'command': 'python -m unittest discover -s tests -v',
+                      'status': 'passed',
+                      'observed_test_count': 20,
+                  },
+                  {
+                      'name': 'settled portable v0.1.6 verifier',
+                      'command': 'cd releases/v0.1.6 && python tools/verify_release.py .',
+                      'status': 'passed',
+                      'result': portable_payload,
+                  },
+              ],
+              'claim_boundary': (
+                  'This receipt establishes only the named deterministic checks in the recorded '
+                  'GitHub Actions environment. It does not establish live host activation, cultivation '
+                  'field fitness, legal correctness, publication approval, or customer outcomes.'
+              ),
+          }
+          output = Path('verification/documentation-reconciliation-2026-07-25.json')
+          output.write_text(json.dumps(receipt, indent=2) + '\n', encoding='utf-8')
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/verify-documentation-reconciliation.yml
+          git add verification/documentation-reconciliation-2026-07-25.json
+          git commit -m "chore: verify CanopyOps docs (20 tests + portable verifier pass)"
+          git push
