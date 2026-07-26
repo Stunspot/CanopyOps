@@ -1,0 +1,36 @@
+{
+  "format": "canopyops-documentation-reconciliation-verification/v1",
+  "reconciled_documentation_commit": "7b60bc65e9e1f58a5e03760d2c3b6ac4ef3c42d0",
+  "confirmation_workflow_commit": "24224cd24cd116b9f5970c167a8e750e84b37b64",
+  "observed_on": "2026-07-25",
+  "timezone": "America/Chicago",
+  "checks": [
+    {
+      "name": "current repository suite",
+      "command": "python -m unittest discover -s tests -v",
+      "status": "passed",
+      "observed_test_count": 20,
+      "evidence": "GitHub Actions job 89747772062, step 4 concluded success; the confirmation workflow gated cleanup behind the same command."
+    },
+    {
+      "name": "settled portable v0.1.6 verifier",
+      "command": "cd releases/v0.1.6 && python tools/verify_release.py .",
+      "status": "passed",
+      "evidence": "GitHub Actions job 89747772062, step 5 concluded success; the confirmation workflow gated cleanup behind the same verifier."
+    },
+    {
+      "name": "failed verification-run cleanup",
+      "target_run_id": 30184925232,
+      "status": "passed",
+      "evidence": "The confirmation workflow could delete the target only after both substantive checks passed; the Actions jobs endpoint subsequently returned 404 for the deleted run."
+    }
+  ],
+  "initial_workflow_note": {
+    "run_id": 30184925232,
+    "job_id": 89747772062,
+    "substantive_checks": "passed",
+    "housekeeping_step": "failed",
+    "resolution": "The housekeeping logic was replaced with a gated cleanup workflow; the failed run was deleted and the temporary workflow was removed by the maintainer."
+  },
+  "claim_boundary": "This receipt establishes only the named deterministic checks in the recorded GitHub Actions environment and the observed cleanup state. It does not establish live Codex or Claude activation, cultivation-field fitness, legal or jurisdictional correctness, OpenAI Plugin Directory approval, equipment integration, publication outcomes, or customer results."
+}
