@@ -136,7 +136,7 @@ CanopyOps should invoke only bundled scripts against explicit values or user-app
 2. Identify the installed distribution and version.
 3. Replace the complete matching package; do not overlay v0.1.6 files onto v0.1.5 or vice versa.
 4. Start a fresh task.
-5. repeat the safe discovery check.
+5. Repeat the safe discovery check.
 6. Re-run the appropriate deterministic verifier.
 
 For the repository-native line, reinstall the plugin or replace the complete `canopyops/` directory. For the portable line, extract the new archive into a new directory and verify it before switching.
