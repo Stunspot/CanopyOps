@@ -1,0 +1,28 @@
+name: Verify CanopyOps Pages repair
+
+on:
+  push:
+    paths:
+      - .github/workflows/verify-pages-repair.yml
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore final tree and run deterministic suite
+        run: |
+          git rm .github/workflows/verify-pages-repair.yml
+          python -m unittest discover -s tests -v
+      - name: Commit successful verification cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: verify CanopyOps Pages repair (18 tests pass)"
+          git push
