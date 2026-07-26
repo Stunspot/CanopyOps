@@ -36,6 +36,11 @@
       "sha256": "6406fc9278a83558df958c8dd7e4fd9558ca15d9fdd64ff28cfcc02305431d16"
     },
     {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 776,
+      "sha256": "22c4f7202e262a3847bb3ad834558509787595b9f5f853d78245d34b1ca3f852"
+    },
+    {
       "path": ".github/workflows/verify.yml",
       "bytes": 620,
       "sha256": "8e986eda813577ec717f74bc88a5a16ed36fa14ab899dc5f1685ca15165ee2bd"
@@ -429,6 +434,31 @@
       "path": "DATA-AND-PRIVACY.md",
       "bytes": 1206,
       "sha256": "28a0d085dd753dfac61a89d44dc4c7362f99b2e2407bffaf8633927e34b9dfde"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/assets/canopyops-hero.png",
+      "bytes": 1775453,
+      "sha256": "49ab0a43f9c83d47e2800d4de197688eda05fbc3e4a13eb40dac1700baa21805"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 12929,
+      "sha256": "f713820fef9af80d9224d691b8d5094f97c0a31709a7d659ad0436a4ec778c45"
+    },
+    {
+      "path": "docs/SOURCE.md",
+      "bytes": 772,
+      "sha256": "b454585bfc01e24d15dc2545e7c043c18089a87b7a79e711afb9afb6646de957"
+    },
+    {
+      "path": "docs/style.css",
+      "bytes": 14797,
+      "sha256": "4a928fab5ffc79ddebe92f9285b1a103c1a179ae9e01dab34caa2c26cd61b64f"
     },
     {
       "path": "documentation-manifest.json",
@@ -892,8 +922,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9027,
-      "sha256": "62528a2575808fc71851d41ac2efda15d09174d0a28a02898bdfb435fd471b43"
+      "bytes": 9469,
+      "sha256": "f69e70f49072040aea23b082226595fc601bc9593f07468983eb10060c882574"
     },
     {
       "path": "RELEASE-NOTES-v0.1.2.md",
