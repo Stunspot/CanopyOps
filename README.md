@@ -1,12 +1,10 @@
-![CanopyOps — cannabis cultivation operations](images/canopyops-social-card.png)
+![A clean controlled-environment cultivation room with orderly crop rows, irrigation infrastructure, sensor equipment, and cool inspection light across the canopy.](docs/assets/canopyops-hero.png)
 
 # CanopyOps
 
 **Cannabis crop plans, diagnostics, and operating records.**
 
-[![CanopyOps repository checks](https://github.com/Stunspot/CanopyOps/actions/workflows/verify.yml/badge.svg)](https://github.com/Stunspot/CanopyOps/actions/workflows/verify.yml)
-
-The badge reports only the repository's deterministic GitHub Actions workflow. It does not establish live-host activation, cultivation-field fitness, official Plugins Directory appearance, or release approval.
+**[Open the tailored CanopyOps project site →](https://stunspot.github.io/CanopyOps/)**
 
 CanopyOps is a Collaborative Dynamics agentic Augment SKILL that turns cannabis cultivation observations, logs, and facility constraints into defensible crop plans, incident workups, calculations, harvest reviews, compliance-verification briefs, runbooks, CAPA, and shift handoffs.
 
@@ -16,7 +14,7 @@ It is the reasoning-and-record layer between “something looks wrong” and an 
 
 CanopyOps was conceived and built on July 17, 2026, during the OpenAI Build Week submission period. Stun supplied compact product intent, source material, the Ella Greenfield persona, domain and authority boundaries, and release judgment. Codex with GPT-5.6 turned that direction into the routed SKILL, deterministic utilities, schemas, templates, evaluations, host adapters, documentation, licensing surfaces, plugin packaging, verification, and public release.
 
-The working Augment emerged in roughly an hour; public packaging, branding, licensing, hardening, and publication continued afterward. This repository now includes an 18-test deterministic suite and automatic verification so judges and users can inspect the machinery rather than taking the claim on faith.
+The working Augment emerged in roughly an hour; public packaging, branding, licensing, hardening, and publication continued afterward. This repository includes an 18-test deterministic suite and automatic verification so judges and users can inspect the machinery rather than taking the claim on faith.
 
 Read [BUILD-WEEK.md](BUILD-WEEK.md) for the architecture, provenance, human/AI responsibility split, and evidence. Judges can use [JUDGE-QUICKSTART.md](JUDGE-QUICKSTART.md) to install and test CanopyOps with fictional data in about five minutes.
 
@@ -40,7 +38,13 @@ Start a new Codex task after installation. Standalone Codex, Claude.ai custom-sk
 - Turn observations into incident reports, CAPA, risk registers, room runbooks, crop walks, and shift handoffs.
 - Verify proposed actions against current labels, SOPs, jurisdiction sources, laboratory evidence, and accountable-human authority.
 
-![CanopyOps flow from cultivation evidence to operating artifacts](images/canopyops-flow.png)
+## Operating flow
+
+| Crop evidence | CanopyOps work | Operating artifacts |
+|---|---|---|
+| Stage, observations, environment, irrigation, logs, recent changes, facility constraints, unknowns | Structure the state, normalize units, calculate transparently, retain competing explanations, attach uncertainty, and preserve approval gates | Crop plans, incident workups, calculations, harvest reviews, compliance briefs, CAPA, runbooks, risk registers, and shift handoffs |
+
+Responsible people retain authority over law, pesticide labels, safety controls, facility approvals, emergency procedures, direct-control changes, and batch release.
 
 ## Start in ten minutes
 
@@ -97,6 +101,8 @@ See [LICENSE.md](LICENSE.md), [TERMS-OF-USE.md](TERMS-OF-USE.md), [ATTRIBUTION.m
 
 CanopyOps is a Collaborative Dynamics Augment created by Sam Walker (stunspot), with the Ella Greenfield cultivation persona operating inside an evidence-bounded legal-market system.
 
+- [Project site](https://stunspot.github.io/CanopyOps/)
+- [Pages source](docs/SOURCE.md)
 - [Start here](START-HERE.md)
 - [Build Week provenance](BUILD-WEEK.md)
 - [Judge quickstart](JUDGE-QUICKSTART.md)
