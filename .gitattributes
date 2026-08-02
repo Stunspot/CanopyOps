@@ -2,3 +2,17 @@
 *.png binary
 *.zip binary
 /releases/v0.1.6/** -text
+
+# Windows-native text exceptions.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary containers and media.
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
