@@ -2,6 +2,8 @@
 
 CanopyOps is Collaborative Dynamics' OpenAI Build Week entry in **Work & Productivity**. It is an evidence-bounded operations and compliance Augment for lawful cannabis cultivation teams.
 
+> **Current distribution note:** Build Week produced the repository-native v0.1.5 source and plugin line. A separate portable v0.1.6 package was settled afterward as a packaging, custody, and cross-host distribution update around the same operating kernel. See [`RELEASE-STATUS.md`](RELEASE-STATUS.md).
+
 The project demonstrates two things at once:
 
 1. A useful vertical Agent capability for a real, highly regulated agricultural audience.
@@ -13,7 +15,7 @@ CanopyOps was conceived and built on July 17, 2026, during the official submissi
 
 From that direction, the working Augment emerged in roughly an hour. Public packaging, branding, licensing, safety review, release hardening, and publication continued afterward.
 
-The /feedback Codex Session ID for the core project task is supplied in the Devpost submission.
+The `/feedback` Codex Session ID for the core project task is supplied in the Devpost submission.
 
 ## What was built
 
@@ -26,7 +28,7 @@ CanopyOps turns facility data, crop observations, logs, and constraints into def
 - compliance-verification briefs;
 - incident reports, CAPA, risk registers, runbooks, crop walks, and shift handoffs.
 
-It preserves an explicit custody chain among observed facts, measurements, assumptions, calculations, interpretations, recommendations, approvals, and execution. It does not operate controllers or acquire legal, pesticide, safety, or batch-release authority by sounding confident.
+It preserves an explicit custody chain among observed facts, measurements, assumptions, calculations, interpretations, recommendations, approvals, execution, and verification. It does not operate controllers or acquire legal, pesticide, safety, or batch-release authority by sounding confident.
 
 ## The machinery
 
@@ -34,8 +36,8 @@ CanopyOps is an Augment, not a lone prompt.
 
 | Surface | Responsibility |
 |---|---|
-| **canopyops/SKILL.md** | Recognizes the job, establishes the operating contract, activates Ella, and routes work. |
-| **canopyops/personas/ella-greenfield-v2.md** | Supplies cultivation judgment and field-facing interaction style. |
+| **`canopyops/SKILL.md`** | Recognizes the job, establishes the operating contract, activates Ella, and routes work. |
+| **`canopyops/personas/ella-greenfield-v2.md`** | Supplies cultivation judgment and field-facing interaction style. |
 | Five operating workflows | Handle planning, incidents, environment/root zone, harvest/quality, and compliance/operations. |
 | Independent review workflow | Challenges evidence custody, authority, safety, and release status. |
 | Nine Python utilities | Perform reproducible calculations, normalization, linting, freshness checks, schema validation, and packaging. |
@@ -58,7 +60,7 @@ Codex with GPT-5.6:
 - validated paths, package structure, plugin metadata, archives, and installation;
 - diagnosed and repaired packaging and host-integration problems;
 - prepared licensing, branding, public-repository, and publication surfaces;
-- added this public deterministic test suite, cross-platform verification, and judge quickstart.
+- added the public deterministic test suite, cross-platform verification, and judge quickstart.
 
 This was iterative collaboration. Codex proposed and executed changes, reported boundaries, and produced evidence. Stun accepted, rejected, redirected, and refined the product throughout.
 
@@ -79,13 +81,15 @@ Codex did not independently authorize publication, legal posture, operational ac
 
 ## Evidence
 
-The public repository provides three levels of evidence:
+The public repository provides several distinct evidence layers:
 
-1. **Deterministic:** run **python -m unittest discover -s tests -v**. The 18 tests cover calculations, invalid inputs, unit and timestamp normalization, schema validation, template linting, source freshness, required package surfaces, schema parsing, version custody, distribution parity, customer-document reachability, archive topology, release-manifest integrity, and deterministic OpenAI submission custody.
-2. **Installable:** install the branded plugin directly from this repository using the two commands in [INSTALL.md](INSTALL.md).
-3. **Behavioral:** run the fictional late-flower incident in [JUDGE-QUICKSTART.md](JUDGE-QUICKSTART.md) and inspect whether CanopyOps preserves alternatives, authority, reversible containment, and an auditable record.
+1. **Historical v0.1.5 deterministic evidence:** [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md) records the 18-test frozen-release result and its exact scope.
+2. **Current repository checks:** run `python -m unittest discover -s tests -v`. The current 20-test suite adds release-story, documentation, and Pages-custody checks to the product and package tests.
+3. **Repository-native installation:** install the branded v0.1.5 plugin using [`INSTALL.md`](INSTALL.md).
+4. **Portable package validation:** extract v0.1.6 and run `python tools/verify_release.py .`.
+5. **Behavioral inspection:** run the fictional late-flower incident in [`JUDGE-QUICKSTART.md`](JUDGE-QUICKSTART.md) and inspect whether CanopyOps preserves alternatives, authority, reversible containment, and an auditable record.
 
-The release also records structural validation, plugin validation, archive round trips, a clean public installation, and a bounded three-case context-only safety/scope smoke.
+These layers do not borrow proof from one another. Static package evidence is not live-host evidence; a behavioral demonstration is not field validation; a recommendation is not authority.
 
 ## Judging map
 
@@ -107,6 +111,6 @@ The novelty is not “AI knows cannabis.” It is an AI capability designed as a
 
 ## Limits
 
-CanopyOps is not field-validated, legal advice, medical advice, a pesticide authority, a batch-release authority, or an equipment controller. The public evidence does not establish universal behavioral reliability, current jurisdiction coverage, live Claude Code execution, or integration with cultivation hardware.
+CanopyOps is not field-validated, legal advice, medical advice, a pesticide authority, a batch-release authority, or an equipment controller. The public evidence does not establish universal behavioral reliability, current jurisdiction coverage, live behavior on every host, public Plugin Directory availability, or integration with cultivation hardware.
 
 Those limitations are part of the design. A regulated-operations Agent that cannot say what it has not established is a liability wearing a chatbot hat.

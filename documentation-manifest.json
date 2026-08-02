@@ -1,8 +1,11 @@
 {
-  "format": "cd-customer-documentation/v1",
+  "format": "cd-customer-documentation/v2",
   "landing_page": "README.md",
+  "canonical_release_status": "RELEASE-STATUS.md",
+  "documentation_status": "DOCUMENTATION-STATUS.md",
   "customer_docs": [
     "README.md",
+    "RELEASE-STATUS.md",
     "START-HERE.md",
     "INSTALL.md",
     "EXAMPLE-TOUR.md",
@@ -22,17 +25,74 @@
     "RELEASE-NOTES-v0.1.5.md",
     "VERIFICATION-v0.1.5.md",
     "ARCHIVE-CUSTODY.md",
-    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"
+    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
+    "DOCUMENTATION-STATUS.md"
+  ],
+  "web_surfaces": [
+    "docs/index.html"
+  ],
+  "maintainer_docs": [
+    "docs/SOURCE.md",
+    "documentation-manifest.json",
+    "documentation-review.json",
+    "release-manifest.json"
+  ],
+  "historical_records": [
+    "RELEASE-NOTES-v0.1.5.md",
+    "VERIFICATION-v0.1.5.md",
+    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
+    "documentation-review.json"
   ],
   "moments": {
-    "orientation": ["README.md", "START-HERE.md"],
-    "installation": ["INSTALL.md"],
-    "first_value": ["EXAMPLE-TOUR.md", "JUDGE-QUICKSTART.md"],
-    "normal_use": ["FAQ.md", "SAFETY-AND-SCOPE.md"],
-    "recovery": ["INSTALL.md", "SUPPORT.md"],
-    "privacy_security": ["DATA-AND-PRIVACY.md", "TERMS-OF-USE.md", "SECURITY.md"],
-    "support_maintenance": ["SUPPORT.md", "RELEASE-NOTES-v0.1.5.md", "ARCHIVE-CUSTODY.md", "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"],
-    "provenance": ["ATTRIBUTION.md", "LICENSE.md", "TRADEMARKS.md", "NOTICE.md", "CONTRIBUTING.md", "BUILD-WEEK.md"],
-    "evidence_limits": ["VERIFICATION-v0.1.5.md"]
+    "orientation": [
+      "README.md",
+      "RELEASE-STATUS.md",
+      "START-HERE.md"
+    ],
+    "installation": [
+      "INSTALL.md",
+      "RELEASE-STATUS.md"
+    ],
+    "first_value": [
+      "START-HERE.md",
+      "EXAMPLE-TOUR.md",
+      "JUDGE-QUICKSTART.md"
+    ],
+    "normal_use": [
+      "FAQ.md",
+      "SAFETY-AND-SCOPE.md"
+    ],
+    "recovery": [
+      "INSTALL.md",
+      "SUPPORT.md"
+    ],
+    "privacy_security": [
+      "DATA-AND-PRIVACY.md",
+      "TERMS-OF-USE.md",
+      "SECURITY.md"
+    ],
+    "support_maintenance": [
+      "SUPPORT.md",
+      "RELEASE-STATUS.md",
+      "DOCUMENTATION-STATUS.md",
+      "ARCHIVE-CUSTODY.md"
+    ],
+    "provenance": [
+      "ATTRIBUTION.md",
+      "LICENSE.md",
+      "TRADEMARKS.md",
+      "NOTICE.md",
+      "CONTRIBUTING.md",
+      "BUILD-WEEK.md"
+    ],
+    "evidence_limits": [
+      "RELEASE-STATUS.md",
+      "VERIFICATION-v0.1.5.md",
+      "DOCUMENTATION-STATUS.md"
+    ],
+    "publication_status": [
+      "RELEASE-STATUS.md",
+      "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"
+    ]
   }
 }

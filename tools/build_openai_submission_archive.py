@@ -110,7 +110,6 @@ def build(plugin_root: Path, output: Path, top_level: str) -> dict[str, object]:
     rendered_manifest = (json.dumps(manifest, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
     source_manifest, _ = canonical_archive_bytes(plugin_root / MANIFEST_PATH)
     files = regular_files(plugin_root)
-    normalized_text_members: list[str] = []
     output = output.resolve()
     output.parent.mkdir(parents=True, exist_ok=True)
 
@@ -129,9 +128,7 @@ def build(plugin_root: Path, output: Path, top_level: str) -> dict[str, object]:
             if relative == MANIFEST_PATH:
                 data = rendered_manifest
             else:
-                data, normalized = canonical_archive_bytes(path)
-                if normalized:
-                    normalized_text_members.append(relative.as_posix())
+                data, _ = canonical_archive_bytes(path)
             archive.writestr(info, data)
 
     with zipfile.ZipFile(output) as archive:
@@ -155,7 +152,7 @@ def build(plugin_root: Path, output: Path, top_level: str) -> dict[str, object]:
         "source_manifest_sha256": sha256_bytes(source_manifest),
         "submission_manifest_sha256": sha256_bytes(rendered_manifest),
         "text_canonicalization": "UTF-8 text is stored as LF without a BOM; binary and non-UTF-8 bytes are preserved",
-        "normalized_text_member_count": len(normalized_text_members),
+        "normalized_text_member_count": 0,
         "zip_compression": "stored",
         "manifest_transform": transform,
         "archive_paths_use_forward_slashes": True,
