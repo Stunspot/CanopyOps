@@ -75,7 +75,7 @@ Two packaged uploads are available:
 
 For the current Claude interface:
 
-1. Enable **Code execution and file creation** for the account or organization.
+1. Confirm that **Skills** is available. On Enterprise, an organization owner must enable both **Code execution and file creation** and **Skills** in organization settings.
 2. Open **Customize → Skills**.
 3. Select **+ → Create skill → Upload a skill**.
 4. Upload one supplied ZIP unchanged.

@@ -40,8 +40,8 @@ CanopyOps is an Augment, not a lone prompt.
 | **`canopyops/personas/ella-greenfield-v2.md`** | Supplies cultivation judgment and field-facing interaction style. |
 | Five operating workflows | Handle planning, incidents, environment/root zone, harvest/quality, and compliance/operations. |
 | Independent review workflow | Challenges evidence custody, authority, safety, and release status. |
-| Nine Python utilities | Perform reproducible calculations, normalization, linting, freshness checks, schema validation, and packaging. |
-| Twelve templates and six schemas | Preserve consequential operating state in readable and machine-checkable forms. |
+| Nine customer-facing Python utilities plus one internal release-manifest builder | Perform reproducible calculations, normalization, linting, freshness checks, schema validation, packaging, and release custody. |
+| Thirteen templates and six schemas | Preserve consequential operating state in readable and machine-checkable forms. |
 | Behavioral evaluations | Test transfer, sparse evidence, contradictions, authority boundaries, and degraded operation. |
 | Host adapters | Preserve the capability across Codex, Claude Code, chat, and bot environments. |
 | Codex plugin | Provides branded installation and Agent-Skills discovery. |
@@ -84,7 +84,7 @@ Codex did not independently authorize publication, legal posture, operational ac
 The public repository provides several distinct evidence layers:
 
 1. **Historical v0.1.5 deterministic evidence:** [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md) records the 18-test frozen-release result and its exact scope.
-2. **Current repository checks:** run `python -m unittest discover -s tests -v`. The current 20-test suite adds release-story, documentation, and Pages-custody checks to the product and package tests.
+2. **Current repository checks:** run `python -m unittest discover -s tests -v`. The current 21-test suite adds release-story, documentation, and Pages-custody checks to the product and package tests.
 3. **Repository-native installation:** install the branded v0.1.5 plugin using [`INSTALL.md`](INSTALL.md).
 4. **Portable package validation:** extract v0.1.6 and run `python tools/verify_release.py .`.
 5. **Behavioral inspection:** run the fictional late-flower incident in [`JUDGE-QUICKSTART.md`](JUDGE-QUICKSTART.md) and inspect whether CanopyOps preserves alternatives, authority, reversible containment, and an auditable record.

@@ -3,15 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CanopyOps turns cannabis cultivation observations, logs, calculations, and facility constraints into defensible crop plans, incident workups, harvest reviews, and operating records.">
+  <meta name="description" content="CanopyOps turns lawful cannabis cultivation observations, logs, calculations, and facility constraints into reviewable plans, incident workups, harvest reviews, CAPA, runbooks, and handoffs.">
   <meta name="theme-color" content="#0a1718">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="CanopyOps · Evidence-Bounded Cultivation Operations">
-  <meta property="og:description" content="From crop reality to the next defensible operating state.">
+  <meta property="og:title" content="CanopyOps">
+  <meta property="og:description" content="Evidence-bounded cannabis cultivation operations.">
   <meta property="og:url" content="https://stunspot.github.io/CanopyOps/">
-  <meta property="og:image" content="https://stunspot.github.io/CanopyOps/assets/canopyops-hero.png">
-  <meta property="og:image:alt" content="An orderly controlled-environment cultivation room with crop rows, irrigation infrastructure, and cool inspection light.">
+  <meta property="og:image" content="https://stunspot.github.io/CanopyOps/assets/canopyops-social-card.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta property="og:image:alt" content="CanopyOps — Cannabis cultivation operations.">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CanopyOps">
+  <meta name="twitter:description" content="Evidence-bounded cannabis cultivation operations.">
+  <meta name="twitter:image" content="https://stunspot.github.io/CanopyOps/assets/canopyops-social-card.png">
   <title>CanopyOps · Evidence-Bounded Cultivation Operations</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -25,11 +30,12 @@
         <span>CanopyOps</span>
       </a>
       <div class="nav-links">
-        <a href="#release">Release status</a>
-        <a href="#states">Evidence states</a>
-        <a href="#routes">Routes</a>
-        <a href="#method">Method</a>
-        <a href="#authority">Authority</a>
+        <a href="#fit">Product fit</a>
+        <a href="#install">Install</a>
+        <a href="#first-run">First run</a>
+        <a href="#workflows">Workflows</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#help">Help</a>
         <a href="https://github.com/Stunspot/CanopyOps">GitHub</a>
       </div>
     </nav>
@@ -38,214 +44,286 @@
   <main id="main">
     <section class="hero" id="top">
       <div class="hero-copy">
-        <p class="eyebrow">Cannabis cultivation operations · evidence before certainty</p>
+        <p class="eyebrow">Lawful cannabis cultivation · evidence before certainty</p>
         <h1>Turn crop reality into the next defensible operating state.</h1>
-        <p class="lede">CanopyOps structures observations, measurements, calculations, assumptions, facility constraints, and unresolved questions into crop plans, incident workups, harvest reviews, CAPA, runbooks, and handoffs that accountable people can actually inspect.</p>
+        <p class="lede">CanopyOps is an installable AI skill for cultivation leaders, agronomists, crop steering teams, quality staff, and compliance operators. It structures room data, observations, facility constraints, and unresolved questions into reviewable plans, incident workups, calculations, CAPA, runbooks, and handoffs.</p>
         <div class="actions">
-          <a class="button primary" href="https://github.com/Stunspot/CanopyOps/blob/main/START-HERE.md">Start with a real job</a>
-          <a class="button secondary" href="https://github.com/Stunspot/CanopyOps/blob/main/INSTALL.md">Install CanopyOps</a>
+          <a class="button primary" href="#install">Choose an install route</a>
+          <a class="button secondary" href="#first-run">Run a safe example</a>
         </div>
-        <p class="quiet">Advisory decision support for lawful cultivation · Human authority remains explicit · No direct control</p>
+        <p class="quiet">Advisory decision support · Human authority stays explicit · No direct equipment control</p>
       </div>
       <figure class="hero-visual">
         <img src="assets/canopyops-hero.png" width="1600" height="900" alt="A clean controlled-environment cultivation room with orderly crop rows, irrigation infrastructure, sensor equipment, and cool inspection light across the canopy.">
       </figure>
     </section>
 
-    <section class="section routes-section" id="release">
+    <section class="section paper-section" id="fit">
       <div class="section-heading">
-        <p class="eyebrow">Current distribution status</p>
-        <h2>One operating method. Two explicitly bounded package lines.</h2>
-        <p>CanopyOps keeps the repository-native source/plugin line separate from the later portable bundle so version numbers cannot borrow evidence from one another.</p>
+        <p class="eyebrow">Product fit</p>
+        <h2>Operational memory without counterfeit authority.</h2>
+        <p>Use CanopyOps when the job is to organize evidence, reproduce a calculation, preserve competing explanations, name an approval gate, or hand a decision to the next accountable human.</p>
       </div>
-      <div class="route-grid">
+      <div class="fit-grid">
+        <article>
+          <h3>Built for</h3>
+          <ul>
+            <li>licensed and otherwise lawful cultivation teams;</li>
+            <li>crop planning, environmental review, root-zone reasoning, harvest readiness, CAPA, and handoffs;</li>
+            <li>work that benefits from visible assumptions, units, owners, evidence gaps, and reopen conditions.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>It can</h3>
+          <ul>
+            <li>draft plans and operating records from supplied context;</li>
+            <li>calculate VPD, DLI, irrigation, runoff, dryback, EC, pH, and normalized units transparently;</li>
+            <li>produce readable Markdown, CSV, and JSON artifacts from included templates.</li>
+          </ul>
+        </article>
+        <article class="limit-card">
+          <h3>It cannot</h3>
+          <ul>
+            <li>authorize pesticides, setpoints, release, disposal, compliance filings, or emergency actions;</li>
+            <li>replace facility SOPs, labels, current jurisdiction sources, qualified laboratories, or licensed professionals;</li>
+            <li>control equipment, prove sensor accuracy, guarantee field outcomes, or turn a recommendation into approval.</li>
+          </ul>
+        </article>
+      </div>
+      <p class="state-rule">CanopyOps preserves nine states: observed → measured → calculated → assumed → interpreted → recommended → approved → executed → verified.</p>
+    </section>
+
+    <section class="section states-section" id="release">
+      <div class="section-heading">
+        <p class="eyebrow">Choose one distribution</p>
+        <h2>Two package lines. No borrowed evidence.</h2>
+        <p>The repository-native v0.1.5 line and portable v0.1.6 line contain the same operating method in different package topologies. Do not mix their files.</p>
+      </div>
+      <div class="release-grid">
         <article>
           <span class="route-number">v0.1.5</span>
           <h3>Repository-native source and plugin</h3>
-          <p>Use this line for the direct GitHub marketplace commands, root source tree, root tests, branded plugin, and repository-native Claude upload.</p>
-          <small>Evidence: v0.1.5 release checks and custody at their recorded cutoff</small>
+          <p>Best for direct GitHub marketplace installation, the branded plugin, standalone source inspection, and repository-native Claude packaging.</p>
+          <a href="https://github.com/Stunspot/CanopyOps/blob/main/RELEASE-STATUS.md">Read its evidence boundary</a>
         </article>
         <article>
           <span class="route-number">v0.1.6</span>
           <h3>Settled portable bundle</h3>
-          <p>Use this line for one self-verifying ZIP with Codex and Claude payloads, detached checksums, a package manifest, and package-specific documentation.</p>
-          <small>Evidence: static package structure and byte custody, not host activation or field behavior</small>
+          <p>Best for a self-verifying archive with Codex and Claude payloads, package-specific instructions, detached checksum, manifest, and receipt.</p>
+          <a href="https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.6">Open the published release</a>
         </article>
       </div>
-      <p class="state-rule">Do not mix files across versions. Package presence, installation, discovery, invocation, tool health, useful behavior, authority, and verified outcome are separate states.</p>
+      <p class="quiet">A valid package is not evidence that a host installed, discovered, invoked, or successfully executed it. Those states must be observed separately.</p>
+    </section>
+
+    <section class="section paper-section" id="install">
+      <div class="section-heading">
+        <p class="eyebrow">Installation</p>
+        <h2>Pick the route that matches your host.</h2>
+        <p>Before installing, keep operational records outside the skill or plugin directory, confirm your own backup or version-history process, and use fictional or sanitized data for the first run.</p>
+      </div>
+      <div class="install-grid">
+        <article>
+          <p class="card-label">CODEX · GITHUB PLUGIN</p>
+          <h3>Shortest route</h3>
+          <pre><code>codex plugin marketplace add Stunspot/CanopyOps
+codex plugin add canopyops@collaborative-dynamics</code></pre>
+          <p>Start a fresh Codex task after installation. Command availability depends on the installed Codex build and workspace policy.</p>
+        </article>
+        <article>
+          <p class="card-label">CODEX · PORTABLE v0.1.6</p>
+          <h3>Self-verifying archive</h3>
+          <ol>
+            <li>Download and extract the published v0.1.6 ZIP in a new directory.</li>
+            <li>Run <code>python tools/verify_release.py .</code>.</li>
+            <li>Continue only when it exits 0, reports <code>"ok": true</code>, and has no findings.</li>
+            <li>Import the complete <code>codex/canopyops/</code> directory using a supported local plugin source.</li>
+          </ol>
+        </article>
+        <article>
+          <p class="card-label">CODEX · STANDALONE</p>
+          <h3>Skill without plugin presentation</h3>
+          <p>Copy the complete repository-native <code>canopyops/</code> directory so the final path is normally <code>%USERPROFILE%\.codex\skills\canopyops\SKILL.md</code>, then start a fresh task.</p>
+          <p>Do not copy <code>SKILL.md</code> alone; its persona, workflows, references, templates, examples, adapters, evaluations, and scripts are part of the skill.</p>
+        </article>
+        <article>
+          <p class="card-label">CLAUDE.AI · CLAUDE CODE</p>
+          <h3>Packaged upload or local skill</h3>
+          <p>Claude.ai can upload either supplied skill ZIP unchanged under <strong>Customize → Skills</strong>. On Enterprise, an organization owner must first enable both <strong>Code execution and file creation</strong> and <strong>Skills</strong>. Claude Code can use the complete skill directory at <code>~/.claude/skills/canopyops/</code> or a project-local <code>.claude/skills/canopyops/</code>.</p>
+          <p>Live Claude upload, activation, progressive loading, and script execution are not claimed by the current CanopyOps evidence.</p>
+        </article>
+      </div>
       <div class="actions centered">
-        <a class="button primary" href="https://github.com/Stunspot/CanopyOps/blob/main/RELEASE-STATUS.md">Read the canonical release status</a>
-        <a class="button secondary" href="https://github.com/Stunspot/CanopyOps/blob/main/DOCUMENTATION-STATUS.md">Documentation status</a>
+        <a class="button primary" href="https://github.com/Stunspot/CanopyOps/blob/main/INSTALL.md">Complete install, update, removal, and recovery guide</a>
+        <a class="button dark" href="https://github.com/Stunspot/CanopyOps/blob/main/RELEASE-STATUS.md">Release status</a>
       </div>
     </section>
 
-    <section class="section states-section" id="states">
-      <div class="section-heading">
-        <p class="eyebrow">One crop room, nine different evidence states</p>
-        <h2>Do not let a polished sentence erase what is known—and what is not.</h2>
-        <p>CanopyOps keeps state labels attached because a measured value, a calculated derivative, an interpretation, and an approved action do not carry the same authority.</p>
-      </div>
-      <div class="state-ribbon" aria-label="CanopyOps evidence states">
-        <span>Observed</span>
-        <span>Measured</span>
-        <span>Calculated</span>
-        <span>Assumed</span>
-        <span>Interpreted</span>
-        <span>Recommended</span>
-        <span>Approved</span>
-        <span>Executed</span>
-        <span>Verified</span>
-      </div>
-      <p class="state-rule">A claim may move forward only when the evidence, method, owner, authority, and verification condition move with it.</p>
-    </section>
-
-    <section class="section routes-section" id="routes">
-      <div class="section-heading">
-        <p class="eyebrow">Enter through the live cultivation need</p>
-        <h2>Five operating routes. One evidence discipline.</h2>
-      </div>
-      <div class="route-grid">
-        <article>
-          <span class="route-number">01</span>
-          <h3>Plan the room and crop</h3>
-          <p>Turn facility limits, stage, cultivar information, targets, measurement methods, and open decisions into a reviewable crop plan.</p>
-          <small>Outputs: facility profile · crop profile · crop plan · room runbook</small>
-        </article>
-        <article>
-          <span class="route-number">02</span>
-          <h3>Diagnose without pet theories</h3>
-          <p>Preserve competing explanations, rank evidence by decision value, and prefer reversible containment while cause remains unresolved.</p>
-          <small>Outputs: incident workup · evidence gaps · containment · CAPA</small>
-        </article>
-        <article>
-          <span class="route-number">03</span>
-          <h3>Calculate transparently</h3>
-          <p>Show inputs, units, formulas, methods, timing, crop stage, and interpretation for VPD, DLI, irrigation, dryback, runoff, EC, and pH.</p>
-          <small>Outputs: reproducible calculation · comparison · method caveat</small>
-        </article>
-        <article>
-          <span class="route-number">04</span>
-          <h3>Review harvest and quality</h3>
-          <p>Separate readiness evidence, drying conditions, interpretation, unresolved holds, and the authority still required before release.</p>
-          <small>Outputs: harvest review · drying log · hold list · release-prep brief</small>
-        </article>
-        <article>
-          <span class="route-number">05</span>
-          <h3>Govern the operation</h3>
-          <p>Align records with facility SOPs, current labels, jurisdiction sources, laboratory evidence, named owners, and explicit approval gates.</p>
-          <small>Outputs: compliance brief · risk register · decision record · shift handoff</small>
-        </article>
-      </div>
-    </section>
-
-    <section class="section method-section" id="method">
+    <section class="section method-section" id="first-run">
       <div class="section-heading method-heading">
-        <p class="eyebrow">The operating kernel</p>
-        <h2>A number is not yet a decision.</h2>
-        <p>Method, unit, time, sensor location, crop stage, applicable target, and approval determine what a value can legitimately support.</p>
+        <p class="eyebrow">Verify discovery, then reach first value</p>
+        <h2>Begin with a bounded fictional incident.</h2>
+        <p>Start a fresh task or conversation after installation. Explicitly invoke CanopyOps if the host supports it, then keep discovery evidence separate from output quality.</p>
       </div>
-
-      <div class="target-contrast">
-        <article class="comparison-card">
-          <p class="card-label">COMPARISON VALUE</p>
-          <h3>Useful for orientation</h3>
-          <p>A supplied target, remembered range, vendor suggestion, or prior-room value may help compare direction and magnitude.</p>
-          <ul>
-            <li>Source may be incomplete</li>
-            <li>Stage or scope may be unclear</li>
-            <li>Tolerance may be absent</li>
-            <li>No operating authority is implied</li>
-          </ul>
+      <div class="first-run-grid">
+        <article>
+          <p class="card-label">DISCOVERY CHECK</p>
+          <blockquote>Use CanopyOps to outline the evidence you would need before reviewing a fictional late-flower cannabis humidity excursion. Do not diagnose or recommend operational changes yet.</blockquote>
+          <p>A discovered CanopyOps skill should request facility context, crop stage, duration, sensor location and method, approved-target source and tolerance, observations, prior conditions, equipment state, and accountable authority.</p>
         </article>
-        <div class="promotion" aria-hidden="true"><span>Evidence</span><span>Scope</span><span>Approval</span></div>
-        <article class="active-card">
-          <p class="card-label">ACTIVE TARGET</p>
-          <h3>Applicable to an operating decision</h3>
-          <p>The source, crop stage, location, tolerance, measurement method, and accountable approval are established for the live decision.</p>
-          <ul>
-            <li>Exact applicability is named</li>
-            <li>Method and units are reproducible</li>
-            <li>Owner and authority are visible</li>
-            <li>Verification or reopen condition exists</li>
-          </ul>
+        <article>
+          <p class="card-label">FIRST COMPLETE WORKUP</p>
+          <blockquote>Use CanopyOps for a fictional licensed cultivation facility. A late-flower room held 27 C and 78% RH for 42 minutes overnight. One wall sensor recorded the excursion; its calibration status and exact canopy position are unknown. The active target is 25 C and no more than 60% RH, but I have not supplied the approved source or tolerance. Build a provisional incident workup and record. Preserve competing explanations, separate reversible containment from cause-specific correction, identify evidence that would change the next decision, and do not claim that any setting was approved or changed.</blockquote>
         </article>
       </div>
-
-      <div class="operating-loop" aria-label="CanopyOps operating loop">
-        <article><span>1</span><h3>Inspect</h3><p>Read the logs, observations, files, and existing artifacts before proposing a theory.</p></article>
-        <article><span>2</span><h3>Bound</h3><p>Name the facility, stage, time window, methods, constraints, authority, and consequential unknowns.</p></article>
-        <article><span>3</span><h3>Compare</h3><p>Normalize units, reproduce calculations, and distinguish comparison values from approved targets.</p></article>
-        <article><span>4</span><h3>Reason</h3><p>Retain live explanations and connect each interpretation to the evidence that earns it.</p></article>
-        <article><span>5</span><h3>Decide</h3><p>Package the proposed action, uncertainty, owner, scope, consequences, and approval gate.</p></article>
-        <article><span>6</span><h3>Verify</h3><p>Observe the result, record what changed, and reopen the decision when its conditions are breached.</p></article>
+      <div class="expected-box">
+        <h3>What a useful answer should contain</h3>
+        <ul>
+          <li>missing measurement and authority context, not fake certainty;</li>
+          <li>several live explanations rather than one favored diagnosis;</li>
+          <li>reversible containment separated from cause-specific correction;</li>
+          <li>named inputs, evidence gaps, owners, approval gates, and reopen conditions;</li>
+          <li>an explicit status such as <strong>provisional</strong> or <strong>awaiting authority</strong>.</li>
+        </ul>
       </div>
     </section>
 
-    <section class="section artifacts-section">
+    <section class="section paper-section" id="workflows">
       <div class="section-heading">
-        <p class="eyebrow">Readable operating memory</p>
-        <h2>Artifacts designed for the next human in the chain.</h2>
+        <p class="eyebrow">Representative workflows</p>
+        <h2>Enter through the live cultivation need.</h2>
+        <p>Inputs may be prose, tables, logs, CSV, JSON, approved documents, measurements, images supplied for interpretation, or existing operating records. Outputs are drafts for inspection, not silent execution.</p>
       </div>
-      <div class="artifact-grid">
-        <span>Facility profile</span>
-        <span>Crop profile</span>
-        <span>Crop plan</span>
-        <span>Incident report</span>
-        <span>Compliance verification</span>
-        <span>CAPA record</span>
-        <span>Risk register</span>
-        <span>Room runbook</span>
-        <span>Crop walk</span>
-        <span>Drying log</span>
-        <span>Cultivation decision</span>
-        <span>Shift handoff</span>
+      <div class="workflow-grid">
+        <article><span>01</span><h3>Crop planning</h3><p><strong>Inputs:</strong> facility limits, crop stage, cultivar evidence, targets, labor, measurement methods.</p><p><strong>Outputs:</strong> crop plan, room runbook, risk register, open-decision list.</p></article>
+        <article><span>02</span><h3>Diagnostics and incidents</h3><p><strong>Inputs:</strong> observations, logs, spatial pattern, timeline, equipment state, prior actions.</p><p><strong>Outputs:</strong> incident workup, evidence gaps, containment, decision record, CAPA.</p></article>
+        <article><span>03</span><h3>Environment and root zone</h3><p><strong>Inputs:</strong> temperature, RH, leaf temperature, light, irrigation, substrate, runoff, EC, pH.</p><p><strong>Outputs:</strong> transparent calculations, comparison tables, method caveats, next measurement.</p></article>
+        <article><span>04</span><h3>Harvest and quality</h3><p><strong>Inputs:</strong> readiness observations, sample methods, drying conditions, laboratory evidence, holds.</p><p><strong>Outputs:</strong> harvest-readiness review, drying log, hold list, release-preparation brief.</p></article>
+        <article><span>05</span><h3>Compliance and handoff</h3><p><strong>Inputs:</strong> facility SOPs, labels, current jurisdiction sources, named owners, approvals, deadlines.</p><p><strong>Outputs:</strong> compliance-verification brief, cultivation decision, crop walk, shift handoff.</p></article>
+        <article><span>06</span><h3>Review and release</h3><p><strong>Inputs:</strong> completed artifact, evidence ledger, unresolved conditions, approval and verification records.</p><p><strong>Outputs:</strong> review findings, status, blocked conditions, named next owner; never automatic release authority.</p></article>
       </div>
-      <p class="artifact-note">Primary formats are readable Markdown, CSV, and JSON. Deterministic utilities support calculations, normalization, validation, packaging, and freshness checks when Python is available.</p>
+      <div class="actions centered">
+        <a class="button primary" href="https://github.com/Stunspot/CanopyOps/blob/main/EXAMPLE-TOUR.md">Read four complete examples</a>
+        <a class="button dark" href="https://github.com/Stunspot/CanopyOps/tree/main/canopyops/assets">Browse output templates</a>
+      </div>
     </section>
 
-    <section class="section authority-section" id="authority">
+    <section class="section states-section" id="configuration">
       <div class="section-heading">
-        <p class="eyebrow">Advice does not become authority by sounding certain</p>
-        <h2>The governing sources stay above the model.</h2>
+        <p class="eyebrow">Configuration and methods</p>
+        <h2>No magic settings file.</h2>
+        <p>Ordinary reasoning requires no CanopyOps account, API key, or product configuration file. The meaningful configuration is the operating context you supply: facility, room, crop stage, units, sensor method and location, time window, approved targets and tolerances, applicable SOPs, jurisdiction, owners, and authority.</p>
       </div>
+      <div class="config-grid">
+        <article><h3>Python</h3><p>Optional for ordinary reasoning; required for bundled deterministic utilities and the portable v0.1.6 verifier. Repository-native utilities use the Python standard library.</p></article>
+        <article><h3>Sources</h3><p>Facility SOPs, emergency procedures, current labels, current jurisdiction sources, laboratory evidence, and equipment documentation outrank model memory.</p></article>
+        <article><h3>Records</h3><p>Keep facility and crop records in an approved workspace outside the installation tree. CanopyOps does not create backups or manage retention for you.</p></article>
+      </div>
+    </section>
+
+    <section class="section paper-section" id="maintenance">
+      <div class="section-heading">
+        <p class="eyebrow">Troubleshooting, recovery, and cleanup</p>
+        <h2>Repair the state you actually observed.</h2>
+      </div>
+      <div class="maintenance-grid">
+        <article>
+          <h3>Not discovered</h3>
+          <p>Confirm the final path ends in <code>canopyops/SKILL.md</code>, the complete package is present, and stale duplicates are disabled. Start a fresh task or restart the host once.</p>
+        </article>
+        <article>
+          <h3>Missing references or tools</h3>
+          <p>Reinstall the complete matching package. If a script is unavailable, confirm Python 3 and the specific workspace permission; otherwise use the documented manual fallback and label it unverified.</p>
+        </article>
+        <article>
+          <h3>Portable verification fails</h3>
+          <p>Stop. Compare the detached checksum, discard the failed extraction, extract again into a clean directory, and continue only after the verifier returns no findings.</p>
+        </article>
+        <article>
+          <h3>Update safely</h3>
+          <p>Identify the installed line, preserve records outside it, replace the complete matching package, start fresh, repeat discovery, and rerun the appropriate verifier. Never overlay v0.1.6 onto v0.1.5.</p>
+        </article>
+        <article>
+          <h3>Remove and clean up</h3>
+          <p>Remove the plugin through the host, or remove the complete installed skill directory. Disable or delete Claude.ai uploads. Archive or delete extracted packages under your retention policy.</p>
+        </article>
+        <article>
+          <h3>Recover records</h3>
+          <p>If records were wrongly stored inside the install tree, stop changes, preserve what remains, restore from your already-established backup or version history, and move recovered records outside the package. Never invent missing operational records.</p>
+        </article>
+      </div>
+      <p class="state-rule">Removing CanopyOps does not delete artifacts stored elsewhere. CanopyOps itself does not back up, synchronize, or clean those records.</p>
+    </section>
+
+    <section class="section authority-section" id="safety">
       <div class="authority-grid">
-        <div class="authority-stack">
-          <p><span>01</span>Emergency and life-safety procedures</p>
-          <p><span>02</span>Approved product labels and safety data</p>
-          <p><span>03</span>Current statutes, regulations, and issuing regulators</p>
-          <p><span>04</span>Facility SOPs and licensed operating policies</p>
-          <p><span>05</span>Qualified laboratory results and methods</p>
-          <p><span>06</span>Equipment documentation and qualified professionals</p>
-          <p><span>07</span>Accountable humans acting within their authority</p>
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Privacy, network, security, and authority</p>
+            <h2>Local package. Host-governed execution.</h2>
+          </div>
+          <div class="authority-stack">
+            <p><span>01</span>CanopyOps includes no account, telemetry, analytics, hosted service, connector, MCP server, hook, or automatic network request.</p>
+            <p><span>02</span>Your AI host and any tools or sources you choose may have their own network, retention, logging, permission, and model-provider behavior.</p>
+            <p><span>03</span>Do not put credentials, employee data, license identifiers, security controls, proprietary recipes, precise inventory, or unredacted compliance records in public issues.</p>
+            <p><span>04</span>Approve only the specific workspace file, bundled script, or current source lookup needed for the current job.</p>
+            <p><span>05</span>Emergency procedures, life-safety controls, labels, facility SOPs, and accountable human authority always outrank CanopyOps.</p>
+          </div>
         </div>
         <aside class="boundary-card">
-          <h3>Outside the recommendation space</h3>
-          <p>Alarm bypass or continued occupancy during a life-safety event; invented pesticide, legal, laboratory, sensor, cultivar, or approval facts; covert cultivation or enforcement evasion; extraction or medical instruction; direct actuator commands; and unapproved batch release.</p>
-          <a href="https://github.com/Stunspot/CanopyOps/blob/main/SAFETY-AND-SCOPE.md">Read the complete safety and scope boundary</a>
+          <h3>Consequential actions require approval</h3>
+          <p>Pesticide use, major setpoint changes, equipment overrides, destruction, release, compliance submission, or emergency response stays blocked until the correct accountable human and governing source authorize it.</p>
+          <p><a href="https://github.com/Stunspot/CanopyOps/blob/main/SAFETY-AND-SCOPE.md">Safety and scope</a></p>
+          <p><a href="https://github.com/Stunspot/CanopyOps/blob/main/DATA-AND-PRIVACY.md">Data and privacy</a></p>
+          <p><a href="https://github.com/Stunspot/CanopyOps/blob/main/SECURITY.md">Security model</a></p>
+          <p><a href="https://github.com/Stunspot/CanopyOps/blob/main/TERMS-OF-USE.md">Terms of use</a></p>
         </aside>
       </div>
     </section>
 
-    <section class="section prompt-section">
+    <section class="section paper-section" id="evidence">
       <div class="section-heading">
-        <p class="eyebrow">Start with the room as it actually is</p>
-        <h2>Bring observations, logs, constraints, or a proposed change.</h2>
+        <p class="eyebrow">Validation and provenance</p>
+        <h2>Know exactly what passed.</h2>
+        <p>The current repository suite contains 21 deterministic tests for calculations, validation, package parity, version custody, documentation reachability, release-story consistency, and Pages-local assets. The portable v0.1.6 bundle has its own verifier for package structure and byte custody.</p>
       </div>
-      <div class="prompt-grid">
-        <blockquote>Diagnose this cannabis crop incident from my logs and observations. Start with the evidence, preserve competing explanations, and recommend only reversible containment until the cause is supported.</blockquote>
-        <blockquote>Build a crop plan from this room, cultivar, facility profile, and operating constraints. Separate supplied targets from approved active targets and show the decisions that still need an accountable owner.</blockquote>
-        <blockquote>Review this batch for harvest readiness. Separate measured evidence, interpretation, unresolved holds, and the approvals required before any release decision.</blockquote>
+      <div class="evidence-grid">
+        <article><h3>Constructed</h3><p>The source, plugin, portable bundle, templates, scripts, schemas, examples, and documentation are present.</p></article>
+        <article><h3>Statically verified</h3><p>Repository tests and the portable verifier can check recorded structure, links, relationships, checksums, archive membership, and parity.</p></article>
+        <article><h3>Not thereby proven</h3><p>Fresh-host installation, host discovery, invocation, tool execution, useful behavior, field fitness, legal correctness, regulatory currency, or customer outcomes.</p></article>
+      </div>
+      <p class="state-rule">Historical v0.1.5 evidence remains historical. Portable v0.1.6 evidence applies only to the exact package objects it names. Current documentation review evidence is bound to its recorded content fingerprint.</p>
+      <div class="page-links">
+        <a href="https://github.com/Stunspot/CanopyOps/blob/main/DOCUMENTATION-STATUS.md">Documentation status</a>
+        <a href="https://github.com/Stunspot/CanopyOps/blob/main/documentation-review.json">Documentation review receipt</a>
+        <a href="https://github.com/Stunspot/CanopyOps/blob/main/documentation-accessibility-review.json">Accessibility review</a>
+        <a href="https://github.com/Stunspot/CanopyOps/blob/main/VERIFICATION-v0.1.5.md">Historical v0.1.5 verification</a>
+        <a href="https://github.com/Stunspot/CanopyOps/blob/main/ARCHIVE-CUSTODY.md">Archive custody</a>
+        <a href="https://github.com/Stunspot/CanopyOps/blob/main/BUILD-WEEK.md">Build Week provenance</a>
+      </div>
+    </section>
+
+    <section class="section prompt-section" id="help">
+      <div class="section-heading">
+        <p class="eyebrow">Support, contribution, and rights</p>
+        <h2>Use the right route for the problem.</h2>
+        <p>For a reproducible product defect, open a GitHub issue with sanitized inputs, expected and actual behavior, distribution line, version, host, and exact error. For an active alarm or life-safety event, use facility emergency procedures—not repository support.</p>
+      </div>
+      <div class="help-grid">
+        <article><h3>Support</h3><p>Read the troubleshooting guide first, then report a minimal sanitized reproduction.</p><a href="https://github.com/Stunspot/CanopyOps/blob/main/SUPPORT.md">Support policy</a></article>
+        <article><h3>Contribute</h3><p>Preserve evidence states, safety boundaries, source custody, package-line separation, and deterministic verification.</p><a href="https://github.com/Stunspot/CanopyOps/blob/main/CONTRIBUTING.md">Contribution guide</a></article>
+        <article><h3>License and identity</h3><p>Authored Augment material uses CC-BY-ND-4.0; Python, tests, and machine-readable schemas use MIT. Marks remain governed separately.</p><a href="https://github.com/Stunspot/CanopyOps/blob/main/LICENSE.md">License</a> · <a href="https://github.com/Stunspot/CanopyOps/blob/main/TRADEMARKS.md">Trademarks</a></article>
       </div>
       <div class="actions centered">
-        <a class="button primary" href="https://github.com/Stunspot/CanopyOps/blob/main/INSTALL.md">Install CanopyOps</a>
-        <a class="button secondary" href="https://github.com/Stunspot/CanopyOps/blob/main/EXAMPLE-TOUR.md">See worked examples</a>
+        <a class="button primary" href="https://github.com/Stunspot/CanopyOps">Open the repository</a>
+        <a class="button secondary" href="https://github.com/Stunspot/CanopyOps/issues">Open issues</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p><strong>CanopyOps</strong> · Collaborative Dynamics · Evidence-bounded cultivation operations.</p>
-    <p><a href="https://github.com/Stunspot/CanopyOps">Repository</a> · <a href="https://github.com/Stunspot/CanopyOps/blob/main/RELEASE-STATUS.md">Release status</a> · <a href="https://github.com/Stunspot/CanopyOps/blob/main/DOCUMENTATION-STATUS.md">Documentation status</a> · <a href="https://github.com/Stunspot/CanopyOps/blob/main/SAFETY-AND-SCOPE.md">Safety</a> · <a href="https://github.com/Stunspot/CanopyOps/blob/main/LICENSE.md">License</a></p>
+    <p><strong>CanopyOps</strong> is a Collaborative Dynamics Augment created by Sam Walker (stunspot), with the Ella Greenfield cultivation persona.</p>
+    <p>Advisory software is not a license, label, SOP, legal opinion, laboratory result, equipment controller, or substitute for accountable professional judgment.</p>
   </footer>
 </body>
 </html>

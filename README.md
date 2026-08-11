@@ -1,4 +1,4 @@
-![A clean controlled-environment cultivation room with orderly crop rows, irrigation infrastructure, sensor equipment, and cool inspection light across the canopy.](docs/assets/canopyops-hero.png)
+![A cultivation operations desk with review charts, environmental instruments, tagged samples, and a controlled crop room beyond.](docs/assets/canopyops-readme-hero.png)
 
 # CanopyOps
 
@@ -73,7 +73,7 @@ See [`EXAMPLE-TOUR.md`](EXAMPLE-TOUR.md) for four complete fictional demonstrati
 
 ## Evidence and limitations
 
-The repository includes a **20-test deterministic suite** covering calculations, validation, package parity, version custody, documentation reachability, release-story consistency, and Pages-local assets. The historical v0.1.5 verification record documents the checks executed against that release candidate. The v0.1.6 bundle carries its own portable verifier and package evidence.
+The repository includes a **21-test deterministic suite** covering calculations, validation, package parity, version custody, documentation reachability, release-story consistency, and Pages-local assets. The historical v0.1.5 verification record documents the checks executed against that release candidate. The v0.1.6 bundle carries its own portable verifier and package evidence.
 
 These are different claims:
 
@@ -108,7 +108,7 @@ The initial working Augment emerged in roughly an hour; public packaging, brandi
 - [`claude-ai/`](claude-ai/) — repository-native Claude.ai upload archives.
 - [`releases/v0.1.6/`](releases/v0.1.6/) — settled portable v0.1.6 bundle, checksums, manifest, receipt, and docs.
 - [`tests/`](tests/) — deterministic repository checks.
-- [`docs/`](docs/) — GitHub Pages source and generated raster hero.
+- [`docs/`](docs/) — GitHub Pages source and the three governed role-specific raster assets.
 - [`verification/`](verification/) — retained evidence and review custody.
 - [`release-assets/v0.1.5/`](release-assets/v0.1.5/) — governed v0.1.5 release objects and custody records.
 

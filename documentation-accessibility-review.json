@@ -1,0 +1,47 @@
+{
+    "format":  "documentation-accessibility-review/v1",
+    "repository":  "Stunspot/CanopyOps",
+    "reviewed_at_utc":  "2026-08-11T21:48:12.7737247Z",
+    "content_fingerprint":  "4ba1ffe3468f174b2f3b0d8463569a9f59bae3fffde0ffe833c48fb513f10486",
+    "scope":  [
+                  "docs/index.html",
+                  "docs/style.css",
+                  "README.md",
+                  "customer document heading and link structure",
+                  "three governed visual assets"
+              ],
+    "material_findings_count":  0,
+    "repaired_findings":  [
+                              {
+                                  "finding":  "Four primary navigation links and the brand name were hidden at narrow widths.",
+                                  "repair":  "Removed those rules and allowed visible wrapping navigation."
+                              },
+                              {
+                                  "finding":  "Small workflow numbers and card labels failed or risked WCAG AA contrast on light cards.",
+                                  "repair":  "Scoped paper labels to 5.16:1 and workflow numbers to 5.67:1."
+                              }
+                          ],
+    "checks":  {
+                   "document_language":  "PASS — html lang is en.",
+                   "landmarks":  "PASS — header, labelled nav, main, sections, asides, and footer are semantic.",
+                   "skip_link":  "PASS — keyboard-focusable skip link targets main.",
+                   "headings":  "PASS — exactly one h1 and 43 total headings in a logical nested structure.",
+                   "links":  "PASS — 10 internal anchors resolve, local assets resolve, and visible focus styling is defined.",
+                   "images":  "PASS — the content image has descriptive alt text and intrinsic dimensions; social metadata includes alt text.",
+                   "responsive_navigation":  "PASS — no display:none rule remains; navigation wraps at 52rem and narrower.",
+                   "reflow":  "PASS BY SOURCE INSPECTION — minmax grids collapse at 72rem, 52rem, and 34rem; long commands scroll within their own pre block.",
+                   "reduced_motion":  "PASS — smooth scrolling is disabled under prefers-reduced-motion and transition/animation duration is minimized.",
+                   "contrast":  "PASS — measured normal-text pairs are at least 5.16:1 after repairs; primary button is 10.17:1; dark-surface text pairs are at least 8.80:1.",
+                   "dependencies":  "PASS — no JavaScript, remote fonts, analytics, tracking, or remote runtime image dependencies."
+               },
+    "not_executed":  [
+                         "screen-reader interaction",
+                         "representative keyboard user session",
+                         "browser zoom and OS high-contrast session",
+                         "localization",
+                         "formal WCAG conformance audit",
+                         "multi-browser visual regression"
+                     ],
+    "result":  "PASS_WITH_LIMITATIONS",
+    "governed_delta_rereview":  "PASS — Enterprise prerequisite and fingerprint-scope prose changed; semantic structure, CSS, and visual bytes are unchanged."
+}

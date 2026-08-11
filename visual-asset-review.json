@@ -1,0 +1,47 @@
+{
+    "format":  "visual-asset-review/v1",
+    "repository":  "Stunspot/CanopyOps",
+    "reviewed_at_utc":  "2026-08-11T21:48:12.7737247Z",
+    "content_fingerprint":  "4ba1ffe3468f174b2f3b0d8463569a9f59bae3fffde0ffe833c48fb513f10486",
+    "inspection":  "Actual pixels opened and visually inspected; duplicate plugin/icon copies were identified by exact byte hash rather than inferred from names.",
+    "roles":  [
+                  {
+                      "role":  "README hero",
+                      "path":  "docs/assets/canopyops-readme-hero.png",
+                      "sha256":  "df80fdaeba797100084e78b8283e7fca38f03b28419671dcf8f364fbda5b94c5",
+                      "dimensions":  "1500x600",
+                      "aspect_ratio":  "2.5:1",
+                      "embedded_text":  "none",
+                      "verdict":  "PASS",
+                      "observations":  "Distinct operations-desk composition with review charts, instruments, tagged samples, and cultivation room; central crop-safe hierarchy, strong contrast, no blank field, watermark, accidental transparency, or legible gibberish."
+                  },
+                  {
+                      "role":  "Pages hero",
+                      "path":  "docs/assets/canopyops-hero.png",
+                      "sha256":  "49ab0a43f9c83d47e2800d4de197688eda05fbc3e4a13eb40dac1700baa21805",
+                      "dimensions":  "1600x900",
+                      "aspect_ratio":  "16:9",
+                      "embedded_text":  "none",
+                      "verdict":  "PASS",
+                      "observations":  "Distinct symmetrical controlled-environment canopy scene; useful environmental identity, balanced crop, strong aisle leading lines, and no embedded text competing with the restrained CSS overlay."
+                  },
+                  {
+                      "role":  "Social share card",
+                      "path":  "docs/assets/canopyops-social-card.png",
+                      "sha256":  "70a9d2a92a0e6635f5737f68aec2092615fb5ac219699d540a395a6a837eec6d",
+                      "dimensions":  "1280x640",
+                      "aspect_ratio":  "2:1",
+                      "embedded_text":  "CanopyOps | Cannabis cultivation operations",
+                      "verdict":  "PASS",
+                      "observations":  "Exact product title and concise identifying line are clearly legible; logo, hierarchy, crop-safe text, contrast, and product identity remain strong at reduced size."
+                  }
+              ],
+    "supporting_assets":  {
+                              "flow":  "PASS — informative light-background workflow graphic; intentionally not used as a hero because its small text is role-specific.",
+                              "icon":  "PASS — recognizable cultivation grid/canopy mark with cyan, green, and coral decision point.",
+                              "collaborative_dynamics_logo":  "PASS — clean supporting brand mark."
+                          },
+    "distinctness":  "PASS — three paths, three compositions, and three aspect ratios; none is a crop or duplicate of another.",
+    "verdict":  "PASS",
+    "governed_delta_rereview":  "PASS — Enterprise prerequisite and fingerprint-scope prose changed; semantic structure, CSS, and visual bytes are unchanged."
+}
