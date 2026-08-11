@@ -22,49 +22,77 @@
     "NOTICE.md",
     "CONTRIBUTING.md",
     "BUILD-WEEK.md",
-    "RELEASE-NOTES-v0.1.5.md",
-    "VERIFICATION-v0.1.5.md",
     "ARCHIVE-CUSTODY.md",
-    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
-    "DOCUMENTATION-STATUS.md"
+    "DOCUMENTATION-STATUS.md",
+    "releases/v0.1.6/docs/README.md",
+    "releases/v0.1.6/docs/CAPABILITIES.md",
+    "releases/v0.1.6/docs/QUICK-START.md",
+    "releases/v0.1.6/docs/INSTALL-CODEX.md",
+    "releases/v0.1.6/docs/INSTALL-CLAUDE.md",
+    "releases/v0.1.6/docs/LIMITATIONS.md",
+    "releases/v0.1.6/docs/HOST-EVIDENCE-BOUNDARY.md",
+    "releases/v0.1.6/docs/PACKAGE-REFERENCE.md",
+    "releases/v0.1.6/docs/VALIDATION.md",
+    "releases/v0.1.6/docs/PROVENANCE.md",
+    "releases/v0.1.6/docs/DESCRIPTION-CUSTODY.md",
+    "releases/v0.1.6/docs/SUPPORT.md"
   ],
   "web_surfaces": [
-    "docs/index.html"
+    "docs/index.html",
+    "docs/style.css"
+  ],
+  "visual_assets": [
+    "docs/assets/canopyops-readme-hero.png",
+    "docs/assets/canopyops-hero.png",
+    "docs/assets/canopyops-social-card.png"
   ],
   "maintainer_docs": [
     "docs/SOURCE.md",
     "documentation-manifest.json",
     "documentation-review.json",
+    "documentation-accessibility-review.json",
+    "visual-asset-review.json",
     "release-manifest.json"
   ],
   "historical_records": [
+    "RELEASE-NOTES-v0.1.2.md",
+    "RELEASE-NOTES-v0.1.3.md",
+    "RELEASE-NOTES-v0.1.4.md",
     "RELEASE-NOTES-v0.1.5.md",
+    "VERIFICATION-v0.1.4.md",
     "VERIFICATION-v0.1.5.md",
-    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
-    "documentation-review.json"
+    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"
   ],
+  "review_fingerprint_scope": "customer_docs + web_surfaces + visual_assets + docs/SOURCE.md + documentation-manifest.json",
   "moments": {
     "orientation": [
       "README.md",
       "RELEASE-STATUS.md",
-      "START-HERE.md"
+      "START-HERE.md",
+      "releases/v0.1.6/docs/README.md"
     ],
     "installation": [
       "INSTALL.md",
-      "RELEASE-STATUS.md"
+      "RELEASE-STATUS.md",
+      "releases/v0.1.6/docs/INSTALL-CODEX.md",
+      "releases/v0.1.6/docs/INSTALL-CLAUDE.md"
     ],
     "first_value": [
       "START-HERE.md",
       "EXAMPLE-TOUR.md",
-      "JUDGE-QUICKSTART.md"
+      "JUDGE-QUICKSTART.md",
+      "releases/v0.1.6/docs/QUICK-START.md"
     ],
     "normal_use": [
       "FAQ.md",
-      "SAFETY-AND-SCOPE.md"
+      "SAFETY-AND-SCOPE.md",
+      "releases/v0.1.6/docs/CAPABILITIES.md",
+      "releases/v0.1.6/docs/LIMITATIONS.md"
     ],
     "recovery": [
       "INSTALL.md",
-      "SUPPORT.md"
+      "SUPPORT.md",
+      "releases/v0.1.6/docs/SUPPORT.md"
     ],
     "privacy_security": [
       "DATA-AND-PRIVACY.md",
@@ -83,16 +111,19 @@
       "TRADEMARKS.md",
       "NOTICE.md",
       "CONTRIBUTING.md",
-      "BUILD-WEEK.md"
+      "BUILD-WEEK.md",
+      "releases/v0.1.6/docs/PROVENANCE.md",
+      "releases/v0.1.6/docs/DESCRIPTION-CUSTODY.md"
     ],
     "evidence_limits": [
       "RELEASE-STATUS.md",
-      "VERIFICATION-v0.1.5.md",
-      "DOCUMENTATION-STATUS.md"
+      "DOCUMENTATION-STATUS.md",
+      "releases/v0.1.6/docs/HOST-EVIDENCE-BOUNDARY.md",
+      "releases/v0.1.6/docs/VALIDATION.md"
     ],
     "publication_status": [
       "RELEASE-STATUS.md",
-      "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"
+      "DOCUMENTATION-STATUS.md"
     ]
   }
 }

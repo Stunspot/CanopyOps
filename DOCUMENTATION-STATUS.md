@@ -1,40 +1,42 @@
 # CanopyOps Documentation Status
 
-Last editorial reconciliation: **July 25, 2026**
+Last substantive documentation remediation: **August 11, 2026**
 
 ## Status
 
-The living repository documentation has been reconciled around one explicit release story:
+The living repository documentation and GitHub Pages source now form one explicit customer journey:
 
-- **v0.1.5** is the repository-native source and plugin line.
-- **v0.1.6** is a separate settled portable bundle with static package evidence.
-- Historical verification, review, and Plugins Directory records remain historical and retain their original scope.
-- The GitHub Pages site, root README, onboarding, installation, FAQ, privacy, security, support, archive, and evidence documents now point to [`RELEASE-STATUS.md`](RELEASE-STATUS.md) instead of implying one undifferentiated “current version.”
+- **v0.1.5** remains the repository-native source and plugin line.
+- **v0.1.6** remains the separate settled portable bundle with static package evidence.
+- Frozen package bytes and historical release records were preserved.
+- README, Pages, installation, examples, safety, privacy, security, support, archive custody, and evidence pages agree on those boundaries.
+- Three public visual roles use separate files, compositions, and aspect ratios: a 1500×600 README operations banner, a 1600×900 Pages environment hero, and a 1280×640 text-bearing social card.
+
+The canonical version and platform map remains [`RELEASE-STATUS.md`](RELEASE-STATUS.md).
 
 ## Current customer journey
 
-| User moment | Canonical document |
+| User moment | Canonical surface |
 |---|---|
-| Understand the product | [`README.md`](README.md) |
+| Understand the product and fit | [`README.md`](README.md) and the [project site](https://stunspot.github.io/CanopyOps/) |
 | Choose the correct distribution | [`RELEASE-STATUS.md`](RELEASE-STATUS.md) |
-| Reach first value | [`START-HERE.md`](START-HERE.md) |
-| Install or remove it | [`INSTALL.md`](INSTALL.md) |
-| Run a fictional judge path | [`JUDGE-QUICKSTART.md`](JUDGE-QUICKSTART.md) |
-| Understand normal use | [`FAQ.md`](FAQ.md) and [`SAFETY-AND-SCOPE.md`](SAFETY-AND-SCOPE.md) |
-| Handle privacy or security | [`DATA-AND-PRIVACY.md`](DATA-AND-PRIVACY.md) and [`SECURITY.md`](SECURITY.md) |
-| Report or recover from a problem | [`SUPPORT.md`](SUPPORT.md) |
-| Inspect release and archive evidence | [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md), [`ARCHIVE-CUSTODY.md`](ARCHIVE-CUSTODY.md), and the v0.1.6 package docs |
+| Install, verify discovery, update, remove, or recover | [`INSTALL.md`](INSTALL.md) |
+| Reach first value | [`START-HERE.md`](START-HERE.md), [`JUDGE-QUICKSTART.md`](JUDGE-QUICKSTART.md), and [`EXAMPLE-TOUR.md`](EXAMPLE-TOUR.md) |
+| Understand capabilities and boundaries | [`FAQ.md`](FAQ.md) and [`SAFETY-AND-SCOPE.md`](SAFETY-AND-SCOPE.md) |
+| Understand privacy, network, storage, and security | [`DATA-AND-PRIVACY.md`](DATA-AND-PRIVACY.md) and [`SECURITY.md`](SECURITY.md) |
+| Get help or contribute | [`SUPPORT.md`](SUPPORT.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| Inspect rights and terms | [`LICENSE.md`](LICENSE.md), [`TERMS-OF-USE.md`](TERMS-OF-USE.md), and [`TRADEMARKS.md`](TRADEMARKS.md) |
+| Inspect package and publication evidence | [`ARCHIVE-CUSTODY.md`](ARCHIVE-CUSTODY.md), [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md), and the v0.1.6 package docs |
 
-## What was repaired
+## Material repairs in this pass
 
-- Reordered the README around audience, jobs, first value, outputs, status, installation, evidence, and provenance.
-- Replaced vague “the release” language with channel-specific version and artifact names.
-- Corrected the judge path so its expected test count matches the current suite.
-- Added current official OpenAI and Anthropic platform references without treating external platform documentation as proof of CanopyOps availability.
-- Marked v0.1.5 release notes, verification, Plugins Directory custody, and the prior Hesperos review as historical records rather than current-HEAD certificates.
-- Added deterministic checks for the release-status contract, customer-document inventory, local Markdown links, Pages assets, and package-line separation.
-- Preserved frozen v0.1.6 package bytes and their detached evidence instead of rewriting a settled archive to make the prose look tidy.
-- Replaced the misleading root all-tree checksum role with a small `release-manifest.json` custody router and archived the former v0.1.5 repository snapshot intact.
+- Rebuilt Pages from a polished but partial narrative into a complete installation-to-removal customer journey.
+- Added host-specific installation and discovery verification, first-success guidance, representative inputs and outputs, configuration truth, troubleshooting, recovery, cleanup, privacy, security, support, rights, and evidence limits.
+- Removed the mobile rule that hid four primary navigation links.
+- Replaced README reuse of the Pages hero with a role-specific operations banner.
+- Wired the existing text-bearing CanopyOps social card to Open Graph and X/Twitter metadata instead of reusing the no-text Pages hero.
+- Corrected the current deterministic-suite count from 20 to 21.
+- Corrected archive custody so an absent `backups/` path is not presented as a repository object; the frozen v0.1.6 receipt remains unchanged and explicitly scoped to packaging-stage custody.
 
 ## Verification
 
@@ -44,15 +46,21 @@ Run from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-The current suite contains **20 tests**. The checks cover calculations, record validation, package parity, repository-native version custody, portable-bundle custody, the historical release-manifest boundary, customer-document reachability, the canonical release story, and Pages-local assets.
+The current suite contains **21 tests**. It covers calculations, record validation, package parity, repository-native version custody, portable-bundle custody, the historical release-manifest boundary, customer-document reachability, the canonical release story, and Pages-local assets.
 
-The GitHub Actions result is the execution evidence. This page does not self-certify a run merely because the command is printed here.
+Run the settled portable verifier from `releases/v0.1.6/`:
+
+```text
+python tools/verify_release.py .
+```
+
+A successful static check proves only the states it observes. It does not prove fresh-host installation, discovery, invocation, tool execution, field fitness, legal correctness, regulatory currency, or customer outcomes.
 
 ## Review custody
 
-The prior Hesperos review remains valid for the exact v0.1.5 document snapshot it examined. Its record is retained in [`documentation-review.json`](documentation-review.json) and under `verification/evidence/`.
+The current documentation review receipt is [`documentation-review.json`](documentation-review.json). The separate accessibility result is [`documentation-accessibility-review.json`](documentation-accessibility-review.json). Each record binds its verdict to an exact content fingerprint; any later change to a reviewed document, site source, or governed visual invalidates that receipt and requires review again.
 
-That review did **not** cover the later Pages site, the v0.1.6 portable estate, or this reconciliation. The current pass is a maintainer/editorial reconciliation with deterministic checks, not a falsely relabeled independent fresh-context review.
+Historical v0.1.5 review and verification evidence remains retained under `verification/evidence/` and is not relabeled as current evidence.
 
 ## Still not established
 
@@ -60,9 +68,9 @@ This documentation work does not establish:
 
 - cultivation-field fitness or production reliability;
 - jurisdictional currency or legal correctness;
-- live Codex, Claude.ai, or Claude Code behavior for every supported path;
+- live Codex, Claude.ai, or Claude Code behavior for every supported route;
 - OpenAI Plugin Directory review, approval, publication, or discoverability;
-- representative-user usability, localization, browser compatibility, keyboard testing, screen-reader testing, or formal accessibility conformance;
+- representative-user usability, localization, formal accessibility conformance, or exhaustive browser compatibility;
 - equipment integration, direct control, pesticide authority, batch release, or customer outcomes.
 
 Those boundaries are product truth, not missing decoration.

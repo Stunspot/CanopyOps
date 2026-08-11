@@ -18,9 +18,9 @@ CanopyOps currently preserves two intentionally separate package lines. Their ar
 | **Portable v0.1.6** | Canonical bundle | `releases/v0.1.6/CanopyOps-v0.1.6.zip` | Self-verifying cross-host package |
 |  | Detached checksum | `releases/v0.1.6/CanopyOps-v0.1.6.zip.sha256` | SHA-256 comparison outside the archive |
 |  | Package manifest | `releases/v0.1.6/manifest.json` | Source, payload, archive, and package identity |
-|  | Release receipt | `releases/v0.1.6/receipt.json` | Canonical/backup copy and checksum custody |
+|  | Release receipt | `releases/v0.1.6/receipt.json` | Packaging-stage canonical/backup custody record; its `backups/` fields are not repository paths |
 |  | Package docs | `releases/v0.1.6/docs/` | Installation, validation, limitations, evidence, and maintenance |
-|  | Convenience backup | `backups/CanopyOps-v0.1.6.zip` | Copy of the canonical bundle, not the canonical source |
+|  | Published release copy | [GitHub release v0.1.6](https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.6) | Public download of the canonical bundle, checksum, and detached receipt |
 
 ## v0.1.5 custody
 

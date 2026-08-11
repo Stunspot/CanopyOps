@@ -215,7 +215,7 @@ class PackageTests(unittest.TestCase):
             self.assertIn("RELEASE-STATUS.md", (REPO_ROOT / name).read_text(encoding="utf-8"), name)
 
         judge = (REPO_ROOT / "JUDGE-QUICKSTART.md").read_text(encoding="utf-8")
-        self.assertIn("Ran 20 tests", judge)
+        self.assertIn("Ran 21 tests", judge)
         pages = (REPO_ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn("RELEASE-STATUS.md", pages)
         self.assertIn("DOCUMENTATION-STATUS.md", pages)

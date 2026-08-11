@@ -1,0 +1,60 @@
+{
+    "format":  "testforge-public-remediation/v1",
+    "repository":  "Stunspot/CanopyOps",
+    "generated_at_utc":  "2026-08-11T21:28:19.0068859Z",
+    "base_commit":  "719aed988e28a064bbef92c8e51c862d4df11af1",
+    "governed_content_fingerprint":  "fe1f1bbfdbf6b533b54b9742b84ae3a851b8b9b817132e27635c22e28c8bf98d",
+    "scope":  "Public documentation, GitHub Pages source, visual-role assets, release/documentation custody, deterministic package checks, and publication readiness.",
+    "local_checks":  {
+                         "repository_suite":  {
+                                                  "command":  "python -m unittest discover -s tests -v",
+                                                  "result":  "PASS",
+                                                  "tests":  21
+                                              },
+                         "portable_verifier":  {
+                                                   "command":  "python releases/v0.1.6/tools/verify_release.py releases/v0.1.6",
+                                                   "result":  "PASS",
+                                                   "ok":  true,
+                                                   "findings":  0,
+                                                   "files_checked":  93,
+                                                   "source_files_checked":  69,
+                                                   "claude_archives_checked":  1,
+                                                   "unique_zip_containers_checked":  2,
+                                                   "zip_members_checked":  159
+                                               },
+                         "local_document_links":  "PASS",
+                         "pages_semantic_audit":  "PASS — one h1, 43 headings, 12 unique IDs, 10/10 internal anchors, local assets present, descriptive alt, no JavaScript.",
+                         "external_links":  "PASS — 11/11 independent URLs; 19 same-repository/Page targets deferred to post-publication live readback.",
+                         "frozen_release":  "PASS — releases/v0.1.6 has zero diff.",
+                         "diff_check":  "PASS"
+                     },
+    "documentation_review":  {
+                                 "receipt":  "documentation-review.json",
+                                 "verdict":  "REVIEW_PASS_WITH_CONDITIONS",
+                                 "material_findings":  0,
+                                 "reviewed_files":  43
+                             },
+    "accessibility":  {
+                          "receipt":  "documentation-accessibility-review.json",
+                          "result":  "PASS_WITH_LIMITATIONS",
+                          "material_findings":  0,
+                          "repaired_findings":  2
+                      },
+    "visuals":  {
+                    "receipt":  "visual-asset-review.json",
+                    "result":  "PASS",
+                    "readme_hero_sha256":  "df80fdaeba797100084e78b8283e7fca38f03b28419671dcf8f364fbda5b94c5",
+                    "pages_hero_sha256":  "49ab0a43f9c83d47e2800d4de197688eda05fbc3e4a13eb40dac1700baa21805",
+                    "social_card_sha256":  "70a9d2a92a0e6635f5737f68aec2092615fb5ac219699d540a395a6a837eec6d",
+                    "distinct_roles":  true
+                },
+    "publication_state":  "REMEDIATED_NOT_YET_LIVE",
+    "adversarial_review_state":  "PENDING_FRESH_REVIEW_OF_LOCAL_COMMIT",
+    "residual_risk":  [
+                          "No cultivation field validation",
+                          "No exhaustive multi-browser or formal accessibility conformance test",
+                          "Claude live activation not claimed",
+                          "OpenAI Plugin Directory approval or publication not claimed",
+                          "Live Pages and repository readback pending publication"
+                      ]
+}
