@@ -58,7 +58,7 @@ A successful static check proves only the states it observes. It does not prove 
 
 ## Review custody
 
-The current documentation review receipt is [`documentation-review.json`](documentation-review.json). The separate accessibility result is [`documentation-accessibility-review.json`](documentation-accessibility-review.json). Each record binds its verdict to an exact content fingerprint; any later change to a reviewed document, site source, or governed visual invalidates that receipt and requires review again.
+The current documentation review receipt is [`documentation-review.json`](documentation-review.json). The separate accessibility result is [`documentation-accessibility-review.json`](documentation-accessibility-review.json). Each record binds its verdict to the exact governed scope declared in `documentation-manifest.json`; any later change to a governed current document, site source, or visual invalidates that receipt and requires review again. Historical records are reviewed for context but remain outside the living-content fingerprint.
 
 Historical v0.1.5 review and verification evidence remains retained under `verification/evidence/` and is not relabeled as current evidence.
 

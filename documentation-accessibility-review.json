@@ -1,8 +1,8 @@
 {
     "format":  "documentation-accessibility-review/v1",
     "repository":  "Stunspot/CanopyOps",
-    "reviewed_at_utc":  "2026-08-11T21:26:07.7529108Z",
-    "content_fingerprint":  "fe1f1bbfdbf6b533b54b9742b84ae3a851b8b9b817132e27635c22e28c8bf98d",
+    "reviewed_at_utc":  "2026-08-11T21:48:12.7737247Z",
+    "content_fingerprint":  "4ba1ffe3468f174b2f3b0d8463569a9f59bae3fffde0ffe833c48fb513f10486",
     "scope":  [
                   "docs/index.html",
                   "docs/style.css",
@@ -42,5 +42,6 @@
                          "formal WCAG conformance audit",
                          "multi-browser visual regression"
                      ],
-    "result":  "PASS_WITH_LIMITATIONS"
+    "result":  "PASS_WITH_LIMITATIONS",
+    "governed_delta_rereview":  "PASS — Enterprise prerequisite and fingerprint-scope prose changed; semantic structure, CSS, and visual bytes are unchanged."
 }
