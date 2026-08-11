@@ -49,12 +49,15 @@
                     "distinct_roles":  true
                 },
     "publication_state":  "REMEDIATED_NOT_YET_LIVE",
-    "adversarial_review_state":  "PRIOR_COMMIT_REVIEW_PASS_WITH_CONDITIONS; THREE_NONBLOCKING_FINDINGS_REPAIRED; FOCUSED_FOLLOWUP_PENDING",
+    "adversarial_review_state":  "REVIEW_PASS_WITH_CONDITIONS",
     "residual_risk":  [
                           "No cultivation field validation",
                           "No exhaustive multi-browser or formal accessibility conformance test",
                           "Claude live activation not claimed",
                           "OpenAI Plugin Directory approval or publication not claimed",
                           "Live Pages and repository readback pending publication"
-                      ]
+                      ],
+    "updated_at_utc":  "2026-08-11T21:52:48.1496560Z",
+    "reviewed_commit":  "5e035734aad841ec0639d5fbe5bbb35f79f4b444",
+    "testforge_decision":  "READY_WITH_RESIDUAL_RISK"
 }
