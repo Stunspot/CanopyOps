@@ -1,0 +1,84 @@
+{
+    "format":  "canopyops-live-verification/v1",
+    "verified_at_utc":  "2026-08-11T21:59:16.8879960Z",
+    "repository":  "https://github.com/Stunspot/CanopyOps",
+    "governed_content_commit":  "870a5248e0c9fb1a6800d11cfdad56dd19cde843",
+    "governed_fingerprint":  "4ba1ffe3468f174b2f3b0d8463569a9f59bae3fffde0ffe833c48fb513f10486",
+    "pull_request":  "https://github.com/Stunspot/CanopyOps/pull/7",
+    "pages_url":  "https://stunspot.github.io/CanopyOps/",
+    "publication":  {
+                        "main_sha":  "870a5248e0c9fb1a6800d11cfdad56dd19cde843",
+                        "pages_deployment":  {
+                                                 "run":  "https://github.com/Stunspot/CanopyOps/actions/runs/31540032702",
+                                                 "conclusion":  "success",
+                                                 "head_sha":  "870a5248e0c9fb1a6800d11cfdad56dd19cde843"
+                                             },
+                        "pages_build":  {
+                                            "run":  "https://github.com/Stunspot/CanopyOps/actions/runs/31540032129",
+                                            "conclusion":  "success",
+                                            "head_sha":  "870a5248e0c9fb1a6800d11cfdad56dd19cde843"
+                                        },
+                        "repository_suite":  {
+                                                 "run":  "https://github.com/Stunspot/CanopyOps/actions/runs/31540032691",
+                                                 "conclusion":  "success",
+                                                 "head_sha":  "870a5248e0c9fb1a6800d11cfdad56dd19cde843"
+                                             },
+                        "line_ending_policy":  {
+                                                   "run":  "https://github.com/Stunspot/CanopyOps/actions/runs/31540032760",
+                                                   "conclusion":  "success",
+                                                   "head_sha":  "870a5248e0c9fb1a6800d11cfdad56dd19cde843"
+                                               }
+                    },
+    "live_readback":  {
+                          "governed_files_exact_at_commit":  "39/39",
+                          "governed_files_exact_on_main":  "39/39",
+                          "rendered_github_readme":  "PASS — correct banner, alt text, Pages link, install link, and release link",
+                          "pages_html":  "PASS — HTTP 200 and exact reviewed bytes",
+                          "pages_css":  "PASS — HTTP 200 and exact reviewed bytes",
+                          "pages_assets":  "PASS — 3/3 HTTP 200 and exact reviewed bytes",
+                          "pages_unique_anchors":  "8/8",
+                          "pages_outbound_routes":  "21/21",
+                          "social_metadata":  "PASS — Open Graph and X/Twitter point to the governed text-bearing social card",
+                          "v0_1_6_release_download":  "PASS — HTTP 200 and exact canonical bytes"
+                      },
+    "assets":  [
+                   {
+                       "role":  "README hero",
+                       "url":  "https://stunspot.github.io/CanopyOps/assets/canopyops-readme-hero.png",
+                       "sha256":  "df80fdaeba797100084e78b8283e7fca38f03b28419671dcf8f364fbda5b94c5",
+                       "dimensions":  "1500x600",
+                       "actual_pixel_verdict":  "PASS"
+                   },
+                   {
+                       "role":  "Pages hero",
+                       "url":  "https://stunspot.github.io/CanopyOps/assets/canopyops-hero.png",
+                       "sha256":  "49ab0a43f9c83d47e2800d4de197688eda05fbc3e4a13eb40dac1700baa21805",
+                       "dimensions":  "1600x900",
+                       "actual_pixel_verdict":  "PASS"
+                   },
+                   {
+                       "role":  "Social card",
+                       "url":  "https://stunspot.github.io/CanopyOps/assets/canopyops-social-card.png",
+                       "sha256":  "70a9d2a92a0e6635f5737f68aec2092615fb5ac219699d540a395a6a837eec6d",
+                       "dimensions":  "1280x640",
+                       "visible_text":  "CanopyOps | Cannabis cultivation operations",
+                       "actual_pixel_verdict":  "PASS"
+                   }
+               ],
+    "release_download":  {
+                             "url":  "https://github.com/Stunspot/CanopyOps/releases/download/v0.1.6/CanopyOps-v0.1.6.zip",
+                             "status":  200,
+                             "bytes":  146037,
+                             "sha256":  "94e468fc569d945f812e1efc9ac66ff6a1106f87eadbb5cd03958aec93926d57",
+                             "exact":  true
+                         },
+    "unexecuted":  [
+                       "live host installation and invocation",
+                       "formal accessibility conformance",
+                       "cultivation field validation",
+                       "jurisdictional or legal correctness",
+                       "Plugin Directory publication",
+                       "customer outcomes"
+                   ],
+    "verdict":  "LIVE_VERIFICATION_PASS"
+}
