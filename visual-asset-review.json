@@ -1,8 +1,8 @@
 {
     "format":  "visual-asset-review/v1",
     "repository":  "Stunspot/CanopyOps",
-    "reviewed_at_utc":  "2026-08-11T21:48:12.7737247Z",
-    "content_fingerprint":  "4ba1ffe3468f174b2f3b0d8463569a9f59bae3fffde0ffe833c48fb513f10486",
+    "reviewed_at_utc":  "2026-08-12T17:30:18.9015394Z",
+    "content_fingerprint":  "bed2550fc69f00e409cc29c1390b57dd14382ef6231fa143fff52b5da5166989",
     "inspection":  "Actual pixels opened and visually inspected; duplicate plugin/icon copies were identified by exact byte hash rather than inferred from names.",
     "roles":  [
                   {
@@ -28,20 +28,20 @@
                   {
                       "role":  "Social share card",
                       "path":  "docs/assets/canopyops-social-card.png",
-                      "sha256":  "70a9d2a92a0e6635f5737f68aec2092615fb5ac219699d540a395a6a837eec6d",
-                      "dimensions":  "1280x640",
-                      "aspect_ratio":  "2:1",
-                      "embedded_text":  "CanopyOps | Cannabis cultivation operations",
+                      "sha256":  "16fa3fb9f0ebacfe57a781e3fdb3325ae7e45e90f7dcc3f38e805c4b55edd724",
+                      "dimensions":  "1731x909",
+                      "aspect_ratio":  "1.904:1",
+                      "embedded_text":  "CanopyOps | Cannabis cultivation operations with evidence attached.",
                       "verdict":  "PASS",
-                      "observations":  "Exact product title and concise identifying line are clearly legible; logo, hierarchy, crop-safe text, contrast, and product identity remain strong at reduced size."
+                      "observations":  "Original image-generator artwork, not programmed artwork: a cultivation operator compares three unlabeled botanical samples against solid-color evidence tiles inside an active controlled-environment room. Exact title and identifying line are crisp; no other letters, numbers, pseudo-writing, logos, gauges, screens, or labels appear. Warm botanical palette, human focus, operational depth, strong hierarchy, and crop-safe margins remain legible at reduced size."
                   }
               ],
     "supporting_assets":  {
-                              "flow":  "PASS — informative light-background workflow graphic; intentionally not used as a hero because its small text is role-specific.",
-                              "icon":  "PASS — recognizable cultivation grid/canopy mark with cyan, green, and coral decision point.",
-                              "collaborative_dynamics_logo":  "PASS — clean supporting brand mark."
+                              "flow":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â informative light-background workflow graphic; intentionally not used as a hero because its small text is role-specific.",
+                              "icon":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â recognizable cultivation grid/canopy mark with cyan, green, and coral decision point.",
+                              "collaborative_dynamics_logo":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â clean supporting brand mark."
                           },
-    "distinctness":  "PASS — three paths, three compositions, and three aspect ratios; none is a crop or duplicate of another.",
+    "distinctness":  "PASS Ã¢â‚¬â€ three paths, three original compositions, and three aspect ratios: 2.5:1 README operations desk, 16:9 Pages cultivation room, and 1.904:1 social evidence-workbench scene. None is a crop or duplicate of another.",
     "verdict":  "PASS",
-    "governed_delta_rereview":  "PASS — Enterprise prerequisite and fingerprint-scope prose changed; semantic structure, CSS, and visual bytes are unchanged."
+    "governed_delta_rereview":  "PASS Ã¢â‚¬â€ all three final role assets were opened and judged by actual pixels after the social-card replacement; source metadata and dimensions match the final bytes."
 }

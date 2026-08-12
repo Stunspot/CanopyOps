@@ -6,7 +6,7 @@ This directory is the source for the CanopyOps GitHub Pages site.
 - `style.css` contains the responsive visual presentation.
 - `assets/canopyops-hero.png` is the 1600×900 no-text Pages hero.
 - `assets/canopyops-readme-hero.png` is the separate 1500×600 no-text README banner.
-- `assets/canopyops-social-card.png` is the separate 1280×640 Open Graph and X/Twitter card with the exact title `CanopyOps` and identifying line `Cannabis cultivation operations`.
+- `assets/canopyops-social-card.png` is the separate 1731×909 Open Graph and X/Twitter card with the exact title `CanopyOps` and identifying line `Cannabis cultivation operations with evidence attached.`
 - `.nojekyll` instructs GitHub Pages to serve this directory directly.
 
 The three role assets are different compositions and aspect ratios. The Pages hero establishes the controlled cultivation environment, the README banner centers operating review and measurement, and the social card carries explicit title text for link previews.

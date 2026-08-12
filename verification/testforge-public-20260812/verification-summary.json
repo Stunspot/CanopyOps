@@ -1,0 +1,41 @@
+{
+    "format":  "testforge-public-remediation/v1",
+    "repository":  "Stunspot/CanopyOps",
+    "reviewed_at_utc":  "2026-08-12T17:32:59.6121653Z",
+    "reviewed_commit":  "e1e536c3f66e24ccb96f1401e4e81d47a182c470",
+    "governed_content_fingerprint":  "bed2550fc69f00e409cc29c1390b57dd14382ef6231fa143fff52b5da5166989",
+    "decision":  "READY_WITH_RESIDUAL_RISK",
+    "blocking_findings":  [
+
+                          ],
+    "checks":  {
+                   "clean_worktree":  "PASS",
+                   "repository_suite":  {
+                                            "result":  "PASS",
+                                            "tests":  21
+                                        },
+                   "portable_verifier":  {
+                                             "result":  "PASS",
+                                             "files_checked":  93,
+                                             "findings":  0,
+                                             "ok":  true
+                                         },
+                   "documentation_fingerprint":  "PASS",
+                   "frozen_release_and_runtime_preservation":  "PASS",
+                   "programmed_art_source_absent":  "PASS",
+                   "hesperos_review":  "REVIEW_PASS_WITH_CONDITIONS",
+                   "accessibility":  "PASS_WITH_LIMITATIONS",
+                   "visual_roles":  {
+                                        "result":  "PASS",
+                                        "readme_hero_sha256":  "df80fdaeba797100084e78b8283e7fca38f03b28419671dcf8f364fbda5b94c5",
+                                        "pages_hero_sha256":  "49ab0a43f9c83d47e2800d4de197688eda05fbc3e4a13eb40dac1700baa21805",
+                                        "social_card_sha256":  "16fa3fb9f0ebacfe57a781e3fdb3325ae7e45e90f7dcc3f38e805c4b55edd724"
+                                    },
+                   "adversarial_review":  "PASS"
+               },
+    "residuals":  [
+                      "Publication and final live readback remain pending.",
+                      "Rendered keyboard, zoom/high-contrast, screen-reader, and multi-browser checks remain unexecuted.",
+                      "No field, jurisdictional, legal, universal-host, Plugin Directory, or customer-outcome claim is made."
+                  ]
+}

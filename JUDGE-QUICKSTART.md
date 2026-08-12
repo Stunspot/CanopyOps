@@ -2,7 +2,7 @@
 
 This path uses fictional data, requires no cultivation facility, and takes about five minutes. It demonstrates repository installation, deterministic machinery, and authority-bounded operating behavior without pretending to establish field fitness.
 
-Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) if you need the portable v0.1.6 route. The shortest judge path below uses the repository-native v0.1.5 plugin.
+Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) if you need the portable v0.1.6 route. The judge path documented here uses the repository-native v0.1.5 plugin.
 
 ## 1. Install the repository-native plugin
 
