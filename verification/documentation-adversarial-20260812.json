@@ -1,0 +1,23 @@
+{
+    "format":  "canopyops-documentation-adversarial-review/v1",
+    "repository":  "Stunspot/CanopyOps",
+    "reviewed_at_utc":  "2026-08-12T17:31:31.5152069Z",
+    "documentation_fingerprint":  "bed2550fc69f00e409cc29c1390b57dd14382ef6231fa143fff52b5da5166989",
+    "result":  "PASS",
+    "challenge":  {
+                      "customer_journey":  "PASS — declared current customer documents were read completely and cover orientation, all supported install routes, verification, first value, workflows, inputs/outputs, configuration, recovery, cleanup, privacy, security, limits, provenance, support, rights, and evidence boundaries.",
+                      "source_alignment":  "PASS — README and Pages claims match the runtime entrypoint, all six workflows, four linked examples, required persona/adapter, templates, utilities, and observed package lines.",
+                      "visual_identity":  "PASS — every governed image was opened. README and Pages heroes were preserved; the failed corporate-slide social card was replaced by original image-generator artwork with only the exact required title and line.",
+                      "crop_and_text":  "PASS — social title and identifying line are legible and crop-safe; no other letters, numbers, pseudo-writing, logos, gauges, screens, or labels appear.",
+                      "navigation":  "PASS — all eight internal fragment targets resolve; the 21-test suite checks customer-document and Pages-local links.",
+                      "accessibility":  "PASS WITH LIMITATIONS — semantic/source, contrast, reflow, navigation, alternative text, reduced motion, and prose-direction checks pass. The verbatim MIT clause is the single documented linter exception. Screen-reader, rendered keyboard, zoom/high-contrast, and multi-browser checks are not executed.",
+                      "release_custody":  "PASS — frozen releases, release assets, Claude archives, canonical runtime, and plugin payload have zero working-tree changes.",
+                      "validators":  "PASS — 21 repository tests, portable v0.1.6 verifier, fingerprint recomputation, JSON parsing, and diff whitespace checks pass.",
+                      "programmed_art":  "PASS — no renderer exists in living source; the sole phrase match is the documentation receipt stating that no programmed or deterministic artwork was used."
+                  },
+    "residuals":  [
+                      "Fresh live Pages render and keyboard inspection waits for deployment and a permitted existing browser.",
+                      "GitHub repository social preview requires live verification after upload.",
+                      "No field pilot, legal correctness, jurisdiction currency, universal host behavior, or customer outcome is claimed."
+                  ]
+}

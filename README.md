@@ -24,7 +24,7 @@ CanopyOps does not flatten every sentence into “the AI says so.” It preserve
 
 A supplied target remains a **comparison value** until its source, crop stage, scope, tolerance, measurement method, and accountable approval establish an **active target**. A recommendation never becomes authorization merely because it sounds polished.
 
-Facility SOPs, emergency procedures, current approved labels, current jurisdiction sources, qualified laboratory evidence, equipment documentation, and accountable humans remain above the model.
+Facility SOPs, emergency procedures, current approved labels, current jurisdiction sources, qualified laboratory evidence, equipment documentation, and accountable humans govern and override model output.
 
 ## Try it in five minutes
 

@@ -1,6 +1,6 @@
 # CanopyOps Documentation Status
 
-Last substantive documentation remediation: **August 11, 2026**
+Last substantive documentation remediation: **August 12, 2026**
 
 ## Status
 
@@ -10,7 +10,7 @@ The living repository documentation and GitHub Pages source now form one explici
 - **v0.1.6** remains the separate settled portable bundle with static package evidence.
 - Frozen package bytes and historical release records were preserved.
 - README, Pages, installation, examples, safety, privacy, security, support, archive custody, and evidence pages agree on those boundaries.
-- Three public visual roles use separate files, compositions, and aspect ratios: a 1500×600 README operations banner, a 1600×900 Pages environment hero, and a 1280×640 text-bearing social card.
+- Three public visual roles use separate files, compositions, and aspect ratios: a 1500×600 README operations banner, a 1600×900 Pages environment hero, and a 1731×909 text-bearing social card.
 
 The canonical version and platform map remains [`RELEASE-STATUS.md`](RELEASE-STATUS.md).
 
@@ -34,7 +34,7 @@ The canonical version and platform map remains [`RELEASE-STATUS.md`](RELEASE-STA
 - Added host-specific installation and discovery verification, first-success guidance, representative inputs and outputs, configuration truth, troubleshooting, recovery, cleanup, privacy, security, support, rights, and evidence limits.
 - Removed the mobile rule that hid four primary navigation links.
 - Replaced README reuse of the Pages hero with a role-specific operations banner.
-- Wired the existing text-bearing CanopyOps social card to Open Graph and X/Twitter metadata instead of reusing the no-text Pages hero.
+- Replaced the generic corporate-slide social card with original image-generated cultivation artwork carrying the exact product title and identifying line, then wired it to Open Graph and X/Twitter metadata.
 - Corrected the current deterministic-suite count from 20 to 21.
 - Corrected archive custody so an absent `backups/` path is not presented as a repository object; the frozen v0.1.6 receipt remains unchanged and explicitly scoped to packaging-stage custody.
 

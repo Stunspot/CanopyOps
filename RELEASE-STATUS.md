@@ -75,4 +75,4 @@ OpenAI’s current public explanation of Plugins in ChatGPT and Codex is availab
 
 ## Maintenance rule
 
-A future release may unify these distribution lines. Until that happens, every customer-facing document must preserve the distinction above. Historical evidence remains attached to the exact artifact and date it examined; it is never silently promoted to a newer package or to live-host behavior.
+A future release may unify these distribution lines. Until that happens, every customer-facing document must preserve the distinction between the two package lines. Historical evidence remains attached to the exact artifact and date it examined; it is never silently promoted to a newer package or to live-host behavior.

@@ -10,6 +10,6 @@ Describe the included capability as **CanopyOps by Collaborative Dynamics**. Att
 
 ## What to retain
 
-Keep the product name, creator credit, publisher name, and destination link readable wherever the unmodified Augment is redistributed. Keep the included `LICENSE.md`, `NOTICE.md`, and `TRADEMARKS.md` files with the package so recipients can distinguish software permissions, authored-material permissions, notices, and mark usage. If a distribution surface has a separate acknowledgements page, the attribution above may appear there as long as a recipient can reasonably find it from the CanopyOps listing.
+Keep the product name, creator credit, publisher name, and destination link readable wherever the unmodified Augment is redistributed. Keep the included `LICENSE.md`, `NOTICE.md`, and `TRADEMARKS.md` files with the package so recipients can distinguish software permissions, authored-material permissions, notices, and mark usage. If a distribution surface has a separate acknowledgements page, the required attribution may appear there as long as a recipient can reasonably find it from the CanopyOps listing.
 
 Attribution does not transfer ownership of the CanopyOps name or marks, approve modifications to authored material, or make a surrounding service an official Collaborative Dynamics product. For contribution, modification, or branding questions, read `CONTRIBUTING.md` and `TRADEMARKS.md` before distribution.
