@@ -4,7 +4,7 @@
 
 **Evidence-bounded cultivation operations for lawful cannabis teams.**
 
-CanopyOps is an installable AI skill that turns room data, crop observations, logs, and facility constraints into reviewable crop plans, incident workups, transparent calculations, harvest-readiness reviews, CAPA, runbooks, and operating records—while keeping evidence, uncertainty, ownership, and human authority visible.
+CanopyOps is an installable AI skill for cannabis cultivation that turns room data, crop observations, logs, and facility constraints into reviewable crop plans, incident workups, transparent calculations, harvest-readiness reviews, CAPA, runbooks, and operating records—while keeping evidence, uncertainty, ownership, and human authority visible.
 
 **[Open the project site →](https://stunspot.github.io/CanopyOps/)** · **[Start here](START-HERE.md)** · **[Install](INSTALL.md)** · **[Choose the correct release](RELEASE-STATUS.md)**
 
