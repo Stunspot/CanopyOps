@@ -2,7 +2,7 @@
 
 CanopyOps is a free Collaborative Dynamics Augment. Support is best-effort and routed through the public repository.
 
-Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) before reporting a problem. State whether the issue affects the repository-native v0.1.5 line, the portable v0.1.6 bundle, or both.
+Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) before reporting a problem. State whether the issue affects the repository-native v0.1.5 line, the portable v0.1.7 bundle, or both.
 
 ## Use the right issue type
 

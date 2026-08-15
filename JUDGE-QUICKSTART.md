@@ -2,7 +2,7 @@
 
 This path uses fictional data, requires no cultivation facility, and takes about five minutes. It demonstrates repository installation, deterministic machinery, and authority-bounded operating behavior without pretending to establish field fitness.
 
-Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) if you need the portable v0.1.6 route. The judge path documented here uses the repository-native v0.1.5 plugin.
+Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) if you need the portable v0.1.7 route. The judge path documented here uses the repository-native v0.1.5 plugin.
 
 ## 1. Install the repository-native plugin
 
@@ -61,7 +61,7 @@ The suite checks:
 - timezone-required log normalization;
 - required skill surfaces and JSON schemas;
 - repository-native plugin, canonical skill, and Claude archive parity;
-- the separate v0.1.5 repository-native and v0.1.6 portable package boundaries;
+- the separate v0.1.5 repository-native and v0.1.7 portable package boundaries;
 - customer-document inventory and local links;
 - canonical release-status language and Pages-local assets.
 
@@ -75,9 +75,9 @@ python canopyops/scripts/calculate_vpd.py --air-temp-c 27 --rh-percent 78 --leaf
 
 The output should include the supplied air, leaf, and RH values; intermediate vapor-pressure values; leaf VPD; the formula basis; and whether leaf temperature was measured or estimated. CanopyOps must not silently substitute air temperature for leaf temperature.
 
-## Optional: verify the portable v0.1.6 bundle
+## Optional: verify the portable v0.1.7 bundle
 
-Extract `releases/v0.1.6/CanopyOps-v0.1.6.zip`, open a terminal at the extracted root, and run:
+Extract `releases/v0.1.7/CanopyOps-v0.1.7.zip`, open a terminal at the extracted root, and run:
 
 ```text
 python tools/verify_release.py .

@@ -9,9 +9,9 @@ Yes. It is built for lawful cannabis cultivation operations, not generic gardeni
 Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md).
 
 - Use the **repository-native v0.1.5 line** for the direct GitHub marketplace commands, root source tree, root tests, or repository-native Claude upload.
-- Use the **settled portable v0.1.6 bundle** when you want one self-verifying archive with package-specific Codex and Claude payloads.
+- Use the **settled portable v0.1.7 bundle** when you want one self-verifying archive with package-specific Codex and Claude payloads.
 
-The v0.1.6 package preserves the same operating kernel; it does not create new field or behavioral evidence. Do not mix files across the two lines.
+The v0.1.7 package preserves the same operating kernel; it does not create new field or behavioral evidence. Do not mix files across the two lines.
 
 ## Does it grow cannabis for me?
 
@@ -35,7 +35,7 @@ It can build and rank a differential, identify discriminating observations, reco
 
 ## Does it require Python?
 
-No for the core reasoning workflow. Python enables deterministic calculations, normalization, linting, packaging, freshness checks, schema-subset validation, and the portable v0.1.6 verifier. Without Python, small calculations may be shown transparently and marked manual or unverified.
+No for the core reasoning workflow. Python enables deterministic calculations, normalization, linting, packaging, freshness checks, schema-subset validation, and the portable v0.1.7 verifier. Without Python, small calculations may be shown transparently and marked manual or unverified.
 
 ## What files can it produce?
 
@@ -71,7 +71,7 @@ The Python scripts, tests, and schemas are open source under MIT. The complete a
 
 No field pilot is claimed.
 
-The v0.1.5 line has deterministic release checks and a reviewed three-case context-only safety/scope smoke inherited from the unchanged operating kernel. The v0.1.6 portable line adds static package and byte-custody evidence. Neither establishes field fitness, broad behavioral reliability, or customer outcomes.
+The v0.1.5 line has deterministic release checks and a reviewed three-case context-only safety/scope smoke inherited from the unchanged operating kernel. The v0.1.7 portable line adds static package and byte-custody evidence. Neither establishes field fitness, broad behavioral reliability, or customer outcomes.
 
 ## Does it work in Claude.ai or Claude Code?
 

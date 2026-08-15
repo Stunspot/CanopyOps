@@ -1,13 +1,13 @@
 # CanopyOps Documentation Status
 
-Last substantive documentation remediation: **August 12, 2026**
+Last substantive documentation remediation: **August 14, 2026**
 
 ## Status
 
 The living repository documentation and GitHub Pages source now form one explicit customer journey:
 
 - **v0.1.5** remains the repository-native source and plugin line.
-- **v0.1.6** remains the separate settled portable bundle with static package evidence.
+- **v0.1.7** remains the separate settled portable bundle with static package evidence.
 - Frozen package bytes and historical release records were preserved.
 - README, Pages, installation, examples, safety, privacy, security, support, archive custody, and evidence pages agree on those boundaries.
 - Three public visual roles use separate files, compositions, and aspect ratios: a 1500×600 README operations banner, a 1600×900 Pages environment hero, and a 1731×909 text-bearing social card.
@@ -26,7 +26,7 @@ The canonical version and platform map remains [`RELEASE-STATUS.md`](RELEASE-STA
 | Understand privacy, network, storage, and security | [`DATA-AND-PRIVACY.md`](DATA-AND-PRIVACY.md) and [`SECURITY.md`](SECURITY.md) |
 | Get help or contribute | [`SUPPORT.md`](SUPPORT.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | Inspect rights and terms | [`LICENSE.md`](LICENSE.md), [`TERMS-OF-USE.md`](TERMS-OF-USE.md), and [`TRADEMARKS.md`](TRADEMARKS.md) |
-| Inspect package and publication evidence | [`ARCHIVE-CUSTODY.md`](ARCHIVE-CUSTODY.md), [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md), and the v0.1.6 package docs |
+| Inspect package and publication evidence | [`ARCHIVE-CUSTODY.md`](ARCHIVE-CUSTODY.md), [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md), and the v0.1.7 package docs |
 
 ## Material repairs in this pass
 
@@ -36,7 +36,7 @@ The canonical version and platform map remains [`RELEASE-STATUS.md`](RELEASE-STA
 - Replaced README reuse of the Pages hero with a role-specific operations banner.
 - Replaced the generic corporate-slide social card with original image-generated cultivation artwork carrying the exact product title and identifying line, then wired it to Open Graph and X/Twitter metadata.
 - Corrected the current deterministic-suite count from 20 to 21.
-- Corrected archive custody so an absent `backups/` path is not presented as a repository object; the frozen v0.1.6 receipt remains unchanged and explicitly scoped to packaging-stage custody.
+- Corrected archive custody so an absent `backups/` path is not presented as a repository object; the frozen v0.1.7 receipt remains unchanged and explicitly scoped to packaging-stage custody.
 
 ## Verification
 
@@ -48,7 +48,7 @@ python -m unittest discover -s tests -v
 
 The current suite contains **21 tests**. It covers calculations, record validation, package parity, repository-native version custody, portable-bundle custody, the historical release-manifest boundary, customer-document reachability, the canonical release story, and Pages-local assets.
 
-Run the settled portable verifier from `releases/v0.1.6/`:
+Run the settled portable verifier from `releases/v0.1.7/`:
 
 ```text
 python tools/verify_release.py .

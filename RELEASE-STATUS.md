@@ -1,6 +1,6 @@
 # CanopyOps Release Status
 
-Last reconciled: **July 25, 2026**
+Last reconciled: **August 14, 2026**
 
 ## Canonical answer
 
@@ -9,7 +9,7 @@ CanopyOps currently has **two intentionally separate distribution lines**. They 
 | Distribution line | Version | Use it when | Evidence boundary |
 |---|---:|---|---|
 | **Repository-native source and plugin** | **v0.1.5** | You want the direct GitHub marketplace commands, the root `canopyops/` skill tree, the branded `plugins/canopyops/` plugin, or the root Claude upload ZIP. | The root test suite, v0.1.5 verification record, archive-custody ledger, and Plugins Directory draft packet apply to this line at their stated dates and scopes. |
-| **Settled portable bundle** | **v0.1.6** | You want one self-verifying ZIP with Codex and Claude payloads, detached checksums, a package manifest, a portable verifier, and package-specific installation guides. | The bundle establishes static package structure, byte parity, archive membership, and documented custody. It does **not** establish host activation, invocation quality, field fitness, publication, or customer outcomes. |
+| **Settled portable bundle** | **v0.1.7** | You want one self-verifying ZIP with Codex and Claude payloads, detached checksums, a package manifest, a portable verifier, and package-specific installation guides. | The bundle establishes static package structure, byte parity, archive membership, and documented custody. It does **not** establish host activation, invocation quality, field fitness, publication, or customer outcomes. |
 
 Do not mix files from the two lines. A version number identifies a package boundary; it is not evidence that a host installed, loaded, or successfully used that package.
 
@@ -28,11 +28,11 @@ Then start a fresh Codex task. This is the shortest repository-native route docu
 
 ### Portable or offline verification
 
-Use the **v0.1.6 settled bundle**:
+Use the **v0.1.7 settled bundle**:
 
-- [`releases/v0.1.6/CanopyOps-v0.1.6.zip`](releases/v0.1.6/CanopyOps-v0.1.6.zip)
-- [`releases/v0.1.6/CanopyOps-v0.1.6.zip.sha256`](releases/v0.1.6/CanopyOps-v0.1.6.zip.sha256)
-- [`releases/v0.1.6/docs/README.md`](releases/v0.1.6/docs/README.md)
+- [`releases/v0.1.7/CanopyOps-v0.1.7.zip`](releases/v0.1.7/CanopyOps-v0.1.7.zip)
+- [`releases/v0.1.7/CanopyOps-v0.1.7.zip.sha256`](releases/v0.1.7/CanopyOps-v0.1.7.zip.sha256)
+- [`releases/v0.1.7/docs/README.md`](releases/v0.1.7/docs/README.md)
 
 Extract it into a new directory and run:
 
@@ -44,7 +44,7 @@ Require exit code `0`, `"ok": true`, and an empty findings list before attemptin
 
 ### Claude.ai or Claude Code
 
-The repository-native v0.1.5 line includes `claude-ai/canopyops-v0.1.5.zip`. The portable v0.1.6 bundle includes `claude/canopyops-v0.1.6.zip` and package-specific Claude instructions. Both are packaged skill surfaces; neither is presented here as proof of a successful live upload or runtime invocation.
+The repository-native v0.1.5 line includes `claude-ai/canopyops-v0.1.5.zip`. The portable v0.1.7 bundle includes `claude/canopyops-v0.1.7.zip` and package-specific Claude instructions. Both are packaged skill surfaces; neither is presented here as proof of a successful live upload or runtime invocation.
 
 Current Claude skill setup is documented by Anthropic at:
 
@@ -69,9 +69,13 @@ OpenAI’s current public explanation of Plugins in ChatGPT and Codex is availab
 - Root repository behavior and v0.1.5 release evidence: [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md)
 - Root archive and distribution custody: [`ARCHIVE-CUSTODY.md`](ARCHIVE-CUSTODY.md)
 - Manifest router for artifact-scoped evidence: [`release-manifest.json`](release-manifest.json)
-- Portable v0.1.6 validation: [`releases/v0.1.6/docs/VALIDATION.md`](releases/v0.1.6/docs/VALIDATION.md)
+- Portable v0.1.7 validation: [`releases/v0.1.7/docs/VALIDATION.md`](releases/v0.1.7/docs/VALIDATION.md)
 - Current documentation scope: [`DOCUMENTATION-STATUS.md`](DOCUMENTATION-STATUS.md)
 - Product safety and authority boundary: [`SAFETY-AND-SCOPE.md`](SAFETY-AND-SCOPE.md)
+
+## Historical portable release
+
+The exact v0.1.6 package, checksum, manifest, and receipt remain frozen under `releases/v0.1.6/` and in the [v0.1.6 GitHub release](https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.6). They are historical custody objects, not the current download.
 
 ## Maintenance rule
 

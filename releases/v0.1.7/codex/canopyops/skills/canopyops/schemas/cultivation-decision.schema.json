@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://collaborativedynamics.example/canopyops/cultivation-decision.schema.json",
+  "title": "CanopyOps Cultivation Decision",
+  "type": "object",
+  "required": ["decision_id", "scope", "requested_decision", "state", "evidence", "uncertainty", "owner", "verification_condition"],
+  "properties": {
+    "decision_id": {"type": "string", "minLength": 1},
+    "scope": {"type": "string", "minLength": 1},
+    "requested_decision": {"type": "string", "minLength": 1},
+    "proposed_action": {"type": "string"},
+    "state": {"enum": ["proposed", "reviewed", "approved", "rejected", "executed", "verified", "reopened"]},
+    "evidence": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "uncertainty": {"type": "array", "items": {"type": "string"}},
+    "owner": {"type": "string", "minLength": 1},
+    "approver": {"type": ["string", "null"]},
+    "verification_condition": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}

@@ -1,51 +1,51 @@
 {
-    "format":  "documentation-accessibility-review/v1",
-    "repository":  "Stunspot/CanopyOps",
-    "reviewed_at_utc":  "2026-08-12T17:30:18.9015394Z",
-    "content_fingerprint":  "bed2550fc69f00e409cc29c1390b57dd14382ef6231fa143fff52b5da5166989",
-    "scope":  [
-                  "docs/index.html",
-                  "docs/style.css",
-                  "README.md",
-                  "customer document heading and link structure",
-                  "three governed visual assets"
-              ],
-    "material_findings_count":  0,
-    "repaired_findings":  [
-                              {
-                                  "finding":  "Four primary navigation links and the brand name were hidden at narrow widths.",
-                                  "repair":  "Removed those rules and allowed visible wrapping navigation."
-                              },
-                              {
-                                  "finding":  "Small workflow numbers and card labels failed or risked WCAG AA contrast on light cards.",
-                                  "repair":  "Scoped paper labels to 5.16:1 and workflow numbers to 5.67:1."
-                              },
-                              {
-                                  "finding":  "Five prose references depended on above or below positioning after reflow.",
-                                  "repair":  "Named the referenced authority, package lines, step, judge path, or attribution directly. LICENSE.md retains the verbatim MIT clause as a documented legal-text exception."
-                              }
-                          ],
-    "checks":  {
-                   "document_language":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â html lang is en.",
-                   "landmarks":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â header, labelled nav, main, sections, asides, and footer are semantic.",
-                   "skip_link":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â keyboard-focusable skip link targets main.",
-                   "headings":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â exactly one h1 and 43 total headings in a logical nested structure.",
-                   "links":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 10 internal anchors resolve, local assets resolve, and visible focus styling is defined.",
-                   "images":  "PASS Ã¢â‚¬â€ the Pages hero has descriptive alt text and intrinsic dimensions; social metadata names the exact product and identifying line; the social card text is large, high-contrast, and crop-safe.",
-                   "responsive_navigation":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no display:none rule remains; navigation wraps at 52rem and narrower.",
-                   "reflow":  "PASS BY SOURCE INSPECTION ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â minmax grids collapse at 72rem, 52rem, and 34rem; long commands scroll within their own pre block.",
-                   "reduced_motion":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â smooth scrolling is disabled under prefers-reduced-motion and transition/animation duration is minimized.",
-                   "contrast":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â measured normal-text pairs are at least 5.16:1 after repairs; primary button is 10.17:1; dark-surface text pairs are at least 8.80:1.",
-                   "dependencies":  "PASS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no JavaScript, remote fonts, analytics, tracking, or remote runtime image dependencies."
-               },
-    "not_executed":  [
-                         "screen-reader interaction",
-                         "representative keyboard user session",
-                         "browser zoom and OS high-contrast session",
-                         "localization",
-                         "formal WCAG conformance audit",
-                         "multi-browser visual regression"
-                     ],
-    "result":  "PASS_WITH_LIMITATIONS",
-    "governed_delta_rereview":  "PASS Ã¢â‚¬â€ social metadata and source notes match the generated 1731x909 card; document semantics, focus behavior, reflow, reduced motion, and measured CSS contrast remain unchanged. Rendered keyboard, zoom, screen-reader, and multi-browser checks remain unexecuted."
+  "format": "documentation-accessibility-review/v1",
+  "repository": "Stunspot/CanopyOps",
+  "reviewed_at_utc": "2026-08-15T02:16:08.4136149Z",
+  "content_fingerprint": "71eec2ba7eddce4a77d3080835ba995df74197f249d7ad110b45df1e5da213be",
+  "scope": [
+    "docs/index.html",
+    "docs/style.css",
+    "README.md",
+    "customer document heading and link structure",
+    "three governed visual assets"
+  ],
+  "material_findings_count": 0,
+  "repaired_findings": [
+    {
+      "finding": "Four primary navigation links and the brand name were hidden at narrow widths.",
+      "repair": "Removed those rules and allowed visible wrapping navigation."
+    },
+    {
+      "finding": "Small workflow numbers and card labels failed or risked WCAG AA contrast on light cards.",
+      "repair": "Scoped paper labels to 5.16:1 and workflow numbers to 5.67:1."
+    },
+    {
+      "finding": "Five prose references depended on above or below positioning after reflow.",
+      "repair": "Named the referenced authority, package lines, step, judge path, or attribution directly. LICENSE.md retains the verbatim MIT clause as a documented legal-text exception."
+    }
+  ],
+  "checks": {
+    "document_language": "PASS — html lang is en.",
+    "landmarks": "PASS — header, labelled nav, main, sections, asides, and footer are semantic.",
+    "skip_link": "PASS — keyboard-focusable skip link targets main.",
+    "headings": "PASS — exactly one h1 and 43 total headings in a logical nested structure.",
+    "links": "PASS — 10 internal anchors resolve, local assets resolve, and visible focus styling is defined.",
+    "images": "PASS — the Pages hero has descriptive alt text and intrinsic dimensions; social metadata names the exact product and identifying line; the social card text is large, high-contrast, and crop-safe.",
+    "responsive_navigation": "PASS — no display:none rule remains; navigation wraps at 52rem and narrower.",
+    "reflow": "PASS BY SOURCE INSPECTION — minmax grids collapse at 72rem, 52rem, and 34rem; long commands scroll within their own pre block.",
+    "reduced_motion": "PASS — smooth scrolling is disabled under prefers-reduced-motion and transition/animation duration is minimized.",
+    "contrast": "PASS — measured normal-text pairs are at least 5.16:1 after repairs; primary button is 10.17:1; dark-surface text pairs are at least 8.80:1.",
+    "dependencies": "PASS — no JavaScript, remote fonts, analytics, tracking, or remote runtime image dependencies."
+  },
+  "not_executed": [
+    "screen-reader interaction",
+    "representative keyboard user session",
+    "browser zoom and OS high-contrast session",
+    "localization",
+    "formal WCAG conformance audit",
+    "multi-browser visual regression"
+  ],
+  "result": "PASS_WITH_LIMITATIONS",
+  "governed_delta_rereview": "PASS — version, link, and explicit-purpose copy changes preserve headings, landmarks, focus behavior, reflow, contrast, reduced motion, and local dependency boundaries. Rendered keyboard, zoom, screen-reader, and multi-browser checks remain unexecuted."
 }

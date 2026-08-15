@@ -4,7 +4,7 @@ Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) for the current distribution map.
 
 ## Package behavior
 
-The repository-native v0.1.5 line and the settled portable v0.1.6 bundle include no CanopyOps account, telemetry, analytics service, hosted service, connector, MCP server, hook, or automatic network request.
+The repository-native v0.1.5 line and the settled portable v0.1.7 bundle include no CanopyOps account, telemetry, analytics service, hosted service, connector, MCP server, hook, or automatic network request.
 
 Collaborative Dynamics does not receive cultivation records, facility data, prompts, or generated outputs through the CanopyOps package itself.
 

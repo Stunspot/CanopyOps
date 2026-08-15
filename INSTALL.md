@@ -8,9 +8,9 @@ CanopyOps currently has two separate distribution lines. Read [`RELEASE-STATUS.m
 - Store real facility and crop records outside the installed skill or plugin directory.
 - Confirm that your chosen workspace backup or version-history process covers those records.
 - Use fictional or sanitized information for the first invocation.
-- Do not mix files from v0.1.5 and v0.1.6.
+- Do not mix files from v0.1.5 and v0.1.7.
 
-Python 3 is optional for ordinary reasoning. It is required for the deterministic utilities and the v0.1.6 portable verifier. The bundled repository-native utilities use only the Python standard library.
+Python 3 is optional for ordinary reasoning. It is required for the deterministic utilities and the v0.1.7 portable verifier. The bundled repository-native utilities use only the Python standard library.
 
 ## Route A — repository-native v0.1.5 Codex plugin
 
@@ -31,11 +31,11 @@ This route uses:
 
 The plugin adds no account, connector, MCP server, hook, telemetry, hosted service, or automatic equipment control. Command availability still depends on the installed Codex build and workspace policy.
 
-## Route B — portable v0.1.6 Codex package
+## Route B — portable v0.1.7 Codex package
 
 Use this route when you want a self-verifying portable bundle rather than the repository-native marketplace path.
 
-1. Download [`releases/v0.1.6/CanopyOps-v0.1.6.zip`](releases/v0.1.6/CanopyOps-v0.1.6.zip) and its [detached checksum](releases/v0.1.6/CanopyOps-v0.1.6.zip.sha256).
+1. Download [`releases/v0.1.7/CanopyOps-v0.1.7.zip`](releases/v0.1.7/CanopyOps-v0.1.7.zip) and its [detached checksum](releases/v0.1.7/CanopyOps-v0.1.7.zip.sha256).
 2. Extract the archive into a new directory.
 3. Open a terminal at the extracted release root.
 4. Run:
@@ -45,7 +45,7 @@ Use this route when you want a self-verifying portable bundle rather than the re
    ```
 
 5. Continue only when the verifier exits `0`, reports `"ok": true`, and returns no findings.
-6. Follow [`releases/v0.1.6/docs/INSTALL-CODEX.md`](releases/v0.1.6/docs/INSTALL-CODEX.md).
+6. Follow [`releases/v0.1.7/docs/INSTALL-CODEX.md`](releases/v0.1.7/docs/INSTALL-CODEX.md).
 
 The portable package expects a Codex build that supports local plugin import or a configured local plugin source directory. Select the complete extracted `codex/canopyops/` directory; do not select its parent or copy individual files out of it.
 
@@ -71,7 +71,7 @@ Keep every supporting directory beside `SKILL.md`. Copying only the entry file b
 Two packaged uploads are available:
 
 - repository-native v0.1.5: `claude-ai/canopyops-v0.1.5.zip`;
-- portable v0.1.6: extract the portable bundle and use `claude/canopyops-v0.1.6.zip`.
+- portable v0.1.7: extract the portable bundle and use `claude/canopyops-v0.1.7.zip`.
 
 For the current Claude interface:
 
@@ -102,7 +102,7 @@ For one project only, use:
 .claude/skills/canopyops/SKILL.md
 ```
 
-For the portable v0.1.6 line, follow [`releases/v0.1.6/docs/INSTALL-CLAUDE.md`](releases/v0.1.6/docs/INSTALL-CLAUDE.md) and use the skill tree supplied by that package.
+For the portable v0.1.7 line, follow [`releases/v0.1.7/docs/INSTALL-CLAUDE.md`](releases/v0.1.7/docs/INSTALL-CLAUDE.md) and use the skill tree supplied by that package.
 
 Claude Code may select CanopyOps from its description, or you may invoke `/canopyops`. If the skills directory did not exist when Claude Code started, restart once after installation.
 
@@ -134,7 +134,7 @@ CanopyOps should invoke only bundled scripts against explicit values or user-app
 
 1. Preserve all operational records outside the installation tree.
 2. Identify the installed distribution and version.
-3. Replace the complete matching package; do not overlay v0.1.6 files onto v0.1.5 or vice versa.
+3. Replace the complete matching package; do not overlay v0.1.7 files onto v0.1.5 or vice versa.
 4. Start a fresh task.
 5. Repeat the safe discovery check.
 6. Re-run the appropriate deterministic verifier.
