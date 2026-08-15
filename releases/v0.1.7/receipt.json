@@ -1,0 +1,14 @@
+{
+  "backup": null,
+  "backup_checksum": null,
+  "backup_sha256": null,
+  "canonical_checksum": "CanopyOps-v0.1.7.zip.sha256",
+  "canonical_zip": "CanopyOps-v0.1.7.zip",
+  "canonical_zip_member_count": 90,
+  "canonical_zip_sha256": "27628e9df56cc14f12b10ee02be268e32c0ae2eac2abd4b21034b896df8bed1f",
+  "copy_not_move_verified": false,
+  "family": "canopyops",
+  "schema": "cd-settled-family-build-receipt/v1",
+  "status": "canonical-built-backup-pending",
+  "version": "0.1.7"
+}

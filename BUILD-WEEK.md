@@ -2,7 +2,7 @@
 
 CanopyOps is Collaborative Dynamics' OpenAI Build Week entry in **Work & Productivity**. It is an evidence-bounded operations and compliance Augment for lawful cannabis cultivation teams.
 
-> **Current distribution note:** Build Week produced the repository-native v0.1.5 source and plugin line. A separate portable v0.1.6 package was settled afterward as a packaging, custody, and cross-host distribution update around the same operating kernel. See [`RELEASE-STATUS.md`](RELEASE-STATUS.md).
+> **Current distribution note:** Build Week produced the repository-native v0.1.5 source and plugin line. A separate portable v0.1.7 package was settled afterward as a packaging, custody, and cross-host distribution update around the same operating kernel. See [`RELEASE-STATUS.md`](RELEASE-STATUS.md).
 
 The project demonstrates two things at once:
 
@@ -86,7 +86,7 @@ The public repository provides several distinct evidence layers:
 1. **Historical v0.1.5 deterministic evidence:** [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md) records the 18-test frozen-release result and its exact scope.
 2. **Current repository checks:** run `python -m unittest discover -s tests -v`. The current 21-test suite adds release-story, documentation, and Pages-custody checks to the product and package tests.
 3. **Repository-native installation:** install the branded v0.1.5 plugin using [`INSTALL.md`](INSTALL.md).
-4. **Portable package validation:** extract v0.1.6 and run `python tools/verify_release.py .`.
+4. **Portable package validation:** extract v0.1.7 and run `python tools/verify_release.py .`.
 5. **Behavioral inspection:** run the fictional late-flower incident in [`JUDGE-QUICKSTART.md`](JUDGE-QUICKSTART.md) and inspect whether CanopyOps preserves alternatives, authority, reversible containment, and an auditable record.
 
 These layers do not borrow proof from one another. Static package evidence is not live-host evidence; a behavioral demonstration is not field validation; a recommendation is not authority.

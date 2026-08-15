@@ -5,7 +5,7 @@
 Security reports are accepted for both current CanopyOps distribution lines:
 
 - the **repository-native v0.1.5 source and plugin line**;
-- the **settled portable v0.1.6 bundle** under `releases/v0.1.6/`.
+- the **settled portable v0.1.7 bundle** under `releases/v0.1.7/`.
 
 Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) and identify the exact artifact before reporting. Earlier public releases remain historical and may not receive fixes.
 

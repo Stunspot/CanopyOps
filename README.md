@@ -43,7 +43,7 @@ CanopyOps has two deliberately separate package lines. Do not mix their files.
 | Line | Version | Best for | What is established |
 |---|---:|---|---|
 | **Repository-native source and plugin** | **v0.1.5** | Direct GitHub marketplace installation, root source inspection, root tests, and the branded plugin | The v0.1.5 verification and custody records apply at their stated dates and scopes |
-| **Settled portable bundle** | **v0.1.6** | One self-verifying archive with Codex and Claude payloads, detached checksums, and package-specific docs | Static package structure, archive membership, byte parity, and custody—not host activation or field behavior |
+| **Settled portable bundle** | **v0.1.7** | One self-verifying archive with Codex and Claude payloads, detached checksums, and package-specific docs | Static package structure, archive membership, byte parity, and custody—not host activation or field behavior |
 
 Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) before choosing an artifact. It is the canonical answer when version labels or platform states appear to conflict.
 
@@ -56,7 +56,7 @@ codex plugin marketplace add Stunspot/CanopyOps
 codex plugin add canopyops@collaborative-dynamics
 ```
 
-Start a fresh Codex task after installation. Portable v0.1.6, standalone Codex, Claude.ai, Claude Code, updating, removal, and recovery paths are documented in [`INSTALL.md`](INSTALL.md).
+Start a fresh Codex task after installation. Portable v0.1.7, standalone Codex, Claude.ai, Claude Code, updating, removal, and recovery paths are documented in [`INSTALL.md`](INSTALL.md).
 
 ## What it produces
 
@@ -73,7 +73,7 @@ See [`EXAMPLE-TOUR.md`](EXAMPLE-TOUR.md) for four complete fictional demonstrati
 
 ## Evidence and limitations
 
-The repository includes a **21-test deterministic suite** covering calculations, validation, package parity, version custody, documentation reachability, release-story consistency, and Pages-local assets. The historical v0.1.5 verification record documents the checks executed against that release candidate. The v0.1.6 bundle carries its own portable verifier and package evidence.
+The repository includes a **21-test deterministic suite** covering calculations, validation, package parity, version custody, documentation reachability, release-story consistency, and Pages-local assets. The historical v0.1.5 verification record documents the checks executed against that release candidate. The v0.1.7 bundle carries its own portable verifier and package evidence.
 
 These are different claims:
 
@@ -106,7 +106,7 @@ The initial working Augment emerged in roughly an hour; public packaging, brandi
 - [`canopyops/`](canopyops/) — repository-native v0.1.5 skill tree.
 - [`plugins/canopyops/`](plugins/canopyops/) — branded repository-native Codex plugin.
 - [`claude-ai/`](claude-ai/) — repository-native Claude.ai upload archives.
-- [`releases/v0.1.6/`](releases/v0.1.6/) — settled portable v0.1.6 bundle, checksums, manifest, receipt, and docs.
+- [`releases/v0.1.7/`](releases/v0.1.7/) — settled portable v0.1.7 bundle, checksums, manifest, receipt, and docs.
 - [`tests/`](tests/) — deterministic repository checks.
 - [`docs/`](docs/) — GitHub Pages source and the three governed role-specific raster assets.
 - [`verification/`](verification/) — retained evidence and review custody.

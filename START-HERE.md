@@ -7,10 +7,10 @@ CanopyOps helps an AI agent reason about and document lawful cannabis cultivatio
 Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) before installing.
 
 - Choose the **repository-native v0.1.5 plugin** for the shortest direct GitHub/Codex route.
-- Choose the **settled portable v0.1.6 bundle** when you want a self-verifying archive with package-specific Codex and Claude instructions.
+- Choose the **settled portable v0.1.7 bundle** when you want a self-verifying archive with package-specific Codex and Claude instructions.
 - If CanopyOps is already available in your host, skip installation and continue with step 2.
 
-Do not combine files from v0.1.5 and v0.1.6. Package identity, installation, discovery, invocation, and healthy behavior are separate observations.
+Do not combine files from v0.1.5 and v0.1.7. Package identity, installation, discovery, invocation, and healthy behavior are separate observations.
 
 ## 2. Pick one first job
 

@@ -1,0 +1,1 @@
+timestamp,facility,dry_room,batch,zone,sensor_or_method,temperature_c,rh_percent,airflow_state,load_observation,mass_kg,moisture_content_percent,water_activity,action,approval_reference,incident_id,operator,notes

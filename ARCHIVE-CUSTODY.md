@@ -15,12 +15,12 @@ CanopyOps currently preserves two intentionally separate package lines. Their ar
 |  | Codex plugin archive | `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5.zip` | Governed v0.1.5 plugin package |
 |  | Standalone skill archive | `release-assets/v0.1.5/Skill-canopyops--CanopyOps-v0.1.5.zip` | Governed v0.1.5 skill package |
 |  | OpenAI portal derivative | `release-assets/v0.1.5/Plugin-CanopyOps-v0.1.5-OpenAI-Submission.zip` | Skills-only draft upload; not a replacement for the installable plugin |
-| **Portable v0.1.6** | Canonical bundle | `releases/v0.1.6/CanopyOps-v0.1.6.zip` | Self-verifying cross-host package |
-|  | Detached checksum | `releases/v0.1.6/CanopyOps-v0.1.6.zip.sha256` | SHA-256 comparison outside the archive |
-|  | Package manifest | `releases/v0.1.6/manifest.json` | Source, payload, archive, and package identity |
-|  | Release receipt | `releases/v0.1.6/receipt.json` | Packaging-stage canonical/backup custody record; its `backups/` fields are not repository paths |
-|  | Package docs | `releases/v0.1.6/docs/` | Installation, validation, limitations, evidence, and maintenance |
-|  | Published release copy | [GitHub release v0.1.6](https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.6) | Public download of the canonical bundle, checksum, and detached receipt |
+| **Portable v0.1.7** | Canonical bundle | `releases/v0.1.7/CanopyOps-v0.1.7.zip` | Self-verifying cross-host package |
+|  | Detached checksum | `releases/v0.1.7/CanopyOps-v0.1.7.zip.sha256` | SHA-256 comparison outside the archive |
+|  | Package manifest | `releases/v0.1.7/manifest.json` | Source, payload, archive, and package identity |
+|  | Release receipt | `releases/v0.1.7/receipt.json` | Canonical build receipt; backup fields remain empty until a separately verified copy exists |
+|  | Package docs | `releases/v0.1.7/docs/` | Installation, validation, limitations, evidence, and maintenance |
+|  | Published release copy | [GitHub release v0.1.7](https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.7) | Public download of the canonical bundle, checksum, and detached receipt |
 
 ## v0.1.5 custody
 
@@ -28,13 +28,13 @@ The v0.1.5 estate records exact hashes, sizes, member counts, source-tree digest
 
 The OpenAI submission ZIP is a channel-specific derivative. It does not replace the complete Augment, installable plugin, standalone skill, or Claude archive.
 
-The root `release-manifest.json` is now a **custody router**, not a checksum of current repository HEAD. It points to the package-scoped v0.1.5 custody records, the v0.1.6 package manifest and receipt, the current documentation manifest, and an archived copy of the former repository snapshot at `verification/evidence/release-manifest-v0.1.5-pages-snapshot.json`.
+The root `release-manifest.json` is now a **custody router**, not a checksum of current repository HEAD. It points to the package-scoped v0.1.5 custody records, the v0.1.7 package manifest and receipt, the current documentation manifest, and an archived copy of the former repository snapshot at `verification/evidence/release-manifest-v0.1.5-pages-snapshot.json`.
 
 Current living-document consistency is governed by `documentation-manifest.json`, the root test suite, and [`DOCUMENTATION-STATUS.md`](DOCUMENTATION-STATUS.md).
 
-## v0.1.6 custody
+## v0.1.7 custody
 
-The portable v0.1.6 bundle is a settled package with its own self-contained evidence.
+The portable v0.1.7 bundle is a settled package with its own self-contained evidence.
 
 Before installation:
 
@@ -42,9 +42,9 @@ Before installation:
 python tools/verify_release.py .
 ```
 
-The verifier checks package structure, manifest relationships, Codex and Claude payloads, archive membership, path safety, and recorded byte identities. See [`releases/v0.1.6/docs/VALIDATION.md`](releases/v0.1.6/docs/VALIDATION.md).
+The verifier checks package structure, manifest relationships, Codex and Claude payloads, archive membership, path safety, and recorded byte identities. See [`releases/v0.1.7/docs/VALIDATION.md`](releases/v0.1.7/docs/VALIDATION.md).
 
-The v0.1.6 package preserves the CanopyOps operating kernel while changing package topology, custody, and verification. It does not inherit new behavioral, field, host-activation, or publication evidence merely because its version number is higher.
+The v0.1.7 package preserves the CanopyOps operating kernel while changing package topology, custody, and verification. It does not inherit new behavioral, field, host-activation, or publication evidence merely because its version number is higher.
 
 ## Copy, move, and retention rules
 
@@ -80,6 +80,7 @@ Archive custody establishes only the states its records and tools actually obser
 - [`RELEASE-NOTES-v0.1.5.md`](RELEASE-NOTES-v0.1.5.md) describes the v0.1.5 identity and custody release.
 - [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md) records v0.1.5 checks at their evidence cutoff.
 - [`PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md`](PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md) records the v0.1.5 draft-submission state.
-- [`releases/v0.1.6/docs/README.md`](releases/v0.1.6/docs/README.md) is the entry point for the portable bundle.
+- [`releases/v0.1.7/docs/README.md`](releases/v0.1.7/docs/README.md) is the entry point for the current portable bundle.
+- [`releases/v0.1.6/manifest.json`](releases/v0.1.6/manifest.json) and [`receipt.json`](releases/v0.1.6/receipt.json) preserve the prior portable package custody without alteration.
 
 Historical evidence is preserved, not quietly rewritten into a certificate for current HEAD.

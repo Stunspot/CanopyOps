@@ -13,7 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 ROOT = REPO_ROOT / "canopyops"
 SCRIPTS = ROOT / "scripts"
 SOURCE_VERSION = "0.1.5"
-PORTABLE_VERSION = "0.1.6"
+PORTABLE_VERSION = "0.1.7"
 sys.path.insert(0, str(SCRIPTS))
 from build_release_manifest import canonical_bytes
 
@@ -156,7 +156,7 @@ class PackageTests(unittest.TestCase):
         historical = json.loads(historical_path.read_text(encoding="utf-8"))
         self.assertEqual(historical["format"], "cd-public-release-manifest/v1")
         self.assertEqual(historical["version"], SOURCE_VERSION)
-        self.assertTrue((REPO_ROOT / pointer["v0.1.6_package_manifest"]).is_file())
+        self.assertTrue((REPO_ROOT / pointer["current_portable_package_manifest"]).is_file())
         self.assertTrue((REPO_ROOT / pointer["current_documentation_manifest"]).is_file())
 
         custody = (REPO_ROOT / "ARCHIVE-CUSTODY.md").read_text(encoding="utf-8")
