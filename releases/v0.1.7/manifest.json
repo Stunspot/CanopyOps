@@ -3,7 +3,7 @@
     {
       "file": "claude/canopyops-v0.1.7.zip",
       "handle": "canopyops",
-      "sha256": "b6b674b32ea7d2dd93d9a93a1de58f1b9fe7b67c78e4b17820c6428fb40b610f"
+      "sha256": "2d2bd042646579934ec39cb16ea1c666012a9e7f0916f52428314977783d2dcc"
     }
   ],
   "excluded_generated_caches": {
@@ -32,7 +32,7 @@
     "primary_handle_custody": true,
     "repository": "Stunspot/CanopyOps",
     "repository_state": "existing",
-    "short_description": "🌿 Cannabis cultivation operations with safety and evidence.",
+    "short_description": "🌿 Cannabis health, climate, and yield.",
     "slug": "canopyops",
     "summary": "Cannabis cultivation operations guidance with jurisdiction, safety, evidence, and operational boundaries.",
     "title": "CanopyOps",
@@ -70,9 +70,9 @@
           "sha256": "2e00e6ba2e6e8e056c8adbb714bb81bb9b4ee8b9061ee66218fca7be4c4102d7"
         },
         {
-          "bytes": 4343,
+          "bytes": 4339,
           "path": "SKILL.md",
-          "sha256": "589ad2ddeb2b6f5d8de2a6dc88d5916b3be190a24ecfbc127c2d4a97384dfd90"
+          "sha256": "f36c733d4852c1f23450564a919961ad23fa706f6c8cf38114bdb540f47d5aa4"
         },
         {
           "bytes": 1013,
@@ -100,9 +100,9 @@
           "sha256": "4ec10f3fec4a69f4df8a261292ce940c47244c8a46d43602ef26d7f37b53d2b9"
         },
         {
-          "bytes": 268,
+          "bytes": 264,
           "path": "agents/openai.yaml",
-          "sha256": "8a041837e23fb09c248203a31b7311ba8f855e7d07ab29f408c8ed9ef8465fe5"
+          "sha256": "baa68c0d9c97f07b7cc73aa94ce0fc8c0f0f7f4d5b42e8e1baa2726ff911cf2d"
         },
         {
           "bytes": 659,

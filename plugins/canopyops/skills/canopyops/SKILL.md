@@ -1,6 +1,6 @@
 ---
 name: canopyops
-description: Plan, diagnose, document, and review lawful cannabis cultivation operations. Use for crop plans, incident triage, calculations, harvest readiness, compliance records, CAPA, runbooks, and handoffs.
+description: "🌿 Cannabis health, climate, and yield."
 ---
 
 # CanopyOps

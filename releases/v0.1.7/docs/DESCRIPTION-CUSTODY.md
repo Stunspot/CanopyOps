@@ -4,8 +4,8 @@ Model-visible descriptions govern model selection; UI short descriptions are com
 
 ## canopyops
 
-Model-visible: 🌿 Cannabis cultivation operations advisor.
+Model-visible: 🌿 Cannabis health, climate, and yield.
 
-UI short: 🌿 Cannabis cultivation operations advisor.
+UI short: 🌿 Cannabis health, climate, and yield.
 
 Relationship: identical

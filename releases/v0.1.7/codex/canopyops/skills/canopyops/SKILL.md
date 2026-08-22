@@ -1,6 +1,6 @@
 ---
 name: canopyops
-description: "🌿 Cannabis cultivation operations advisor."
+description: "🌿 Cannabis health, climate, and yield."
 ---
 
 # CanopyOps

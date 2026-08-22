@@ -19,8 +19,8 @@ VERSION = "0.1.7"
 SLUG = "canopyops"
 TITLE = "CanopyOps"
 SUMMARY = "Cannabis cultivation operations guidance with jurisdiction, safety, evidence, and operational boundaries."
-SHORT = "🌿 Cannabis cultivation operations with safety and evidence."
-ADVISOR = "🌿 Cannabis cultivation operations advisor."
+SHORT = "🌿 Cannabis health, climate, and yield."
+ADVISOR = "🌿 Cannabis health, climate, and yield."
 STAMP = (2026, 8, 14, 0, 0, 0)
 
 
