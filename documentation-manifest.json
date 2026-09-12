@@ -62,9 +62,7 @@
     "RELEASE-NOTES-v0.1.5.md",
     "VERIFICATION-v0.1.4.md",
     "VERIFICATION-v0.1.5.md",
-    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
-    "releases/v0.1.6/manifest.json",
-    "releases/v0.1.6/receipt.json"
+    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"
   ],
   "review_fingerprint_scope": "customer_docs + web_surfaces + visual_assets + docs/SOURCE.md + documentation-manifest.json",
   "review_fingerprint_algorithm": "sha256(paths sorted by Unicode ordinal code point; each UTF-8 path + NUL + lowercase file sha256 + LF)",

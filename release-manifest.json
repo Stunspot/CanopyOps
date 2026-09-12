@@ -7,11 +7,9 @@
   "historical_repository_snapshot": "verification/evidence/release-manifest-v0.1.5-pages-snapshot.json",
   "v0.1.5_archive_custody": "release-assets/v0.1.5/archive-custody.json",
   "v0.1.5_openai_submission_custody": "release-assets/v0.1.5/openai-submission-custody.json",
-  "v0.1.6_package_manifest": "releases/v0.1.6/manifest.json",
-  "v0.1.6_release_receipt": "releases/v0.1.6/receipt.json",
   "current_documentation_manifest": "documentation-manifest.json",
   "canonical_status": "RELEASE-STATUS.md",
-  "note": "This file is a custody router, not a checksum of current repository HEAD. v0.1.6 remains historical; v0.1.7 is the current portable line. Use the package-scoped record that matches the artifact being verified.",
+  "note": "This file is a custody router, not a checksum of current repository HEAD. v0.1.6 remains historical in its Git tag, GitHub release, and external owner custody; v0.1.7 is the only portable release in the active checkout. Use the package-scoped record that matches the artifact being verified.",
   "v0.1.7_package_manifest": "releases/v0.1.7/manifest.json",
   "v0.1.7_release_receipt": "releases/v0.1.7/receipt.json",
   "current_portable_package_manifest": "releases/v0.1.7/manifest.json"

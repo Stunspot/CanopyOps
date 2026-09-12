@@ -75,7 +75,7 @@ OpenAI’s current public explanation of Plugins in ChatGPT and Codex is availab
 
 ## Historical portable release
 
-The exact v0.1.6 package, checksum, manifest, and receipt remain frozen under `releases/v0.1.6/` and in the [v0.1.6 GitHub release](https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.6). They are historical custody objects, not the current download.
+The exact v0.1.6 package, checksum, manifest, and receipt remain frozen in the [v0.1.6 GitHub release](https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.6), its Git tag, and external owner custody. They are historical custody objects, not part of the current checkout or current download.
 
 ## Maintenance rule
 

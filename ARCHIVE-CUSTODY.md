@@ -81,6 +81,6 @@ Archive custody establishes only the states its records and tools actually obser
 - [`VERIFICATION-v0.1.5.md`](VERIFICATION-v0.1.5.md) records v0.1.5 checks at their evidence cutoff.
 - [`PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md`](PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md) records the v0.1.5 draft-submission state.
 - [`releases/v0.1.7/docs/README.md`](releases/v0.1.7/docs/README.md) is the entry point for the current portable bundle.
-- [`releases/v0.1.6/manifest.json`](releases/v0.1.6/manifest.json) and [`receipt.json`](releases/v0.1.6/receipt.json) preserve the prior portable package custody without alteration.
+- The prior v0.1.6 package remains preserved by the [v0.1.6 Git tag](https://github.com/Stunspot/CanopyOps/tree/v0.1.6), [GitHub release](https://github.com/Stunspot/CanopyOps/releases/tag/v0.1.6), and external owner custody; its payload is not duplicated in the current checkout.
 
 Historical evidence is preserved, not quietly rewritten into a certificate for current HEAD.
