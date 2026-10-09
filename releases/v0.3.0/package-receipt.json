@@ -1,0 +1,7 @@
+{
+  "schema": "cd-settled-family-package-receipt/v1",
+  "family": "canopyops",
+  "version": "0.3.0",
+  "status": "static-package-built",
+  "claim_boundary": "Fresh static package verification; local browser evidence is recorded separately. macOS, fresh customer hosts and field outcomes remain unverified."
+}

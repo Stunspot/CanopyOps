@@ -1,0 +1,12 @@
+{
+  "schema": "cd-settled-family-build-receipt/v1",
+  "family": "canopyops",
+  "version": "0.3.0",
+  "canonical_zip": "CanopyOps-v0.3.0.zip",
+  "canonical_zip_sha256": "223d23b8adc3aa6595b86db7624e9e3d16bfd676eddb0b61063766335237e26f",
+  "canonical_checksum": "CanopyOps-v0.3.0.zip.sha256",
+  "canonical_zip_member_count": 110,
+  "status": "accepted-current-maintenance",
+  "backup": "Preserved in owner release custody; exact local path retained in the project delivery record.",
+  "copy_not_move_verified": false
+}

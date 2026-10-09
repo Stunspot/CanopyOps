@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://collaborativedynamics.example/canopyops/crop-profile.schema.json",
+  "title": "CanopyOps Crop Profile",
+  "type": "object",
+  "required": ["crop_profile_id", "name", "identity_confidence", "reported_traits", "observed_traits", "updated_at", "owner"],
+  "properties": {
+    "crop_profile_id": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "lineage": {"type": "string"},
+    "identity_confidence": {"enum": ["unverified", "reported", "lineage-tracked", "facility-confirmed"]},
+    "reported_traits": {"type": "array", "items": {"type": "object", "required": ["claim", "source"], "properties": {"claim": {"type": "string"}, "source": {"type": "string"}}}},
+    "observed_traits": {"type": "array", "items": {"type": "object", "required": ["observation", "scope", "evidence"], "properties": {"observation": {"type": "string"}, "scope": {"type": "string"}, "evidence": {"type": "string"}}}},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "owner": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}

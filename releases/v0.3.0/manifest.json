@@ -1,0 +1,487 @@
+{
+  "claude_archives": [
+    {
+      "handle": "canopyops",
+      "file": "claude/canopyops-v0.3.0.zip",
+      "sha256": "86fbf6ebc4ccf0cf3f2ea68f68972a4cc3c44006965a5725a942f5faed04277d"
+    }
+  ],
+  "excluded_generated_caches": {
+    "canopyops": [
+      "scripts/__pycache__/calculate_dli.cpython-314.pyc",
+      "scripts/__pycache__/calculate_irrigation.cpython-314.pyc",
+      "scripts/__pycache__/calculate_vpd.cpython-314.pyc",
+      "scripts/__pycache__/check_source_freshness.cpython-314.pyc",
+      "scripts/__pycache__/lint_cultivation_plan.cpython-314.pyc",
+      "scripts/__pycache__/normalize_logs.cpython-314.pyc",
+      "scripts/__pycache__/normalize_units.cpython-314.pyc",
+      "scripts/__pycache__/validate_record.cpython-314.pyc"
+    ]
+  },
+  "excluded_local_configuration": {
+    "canopyops": []
+  },
+  "family": {
+    "backup_filename": "CanopyOps-v0.3.0.zip",
+    "default_prompts": [
+      "Assess this cultivation decision and its safe next steps."
+    ],
+    "handles": [
+      "canopyops"
+    ],
+    "primary_handle_custody": true,
+    "repository": "Stunspot/CanopyOps",
+    "repository_state": "existing",
+    "short_description": "🌿 Cannabis health, climate, and yield.",
+    "slug": "canopyops",
+    "summary": "Cannabis cultivation operations guidance with jurisdiction, safety, evidence, and operational boundaries.",
+    "title": "CanopyOps",
+    "version": "0.3.0",
+    "visibility": "PUBLIC"
+  },
+  "package_claim_boundary": "Fresh static package verification; local browser evidence is recorded separately. macOS, fresh customer hosts and field outcomes remain unverified.",
+  "schema": "cd-settled-family-release/v1",
+  "source_records": [
+    {
+      "handle": "canopyops",
+      "files": [
+        {
+          "path": "adapters/bot-runtime.md",
+          "bytes": 540,
+          "sha256": "c3737ff133fcefbe8ae9dc0de6712287629cff302018d725e401b1ef1a583bb1"
+        },
+        {
+          "path": "adapters/chat-runtime.md",
+          "bytes": 505,
+          "sha256": "e311a81a03df9868f6e8231e115a60a5a7603e2b953005e784675d66540aeb8f"
+        },
+        {
+          "path": "adapters/claude-code.md",
+          "bytes": 1682,
+          "sha256": "03f4dd6979309e3d9c91cb96f2bf6f858dabbe261a196cb5cc13c7ba043a2137"
+        },
+        {
+          "path": "adapters/codex-local.md",
+          "bytes": 504,
+          "sha256": "c21a415be67f9019c81481a83f75661dbf9629db538f262ed9fb213075741a69"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "bytes": 268,
+          "sha256": "04b2af79bcc0884d20efac8a1da2e362408c0aef8514ac4a702d6b853fb28f3e"
+        },
+        {
+          "path": "assets/capa-record.md",
+          "bytes": 677,
+          "sha256": "7d40a78a40a08c7cd7321b0a078a238e0e9d6dc78fb912d3094278284efe712d"
+        },
+        {
+          "path": "assets/compliance-verification.md",
+          "bytes": 706,
+          "sha256": "744cf0644a74435c2c9c6e1ad028460784f7ebaf99f24472a66d7cffacd20fce"
+        },
+        {
+          "path": "assets/crop-plan.md",
+          "bytes": 1093,
+          "sha256": "53cf8607cd8582178d06d203f6be242a1daa5f5569bc640870409f29a38e377a"
+        },
+        {
+          "path": "assets/crop-profile.md",
+          "bytes": 660,
+          "sha256": "a9b70a568be4db230c47c0e1a98bc8600c8f26e1315dec1f3f9bbce8bb31a070"
+        },
+        {
+          "path": "assets/crop-walk.csv",
+          "bytes": 218,
+          "sha256": "1173f29b41492a6e6aedb66a13dfc2551d730dded61d4302b0848f1e6e71489d"
+        },
+        {
+          "path": "assets/cultivation-decision.md",
+          "bytes": 580,
+          "sha256": "f31d9bc14a4ba989bc4393719bda547b018f4b2958473c9d95d21cad82531641"
+        },
+        {
+          "path": "assets/drying-log.csv",
+          "bytes": 213,
+          "sha256": "eb92568f4362e0a9cedd592a07517e32aec1e94419661bf9465f8835558059ee"
+        },
+        {
+          "path": "assets/facility-profile.md",
+          "bytes": 1002,
+          "sha256": "271193807e98e6f3e0b5646d2d206a41a5ee431c5d034c5873905541b27faae7"
+        },
+        {
+          "path": "assets/harvest-readiness.md",
+          "bytes": 736,
+          "sha256": "9a39f34eef45aa342b687dcca2d3171d98d83f878826107cc90a0d4085863bfb"
+        },
+        {
+          "path": "assets/incident-report.md",
+          "bytes": 1107,
+          "sha256": "9759bb682cbefc05a5f4358f3b9673a1229d7d17963ce25eaf744809be0d12a4"
+        },
+        {
+          "path": "assets/risk-register.csv",
+          "bytes": 190,
+          "sha256": "53a949010e01ea2549097d72a63c93242caa27b7f42fa5b20299bfac1a4764fa"
+        },
+        {
+          "path": "assets/room-runbook.md",
+          "bytes": 826,
+          "sha256": "ca5abcd4ffaf5a16f94ef6a432bc3a7e63b642c6b6a143ef4f788ead6f66a3b5"
+        },
+        {
+          "path": "assets/shift-handoff.md",
+          "bytes": 593,
+          "sha256": "26bc96deb326b0512996a28169a984ab2634b3ab11c2065790c4c851a9cb617e"
+        },
+        {
+          "path": "ATTRIBUTION.md",
+          "bytes": 647,
+          "sha256": "1d4d33905728e65a80dbc6b3e0c0167a2040572acda950f05a83192997dc82a8"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "bytes": 1950,
+          "sha256": "0266b0db620bb1dc48ba671a8fcb4003b817766214292ecc2e3740c87b81d6fb"
+        },
+        {
+          "path": "evals/authority-and-resilience-cases.yaml",
+          "bytes": 5401,
+          "sha256": "84d60bff56db07bc18de78b73d7f691d24a6729976ddc21e2ec78a5144f9d691"
+        },
+        {
+          "path": "evals/core-transfer-cases.yaml",
+          "bytes": 6703,
+          "sha256": "885669068062df68a6cf83524d26bc42e707cfd94430235a692a95c41307bcef"
+        },
+        {
+          "path": "evals/eval-manifest.yaml",
+          "bytes": 691,
+          "sha256": "5b27359e4a5aa540ce9b6d5b9dfeef1e332d40c4971f3cc15deec902ea77b803"
+        },
+        {
+          "path": "examples/harvest-readiness-review.md",
+          "bytes": 1179,
+          "sha256": "faf586a04031037c51421aaccf4b0ef34eb306057ca114753e8b335d0de5e072"
+        },
+        {
+          "path": "examples/high-runoff-ec-diagnosis.md",
+          "bytes": 1378,
+          "sha256": "0b6380b81b0abc774f5f08f2e27903d65ec47a77e8786e8109185e1cbff1db4d"
+        },
+        {
+          "path": "examples/late-flower-humidity-incident.md",
+          "bytes": 1972,
+          "sha256": "294870aa86b43ec14f78b65ffae785b32838ad45ba4447983bed6ebb5da514af"
+        },
+        {
+          "path": "examples/new-room-crop-plan.md",
+          "bytes": 1419,
+          "sha256": "8bcac50ebd09192f16dbacaaabd52969d175542c6ff67ef5c0a6f168c76d1d77"
+        },
+        {
+          "path": "jurisdiction-packs/README.md",
+          "bytes": 517,
+          "sha256": "8af383f939079c7f5e1f5ef326815d7cb06676783e02bffa5fa433bda943455a"
+        },
+        {
+          "path": "LICENSE.md",
+          "bytes": 2846,
+          "sha256": "b922cef322a04638a36284535f532cadb6c779d88d71d3d35e67d807850d6d8d"
+        },
+        {
+          "path": "NOTICE.md",
+          "bytes": 585,
+          "sha256": "98e40efadb9c734c762520adad3deb27f7110dfc20cdd50113e889be6bd3ba97"
+        },
+        {
+          "path": "personas/ella-greenfield-v2.md",
+          "bytes": 4074,
+          "sha256": "ec4c813d5fc0a8201bfef9e60aee52590e5e83dc06d1a39c54875bbbba0be58e"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2243,
+          "sha256": "b5fd7c78ac431a2d78b576d3107eb31c2fa1ebc3a7bcdd788b20f32cea6858c5"
+        },
+        {
+          "path": "references/agronomy-core.md",
+          "bytes": 2280,
+          "sha256": "001202a0764ebc7be0248f498001d39748c167e9a979dafb74c4bd5c04328787"
+        },
+        {
+          "path": "references/compliance-verification-method.md",
+          "bytes": 1814,
+          "sha256": "7aa320e65f4b673a132ca5e328b7efe3813163f58ea9234c37cf75501d0062bf"
+        },
+        {
+          "path": "references/cultivar-and-gxe.md",
+          "bytes": 1677,
+          "sha256": "04bc76b0179b779ecab94f5d4e011dee14f169835f140166397568e31c84418f"
+        },
+        {
+          "path": "references/diagnostic-field-guide.md",
+          "bytes": 1776,
+          "sha256": "6cefaeeadb44e3de555a103684a1c19fd93a0a2e344c52c94ff41940dfecc1df"
+        },
+        {
+          "path": "references/economics-sustainability.md",
+          "bytes": 1049,
+          "sha256": "cd7c8104da22089d22c0a8591afb74c801556d5416ce2e1707e71b71d408e879"
+        },
+        {
+          "path": "references/environment-lighting-vpd.md",
+          "bytes": 1720,
+          "sha256": "3e2be73cea3cec8a5a77a7f4c702cc0dd1576e4f014eda687a4ed95310adeba1"
+        },
+        {
+          "path": "references/glossary.md",
+          "bytes": 1810,
+          "sha256": "2ee2213657450a6561201e48e62dd99ffa2d8f39aafeaabd0f14b8a514e956b5"
+        },
+        {
+          "path": "references/harvest-postharvest.md",
+          "bytes": 1643,
+          "sha256": "a7c1c6229d7a905391e671889e35796ff18a0ca61b7d043016e8851e484abc60"
+        },
+        {
+          "path": "references/ipm-biosecurity.md",
+          "bytes": 1734,
+          "sha256": "f9d373fe70d59faba55fd28649a47b15e60119e0a7dbd51e0625edaf5ccedfed"
+        },
+        {
+          "path": "references/rootzone-fertigation.md",
+          "bytes": 2031,
+          "sha256": "b30c2954266a11a513819b01c6085b6597508718a6fccdfd83e743d3248b7624"
+        },
+        {
+          "path": "references/safety-operations.md",
+          "bytes": 2012,
+          "sha256": "e5ef4c19123413b65de9501eb4dc92211f4f6d0961084f0bc2f6ea5a503f1cfb"
+        },
+        {
+          "path": "references/source-provenance.md",
+          "bytes": 2551,
+          "sha256": "cc34a2c2c1ae5773f862225d919925693305387a7eacf68f3c6578e9aac69e28"
+        },
+        {
+          "path": "references/source-quality-policy.md",
+          "bytes": 1796,
+          "sha256": "4a03eeb74ca98e934338cfaa7cd5416e3a4afe049b1579870791a985bc3f6cb1"
+        },
+        {
+          "path": "schemas/compliance-record.schema.json",
+          "bytes": 1237,
+          "sha256": "450bc99b4a31968d26e2c263661b77d3c33206cfc3dfbad43b95affad60ee1b7"
+        },
+        {
+          "path": "schemas/crop-plan.schema.json",
+          "bytes": 1252,
+          "sha256": "2bdf29ac9e52fcd11e092d1ef6765909bfd638cff45724c2c01f013178cefc6a"
+        },
+        {
+          "path": "schemas/crop-profile.schema.json",
+          "bytes": 1175,
+          "sha256": "e6edbe03b5213dd81a49df16acf726924b67b08a7ab03e010e19a160e428f0d7"
+        },
+        {
+          "path": "schemas/cultivation-decision.schema.json",
+          "bytes": 1054,
+          "sha256": "d320518e9067f8366e1ba3e20113f4267cba6f2cbeeceb6782cbc9bbbba29f8b"
+        },
+        {
+          "path": "schemas/facility-profile.schema.json",
+          "bytes": 1068,
+          "sha256": "f77b48bba6e30b7f689c33288558f531b42d628bbeb3a4349ae59e5d4f09fec1"
+        },
+        {
+          "path": "schemas/incident-report.schema.json",
+          "bytes": 1391,
+          "sha256": "52678ad144849cf7737ab0a4a3fe24f04f12f787c4c8b3deaa0bac6d64159d28"
+        },
+        {
+          "path": "scripts/calculate_dli.py",
+          "bytes": 1223,
+          "sha256": "09e6e0d5dc1e71b8f3e5eb17b06e064b2149790b5d6ca8128ff4517c871fa5ae"
+        },
+        {
+          "path": "scripts/calculate_irrigation.py",
+          "bytes": 1797,
+          "sha256": "a4bba5a3344bf841287f69905cdaad3ecde7b8798fcf911ebe942c8bd8f36019"
+        },
+        {
+          "path": "scripts/calculate_vpd.py",
+          "bytes": 1973,
+          "sha256": "0477b6a712d18bd1f23b9de93e37c4b2e04906bcd9710accfe286bd5860dde86"
+        },
+        {
+          "path": "scripts/check_source_freshness.py",
+          "bytes": 1682,
+          "sha256": "b3d9a6b3f2e3bc104303ba0649eb0312cb90a3bfbc676d8a13850e377e12e212"
+        },
+        {
+          "path": "scripts/lint_cultivation_plan.py",
+          "bytes": 1643,
+          "sha256": "3d97519818dd45fb5ee2399b682e00b3c0425e79bb3661f56c57c1d7ce3e2c8b"
+        },
+        {
+          "path": "scripts/normalize_logs.py",
+          "bytes": 2339,
+          "sha256": "aa50125bf57589ca77a634b8b5076c6946a0bb711fc9ceb3699249b4bc0b81c5"
+        },
+        {
+          "path": "scripts/normalize_units.py",
+          "bytes": 1640,
+          "sha256": "8abb612e7f0cb32f5065b40f283692f8367e187be3bc77630199199fea01b3a9"
+        },
+        {
+          "path": "scripts/package_deliverables.py",
+          "bytes": 1318,
+          "sha256": "127be7df24be4b7a353eded914d8c289877cf38386aa5f67c13395783ee5c26b"
+        },
+        {
+          "path": "scripts/README.md",
+          "bytes": 1020,
+          "sha256": "691a3aabb8b039bfdf3fa03bf5d311b64a9b2a948b4b21cd3e032e5a9297e427"
+        },
+        {
+          "path": "scripts/validate_record.py",
+          "bytes": 2791,
+          "sha256": "649d8a5e6874273e5c9a7edb2809931b4ad67f2e5c728f1b76665f0e8cf62c97"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 5271,
+          "sha256": "38fe8fc6ce6ac6648f17aa7f4f99235ab90617f9f402232707c0c8f3f5a4427a"
+        },
+        {
+          "path": "TRADEMARKS.md",
+          "bytes": 1022,
+          "sha256": "4ba8b530fba4595d9e37d800e5fd991e18d25830fa7f034cb6a9f364ea1144e4"
+        },
+        {
+          "path": "workflows/compliance-and-operations.md",
+          "bytes": 1649,
+          "sha256": "7563d2c6405e9b0518c8c96b747f0a8573ab119aa7dcf889d62c13f8f1ea2250"
+        },
+        {
+          "path": "workflows/crop-planning.md",
+          "bytes": 1730,
+          "sha256": "f734cb28c1473b49ae464716991442e9c82a68058158895994d4750d0b99e2b3"
+        },
+        {
+          "path": "workflows/diagnostics-and-incidents.md",
+          "bytes": 1828,
+          "sha256": "889e2bb6bc326b95b0e8e68d95a5e76c72f5405d59dc4363d0866391ab8848ab"
+        },
+        {
+          "path": "workflows/environment-and-rootzone.md",
+          "bytes": 1940,
+          "sha256": "7b8b054cf4cc13754b90439cc56948bf58cb5c96a07994a3da6be2f27c3bfe49"
+        },
+        {
+          "path": "workflows/harvest-and-quality.md",
+          "bytes": 1583,
+          "sha256": "b744973ae6386db33dc5795e160460cbf4080d7196f2b4f6624ebe9431d14943"
+        },
+        {
+          "path": "workflows/review-and-release.md",
+          "bytes": 1880,
+          "sha256": "06e6e6ccbc0a983c141d051402a4d975c14fa3f6724de6c9af52aa7daf019dbc"
+        },
+        {
+          "path": "workspace/app.js",
+          "bytes": 34140,
+          "sha256": "9228a9ab0b2453bce4c3b4c586d51797dbcb25928c12d03c46d98dcc6d026609"
+        },
+        {
+          "path": "workspace/canopy-atmosphere.png",
+          "bytes": 1892337,
+          "sha256": "25b6118613a89be53fcfcb79447684216159d1c5def1401b118581279b10a146"
+        },
+        {
+          "path": "workspace/CLEARSPAN.md",
+          "bytes": 1455,
+          "sha256": "f8ddb93795cd900a0ded1ff5b418be61ca1080a9e61d929eb03886ee9740be7c"
+        },
+        {
+          "path": "workspace/desk.py",
+          "bytes": 12188,
+          "sha256": "f9fd409d6aa7574eb2c616dba9965199d44f11417a6081e67eaa7091a30e2c4d"
+        },
+        {
+          "path": "workspace/index.html",
+          "bytes": 11208,
+          "sha256": "f1592077de175afbaa64cae85e2b3e8256e02d31b85918a05cbd8307df2fefba"
+        },
+        {
+          "path": "workspace/LAMPBLACK.md",
+          "bytes": 1512,
+          "sha256": "1feb70987aa238f820a624dea91e19887e050dce08a33346463839f9c9f05d0e"
+        },
+        {
+          "path": "workspace/model.js",
+          "bytes": 5478,
+          "sha256": "338071250f3d3912aa81e2ffb027a81e49060ea9da48dde1cbde88182b2f088a"
+        },
+        {
+          "path": "workspace/Open CanopyOps.cmd",
+          "bytes": 134,
+          "sha256": "a1cf1f1e2e8e45218c5fbc4dcd85d27a6c8039373e5fc74315a89b307b910cd9"
+        },
+        {
+          "path": "workspace/Open CanopyOps.command",
+          "bytes": 78,
+          "sha256": "d5643645778c7167be22c79ed817863e70abc06fab2dd3146065f9d7f021ecb3"
+        },
+        {
+          "path": "workspace/README.md",
+          "bytes": 1697,
+          "sha256": "5897ef871944c792532b9000e19f394fe58d4bd4d83a780b6f64430167b32750"
+        },
+        {
+          "path": "workspace/skins.css",
+          "bytes": 13196,
+          "sha256": "a4062b1af266d5894f0f95e37b0d5de0b09a5c3f34cad614558f51b2c7b422b5"
+        },
+        {
+          "path": "workspace/SKINS.md",
+          "bytes": 4463,
+          "sha256": "433f3df2059284fdb84b0658d91fc793e433e9583967fb15652dfca991b7812c"
+        },
+        {
+          "path": "workspace/style.css",
+          "bytes": 30074,
+          "sha256": "d9379d3c4d179b2b36ff4dcc99ebbce8af2e72570c5adc9eacd084d92a1a68bd"
+        },
+        {
+          "path": "workspace/WORKSPACE-GUIDE.md",
+          "bytes": 5166,
+          "sha256": "fc392aeb3646a478b12745037da83266def62263ff8e6fa907c8225b6d90cf8c"
+        }
+      ]
+    }
+  ],
+  "delivery_sidecars": {
+    "path": "delivery-sidecars",
+    "files": [
+      {
+        "path": "CanopyOps v0.3.0 Extra.md",
+        "bytes": 3472,
+        "sha256": "d49f70ab6f4c3a78d27eccf00e2f50003b20119cc04eb2e6a66eb18627a2772f"
+      },
+      {
+        "path": "CanopyOps v0.3.0.md",
+        "bytes": 3430,
+        "sha256": "7e247f8d78862634b75424067ad05df6b1e74b976267a1d483d58a5f3cdfffc8"
+      },
+      {
+        "path": "CanopyOps.png",
+        "bytes": 1691354,
+        "sha256": "3e8c41ede1f19e7b013a509187fbb8fa96c84d8d24bb6ffe2183ae0d731d93fb"
+      }
+    ]
+  },
+  "current_delivery": "Portable crop workspace and complete skills; plugin installation is not required."
+}

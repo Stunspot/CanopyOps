@@ -1,0 +1,12 @@
+{
+  "schema": "cd-family-release-portable-verification/v1",
+  "ok": true,
+  "counts": {
+    "source_files_checked": 83,
+    "claude_archives_checked": 1,
+    "files_checked": 109,
+    "unique_zip_containers_checked": 1,
+    "zip_members_checked": 83
+  },
+  "findings": []
+}

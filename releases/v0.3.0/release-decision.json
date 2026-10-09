@@ -1,0 +1,9 @@
+{
+  "baseline_version": "0.2.0",
+  "baseline_bundle_fingerprint": "sha256:6d7444d933151bc490e658c6d808345a1316701c622ede8d33b746302c7d4c64",
+  "version": "0.3.0",
+  "kind": "update",
+  "effect": "expanded_workflow",
+  "reason": "Adds room/zone exploration, through-date evidence views, compatible discrete measurement plots and observation pair comparison to the accepted native-record desk. Three authored environments support those workflows while preserving native records and evidence boundaries.",
+  "scope": "Portable workspace line; repository-native v0.1.5 plugin remains separately identified."
+}

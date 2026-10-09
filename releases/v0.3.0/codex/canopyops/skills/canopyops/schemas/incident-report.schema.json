@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://collaborativedynamics.example/canopyops/incident-report.schema.json",
+  "title": "CanopyOps Incident Report",
+  "type": "object",
+  "required": ["incident_id", "opened_at", "owner", "scope", "status", "observations", "differential", "next_action", "reopen_condition"],
+  "properties": {
+    "incident_id": {"type": "string", "minLength": 1},
+    "opened_at": {"type": "string", "format": "date-time"},
+    "owner": {"type": "string", "minLength": 1},
+    "scope": {"type": "string", "minLength": 1},
+    "status": {"enum": ["open", "contained", "investigating", "awaiting-evidence", "awaiting-authority", "monitoring", "verified-closed"]},
+    "observations": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["timestamp", "observation"], "properties": {"timestamp": {"type": "string", "format": "date-time"}, "observation": {"type": "string"}, "method": {"type": "string"}}}},
+    "differential": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["explanation", "discriminating_evidence"], "properties": {"explanation": {"type": "string"}, "discriminating_evidence": {"type": "string"}}}},
+    "next_action": {"type": "string", "minLength": 1},
+    "reopen_condition": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}
