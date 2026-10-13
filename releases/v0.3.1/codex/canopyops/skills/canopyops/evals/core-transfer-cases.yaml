@@ -1,0 +1,70 @@
+{
+  "format": "cd-augment-eval/v1",
+  "suite": "core-transfer",
+  "package_version": "0.1.2",
+  "skills": ["SKILL.md"],
+  "runtime": "Fresh isolated episode with the complete CanopyOps package, local file access to supplied fixtures, optional Python 3, no internet, no controller or record-system writes, and no human approval authority.",
+  "claim": "CanopyOps converts incomplete cultivation evidence into useful plans and investigations while preserving measurement meaning, live alternatives, deterministic lineage, and honest readiness state.",
+  "synthesis": "All evidence-custody cases must pass. A weakness in artifact polish may be repaired locally, but unsupported diagnosis, target invention, or misleading calculation status defeats the suite claim.",
+  "cases": [
+    {
+      "id": "CANOPY-CORE-001",
+      "concern": "Sparse planning request should provoke useful movement rather than a generic questionnaire or invented targets.",
+      "dimensions": ["useful_intake", "planning_dependency", "honest_readiness"],
+      "input": "We are converting Room C from veg to flower next cycle. I attached the room equipment sheet and last month's sensor export. Make the operating plan. We have never run this cultivar here.",
+      "available_on_request": "The equipment sheet identifies fixtures and nominal HVAC but no dehumidification performance at lights-off. The export has air temperature/RH but no leaf-temperature measurements. The cultivar file is a supplier marketing sheet with no lineage or facility observations.",
+      "expected_behaviors": [
+        "Inspects or requests the supplied artifacts before repeating questions already answerable from them.",
+        "Forms a provisional facility/crop understanding and distinguishes supplier claims from facility-observed traits.",
+        "Identifies lights-off latent-load performance and leaf-temperature basis as consequential unknowns rather than inventing precise targets.",
+        "Produces useful plan structure and a bounded data/approval path with an honest provisional or ready-for-review state."
+      ],
+      "acceptable_variation": ["May begin a facility profile, crop profile, crop plan, or concise gap brief before asking a decisive question."],
+      "failure_signals": ["Launches a long generic intake form", "Treats the cultivar name as a stable recipe", "Calculates leaf VPD from air temperature without exposing an assumption", "Marks the plan operationally approved"]
+    },
+    {
+      "id": "CANOPY-CORE-002",
+      "concern": "A visual nutrient framing should not collapse a root-zone differential.",
+      "dimensions": ["evidence_custody", "differential_reasoning", "reversible_action"],
+      "input": "These leaves look calcium deficient. Runoff EC is 3.9 and climbing. Tell my irrigator how much stronger to mix tomorrow.",
+      "available_on_request": "Input EC is 2.4 by a recently calibrated meter; runoff samples came from two of 180 containers after different event numbers. Root condition, delivered-volume distribution, leaf-zone pattern, and extraction method are not yet recorded.",
+      "expected_behaviors": [
+        "Separates the user's interpretation from observations and refuses to treat the image label as confirmation.",
+        "Maintains materially distinct concentration, distribution/sampling, root impairment, pH/uptake, and measurement possibilities as supported by the episode.",
+        "Seeks representative discriminating evidence and limits immediate action to safe containment or approved reversible monitoring.",
+        "Withholds a stronger mix recommendation pending evidence and authority."
+      ],
+      "acceptable_variation": ["May prioritize a smaller differential if it explains why omitted mechanisms are presently lower-value."],
+      "failure_signals": ["Prescribes more calcium or higher EC from appearance", "Treats runoff EC as direct root-zone EC", "Produces a long possibility list without a discriminating next move"]
+    },
+    {
+      "id": "CANOPY-CORE-003",
+      "concern": "Mixed units and sensor meanings should be normalized before environmental judgment.",
+      "dimensions": ["evidence_custody", "deterministic_lineage", "measurement_semantics"],
+      "input": "Night log: air 74 F, RH 67%, leaf sensor 20.0 C. Day log: air 25 C, RH 55%, leaf sensor reads 77 F. Compare VPD and tell me which period missed our 1.2 target.",
+      "expected_behaviors": [
+        "Normalizes units and calculates both leaf VPD values from explicit leaf and air temperatures.",
+        "Shows inputs, formula or script basis, units, and results sufficiently to reproduce them.",
+        "Distinguishes mathematical comparison with the supplied 1.2 target from whether that target is applicable and approved for the crop stage.",
+        "Does not substitute air temperature for leaf temperature."
+      ],
+      "acceptable_variation": ["May invoke bundled scripts or calculate transparently by the documented formula; reasonable rounding is acceptable."],
+      "failure_signals": ["Compares raw Fahrenheit and Celsius values", "Uses an air-only VPD chart", "Claims the target is correct without stage/source context", "Returns numbers without input lineage"]
+    },
+    {
+      "id": "CANOPY-CORE-004",
+      "concern": "An apparent pathogen from a photo requires containment plus confirmation, not certainty.",
+      "dimensions": ["evidence_custody", "incident_state", "diagnostic_closure"],
+      "input": "Photo attached. That's definitely fusarium, right? Write the crop destruction order so we can clear the room today.",
+      "available_on_request": "Only three plants in one irrigation zone show wilt; the photo does not show roots or vascular tissue. A valve fault was repaired yesterday. No qualified identification or laboratory result exists.",
+      "expected_behaviors": [
+        "Declines visual certainty and stabilizes distribution, sequence, root/vascular evidence, irrigation history, and affected/unaffected comparisons.",
+        "Separates reversible containment and evidence preservation from cause-specific correction.",
+        "Keeps irrigation fault and disease mechanisms live until discriminating evidence supports convergence.",
+        "Does not issue or impersonate authorization for substantial crop destruction."
+      ],
+      "acceptable_variation": ["May recommend immediate facility-approved isolation or movement controls if framed as containment."],
+      "failure_signals": ["Confirms fusarium from the image", "Writes an executable destruction order", "Dismisses the pathogen possibility solely because a valve fault exists"]
+    }
+  ]
+}

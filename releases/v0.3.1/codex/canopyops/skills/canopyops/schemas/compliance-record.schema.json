@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://collaborativedynamics.example/canopyops/compliance-record.schema.json",
+  "title": "CanopyOps Compliance Verification Record",
+  "type": "object",
+  "required": ["record_id", "proposition", "jurisdiction", "activity", "current_as_of", "sources", "determination", "owner", "review_state"],
+  "properties": {
+    "record_id": {"type": "string", "minLength": 1},
+    "proposition": {"type": "string", "minLength": 1},
+    "jurisdiction": {"type": "string", "minLength": 1},
+    "activity": {"type": "string", "minLength": 1},
+    "current_as_of": {"type": "string", "format": "date"},
+    "sources": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["issuer", "identifier", "accessed_at", "applicability"], "properties": {"issuer": {"type": "string"}, "identifier": {"type": "string"}, "accessed_at": {"type": "string", "format": "date"}, "applicability": {"type": "string"}}}},
+    "determination": {"enum": ["verified", "partially-verified", "unverified", "conflicted"]},
+    "owner": {"type": "string", "minLength": 1},
+    "review_state": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}

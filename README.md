@@ -18,7 +18,7 @@ CanopyOps is an installable AI skill for cannabis cultivation that turns room da
 
 ## Open the crop workspace
 
-The v0.3.0 portable workspace keeps supplied observations in room, zone and time context. Compare compatible measurements and pairs of observations without losing their timestamps, methods and evidence. Understory, Lampblack and Clearspan offer three distinct environments. Open the launcher in the packaged `workspace/` folder with Python 3.10+, or ask your installed CanopyOps agent to open it. Read [the workspace guide](canopyops/workspace/WORKSPACE-GUIDE.md).
+The v0.3.1 portable workspace keeps supplied observations in room, zone and time context. Compare compatible measurements and pairs of observations without losing their timestamps, methods and evidence. Understory, Lampblack and Clearspan offer three distinct environments. Open the launcher in the packaged `workspace/` folder with Python 3.10+, or ask your installed CanopyOps agent to open it. Read [the workspace guide](canopyops/workspace/WORKSPACE-GUIDE.md).
 
 ## Why it is different
 
@@ -42,7 +42,7 @@ The complete path is in [`JUDGE-QUICKSTART.md`](JUDGE-QUICKSTART.md).
 
 ## Current delivery
 
-**v0.3.0 portable crop workspace and maintained skills** are the current CanopyOps delivery. Open the local desk with Python 3.10+, or install the contained skill in your host. A plugin is not required. Start with [installation](INSTALL.md), [the first job](START-HERE.md) and [the workspace guide](canopyops/workspace/WORKSPACE-GUIDE.md).
+**v0.3.1 portable crop workspace and maintained skills** are the current CanopyOps delivery. Open the local desk with Python 3.10+, or install the contained skill in your host. A plugin is not required. Start with [installation](INSTALL.md), [the first job](START-HERE.md) and [the workspace guide](canopyops/workspace/WORKSPACE-GUIDE.md).
 
 The repository-native v0.1.5 plugin and older portable bundles remain historical material with their original provenance. Their packaging is not a current repair obligation. Read [release status](RELEASE-STATUS.md) for publication boundaries and evidence limits.
 
@@ -61,7 +61,7 @@ See [`EXAMPLE-TOUR.md`](EXAMPLE-TOUR.md) for four complete fictional demonstrati
 
 ## Evidence and limitations
 
-The repository includes a **21-test deterministic suite** covering calculations, validation, package parity, version custody, documentation reachability, release-story consistency, and Pages-local assets. The historical v0.1.5 verification record documents the checks executed against that release candidate. The v0.3.0 workspace bundle carries its own freshly generated portable verifier report. Older test/review records remain attached to the releases they examined.
+The repository includes a **21-test deterministic suite** covering calculations, validation, package parity, version custody, documentation reachability, release-story consistency, and Pages-local assets. The historical v0.1.5 verification record documents the checks executed against that release candidate. The v0.3.1 workspace bundle carries its own freshly generated portable verifier report. Older test/review records remain attached to the releases they examined.
 
 These are different claims:
 
@@ -94,7 +94,7 @@ The initial working Augment emerged in roughly an hour; public packaging, brandi
 - [`canopyops/`](canopyops/) — shared cultivation source with current portable-workspace authoring under `workspace/`; the branded native plugin remains separately versioned.
 - [`plugins/canopyops/`](plugins/canopyops/) — branded repository-native Codex plugin.
 - [`claude-ai/`](claude-ai/) — repository-native Claude.ai upload archives.
-- [`releases/v0.3.0/`](releases/v0.3.0/) — current portable crop workspace, checksums, manifest, receipt and docs. Older versioned releases retain their historical custody.
+- [`releases/v0.3.1/`](releases/v0.3.1/) — current portable crop workspace, checksums, manifest, receipt and docs. Older versioned releases retain their historical custody.
 - [`tests/`](tests/) — deterministic repository checks.
 - [`docs/`](docs/) — GitHub Pages source and the three governed role-specific raster assets.
 - [`verification/`](verification/) — retained evidence and review custody.

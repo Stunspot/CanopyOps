@@ -24,19 +24,20 @@
     "BUILD-WEEK.md",
     "ARCHIVE-CUSTODY.md",
     "DOCUMENTATION-STATUS.md",
-    "releases/v0.1.7/docs/README.md",
-    "releases/v0.1.7/docs/CAPABILITIES.md",
-    "releases/v0.1.7/docs/QUICK-START.md",
-    "releases/v0.1.7/docs/INSTALL-CODEX.md",
-    "releases/v0.1.7/docs/INSTALL-CLAUDE.md",
-    "releases/v0.1.7/docs/LIMITATIONS.md",
-    "releases/v0.1.7/docs/HOST-EVIDENCE-BOUNDARY.md",
-    "releases/v0.1.7/docs/PACKAGE-REFERENCE.md",
-    "releases/v0.1.7/docs/VALIDATION.md",
-    "releases/v0.1.7/docs/PROVENANCE.md",
-    "releases/v0.1.7/docs/DESCRIPTION-CUSTODY.md",
-    "releases/v0.1.7/docs/SUPPORT.md",
-    "RELEASE-NOTES-v0.1.7.md"
+    "releases/v0.3.1/docs/README.md",
+    "releases/v0.3.1/docs/CAPABILITIES.md",
+    "releases/v0.3.1/docs/QUICK-START.md",
+    "releases/v0.3.1/docs/INSTALL-CODEX.md",
+    "releases/v0.3.1/docs/INSTALL-CLAUDE.md",
+    "releases/v0.3.1/docs/LIMITATIONS.md",
+    "releases/v0.3.1/docs/HOST-EVIDENCE-BOUNDARY.md",
+    "releases/v0.3.1/docs/PACKAGE-REFERENCE.md",
+    "releases/v0.3.1/docs/VALIDATION.md",
+    "releases/v0.3.1/docs/PROVENANCE.md",
+    "releases/v0.3.1/docs/DESCRIPTION-CUSTODY.md",
+    "releases/v0.3.1/docs/SUPPORT.md",
+    "RELEASE-NOTES-v0.3.0.md",
+    "releases/v0.3.1/RELEASE-NOTES-v0.3.1.md"
   ],
   "web_surfaces": [
     "docs/index.html",
@@ -62,7 +63,8 @@
     "RELEASE-NOTES-v0.1.5.md",
     "VERIFICATION-v0.1.4.md",
     "VERIFICATION-v0.1.5.md",
-    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md"
+    "PLUGIN-DIRECTORY-SUBMISSION-v0.1.5.md",
+    "RELEASE-NOTES-v0.1.7.md"
   ],
   "review_fingerprint_scope": "customer_docs + web_surfaces + visual_assets + docs/SOURCE.md + documentation-manifest.json",
   "review_fingerprint_algorithm": "sha256(paths sorted by Unicode ordinal code point; each UTF-8 path + NUL + lowercase file sha256 + LF)",
@@ -71,30 +73,30 @@
       "README.md",
       "RELEASE-STATUS.md",
       "START-HERE.md",
-      "releases/v0.1.7/docs/README.md"
+      "releases/v0.3.1/docs/README.md"
     ],
     "installation": [
       "INSTALL.md",
       "RELEASE-STATUS.md",
-      "releases/v0.1.7/docs/INSTALL-CODEX.md",
-      "releases/v0.1.7/docs/INSTALL-CLAUDE.md"
+      "releases/v0.3.1/docs/INSTALL-CODEX.md",
+      "releases/v0.3.1/docs/INSTALL-CLAUDE.md"
     ],
     "first_value": [
       "START-HERE.md",
       "EXAMPLE-TOUR.md",
       "JUDGE-QUICKSTART.md",
-      "releases/v0.1.7/docs/QUICK-START.md"
+      "releases/v0.3.1/docs/QUICK-START.md"
     ],
     "normal_use": [
       "FAQ.md",
       "SAFETY-AND-SCOPE.md",
-      "releases/v0.1.7/docs/CAPABILITIES.md",
-      "releases/v0.1.7/docs/LIMITATIONS.md"
+      "releases/v0.3.1/docs/CAPABILITIES.md",
+      "releases/v0.3.1/docs/LIMITATIONS.md"
     ],
     "recovery": [
       "INSTALL.md",
       "SUPPORT.md",
-      "releases/v0.1.7/docs/SUPPORT.md"
+      "releases/v0.3.1/docs/SUPPORT.md"
     ],
     "privacy_security": [
       "DATA-AND-PRIVACY.md",
@@ -114,18 +116,24 @@
       "NOTICE.md",
       "CONTRIBUTING.md",
       "BUILD-WEEK.md",
-      "releases/v0.1.7/docs/PROVENANCE.md",
-      "releases/v0.1.7/docs/DESCRIPTION-CUSTODY.md"
+      "releases/v0.3.1/docs/PROVENANCE.md",
+      "releases/v0.3.1/docs/DESCRIPTION-CUSTODY.md"
     ],
     "evidence_limits": [
       "RELEASE-STATUS.md",
       "DOCUMENTATION-STATUS.md",
-      "releases/v0.1.7/docs/HOST-EVIDENCE-BOUNDARY.md",
-      "releases/v0.1.7/docs/VALIDATION.md"
+      "releases/v0.3.1/docs/HOST-EVIDENCE-BOUNDARY.md",
+      "releases/v0.3.1/docs/VALIDATION.md"
     ],
     "publication_status": [
       "RELEASE-STATUS.md",
       "DOCUMENTATION-STATUS.md"
     ]
-  }
+  },
+  "current_workspace_docs": [
+    "canopyops/workspace/README.md",
+    "canopyops/workspace/WORKSPACE-GUIDE.md",
+    "canopyops/workspace/SKINS.md"
+  ],
+  "review_state": "August receipts are historical; current portable workspace documentation and browser evidence are scoped separately."
 }

@@ -1,5 +1,9 @@
 # CanopyOps Documentation Status
 
+Current portable workspace documentation: **v0.3.1**. The [current release status](RELEASE-STATUS.md), [portable guides](releases/v0.3.1/docs/README.md) and [workspace guide](canopyops/workspace/WORKSPACE-GUIDE.md) cover the crop desk and optional desktop entries. Accepted cultivation, measurement, saved-record and return evidence is retained from v0.3.0; changed entry evidence covers Windows and portable Mac construction. Native Mac launch, fresh-host activation and field outcomes remain unverified. The historical review receipts below retain their original scope.
+
+## Historical August documentation record
+
 Last substantive documentation remediation: **August 14, 2026**
 
 ## Status

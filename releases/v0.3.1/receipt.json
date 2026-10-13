@@ -1,0 +1,12 @@
+{
+  "schema": "cd-settled-family-build-receipt/v1",
+  "family": "canopyops",
+  "version": "0.3.1",
+  "canonical_zip": "CanopyOps-v0.3.1.zip",
+  "canonical_zip_sha256": "fd5f0e981c76f784d4b472b73c84041e5bd4750afd0e3675ec73da81f3693dba",
+  "canonical_checksum": "CanopyOps-v0.3.1.zip.sha256",
+  "canonical_zip_member_count": 115,
+  "status": "reviewed-current-update",
+  "backup": "Prior accepted release and both rejected candidates retain their original bytes.",
+  "copy_not_move_verified": true
+}

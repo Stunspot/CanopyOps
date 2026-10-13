@@ -9,3 +9,9 @@ Records live outside the installation in `CANOPYOPS_DATA_HOME`, otherwise `Docum
 The schematic groups supplied rooms and zones; it does not assert their physical shape or distance. Plots show supplied measurements with compatible provenance, not a continuous sensor stream. Unknown timestamps, absent observations and incomplete measurement context stay visible. Illustrative examples are labeled and unsaved. The generated canopy atmosphere is decoration, not a crop photograph or measurement.
 
 Loopback only: no equipment control, sensor connection or network publication. A narrow host-browser view is supported; a separate network phone is not. macOS and fresh customer-host launches remain unverified. Shortcuts are optional, never silently installed.
+
+## Optional desktop entry
+
+Choose an existing entry folder and your existing external crop-record store. From the complete installed CanopyOps skill, run `python -B workspace/create_entry.py --directory "<entry folder>" --data-root "<external record store>"`. Windows creates `CanopyOps Crop Desk.lnk`; macOS creates `CanopyOps Crop Desk.app`. The entry uses the existing Python crop desk directly with that record store. It connects no sensor and runs no equipment.
+
+An existing same-named entry is retained. Recreate only your known entry after moving the installed skill or store; keep original records outside the package. Python remains required. `--port` selects a positive first candidate port if needed. Native Mac launch remains unobserved until executed on a Mac.

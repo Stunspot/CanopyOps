@@ -4,7 +4,15 @@ Read [`RELEASE-STATUS.md`](RELEASE-STATUS.md) for the current channel map.
 
 CanopyOps currently preserves two intentionally separate package lines. Their artifacts must remain identifiable without opening a ZIP, and evidence must stay attached to the exact object it examined.
 
-## Distribution map
+## Current portable workspace
+
+The accepted portable line advances from v0.2.0 to v0.3.0 with the room/zone and time exploration workflows. Its canonical bundle, detached checksum, manifest, receipt and fresh portable report live under `releases/v0.3.0/`. The current builder is `tools/build_workspace_release.py`; customer-guide sources live under `release-docs/workspace/`. It preserves the cultivation payload from v0.2.0 and overlays the authored workspace and launch route.
+
+The governed shelf carries the current complete bundle with its artwork and v0.3.0 prompt/Extra companions. Superseded shelf bytes and the previous installed payload remain in external recovery custody. Neither shelf currency nor local installed-byte parity implies a fresh-host invocation or public upload. The source tree's workspace authoring is distinct from the still-separate branded v0.1.5 native plugin.
+
+The tables and v0.1.5/v0.1.7 evidence below are historical package custody, retained for their exact objects. They do not describe the latest portable version.
+
+## Historical distribution map
 
 | Line | Object | Canonical path | Purpose |
 |---|---|---|---|

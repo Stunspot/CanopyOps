@@ -10,20 +10,22 @@ The native v0.1.5 plugin, marketplace material and older archives remain preserv
 
 The shared `canopyops/workspace/` tree and `canopyops/SKILL.md` author the current portable workspace.
 
-## Open or install the portable workspace
+## Portable crop workspace v0.3.1
 
-Use [the v0.3.0 bundle](releases/v0.3.0/CanopyOps-v0.3.0.zip), [detached checksum](releases/v0.3.0/CanopyOps-v0.3.0.zip.sha256) and [quick start](releases/v0.3.0/docs/QUICK-START.md). Extract to a new directory and run `python tools/verify_release.py .`. Require `"ok": true` with no findings.
+The current v0.3.1 update adds product icons and optional desktop entries with an explicitly chosen external record store. The owner-selected portable v0.3.0 delivery is its accepted baseline.
 
-Open the Windows/macOS launcher under `codex/canopyops/skills/canopyops/workspace/` with Python 3.10+, or follow the package's [Codex](releases/v0.3.0/docs/INSTALL-CODEX.md) or [Claude](releases/v0.3.0/docs/INSTALL-CLAUDE.md) guide. An external record store preserves native Markdown, crop-walk CSV, history, imports and photos across package updates.
+Use [the v0.3.1 bundle](releases/v0.3.1/CanopyOps-v0.3.1.zip), [detached checksum](releases/v0.3.1/CanopyOps-v0.3.1.zip.sha256) and [quick start](releases/v0.3.1/docs/QUICK-START.md). Extract to a new directory and run `python tools/verify_release.py .`. Require `"ok": true` with no findings.
+
+Open the Windows/macOS launcher under `codex/canopyops/skills/canopyops/workspace/` with Python 3.10+, or follow the package's [Codex](releases/v0.3.1/docs/INSTALL-CODEX.md) or [Claude](releases/v0.3.1/docs/INSTALL-CLAUDE.md) guide. An external record store preserves native Markdown, crop-walk CSV, history, imports and photos across package updates.
 
 ## Authority and current publication boundary
 
 v0.3.0 is an update against the accepted portable v0.2.0 product promise: it adds exploration and comparison workflows. [Release notes](RELEASE-NOTES-v0.3.0.md) and [the release decision](releases/v0.3.0/release-decision.json) explain that delta. Package and local-browser evidence remain separate from fresh-host activation and field outcomes.
 
-The existing GitHub repository and Pages site have historical public custody. No new public announcement, GitHub release upload, Discord upload or OpenAI directory submission is established by this local interface update. The v0.1.5 Plugins Directory draft and old review records remain historical; they are not approval or publication evidence for v0.3.0.
+The owner-authorized repair carries v0.3.1 through the existing repository, Pages, release downloads and governed shelf/Library. [Current release notes](releases/v0.3.1/RELEASE-NOTES-v0.3.1.md) and [release decision](releases/v0.3.1/release-decision.json) state this update. No new public announcement or OpenAI directory submission is part of this delivery. The v0.1.5 Plugins Directory draft and old review records remain historical.
 
 macOS launches, fresh customer hosts and live Claude upload/activation remain unverified. The workspace does not connect to sensors or operate equipment. Cultivation guidance does not establish regulatory approval, legal opinion, pesticide authority, batch-release authority or crop outcomes.
 
-## Historical custody
+## Repository-native plugin and historical custody
 
 Portable v0.1.7 and v0.2.0 artifacts remain separately identifiable at their versioned paths. The v0.1.6 package remains in its historical Git tag, GitHub release and external owner custody. Frozen releases are not relabeled to certify current behavior. See [archive custody](ARCHIVE-CUSTODY.md).

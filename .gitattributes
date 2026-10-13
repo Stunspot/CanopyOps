@@ -15,3 +15,17 @@
 *.jpeg binary
 *.gif binary
 *.ico binary
+
+# Preserve the reviewed portable release and owner delivery bytes.
+releases/v0.3.1/** -text
+delivery-v0.3.1/** -text
+*.icns binary
+canopyops/workspace/desk.py -text
+canopyops/workspace/index.html -text
+canopyops/workspace/README.md -text
+canopyops/workspace/WORKSPACE-GUIDE.md -text
+canopyops/workspace/create_entry.py -text
+canopyops/workspace/canopyops-icon.png -text
+canopyops/workspace/canopyops.ico -text
+canopyops/workspace/canopyops.icns -text
+delivery-sidecars/CanopyOps*v0.3.1*.md -text

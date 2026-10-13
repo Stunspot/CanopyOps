@@ -1,0 +1,10 @@
+{
+  "schema": "cd-release-treatment/v1",
+  "product": "canopyops",
+  "baseline_version": "0.3.0",
+  "baseline_sha256": "223d23b8adc3aa6595b86db7624e9e3d16bfd676eddb0b61063766335237e26f",
+  "target_version": "0.3.1",
+  "kind": "update",
+  "effect": "expanded_workflow",
+  "reason": "Owner-required increment adds browser/nativeicons and explicit external-store desktopentry; accepted cultivation/store/launchbehavior preserved."
+}

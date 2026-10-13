@@ -2,7 +2,7 @@
 
 ## Verify and copy
 
-Use an extracted `CanopyOps-v0.3.0.zip` bundle and Python 3.10+. From the release root, run `python tools/verify_release.py .`; require exit zero, `"ok": true` and no findings. A plugin is not required.
+Use an extracted `CanopyOps-v0.3.1.zip` bundle and Python 3.10+. From the release root, run `python tools/verify_release.py .`; require exit zero, `"ok": true` and no findings. A plugin is not required.
 
 Copy the complete `codex/canopyops/skills/canopyops/` directory into the host's configured personal skill directory. Current manual user skills normally use `~/.agents/skills/canopyops/`; an existing owner-maintained legacy location may differ. Keep every supporting directory beside `SKILL.md`.
 

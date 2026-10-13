@@ -37,3 +37,9 @@ Understory is a rounded botanical environment for spatial orientation. Lampblack
 The default store is `Documents/CanopyOps`; `CANOPYOPS_DATA_HOME` selects another external directory. Imports preserve original bytes under `imports`, prior saved versions live under `history`, and image references point to `photos`. Back up that external store separately. Never place operational records inside an installation or release ZIP.
 
 If startup fails, confirm Python 3.10+ and an accessible external store. The launcher can choose another local port when its normal port is occupied; leave unrelated services running. The workspace does not connect to live sensors or operate equipment. macOS and fresh customer-host launch behavior remain unverified.
+
+## Optional desktop entry
+
+Choose an existing entry folder and your existing external crop-record store. From the complete installed CanopyOps skill, run `python -B workspace/create_entry.py --directory "<entry folder>" --data-root "<external record store>"`. Windows creates `CanopyOps Crop Desk.lnk`; macOS creates `CanopyOps Crop Desk.app`. The entry uses the existing Python crop desk directly with that record store. It connects no sensor and runs no equipment.
+
+An existing same-named entry is retained. Recreate only your known entry after moving the installed skill or store; keep original records outside the package. Python remains required. `--port` selects a positive first candidate port if needed. Native Mac launch remains unobserved until executed on a Mac.

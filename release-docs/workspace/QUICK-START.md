@@ -1,6 +1,6 @@
 # Your first useful CanopyOps session
 
-Extract `CanopyOps-v0.3.0.zip` into a new folder. From the extracted release root, run `python tools/verify_release.py .` and require `"ok": true` with no findings. Then install the [Codex skill](INSTALL-CODEX.md) or [Claude skill](INSTALL-CLAUDE.md) if you want agent guidance.
+Extract `CanopyOps-v0.3.1.zip` into a new folder. From the extracted release root, run `python tools/verify_release.py .` and require `"ok": true` with no findings. Then install the [Codex skill](INSTALL-CODEX.md) or [Claude skill](INSTALL-CLAUDE.md) if you want agent guidance.
 
 ## Open the crop workspace
 

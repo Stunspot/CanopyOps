@@ -1,10 +1,10 @@
 # Open or install CanopyOps
 
-Use the current **v0.3.0 portable crop workspace and skills**. A plugin is not required. Older native plugin and portable releases keep their historical identity; do not combine their files with this release.
+Use the current **v0.3.1 portable crop workspace and skills**. A plugin is not required. Older native plugin and portable releases keep their historical identity; do not combine their files with this release.
 
 ## Verify the portable bundle
 
-Download [CanopyOps-v0.3.0.zip](releases/v0.3.0/CanopyOps-v0.3.0.zip) and its [checksum](releases/v0.3.0/CanopyOps-v0.3.0.zip.sha256). Extract to a new directory. With Python 3.10+ available, open a terminal at the extracted release root and run:
+Download [CanopyOps-v0.3.1.zip](releases/v0.3.1/CanopyOps-v0.3.1.zip) and its [checksum](releases/v0.3.1/CanopyOps-v0.3.1.zip.sha256). Extract to a new directory. With Python 3.10+ available, open a terminal at the extracted release root and run:
 
 ```text
 python tools/verify_release.py .
@@ -32,7 +32,7 @@ Open a fresh task, confirm CanopyOps is discoverable, then ask it to perform one
 
 ## Use Claude
 
-The complete bundle contains `claude/canopyops-v0.3.0.zip` for its documented custom-skill route. Follow the [package's Claude guide](releases/v0.3.0/docs/INSTALL-CLAUDE.md) and the controls exposed by your host. The local Python crop desk can also be opened independently. Upload, discovery, invocation and successful work are separate observations; fresh Claude activation remains unverified here.
+The complete bundle contains `claude/canopyops-v0.3.1.zip` for its documented custom-skill route. Follow the [package's Claude guide](releases/v0.3.1/docs/INSTALL-CLAUDE.md) and the controls exposed by your host. The local Python crop desk can also be opened independently. Upload, discovery, invocation and successful work are separate observations; fresh Claude activation remains unverified here.
 
 ## Update and return
 

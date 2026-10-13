@@ -2,15 +2,19 @@
   "format": "cd-release-manifest-pointer/v1",
   "product": "CanopyOps",
   "repository_native_line": "0.1.5",
-  "portable_line": "0.1.7",
+  "portable_line": "0.3.1",
   "status": "package_scoped_manifests",
   "historical_repository_snapshot": "verification/evidence/release-manifest-v0.1.5-pages-snapshot.json",
   "v0.1.5_archive_custody": "release-assets/v0.1.5/archive-custody.json",
   "v0.1.5_openai_submission_custody": "release-assets/v0.1.5/openai-submission-custody.json",
   "current_documentation_manifest": "documentation-manifest.json",
   "canonical_status": "RELEASE-STATUS.md",
-  "note": "This file is a custody router, not a checksum of current repository HEAD. v0.1.6 remains historical in its Git tag, GitHub release, and external owner custody; v0.1.7 is the only portable release in the active checkout. Use the package-scoped record that matches the artifact being verified.",
+  "note": "Custody router, not a checksum of repository HEAD. v0.3.1 is the current portable workspace line; older package records retain their exact historical scope. The branded repository-native plugin remains v0.1.5.",
   "v0.1.7_package_manifest": "releases/v0.1.7/manifest.json",
   "v0.1.7_release_receipt": "releases/v0.1.7/receipt.json",
-  "current_portable_package_manifest": "releases/v0.1.7/manifest.json"
+  "current_portable_package_manifest": "releases/v0.3.1/manifest.json",
+  "v0.3.0_package_manifest": "releases/v0.3.0/manifest.json",
+  "v0.3.0_release_receipt": "releases/v0.3.0/receipt.json",
+  "v0.3.1_package_manifest": "releases/v0.3.1/manifest.json",
+  "v0.3.1_release_receipt": "releases/v0.3.1/receipt.json"
 }

@@ -4,7 +4,7 @@ CanopyOps helps an AI agent reason about and document lawful cannabis cultivatio
 
 ## 1. Open the current workspace or install the skill
 
-The current CanopyOps delivery is the **portable v0.3.0 crop workspace and contained skills**. You do not need a plugin. Read [release status](RELEASE-STATUS.md) and [installation](INSTALL.md) for the complete bundle, verification and supported skill routes. Older plugin and portable releases remain historical material.
+The current CanopyOps delivery is the **portable v0.3.1 crop workspace and contained skills**. You do not need a plugin. Read [release status](RELEASE-STATUS.md) and [installation](INSTALL.md) for the complete bundle, verification and supported skill routes. Older plugin and portable releases remain historical material.
 
 If CanopyOps is already available in your host, skip installation. To inspect and record crop evidence, open the launcher in the installed skill's `workspace/` folder with Python 3.10+. Use an external record store and fictional data first. The desk should show your records or offer **Record your first observation**. Follow [the workspace guide](canopyops/workspace/WORKSPACE-GUIDE.md) for capture, comparison and saved return.
 

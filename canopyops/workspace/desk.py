@@ -63,6 +63,8 @@ class Handler(BaseHTTPRequestHandler):
             if u.path.startswith('/photos/'):
                 p=safe(u.path.lstrip('/')); return self.answer(p.read_bytes(),kind=mimetypes.guess_type(p.name)[0] or 'application/octet-stream')
             name = 'index.html' if u.path == '/' else u.path.lstrip('/')
+            icons={'canopyops-icon.png':'image/png','canopyops.ico':'image/x-icon','canopyops.icns':'image/icns'}
+            if name in icons:return self.answer((HERE/name).read_bytes(),kind=icons[name])
             if name not in ('index.html','app.js','model.js','style.css','skins.css','canopy-atmosphere.png'): return self.answer({'error':'Not found'},404)
             p=HERE/name; return self.answer(p.read_bytes(),kind=mimetypes.guess_type(p.name)[0] or 'text/plain')
         except (ValueError, UnicodeError) as e: self.answer({'error':str(e)},400)

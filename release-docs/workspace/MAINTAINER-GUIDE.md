@@ -8,7 +8,7 @@ Preserve the accepted current payload and unknown owner work before editing. The
 
 Use the maintained `tools/build_workspace_maintenance.py --output release-candidates/<new-name>` from the repository root after the candidate has passed its governing review. It requires a new direct child of `release-candidates`, copies the accepted current payload, overlays declared repaired guidance and recreates the Claude archive and manifest records. It does not replace the accepted release. Existing container metadata is retained for compatibility; the supported installation route uses the complete skill.
 
-Review the exact customer delta and release treatment before packaging. An edit that restores the accepted promise may retain v0.3.0; an added workflow or compatibility change needs a separately justified version. Inspect and verify the complete candidate, required sidecars and source parity before replacing a governed shelf bundle.
+Review the exact customer delta and release treatment before packaging. This owner-authorized v0.3.1 update adds product icons and optional desktop entries with an explicit external record store. The accepted v0.3.0 payload remains the baseline; its cultivation and saved-record behavior is preserved. Inspect and verify the complete candidate, required sidecars and source parity before replacing a governed shelf bundle.
 
 ## Preserve customer work and evidence
 

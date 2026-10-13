@@ -13,9 +13,23 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 ROOT = REPO_ROOT / "canopyops"
 SCRIPTS = ROOT / "scripts"
 SOURCE_VERSION = "0.1.5"
-PORTABLE_VERSION = "0.1.7"
+PORTABLE_VERSION = "0.3.1"
 sys.path.insert(0, str(SCRIPTS))
 from build_release_manifest import canonical_bytes
+
+
+def native_source_bytes(path):
+    """The portable workspace launch route is the sole shared-skill overlay."""
+    data = canonical_bytes(path)
+    if path == ROOT / "SKILL.md":
+        text = data.decode("utf-8")
+        text, count = re.subn(
+            r"## Open the crop desk\n\n.*?\n\n(?=Read `personas/)", "", text, count=1, flags=re.S
+        )
+        if count != 1:
+            raise AssertionError("Expected the explicit portable workspace launch section")
+        data = text.encode("utf-8")
+    return data
 
 
 def load(name):
@@ -123,12 +137,12 @@ class PackageTests(unittest.TestCase):
     def test_plugin_skill_matches_canonical_tree(self):
         plugin_root = REPO_ROOT / "plugins" / "canopyops" / "skills" / "canopyops"
         canonical = {
-            path.relative_to(ROOT).as_posix(): path.read_bytes()
+            path.relative_to(ROOT).as_posix(): native_source_bytes(path)
             for path in ROOT.rglob("*")
-            if path.is_file() and "__pycache__" not in path.parts
+            if path.is_file() and "__pycache__" not in path.parts and "workspace" not in path.relative_to(ROOT).parts
         }
         plugin = {
-            path.relative_to(plugin_root).as_posix(): path.read_bytes()
+            path.relative_to(plugin_root).as_posix(): canonical_bytes(path)
             for path in plugin_root.rglob("*")
             if path.is_file() and "__pycache__" not in path.parts
         }
@@ -137,9 +151,9 @@ class PackageTests(unittest.TestCase):
     def test_claude_archive_matches_canonical_tree(self):
         archive_path = REPO_ROOT / "claude-ai" / f"canopyops-v{SOURCE_VERSION}.zip"
         canonical = {
-            f"canopyops/{path.relative_to(ROOT).as_posix()}": canonical_bytes(path)
+            f"canopyops/{path.relative_to(ROOT).as_posix()}": native_source_bytes(path)
             for path in ROOT.rglob("*")
-            if path.is_file() and "__pycache__" not in path.parts
+            if path.is_file() and "__pycache__" not in path.parts and "workspace" not in path.relative_to(ROOT).parts
         }
         with zipfile.ZipFile(archive_path) as archive:
             archived = {name: archive.read(name) for name in archive.namelist() if not name.endswith("/")}
@@ -197,8 +211,8 @@ class PackageTests(unittest.TestCase):
 
     def test_public_copy_uses_canonical_release_status(self):
         status = (REPO_ROOT / "RELEASE-STATUS.md").read_text(encoding="utf-8")
-        self.assertIn("Repository-native source and plugin", status)
-        self.assertIn("Settled portable bundle", status)
+        self.assertIn("Repository-native plugin", status)
+        self.assertIn("Portable crop workspace", status)
         self.assertIn(f"v{SOURCE_VERSION}", status)
         self.assertIn(f"v{PORTABLE_VERSION}", status)
 
